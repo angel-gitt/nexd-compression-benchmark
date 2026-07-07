@@ -1,0 +1,457 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "crawl_ads_cdp",
+      "version": "2.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-07-01T17:39:31.811916Z",
+        "id": "EXXONMOBIL_-_VR_Showroom_-_infeed_300x600_copy",
+        "title": "EXXONMOBIL_-_VR_Showroom_-_infeed_300x600_copy",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "EXXONMOBIL_-_VR_Showroom_-_infeed_300x600_copy",
+        "startedDateTime": "1970-01-04T06:59:01.855595Z",
+        "time": 382.072,
+        "timings": {
+          "send": 5.0,
+          "wait": 152.829,
+          "receive": 224.243
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/IrZdr1slw1am/adtag.js?pxf=jxSPteHhC53gWMzs&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_502}",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 192337,
+            "mimeType": "application/javascript",
+            "compression": 132271
+          },
+          "bodySize": 60066,
+          "decodedBodySize": 192337,
+          "transferSize": 60066,
+          "_transferSize": 60066,
+          "_decodedBodySize": 192337,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "EXXONMOBIL_-_VR_Showroom_-_infeed_300x600_copy",
+        "startedDateTime": "1970-01-04T06:59:02.244666Z",
+        "time": 115.761,
+        "timings": {
+          "send": 5.0,
+          "wait": 46.304,
+          "receive": 64.457
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tracking.js?ad=IrZdr1slw1am",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 8385,
+            "mimeType": "application/javascript",
+            "compression": 4224
+          },
+          "bodySize": 4161,
+          "decodedBodySize": 8385,
+          "transferSize": 4161,
+          "_transferSize": 4161,
+          "_decodedBodySize": 8385,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "EXXONMOBIL_-_VR_Showroom_-_infeed_300x600_copy",
+        "startedDateTime": "1970-01-04T06:59:02.254084Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tr5.html",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "EXXONMOBIL_-_VR_Showroom_-_infeed_300x600_copy",
+        "startedDateTime": "1970-01-04T06:59:02.252757Z",
+        "time": 84.384,
+        "timings": {
+          "send": 4.219,
+          "wait": 33.754,
+          "receive": 46.411
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/IrZdr1slw1am/adcanvas.min.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 191832,
+            "mimeType": "application/javascript",
+            "compression": 136300
+          },
+          "bodySize": 55532,
+          "decodedBodySize": 191832,
+          "transferSize": 55532,
+          "_transferSize": 55532,
+          "_decodedBodySize": 191832,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "EXXONMOBIL_-_VR_Showroom_-_infeed_300x600_copy",
+        "startedDateTime": "1970-01-04T06:59:02.252969Z",
+        "time": 179.046,
+        "timings": {
+          "send": 5.0,
+          "wait": 71.618,
+          "receive": 102.428
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/IrZdr1slw1am/jxSPteHhC53gWMzs/pack.acz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 468081,
+            "mimeType": "application/zip"
+          },
+          "bodySize": 468081,
+          "decodedBodySize": 468081,
+          "transferSize": 468081,
+          "_transferSize": 468081,
+          "_decodedBodySize": 468081,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "EXXONMOBIL_-_VR_Showroom_-_infeed_300x600_copy",
+        "startedDateTime": "1970-01-04T06:59:02.255127Z",
+        "time": 90.486,
+        "timings": {
+          "send": 4.524,
+          "wait": 36.194,
+          "receive": 49.767
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/IrZdr1slw1am/splash.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 58456,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 58456,
+          "decodedBodySize": 58456,
+          "transferSize": 58456,
+          "_transferSize": 58456,
+          "_decodedBodySize": 58456,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "EXXONMOBIL_-_VR_Showroom_-_infeed_300x600_copy",
+        "startedDateTime": "1970-01-04T06:59:02.364472Z",
+        "time": 91.829,
+        "timings": {
+          "send": 4.591,
+          "wait": 36.732,
+          "receive": 50.506
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2d1cmn%3AtEdxogtcAhu1UHlGzsaHNh_O8XENNuZ1&s=0%3Amr2d1cmn%3A3ZALiENB~CJBBHDSxhW56zxWm4jiLFzj&v=0%3AdFtlgFmFmj9POYJJRU9npJEMEJSfZDsL&t=pageView&a=IrZdr1slw1am&e=0%3AdFtlgFmFmj9POYJJRU9npJEMEJSfZDsL0&c=mr2d1cmq&n=t&f=t&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FEXXONMOBIL_-_VR_Showroom_-_infeed_300x600_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&x=-ldifcd",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "EXXONMOBIL_-_VR_Showroom_-_infeed_300x600_copy",
+        "startedDateTime": "1970-01-04T06:59:02.372736Z",
+        "time": 83.495,
+        "timings": {
+          "send": 4.175,
+          "wait": 33.398,
+          "receive": 45.922
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2d1cmn%3AtEdxogtcAhu1UHlGzsaHNh_O8XENNuZ1&s=0%3Amr2d1cmn%3A3ZALiENB~CJBBHDSxhW56zxWm4jiLFzj&v=0%3AdFtlgFmFmj9POYJJRU9npJEMEJSfZDsL&t=eventParameters&a=IrZdr1slw1am&e=0%3AdFtlgFmFmj9POYJJRU9npJEMEJSfZDsL1&c=mr2d1cmy&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FEXXONMOBIL_-_VR_Showroom_-_infeed_300x600_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Billable%20impression!srt!0!sts!0!siv!0!sol!1!)&x=-u7ljuu",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "EXXONMOBIL_-_VR_Showroom_-_infeed_300x600_copy",
+        "startedDateTime": "1970-01-04T06:59:02.481441Z",
+        "time": 58.723,
+        "timings": {
+          "send": 2.936,
+          "wait": 23.489,
+          "receive": 32.298
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2d1cmn%3AtEdxogtcAhu1UHlGzsaHNh_O8XENNuZ1&s=0%3Amr2d1cmn%3A3ZALiENB~CJBBHDSxhW56zxWm4jiLFzj&v=0%3AdFtlgFmFmj9POYJJRU9npJEMEJSfZDsL&t=eventParameters&a=IrZdr1slw1am&e=0%3AdFtlgFmFmj9POYJJRU9npJEMEJSfZDsL2&c=mr2d1cpz&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FEXXONMOBIL_-_VR_Showroom_-_infeed_300x600_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Loaded!srt!0!sts!192!siv!0!sol!1!)&x=9y017x",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "EXXONMOBIL_-_VR_Showroom_-_infeed_300x600_copy",
+        "startedDateTime": "1970-01-04T06:59:02.481569Z",
+        "time": 58.455,
+        "timings": {
+          "send": 2.923,
+          "wait": 23.382,
+          "receive": 32.15
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2d1cmn%3AtEdxogtcAhu1UHlGzsaHNh_O8XENNuZ1&s=0%3Amr2d1cmn%3A3ZALiENB~CJBBHDSxhW56zxWm4jiLFzj&v=0%3AdFtlgFmFmj9POYJJRU9npJEMEJSfZDsL&t=eventParameters&a=IrZdr1slw1am&e=0%3AdFtlgFmFmj9POYJJRU9npJEMEJSfZDsL3&c=mr2d1cpz&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FEXXONMOBIL_-_VR_Showroom_-_infeed_300x600_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Meta!saction!safeFrame%20not%20detected!srt!0!sts!192!siv!0!sol!1!)&x=scimuy",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "EXXONMOBIL_-_VR_Showroom_-_infeed_300x600_copy",
+        "startedDateTime": "1970-01-04T06:59:02.481647Z",
+        "time": 58.664,
+        "timings": {
+          "send": 2.933,
+          "wait": 23.466,
+          "receive": 32.265
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2d1cmn%3AtEdxogtcAhu1UHlGzsaHNh_O8XENNuZ1&s=0%3Amr2d1cmn%3A3ZALiENB~CJBBHDSxhW56zxWm4jiLFzj&v=0%3AdFtlgFmFmj9POYJJRU9npJEMEJSfZDsL&t=eventParameters&a=IrZdr1slw1am&e=0%3AdFtlgFmFmj9POYJJRU9npJEMEJSfZDsL4&c=mr2d1cpz&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FEXXONMOBIL_-_VR_Showroom_-_infeed_300x600_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Started!srt!0!sts!192!siv!0!sol!1!)&x=m0x5un",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "EXXONMOBIL_-_VR_Showroom_-_infeed_300x600_copy",
+        "startedDateTime": "1970-01-04T06:59:02.488769Z",
+        "time": 51.612,
+        "timings": {
+          "send": 2.581,
+          "wait": 20.645,
+          "receive": 28.387
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2d1cmn%3AtEdxogtcAhu1UHlGzsaHNh_O8XENNuZ1&s=0%3Amr2d1cmn%3A3ZALiENB~CJBBHDSxhW56zxWm4jiLFzj&v=0%3AdFtlgFmFmj9POYJJRU9npJEMEJSfZDsL&t=eventParameters&a=IrZdr1slw1am&e=0%3AdFtlgFmFmj9POYJJRU9npJEMEJSfZDsL5&c=mr2d1cq6&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FEXXONMOBIL_-_VR_Showroom_-_infeed_300x600_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Rendered!srt!0!sts!240!siv!0!sol!1!)&x=t7kd3r",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "EXXONMOBIL_-_VR_Showroom_-_infeed_300x600_copy",
+        "startedDateTime": "1970-01-04T06:59:04.342809Z",
+        "time": 48.532,
+        "timings": {
+          "send": 2.427,
+          "wait": 19.413,
+          "receive": 26.693
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2d1cmn%3AtEdxogtcAhu1UHlGzsaHNh_O8XENNuZ1&s=0%3Amr2d1cmn%3A3ZALiENB~CJBBHDSxhW56zxWm4jiLFzj&v=0%3AdFtlgFmFmj9POYJJRU9npJEMEJSfZDsL&t=eventParameters&a=IrZdr1slw1am&e=0%3AdFtlgFmFmj9POYJJRU9npJEMEJSfZDsL6&c=mr2d1e5o&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FEXXONMOBIL_-_VR_Showroom_-_infeed_300x600_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20is%20in%20view!srt!0!sts!2102!siv!1!sol!1!)&x=es9mck",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "EXXONMOBIL_-_VR_Showroom_-_infeed_300x600_copy",
+        "startedDateTime": "1970-01-04T06:59:04.343094Z",
+        "time": 48.357,
+        "timings": {
+          "send": 2.418,
+          "wait": 19.343,
+          "receive": 26.596
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2d1cmn%3AtEdxogtcAhu1UHlGzsaHNh_O8XENNuZ1&s=0%3Amr2d1cmn%3A3ZALiENB~CJBBHDSxhW56zxWm4jiLFzj&v=0%3AdFtlgFmFmj9POYJJRU9npJEMEJSfZDsL&t=eventParameters&a=IrZdr1slw1am&e=0%3AdFtlgFmFmj9POYJJRU9npJEMEJSfZDsL7&c=mr2d1e5p&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FEXXONMOBIL_-_VR_Showroom_-_infeed_300x600_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Paging!saction!Page%20seen%20%5BFront%20wall%5D!srt!0!sts!237!siv!0!sol!1!)&x=-dp5k3n",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "EXXONMOBIL_-_VR_Showroom_-_infeed_300x600_copy",
+        "startedDateTime": "1970-01-04T06:59:04.343226Z",
+        "time": 48.291,
+        "timings": {
+          "send": 2.415,
+          "wait": 19.316,
+          "receive": 26.56
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2d1cmn%3AtEdxogtcAhu1UHlGzsaHNh_O8XENNuZ1&s=0%3Amr2d1cmn%3A3ZALiENB~CJBBHDSxhW56zxWm4jiLFzj&v=0%3AdFtlgFmFmj9POYJJRU9npJEMEJSfZDsL&t=eventParameters&a=IrZdr1slw1am&e=0%3AdFtlgFmFmj9POYJJRU9npJEMEJSfZDsL8&c=mr2d1e5p&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FEXXONMOBIL_-_VR_Showroom_-_infeed_300x600_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20revealed!srt!0!sts!383!siv!0!sol!1!)&x=-r43el4",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      }
+    ]
+  }
+}

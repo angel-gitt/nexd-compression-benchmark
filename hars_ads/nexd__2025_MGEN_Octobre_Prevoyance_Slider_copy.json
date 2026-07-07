@@ -1,0 +1,544 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "crawl_ads_cdp",
+      "version": "2.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-07-01T17:12:36.052007Z",
+        "id": "2025_MGEN_Octobre_Prevoyance_Slider_copy",
+        "title": "2025_MGEN_Octobre_Prevoyance_Slider_copy",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "2025_MGEN_Octobre_Prevoyance_Slider_copy",
+        "startedDateTime": "1970-01-04T06:32:06.025564Z",
+        "time": 273.141,
+        "timings": {
+          "send": 5.0,
+          "wait": 109.256,
+          "receive": 158.885
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/flldixGvGL2b/adtag.js?pxf=DOBOMYGZEKE1IhLg&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_502}",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 196817,
+            "mimeType": "application/javascript",
+            "compression": 136002
+          },
+          "bodySize": 60815,
+          "decodedBodySize": 196817,
+          "transferSize": 60815,
+          "_transferSize": 60815,
+          "_decodedBodySize": 196817,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2025_MGEN_Octobre_Prevoyance_Slider_copy",
+        "startedDateTime": "1970-01-04T06:32:06.304207Z",
+        "time": 74.139,
+        "timings": {
+          "send": 3.707,
+          "wait": 29.656,
+          "receive": 40.776
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tracking.js?ad=flldixGvGL2b",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 8385,
+            "mimeType": "application/javascript",
+            "compression": 4242
+          },
+          "bodySize": 4143,
+          "decodedBodySize": 8385,
+          "transferSize": 4143,
+          "_transferSize": 4143,
+          "_decodedBodySize": 8385,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2025_MGEN_Octobre_Prevoyance_Slider_copy",
+        "startedDateTime": "1970-01-04T06:32:06.312922Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tr5.html",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2025_MGEN_Octobre_Prevoyance_Slider_copy",
+        "startedDateTime": "1970-01-04T06:32:06.311681Z",
+        "time": 110.521,
+        "timings": {
+          "send": 5.0,
+          "wait": 44.208,
+          "receive": 61.313
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/flldixGvGL2b/adcanvas.min.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 205148,
+            "mimeType": "application/javascript",
+            "compression": 146074
+          },
+          "bodySize": 59074,
+          "decodedBodySize": 205148,
+          "transferSize": 59074,
+          "_transferSize": 59074,
+          "_decodedBodySize": 205148,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2025_MGEN_Octobre_Prevoyance_Slider_copy",
+        "startedDateTime": "1970-01-04T06:32:06.311898Z",
+        "time": 136.262,
+        "timings": {
+          "send": 5.0,
+          "wait": 54.505,
+          "receive": 76.757
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/flldixGvGL2b/DOBOMYGZEKE1IhLg/pack.acz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 121025,
+            "mimeType": "application/zip"
+          },
+          "bodySize": 121025,
+          "decodedBodySize": 121025,
+          "transferSize": 121025,
+          "_transferSize": 121025,
+          "_decodedBodySize": 121025,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2025_MGEN_Octobre_Prevoyance_Slider_copy",
+        "startedDateTime": "1970-01-04T06:32:06.314023Z",
+        "time": 80.385,
+        "timings": {
+          "send": 4.019,
+          "wait": 32.154,
+          "receive": 44.212
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/flldixGvGL2b/splash.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 9064,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 9064,
+          "decodedBodySize": 9064,
+          "transferSize": 9064,
+          "_transferSize": 9064,
+          "_decodedBodySize": 9064,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2025_MGEN_Octobre_Prevoyance_Slider_copy",
+        "startedDateTime": "1970-01-04T06:32:06.382688Z",
+        "time": 102.399,
+        "timings": {
+          "send": 5.0,
+          "wait": 40.96,
+          "receive": 56.439
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2c2ppy%3ACfXxcH3GOqQgPbN4YLVMOLaCVl4lZ656&s=0%3Amr2c2ppy%3AisQalchbXojLFaZTBbfNktwzCkOPweuq&v=0%3AF1Bg4hrUgWyPESDZ1WMfYNsRDTTMtiSQ&t=pageView&a=flldixGvGL2b&e=0%3AF1Bg4hrUgWyPESDZ1WMfYNsRDTTMtiSQ0&c=mr2c2pq2&n=t&f=t&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F2025_MGEN_Octobre_Prevoyance_Slider_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&x=392pax",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2025_MGEN_Octobre_Prevoyance_Slider_copy",
+        "startedDateTime": "1970-01-04T06:32:06.391320Z",
+        "time": 93.648,
+        "timings": {
+          "send": 4.682,
+          "wait": 37.459,
+          "receive": 51.506
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2c2ppy%3ACfXxcH3GOqQgPbN4YLVMOLaCVl4lZ656&s=0%3Amr2c2ppy%3AisQalchbXojLFaZTBbfNktwzCkOPweuq&v=0%3AF1Bg4hrUgWyPESDZ1WMfYNsRDTTMtiSQ&t=eventParameters&a=flldixGvGL2b&e=0%3AF1Bg4hrUgWyPESDZ1WMfYNsRDTTMtiSQ1&c=mr2c2pqa&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F2025_MGEN_Octobre_Prevoyance_Slider_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Billable%20impression!srt!0!sts!0!siv!0!sol!1!)&x=8tri98",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2025_MGEN_Octobre_Prevoyance_Slider_copy",
+        "startedDateTime": "1970-01-04T06:32:06.478088Z",
+        "time": 148.418,
+        "timings": {
+          "send": 5.0,
+          "wait": 59.367,
+          "receive": 84.051
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/flldixGvGL2b/DOBOMYGZEKE1IhLg/left-end.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 63948,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 63948,
+          "decodedBodySize": 63948,
+          "transferSize": 63948,
+          "_transferSize": 63948,
+          "_decodedBodySize": 63948,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2025_MGEN_Octobre_Prevoyance_Slider_copy",
+        "startedDateTime": "1970-01-04T06:32:06.478146Z",
+        "time": 161.161,
+        "timings": {
+          "send": 5.0,
+          "wait": 64.464,
+          "receive": 91.697
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/flldixGvGL2b/DOBOMYGZEKE1IhLg/right-end.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 63955,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 63955,
+          "decodedBodySize": 63955,
+          "transferSize": 63955,
+          "_transferSize": 63955,
+          "_decodedBodySize": 63955,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2025_MGEN_Octobre_Prevoyance_Slider_copy",
+        "startedDateTime": "1970-01-04T06:32:06.478372Z",
+        "time": 55.21,
+        "timings": {
+          "send": 2.761,
+          "wait": 22.084,
+          "receive": 30.366
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2c2ppy%3ACfXxcH3GOqQgPbN4YLVMOLaCVl4lZ656&s=0%3Amr2c2ppy%3AisQalchbXojLFaZTBbfNktwzCkOPweuq&v=0%3AF1Bg4hrUgWyPESDZ1WMfYNsRDTTMtiSQ&t=eventParameters&a=flldixGvGL2b&e=0%3AF1Bg4hrUgWyPESDZ1WMfYNsRDTTMtiSQ2&c=mr2c2psp&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F2025_MGEN_Octobre_Prevoyance_Slider_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Loaded!srt!0!sts!148!siv!0!sol!1!)&x=89dhel",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2025_MGEN_Octobre_Prevoyance_Slider_copy",
+        "startedDateTime": "1970-01-04T06:32:06.478455Z",
+        "time": 60.223,
+        "timings": {
+          "send": 3.011,
+          "wait": 24.089,
+          "receive": 33.123
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2c2ppy%3ACfXxcH3GOqQgPbN4YLVMOLaCVl4lZ656&s=0%3Amr2c2ppy%3AisQalchbXojLFaZTBbfNktwzCkOPweuq&v=0%3AF1Bg4hrUgWyPESDZ1WMfYNsRDTTMtiSQ&t=eventParameters&a=flldixGvGL2b&e=0%3AF1Bg4hrUgWyPESDZ1WMfYNsRDTTMtiSQ3&c=mr2c2psq&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F2025_MGEN_Octobre_Prevoyance_Slider_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Meta!saction!safeFrame%20not%20detected!srt!0!sts!148!siv!0!sol!1!)&x=cjlgr6",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2025_MGEN_Octobre_Prevoyance_Slider_copy",
+        "startedDateTime": "1970-01-04T06:32:06.478526Z",
+        "time": 60.115,
+        "timings": {
+          "send": 3.006,
+          "wait": 24.046,
+          "receive": 33.063
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2c2ppy%3ACfXxcH3GOqQgPbN4YLVMOLaCVl4lZ656&s=0%3Amr2c2ppy%3AisQalchbXojLFaZTBbfNktwzCkOPweuq&v=0%3AF1Bg4hrUgWyPESDZ1WMfYNsRDTTMtiSQ&t=eventParameters&a=flldixGvGL2b&e=0%3AF1Bg4hrUgWyPESDZ1WMfYNsRDTTMtiSQ4&c=mr2c2psq&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F2025_MGEN_Octobre_Prevoyance_Slider_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Started!srt!0!sts!148!siv!0!sol!1!)&x=fd59nx",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2025_MGEN_Octobre_Prevoyance_Slider_copy",
+        "startedDateTime": "1970-01-04T06:32:06.482244Z",
+        "time": 56.465,
+        "timings": {
+          "send": 2.823,
+          "wait": 22.586,
+          "receive": 31.056
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2c2ppy%3ACfXxcH3GOqQgPbN4YLVMOLaCVl4lZ656&s=0%3Amr2c2ppy%3AisQalchbXojLFaZTBbfNktwzCkOPweuq&v=0%3AF1Bg4hrUgWyPESDZ1WMfYNsRDTTMtiSQ&t=eventParameters&a=flldixGvGL2b&e=0%3AF1Bg4hrUgWyPESDZ1WMfYNsRDTTMtiSQ5&c=mr2c2pst&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F2025_MGEN_Octobre_Prevoyance_Slider_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Rendered!srt!0!sts!178!siv!0!sol!1!)&x=-dttl5t",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2025_MGEN_Octobre_Prevoyance_Slider_copy",
+        "startedDateTime": "1970-01-04T06:32:08.378458Z",
+        "time": 72.076,
+        "timings": {
+          "send": 3.604,
+          "wait": 28.83,
+          "receive": 39.642
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2c2ppy%3ACfXxcH3GOqQgPbN4YLVMOLaCVl4lZ656&s=0%3Amr2c2ppy%3AisQalchbXojLFaZTBbfNktwzCkOPweuq&v=0%3AF1Bg4hrUgWyPESDZ1WMfYNsRDTTMtiSQ&t=eventParameters&a=flldixGvGL2b&e=0%3AF1Bg4hrUgWyPESDZ1WMfYNsRDTTMtiSQ6&c=mr2c2r9i&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F2025_MGEN_Octobre_Prevoyance_Slider_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20is%20in%20view!srt!0!sts!2077!siv!1!sol!1!)&x=-tp8ib5",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2025_MGEN_Octobre_Prevoyance_Slider_copy",
+        "startedDateTime": "1970-01-04T06:32:08.378682Z",
+        "time": 71.668,
+        "timings": {
+          "send": 3.583,
+          "wait": 28.667,
+          "receive": 39.417
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2c2ppy%3ACfXxcH3GOqQgPbN4YLVMOLaCVl4lZ656&s=0%3Amr2c2ppy%3AisQalchbXojLFaZTBbfNktwzCkOPweuq&v=0%3AF1Bg4hrUgWyPESDZ1WMfYNsRDTTMtiSQ&t=eventParameters&a=flldixGvGL2b&e=0%3AF1Bg4hrUgWyPESDZ1WMfYNsRDTTMtiSQ7&c=mr2c2r9i&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F2025_MGEN_Octobre_Prevoyance_Slider_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Paging!saction!Page%20seen%20%5BLeft%20media%5D!srt!0!sts!177!siv!0!sol!1!)&x=votzzw",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2025_MGEN_Octobre_Prevoyance_Slider_copy",
+        "startedDateTime": "1970-01-04T06:32:08.378766Z",
+        "time": 71.731,
+        "timings": {
+          "send": 3.587,
+          "wait": 28.692,
+          "receive": 39.452
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2c2ppy%3ACfXxcH3GOqQgPbN4YLVMOLaCVl4lZ656&s=0%3Amr2c2ppy%3AisQalchbXojLFaZTBbfNktwzCkOPweuq&v=0%3AF1Bg4hrUgWyPESDZ1WMfYNsRDTTMtiSQ&t=eventParameters&a=flldixGvGL2b&e=0%3AF1Bg4hrUgWyPESDZ1WMfYNsRDTTMtiSQ8&c=mr2c2r9i&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F2025_MGEN_Octobre_Prevoyance_Slider_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20revealed!srt!0!sts!708!siv!0!sol!1!)&x=p15kt5",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2025_MGEN_Octobre_Prevoyance_Slider_copy",
+        "startedDateTime": "1970-01-04T06:32:08.378849Z",
+        "time": 71.599,
+        "timings": {
+          "send": 3.58,
+          "wait": 28.64,
+          "receive": 39.379
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2c2ppy%3ACfXxcH3GOqQgPbN4YLVMOLaCVl4lZ656&s=0%3Amr2c2ppy%3AisQalchbXojLFaZTBbfNktwzCkOPweuq&v=0%3AF1Bg4hrUgWyPESDZ1WMfYNsRDTTMtiSQ&t=eventParameters&a=flldixGvGL2b&e=0%3AF1Bg4hrUgWyPESDZ1WMfYNsRDTTMtiSQ9&c=mr2c2r9i&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F2025_MGEN_Octobre_Prevoyance_Slider_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Paging!saction!Page%20seen%20%5BRight%20media%5D!srt!0!sts!1557!siv!0!sol!1!)&x=-sncxe5",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      }
+    ]
+  }
+}

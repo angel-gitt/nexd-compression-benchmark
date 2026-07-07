@@ -1,0 +1,457 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "crawl_ads_cdp",
+      "version": "2.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-07-01T18:08:52.050934Z",
+        "id": "Rituals_Advent_Calendar_copy",
+        "title": "Rituals_Advent_Calendar_copy",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "Rituals_Advent_Calendar_copy",
+        "startedDateTime": "1970-01-04T07:28:22.380303Z",
+        "time": 119.529,
+        "timings": {
+          "send": 5.0,
+          "wait": 47.812,
+          "receive": 66.717
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/8ngiVTeY5JSf/adtag.js?pxf=l2mMn8xY8dWkkzU7&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_502}",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 214649,
+            "mimeType": "application/javascript",
+            "compression": 153804
+          },
+          "bodySize": 60845,
+          "decodedBodySize": 214649,
+          "transferSize": 60845,
+          "_transferSize": 60845,
+          "_decodedBodySize": 214649,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Rituals_Advent_Calendar_copy",
+        "startedDateTime": "1970-01-04T07:28:22.505012Z",
+        "time": 159.092,
+        "timings": {
+          "send": 5.0,
+          "wait": 63.637,
+          "receive": 90.455
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tracking.js?ad=8ngiVTeY5JSf",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 8385,
+            "mimeType": "application/javascript",
+            "compression": 4225
+          },
+          "bodySize": 4160,
+          "decodedBodySize": 8385,
+          "transferSize": 4160,
+          "_transferSize": 4160,
+          "_decodedBodySize": 8385,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Rituals_Advent_Calendar_copy",
+        "startedDateTime": "1970-01-04T07:28:22.513024Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tr5.html",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Rituals_Advent_Calendar_copy",
+        "startedDateTime": "1970-01-04T07:28:22.511489Z",
+        "time": 151.782,
+        "timings": {
+          "send": 5.0,
+          "wait": 60.713,
+          "receive": 86.069
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/8ngiVTeY5JSf/adcanvas.min.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 203994,
+            "mimeType": "application/javascript",
+            "compression": 150195
+          },
+          "bodySize": 53799,
+          "decodedBodySize": 203994,
+          "transferSize": 53799,
+          "_transferSize": 53799,
+          "_decodedBodySize": 203994,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Rituals_Advent_Calendar_copy",
+        "startedDateTime": "1970-01-04T07:28:22.511678Z",
+        "time": 185.005,
+        "timings": {
+          "send": 5.0,
+          "wait": 74.002,
+          "receive": 106.003
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/8ngiVTeY5JSf/l2mMn8xY8dWkkzU7/pack.acz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 231088,
+            "mimeType": "application/zip"
+          },
+          "bodySize": 231088,
+          "decodedBodySize": 231088,
+          "transferSize": 231088,
+          "_transferSize": 231088,
+          "_decodedBodySize": 231088,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Rituals_Advent_Calendar_copy",
+        "startedDateTime": "1970-01-04T07:28:22.513545Z",
+        "time": 137.205,
+        "timings": {
+          "send": 5.0,
+          "wait": 54.882,
+          "receive": 77.323
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/8ngiVTeY5JSf/splash.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 16991,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 16991,
+          "decodedBodySize": 16991,
+          "transferSize": 16991,
+          "_transferSize": 16991,
+          "_decodedBodySize": 16991,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Rituals_Advent_Calendar_copy",
+        "startedDateTime": "1970-01-04T07:28:22.670358Z",
+        "time": 64.961,
+        "timings": {
+          "send": 3.248,
+          "wait": 25.984,
+          "receive": 35.729
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2e32wm%3AS~am~nEFThb4wavYgo4hg6911Ii7IjFP&s=0%3Amr2e32wm%3ASRnUOc51ilLDPmC3mcd_1~d54~TvPpO6&v=0%3ABVrR0KXuKmVLVlcn3gR0bYZ2fuLVIvb0&t=pageView&a=8ngiVTeY5JSf&e=0%3ABVrR0KXuKmVLVlcn3gR0bYZ2fuLVIvb00&c=mr2e32wp&n=t&f=t&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FRituals_Advent_Calendar_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&x=ox6jao",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Rituals_Advent_Calendar_copy",
+        "startedDateTime": "1970-01-04T07:28:22.686232Z",
+        "time": 50.168,
+        "timings": {
+          "send": 2.508,
+          "wait": 20.067,
+          "receive": 27.592
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2e32wm%3AS~am~nEFThb4wavYgo4hg6911Ii7IjFP&s=0%3Amr2e32wm%3ASRnUOc51ilLDPmC3mcd_1~d54~TvPpO6&v=0%3ABVrR0KXuKmVLVlcn3gR0bYZ2fuLVIvb0&t=eventParameters&a=8ngiVTeY5JSf&e=0%3ABVrR0KXuKmVLVlcn3gR0bYZ2fuLVIvb01&c=mr2e32x5&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FRituals_Advent_Calendar_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Billable%20impression!srt!0!sts!0!siv!0!sol!1!)&x=40vnif",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Rituals_Advent_Calendar_copy",
+        "startedDateTime": "1970-01-04T07:28:22.730266Z",
+        "time": 48.248,
+        "timings": {
+          "send": 2.412,
+          "wait": 19.299,
+          "receive": 26.536
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2e32wm%3AS~am~nEFThb4wavYgo4hg6911Ii7IjFP&s=0%3Amr2e32wm%3ASRnUOc51ilLDPmC3mcd_1~d54~TvPpO6&v=0%3ABVrR0KXuKmVLVlcn3gR0bYZ2fuLVIvb0&t=eventParameters&a=8ngiVTeY5JSf&e=0%3ABVrR0KXuKmVLVlcn3gR0bYZ2fuLVIvb02&c=mr2e32yd&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FRituals_Advent_Calendar_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Loaded!srt!0!sts!195!siv!0!sol!1!)&x=ylynrv",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Rituals_Advent_Calendar_copy",
+        "startedDateTime": "1970-01-04T07:28:22.730483Z",
+        "time": 44.705,
+        "timings": {
+          "send": 2.235,
+          "wait": 17.882,
+          "receive": 24.588
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2e32wm%3AS~am~nEFThb4wavYgo4hg6911Ii7IjFP&s=0%3Amr2e32wm%3ASRnUOc51ilLDPmC3mcd_1~d54~TvPpO6&v=0%3ABVrR0KXuKmVLVlcn3gR0bYZ2fuLVIvb0&t=eventParameters&a=8ngiVTeY5JSf&e=0%3ABVrR0KXuKmVLVlcn3gR0bYZ2fuLVIvb03&c=mr2e32ye&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FRituals_Advent_Calendar_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Meta!saction!safeFrame%20not%20detected!srt!0!sts!195!siv!0!sol!1!)&x=hscra9",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Rituals_Advent_Calendar_copy",
+        "startedDateTime": "1970-01-04T07:28:22.730586Z",
+        "time": 47.988,
+        "timings": {
+          "send": 2.399,
+          "wait": 19.195,
+          "receive": 26.393
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2e32wm%3AS~am~nEFThb4wavYgo4hg6911Ii7IjFP&s=0%3Amr2e32wm%3ASRnUOc51ilLDPmC3mcd_1~d54~TvPpO6&v=0%3ABVrR0KXuKmVLVlcn3gR0bYZ2fuLVIvb0&t=eventParameters&a=8ngiVTeY5JSf&e=0%3ABVrR0KXuKmVLVlcn3gR0bYZ2fuLVIvb04&c=mr2e32ye&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FRituals_Advent_Calendar_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Started!srt!0!sts!195!siv!0!sol!1!)&x=-9w8m7s",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Rituals_Advent_Calendar_copy",
+        "startedDateTime": "1970-01-04T07:28:22.734294Z",
+        "time": 46.144,
+        "timings": {
+          "send": 2.307,
+          "wait": 18.458,
+          "receive": 25.379
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2e32wm%3AS~am~nEFThb4wavYgo4hg6911Ii7IjFP&s=0%3Amr2e32wm%3ASRnUOc51ilLDPmC3mcd_1~d54~TvPpO6&v=0%3ABVrR0KXuKmVLVlcn3gR0bYZ2fuLVIvb0&t=eventParameters&a=8ngiVTeY5JSf&e=0%3ABVrR0KXuKmVLVlcn3gR0bYZ2fuLVIvb05&c=mr2e32yi&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FRituals_Advent_Calendar_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Rendered!srt!0!sts!230!siv!0!sol!1!)&x=-ajgr55",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Rituals_Advent_Calendar_copy",
+        "startedDateTime": "1970-01-04T07:28:24.702788Z",
+        "time": 90.751,
+        "timings": {
+          "send": 4.538,
+          "wait": 36.3,
+          "receive": 49.913
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2e32wm%3AS~am~nEFThb4wavYgo4hg6911Ii7IjFP&s=0%3Amr2e32wm%3ASRnUOc51ilLDPmC3mcd_1~d54~TvPpO6&v=0%3ABVrR0KXuKmVLVlcn3gR0bYZ2fuLVIvb0&t=eventParameters&a=8ngiVTeY5JSf&e=0%3ABVrR0KXuKmVLVlcn3gR0bYZ2fuLVIvb06&c=mr2e34h6&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FRituals_Advent_Calendar_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20is%20in%20view!srt!0!sts!2201!siv!1!sol!1!)&x=-9jzlf0",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Rituals_Advent_Calendar_copy",
+        "startedDateTime": "1970-01-04T07:28:24.703069Z",
+        "time": 94.663,
+        "timings": {
+          "send": 4.733,
+          "wait": 37.865,
+          "receive": 52.065
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2e32wm%3AS~am~nEFThb4wavYgo4hg6911Ii7IjFP&s=0%3Amr2e32wm%3ASRnUOc51ilLDPmC3mcd_1~d54~TvPpO6&v=0%3ABVrR0KXuKmVLVlcn3gR0bYZ2fuLVIvb0&t=eventParameters&a=8ngiVTeY5JSf&e=0%3ABVrR0KXuKmVLVlcn3gR0bYZ2fuLVIvb07&c=mr2e34h6&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FRituals_Advent_Calendar_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Paging!saction!Page%20seen%20%5BMain%20media%5D!srt!0!sts!223!siv!0!sol!1!)&x=lwd5a",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Rituals_Advent_Calendar_copy",
+        "startedDateTime": "1970-01-04T07:28:24.703226Z",
+        "time": 94.593,
+        "timings": {
+          "send": 4.73,
+          "wait": 37.837,
+          "receive": 52.026
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2e32wm%3AS~am~nEFThb4wavYgo4hg6911Ii7IjFP&s=0%3Amr2e32wm%3ASRnUOc51ilLDPmC3mcd_1~d54~TvPpO6&v=0%3ABVrR0KXuKmVLVlcn3gR0bYZ2fuLVIvb0&t=eventParameters&a=8ngiVTeY5JSf&e=0%3ABVrR0KXuKmVLVlcn3gR0bYZ2fuLVIvb08&c=mr2e34h6&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FRituals_Advent_Calendar_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20revealed!srt!0!sts!369!siv!0!sol!1!)&x=-hwfaph",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      }
+    ]
+  }
+}

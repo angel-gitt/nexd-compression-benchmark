@@ -1,0 +1,631 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "crawl_ads_cdp",
+      "version": "2.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-07-01T17:29:01.364256Z",
+        "id": "BMW_X2_Drag_to_reveal_gesture_icon_copy",
+        "title": "BMW_X2_Drag_to_reveal_gesture_icon_copy",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "BMW_X2_Drag_to_reveal_gesture_icon_copy",
+        "startedDateTime": "1970-01-04T06:48:31.259388Z",
+        "time": 183.08,
+        "timings": {
+          "send": 5.0,
+          "wait": 73.232,
+          "receive": 104.848
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/l1kIaPqmUpDN/adtag.js?pxf=6TnNhOliOgxseR13&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_502}",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 188369,
+            "mimeType": "application/javascript",
+            "compression": 128806
+          },
+          "bodySize": 59563,
+          "decodedBodySize": 188369,
+          "transferSize": 59563,
+          "_transferSize": 59563,
+          "_decodedBodySize": 188369,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BMW_X2_Drag_to_reveal_gesture_icon_copy",
+        "startedDateTime": "1970-01-04T06:48:31.447853Z",
+        "time": 69.583,
+        "timings": {
+          "send": 3.479,
+          "wait": 27.833,
+          "receive": 38.271
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tracking.js?ad=l1kIaPqmUpDN",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 8385,
+            "mimeType": "application/javascript",
+            "compression": 4243
+          },
+          "bodySize": 4142,
+          "decodedBodySize": 8385,
+          "transferSize": 4142,
+          "_transferSize": 4142,
+          "_decodedBodySize": 8385,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BMW_X2_Drag_to_reveal_gesture_icon_copy",
+        "startedDateTime": "1970-01-04T06:48:31.455795Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tr5.html",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BMW_X2_Drag_to_reveal_gesture_icon_copy",
+        "startedDateTime": "1970-01-04T06:48:31.454578Z",
+        "time": 115.104,
+        "timings": {
+          "send": 5.0,
+          "wait": 46.042,
+          "receive": 64.062
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/l1kIaPqmUpDN/adcanvas.min.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 238521,
+            "mimeType": "application/javascript",
+            "compression": 168754
+          },
+          "bodySize": 69767,
+          "decodedBodySize": 238521,
+          "transferSize": 69767,
+          "_transferSize": 69767,
+          "_decodedBodySize": 238521,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BMW_X2_Drag_to_reveal_gesture_icon_copy",
+        "startedDateTime": "1970-01-04T06:48:31.454860Z",
+        "time": 96.649,
+        "timings": {
+          "send": 4.832,
+          "wait": 38.66,
+          "receive": 53.157
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/l1kIaPqmUpDN/6TnNhOliOgxseR13/pack.acz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 43572,
+            "mimeType": "application/zip"
+          },
+          "bodySize": 43572,
+          "decodedBodySize": 43572,
+          "transferSize": 43572,
+          "_transferSize": 43572,
+          "_decodedBodySize": 43572,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BMW_X2_Drag_to_reveal_gesture_icon_copy",
+        "startedDateTime": "1970-01-04T06:48:31.456737Z",
+        "time": 100.756,
+        "timings": {
+          "send": 5.0,
+          "wait": 40.302,
+          "receive": 55.454
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/l1kIaPqmUpDN/splash.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 6973,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 6973,
+          "decodedBodySize": 6973,
+          "transferSize": 6973,
+          "_transferSize": 6973,
+          "_decodedBodySize": 6973,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BMW_X2_Drag_to_reveal_gesture_icon_copy",
+        "startedDateTime": "1970-01-04T06:48:31.521454Z",
+        "time": 76.573,
+        "timings": {
+          "send": 3.829,
+          "wait": 30.629,
+          "receive": 42.115
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cntuz%3AfB8fKIFy7Bk6ZXkuELSjg03LlaskDPf_&s=0%3Amr2cntuz%3A5ot4Qvt3I41Lxi0DQGEBXsio_LwA_0T3&v=0%3AvLZL9zG8g5J_eP9SZWBSw2XfSg~Q4Unq&t=pageView&a=l1kIaPqmUpDN&e=0%3AvLZL9zG8g5J_eP9SZWBSw2XfSg~Q4Unq0&c=mr2cntv2&n=t&f=t&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBMW_X2_Drag_to_reveal_gesture_icon_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&x=yd5ye",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BMW_X2_Drag_to_reveal_gesture_icon_copy",
+        "startedDateTime": "1970-01-04T06:48:31.533596Z",
+        "time": 69.012,
+        "timings": {
+          "send": 3.451,
+          "wait": 27.605,
+          "receive": 37.957
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cntuz%3AfB8fKIFy7Bk6ZXkuELSjg03LlaskDPf_&s=0%3Amr2cntuz%3A5ot4Qvt3I41Lxi0DQGEBXsio_LwA_0T3&v=0%3AvLZL9zG8g5J_eP9SZWBSw2XfSg~Q4Unq&t=eventParameters&a=l1kIaPqmUpDN&e=0%3AvLZL9zG8g5J_eP9SZWBSw2XfSg~Q4Unq1&c=mr2cntve&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBMW_X2_Drag_to_reveal_gesture_icon_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Billable%20impression!srt!0!sts!1!siv!0!sol!1!)&x=-ytbomg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BMW_X2_Drag_to_reveal_gesture_icon_copy",
+        "startedDateTime": "1970-01-04T06:48:31.598406Z",
+        "time": 77.713,
+        "timings": {
+          "send": 3.886,
+          "wait": 31.085,
+          "receive": 42.742
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cntuz%3AfB8fKIFy7Bk6ZXkuELSjg03LlaskDPf_&s=0%3Amr2cntuz%3A5ot4Qvt3I41Lxi0DQGEBXsio_LwA_0T3&v=0%3AvLZL9zG8g5J_eP9SZWBSw2XfSg~Q4Unq&t=eventParameters&a=l1kIaPqmUpDN&e=0%3AvLZL9zG8g5J_eP9SZWBSw2XfSg~Q4Unq2&c=mr2cntx7&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBMW_X2_Drag_to_reveal_gesture_icon_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Loaded!srt!0!sts!128!siv!0!sol!1!)&x=y7sdor",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BMW_X2_Drag_to_reveal_gesture_icon_copy",
+        "startedDateTime": "1970-01-04T06:48:31.598523Z",
+        "time": 83.698,
+        "timings": {
+          "send": 4.185,
+          "wait": 33.479,
+          "receive": 46.034
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cntuz%3AfB8fKIFy7Bk6ZXkuELSjg03LlaskDPf_&s=0%3Amr2cntuz%3A5ot4Qvt3I41Lxi0DQGEBXsio_LwA_0T3&v=0%3AvLZL9zG8g5J_eP9SZWBSw2XfSg~Q4Unq&t=eventParameters&a=l1kIaPqmUpDN&e=0%3AvLZL9zG8g5J_eP9SZWBSw2XfSg~Q4Unq3&c=mr2cntx7&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBMW_X2_Drag_to_reveal_gesture_icon_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Meta!saction!safeFrame%20not%20detected!srt!0!sts!128!siv!0!sol!1!)&x=-9dbybd",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BMW_X2_Drag_to_reveal_gesture_icon_copy",
+        "startedDateTime": "1970-01-04T06:48:31.598600Z",
+        "time": 81.157,
+        "timings": {
+          "send": 4.058,
+          "wait": 32.463,
+          "receive": 44.636
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cntuz%3AfB8fKIFy7Bk6ZXkuELSjg03LlaskDPf_&s=0%3Amr2cntuz%3A5ot4Qvt3I41Lxi0DQGEBXsio_LwA_0T3&v=0%3AvLZL9zG8g5J_eP9SZWBSw2XfSg~Q4Unq&t=eventParameters&a=l1kIaPqmUpDN&e=0%3AvLZL9zG8g5J_eP9SZWBSw2XfSg~Q4Unq4&c=mr2cntx8&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBMW_X2_Drag_to_reveal_gesture_icon_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Started!srt!0!sts!128!siv!0!sol!1!)&x=-5gtyui",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BMW_X2_Drag_to_reveal_gesture_icon_copy",
+        "startedDateTime": "1970-01-04T06:48:31.600368Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/l1kIaPqmUpDN/6TnNhOliOgxseR13/left.mp4",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 206,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "video/mp4"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BMW_X2_Drag_to_reveal_gesture_icon_copy",
+        "startedDateTime": "1970-01-04T06:48:31.603350Z",
+        "time": 78.819,
+        "timings": {
+          "send": 3.941,
+          "wait": 31.528,
+          "receive": 43.35
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cntuz%3AfB8fKIFy7Bk6ZXkuELSjg03LlaskDPf_&s=0%3Amr2cntuz%3A5ot4Qvt3I41Lxi0DQGEBXsio_LwA_0T3&v=0%3AvLZL9zG8g5J_eP9SZWBSw2XfSg~Q4Unq&t=eventParameters&a=l1kIaPqmUpDN&e=0%3AvLZL9zG8g5J_eP9SZWBSw2XfSg~Q4Unq5&c=mr2cntxc&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBMW_X2_Drag_to_reveal_gesture_icon_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Rendered!srt!0!sts!155!siv!0!sol!1!)&x=q86mgw",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BMW_X2_Drag_to_reveal_gesture_icon_copy",
+        "startedDateTime": "1970-01-04T06:48:31.700382Z",
+        "time": 61.233,
+        "timings": {
+          "send": 3.062,
+          "wait": 24.493,
+          "receive": 33.678
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/l1kIaPqmUpDN/6TnNhOliOgxseR13/left.mp4",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 206,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 41903,
+            "mimeType": "video/mp4"
+          },
+          "bodySize": 41903,
+          "decodedBodySize": 41903,
+          "transferSize": 41903,
+          "_transferSize": 41903,
+          "_decodedBodySize": 41903,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BMW_X2_Drag_to_reveal_gesture_icon_copy",
+        "startedDateTime": "1970-01-04T06:48:31.764052Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/l1kIaPqmUpDN/6TnNhOliOgxseR13/left.mp4",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 206,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "video/mp4"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BMW_X2_Drag_to_reveal_gesture_icon_copy",
+        "startedDateTime": "1970-01-04T06:48:33.522027Z",
+        "time": 126.609,
+        "timings": {
+          "send": 5.0,
+          "wait": 50.644,
+          "receive": 70.965
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cntuz%3AfB8fKIFy7Bk6ZXkuELSjg03LlaskDPf_&s=0%3Amr2cntuz%3A5ot4Qvt3I41Lxi0DQGEBXsio_LwA_0T3&v=0%3AvLZL9zG8g5J_eP9SZWBSw2XfSg~Q4Unq&t=eventParameters&a=l1kIaPqmUpDN&e=0%3AvLZL9zG8g5J_eP9SZWBSw2XfSg~Q4Unq6&c=mr2cnven&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBMW_X2_Drag_to_reveal_gesture_icon_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20is%20in%20view!srt!0!sts!2078!siv!1!sol!1!)&x=ilkqfb",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BMW_X2_Drag_to_reveal_gesture_icon_copy",
+        "startedDateTime": "1970-01-04T06:48:33.522255Z",
+        "time": 126.511,
+        "timings": {
+          "send": 5.0,
+          "wait": 50.604,
+          "receive": 70.907
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cntuz%3AfB8fKIFy7Bk6ZXkuELSjg03LlaskDPf_&s=0%3Amr2cntuz%3A5ot4Qvt3I41Lxi0DQGEBXsio_LwA_0T3&v=0%3AvLZL9zG8g5J_eP9SZWBSw2XfSg~Q4Unq&t=eventParameters&a=l1kIaPqmUpDN&e=0%3AvLZL9zG8g5J_eP9SZWBSw2XfSg~Q4Unq7&c=mr2cnven&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBMW_X2_Drag_to_reveal_gesture_icon_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Paging!saction!Page%20seen%20%5BFirst%20media%5D!srt!0!sts!151!siv!0!sol!1!)&x=213c9v",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BMW_X2_Drag_to_reveal_gesture_icon_copy",
+        "startedDateTime": "1970-01-04T06:48:33.522372Z",
+        "time": 126.505,
+        "timings": {
+          "send": 5.0,
+          "wait": 50.602,
+          "receive": 70.903
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cntuz%3AfB8fKIFy7Bk6ZXkuELSjg03LlaskDPf_&s=0%3Amr2cntuz%3A5ot4Qvt3I41Lxi0DQGEBXsio_LwA_0T3&v=0%3AvLZL9zG8g5J_eP9SZWBSw2XfSg~Q4Unq&t=eventParameters&a=l1kIaPqmUpDN&e=0%3AvLZL9zG8g5J_eP9SZWBSw2XfSg~Q4Unq8&c=mr2cnven&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBMW_X2_Drag_to_reveal_gesture_icon_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20revealed!srt!0!sts!687!siv!0!sol!1!)&x=-7t0z96",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BMW_X2_Drag_to_reveal_gesture_icon_copy",
+        "startedDateTime": "1970-01-04T06:48:33.522489Z",
+        "time": 126.962,
+        "timings": {
+          "send": 5.0,
+          "wait": 50.785,
+          "receive": 71.177
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cntuz%3AfB8fKIFy7Bk6ZXkuELSjg03LlaskDPf_&s=0%3Amr2cntuz%3A5ot4Qvt3I41Lxi0DQGEBXsio_LwA_0T3&v=0%3AvLZL9zG8g5J_eP9SZWBSw2XfSg~Q4Unq&t=eventParameters&a=l1kIaPqmUpDN&e=0%3AvLZL9zG8g5J_eP9SZWBSw2XfSg~Q4Unq9&c=mr2cnven&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBMW_X2_Drag_to_reveal_gesture_icon_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B0%5D!srt!0!sts!1293!siv!0!sol!1!)&x=qut78a",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BMW_X2_Drag_to_reveal_gesture_icon_copy",
+        "startedDateTime": "1970-01-04T06:48:34.597768Z",
+        "time": 76.137,
+        "timings": {
+          "send": 3.807,
+          "wait": 30.455,
+          "receive": 41.875
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cntuz%3AfB8fKIFy7Bk6ZXkuELSjg03LlaskDPf_&s=0%3Amr2cntuz%3A5ot4Qvt3I41Lxi0DQGEBXsio_LwA_0T3&v=0%3AvLZL9zG8g5J_eP9SZWBSw2XfSg~Q4Unq&t=eventParameters&a=l1kIaPqmUpDN&e=0%3AvLZL9zG8g5J_eP9SZWBSw2XfSg~Q4Unqa&c=mr2cnw8j&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBMW_X2_Drag_to_reveal_gesture_icon_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B25%5D!srt!1075!sts!3153!siv!1!sol!1!)&x=xzvyi5",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BMW_X2_Drag_to_reveal_gesture_icon_copy",
+        "startedDateTime": "1970-01-04T06:48:37.784985Z",
+        "time": 55.209,
+        "timings": {
+          "send": 2.76,
+          "wait": 22.084,
+          "receive": 30.365
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cntuz%3AfB8fKIFy7Bk6ZXkuELSjg03LlaskDPf_&s=0%3Amr2cntuz%3A5ot4Qvt3I41Lxi0DQGEBXsio_LwA_0T3&v=0%3AvLZL9zG8g5J_eP9SZWBSw2XfSg~Q4Unq&t=eventParameters&a=l1kIaPqmUpDN&e=0%3AvLZL9zG8g5J_eP9SZWBSw2XfSg~Q4Unqb&c=mr2cnyp2&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBMW_X2_Drag_to_reveal_gesture_icon_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B50%5D!srt!4263!sts!6341!siv!1!sol!1!)&x=j7cuah",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      }
+    ]
+  }
+}

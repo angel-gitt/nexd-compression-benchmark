@@ -1,0 +1,428 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "crawl_ads_cdp",
+      "version": "2.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-07-01T18:17:00.049082Z",
+        "id": "Trüfrü_floating_obj_hotspot_copy",
+        "title": "Trüfrü_floating_obj_hotspot_copy",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "Trüfrü_floating_obj_hotspot_copy",
+        "startedDateTime": "1970-01-04T07:36:30.372869Z",
+        "time": 164.665,
+        "timings": {
+          "send": 5.0,
+          "wait": 65.866,
+          "receive": 93.799
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/2KBLgVvNXYYh/adtag.js?pxf=2mltcD71ZFuNXoEc&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_502}",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 190733,
+            "mimeType": "application/javascript",
+            "compression": 130695
+          },
+          "bodySize": 60038,
+          "decodedBodySize": 190733,
+          "transferSize": 60038,
+          "_transferSize": 60038,
+          "_decodedBodySize": 190733,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Trüfrü_floating_obj_hotspot_copy",
+        "startedDateTime": "1970-01-04T07:36:30.542901Z",
+        "time": 72.669,
+        "timings": {
+          "send": 3.633,
+          "wait": 29.068,
+          "receive": 39.968
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tracking.js?ad=2KBLgVvNXYYh",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 8385,
+            "mimeType": "application/javascript",
+            "compression": 4223
+          },
+          "bodySize": 4162,
+          "decodedBodySize": 8385,
+          "transferSize": 4162,
+          "_transferSize": 4162,
+          "_decodedBodySize": 8385,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Trüfrü_floating_obj_hotspot_copy",
+        "startedDateTime": "1970-01-04T07:36:30.550446Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tr5.html",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Trüfrü_floating_obj_hotspot_copy",
+        "startedDateTime": "1970-01-04T07:36:30.549222Z",
+        "time": 88.651,
+        "timings": {
+          "send": 4.433,
+          "wait": 35.46,
+          "receive": 48.758
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/2KBLgVvNXYYh/adcanvas.min.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 189055,
+            "mimeType": "application/javascript",
+            "compression": 134270
+          },
+          "bodySize": 54785,
+          "decodedBodySize": 189055,
+          "transferSize": 54785,
+          "_transferSize": 54785,
+          "_decodedBodySize": 189055,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Trüfrü_floating_obj_hotspot_copy",
+        "startedDateTime": "1970-01-04T07:36:30.549403Z",
+        "time": 124.146,
+        "timings": {
+          "send": 5.0,
+          "wait": 49.658,
+          "receive": 69.488
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/2KBLgVvNXYYh/2mltcD71ZFuNXoEc/pack.acz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 199608,
+            "mimeType": "application/zip"
+          },
+          "bodySize": 199608,
+          "decodedBodySize": 199608,
+          "transferSize": 199608,
+          "_transferSize": 199608,
+          "_decodedBodySize": 199608,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Trüfrü_floating_obj_hotspot_copy",
+        "startedDateTime": "1970-01-04T07:36:30.551194Z",
+        "time": 86.991,
+        "timings": {
+          "send": 4.35,
+          "wait": 34.796,
+          "receive": 47.845
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/2KBLgVvNXYYh/splash.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 12214,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 12214,
+          "decodedBodySize": 12214,
+          "transferSize": 12214,
+          "_transferSize": 12214,
+          "_decodedBodySize": 12214,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Trüfrü_floating_obj_hotspot_copy",
+        "startedDateTime": "1970-01-04T07:36:30.619689Z",
+        "time": 68.847,
+        "timings": {
+          "send": 3.442,
+          "wait": 27.539,
+          "receive": 37.866
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2edjez%3Ad_h29EJ9qSHOaIQrydIRVWk4Uo3QwvRg&s=0%3Amr2edjez%3AEY5G7px3AXi~kvIJN9f6MxNBk9MvKfkp&v=0%3A6G5dFaUmtx998hQ0Irk5tzamirq9kHuc&t=pageView&a=2KBLgVvNXYYh&e=0%3A6G5dFaUmtx998hQ0Irk5tzamirq9kHuc0&c=mr2edjf2&n=t&f=t&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FTr%25C3%25BCfr%25C3%25BC_floating_obj_hotspot_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&x=ne4jj7",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Trüfrü_floating_obj_hotspot_copy",
+        "startedDateTime": "1970-01-04T07:36:30.630955Z",
+        "time": 57.45,
+        "timings": {
+          "send": 2.873,
+          "wait": 22.98,
+          "receive": 31.598
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2edjez%3Ad_h29EJ9qSHOaIQrydIRVWk4Uo3QwvRg&s=0%3Amr2edjez%3AEY5G7px3AXi~kvIJN9f6MxNBk9MvKfkp&v=0%3A6G5dFaUmtx998hQ0Irk5tzamirq9kHuc&t=eventParameters&a=2KBLgVvNXYYh&e=0%3A6G5dFaUmtx998hQ0Irk5tzamirq9kHuc1&c=mr2edjfd&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FTr%25C3%25BCfr%25C3%25BC_floating_obj_hotspot_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Billable%20impression!srt!0!sts!0!siv!0!sol!1!)&x=1zzbk4",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Trüfrü_floating_obj_hotspot_copy",
+        "startedDateTime": "1970-01-04T07:36:30.699238Z",
+        "time": 92.842,
+        "timings": {
+          "send": 4.642,
+          "wait": 37.137,
+          "receive": 51.063
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2edjez%3Ad_h29EJ9qSHOaIQrydIRVWk4Uo3QwvRg&s=0%3Amr2edjez%3AEY5G7px3AXi~kvIJN9f6MxNBk9MvKfkp&v=0%3A6G5dFaUmtx998hQ0Irk5tzamirq9kHuc&t=eventParameters&a=2KBLgVvNXYYh&e=0%3A6G5dFaUmtx998hQ0Irk5tzamirq9kHuc2&c=mr2edjha&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FTr%25C3%25BCfr%25C3%25BC_floating_obj_hotspot_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Loaded!srt!0!sts!134!siv!0!sol!1!)&x=-tjjpn7",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Trüfrü_floating_obj_hotspot_copy",
+        "startedDateTime": "1970-01-04T07:36:30.699361Z",
+        "time": 62.267,
+        "timings": {
+          "send": 3.113,
+          "wait": 24.907,
+          "receive": 34.247
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2edjez%3Ad_h29EJ9qSHOaIQrydIRVWk4Uo3QwvRg&s=0%3Amr2edjez%3AEY5G7px3AXi~kvIJN9f6MxNBk9MvKfkp&v=0%3A6G5dFaUmtx998hQ0Irk5tzamirq9kHuc&t=eventParameters&a=2KBLgVvNXYYh&e=0%3A6G5dFaUmtx998hQ0Irk5tzamirq9kHuc3&c=mr2edjha&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FTr%25C3%25BCfr%25C3%25BC_floating_obj_hotspot_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Meta!saction!safeFrame%20not%20detected!srt!0!sts!134!siv!0!sol!1!)&x=uaze0d",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Trüfrü_floating_obj_hotspot_copy",
+        "startedDateTime": "1970-01-04T07:36:30.699441Z",
+        "time": 62.24,
+        "timings": {
+          "send": 3.112,
+          "wait": 24.896,
+          "receive": 34.232
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2edjez%3Ad_h29EJ9qSHOaIQrydIRVWk4Uo3QwvRg&s=0%3Amr2edjez%3AEY5G7px3AXi~kvIJN9f6MxNBk9MvKfkp&v=0%3A6G5dFaUmtx998hQ0Irk5tzamirq9kHuc&t=eventParameters&a=2KBLgVvNXYYh&e=0%3A6G5dFaUmtx998hQ0Irk5tzamirq9kHuc4&c=mr2edjha&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FTr%25C3%25BCfr%25C3%25BC_floating_obj_hotspot_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Started!srt!0!sts!134!siv!0!sol!1!)&x=sf0e9s",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Trüfrü_floating_obj_hotspot_copy",
+        "startedDateTime": "1970-01-04T07:36:30.702234Z",
+        "time": 59.481,
+        "timings": {
+          "send": 2.974,
+          "wait": 23.792,
+          "receive": 32.715
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2edjez%3Ad_h29EJ9qSHOaIQrydIRVWk4Uo3QwvRg&s=0%3Amr2edjez%3AEY5G7px3AXi~kvIJN9f6MxNBk9MvKfkp&v=0%3A6G5dFaUmtx998hQ0Irk5tzamirq9kHuc&t=eventParameters&a=2KBLgVvNXYYh&e=0%3A6G5dFaUmtx998hQ0Irk5tzamirq9kHuc5&c=mr2edjhd&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FTr%25C3%25BCfr%25C3%25BC_floating_obj_hotspot_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Rendered!srt!0!sts!161!siv!0!sol!1!)&x=-724cpf",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Trüfrü_floating_obj_hotspot_copy",
+        "startedDateTime": "1970-01-04T07:36:32.675656Z",
+        "time": 47.664,
+        "timings": {
+          "send": 2.383,
+          "wait": 19.066,
+          "receive": 26.215
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2edjez%3Ad_h29EJ9qSHOaIQrydIRVWk4Uo3QwvRg&s=0%3Amr2edjez%3AEY5G7px3AXi~kvIJN9f6MxNBk9MvKfkp&v=0%3A6G5dFaUmtx998hQ0Irk5tzamirq9kHuc&t=eventParameters&a=2KBLgVvNXYYh&e=0%3A6G5dFaUmtx998hQ0Irk5tzamirq9kHuc6&c=mr2edl06&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FTr%25C3%25BCfr%25C3%25BC_floating_obj_hotspot_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20is%20in%20view!srt!0!sts!2136!siv!1!sol!1!)&x=-6vow2s",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Trüfrü_floating_obj_hotspot_copy",
+        "startedDateTime": "1970-01-04T07:36:32.675852Z",
+        "time": 47.541,
+        "timings": {
+          "send": 2.377,
+          "wait": 19.016,
+          "receive": 26.148
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2edjez%3Ad_h29EJ9qSHOaIQrydIRVWk4Uo3QwvRg&s=0%3Amr2edjez%3AEY5G7px3AXi~kvIJN9f6MxNBk9MvKfkp&v=0%3A6G5dFaUmtx998hQ0Irk5tzamirq9kHuc&t=eventParameters&a=2KBLgVvNXYYh&e=0%3A6G5dFaUmtx998hQ0Irk5tzamirq9kHuc7&c=mr2edl06&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FTr%25C3%25BCfr%25C3%25BC_floating_obj_hotspot_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20revealed!srt!0!sts!292!siv!0!sol!1!)&x=-697np0",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      }
+    ]
+  }
+}

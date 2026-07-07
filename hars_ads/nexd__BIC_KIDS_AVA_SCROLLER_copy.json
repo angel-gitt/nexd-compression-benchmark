@@ -1,0 +1,428 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "crawl_ads_cdp",
+      "version": "2.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-07-01T17:27:51.280120Z",
+        "id": "BIC_KIDS_AVA_SCROLLER_copy",
+        "title": "BIC_KIDS_AVA_SCROLLER_copy",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "BIC_KIDS_AVA_SCROLLER_copy",
+        "startedDateTime": "1970-01-04T06:47:21.545157Z",
+        "time": 284.443,
+        "timings": {
+          "send": 5.0,
+          "wait": 113.777,
+          "receive": 165.666
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/7SdNoWqQnUET/adtag.js?pxf=fcKwOvQvF0UVFdFX&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_502}",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 188423,
+            "mimeType": "application/javascript",
+            "compression": 128282
+          },
+          "bodySize": 60141,
+          "decodedBodySize": 188423,
+          "transferSize": 60141,
+          "_transferSize": 60141,
+          "_decodedBodySize": 188423,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BIC_KIDS_AVA_SCROLLER_copy",
+        "startedDateTime": "1970-01-04T06:47:21.836056Z",
+        "time": 77.37,
+        "timings": {
+          "send": 3.869,
+          "wait": 30.948,
+          "receive": 42.554
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tracking.js?ad=7SdNoWqQnUET",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 8385,
+            "mimeType": "application/javascript",
+            "compression": 4257
+          },
+          "bodySize": 4128,
+          "decodedBodySize": 8385,
+          "transferSize": 4128,
+          "_transferSize": 4128,
+          "_decodedBodySize": 8385,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BIC_KIDS_AVA_SCROLLER_copy",
+        "startedDateTime": "1970-01-04T06:47:21.845647Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tr5.html",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BIC_KIDS_AVA_SCROLLER_copy",
+        "startedDateTime": "1970-01-04T06:47:21.844170Z",
+        "time": 94.187,
+        "timings": {
+          "send": 4.709,
+          "wait": 37.675,
+          "receive": 51.803
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/7SdNoWqQnUET/adcanvas.min.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 188274,
+            "mimeType": "application/javascript",
+            "compression": 132679
+          },
+          "bodySize": 55595,
+          "decodedBodySize": 188274,
+          "transferSize": 55595,
+          "_transferSize": 55595,
+          "_decodedBodySize": 188274,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BIC_KIDS_AVA_SCROLLER_copy",
+        "startedDateTime": "1970-01-04T06:47:21.844398Z",
+        "time": 133.74,
+        "timings": {
+          "send": 5.0,
+          "wait": 53.496,
+          "receive": 75.244
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/7SdNoWqQnUET/fcKwOvQvF0UVFdFX/pack.acz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 72427,
+            "mimeType": "application/zip"
+          },
+          "bodySize": 72427,
+          "decodedBodySize": 72427,
+          "transferSize": 72427,
+          "_transferSize": 72427,
+          "_decodedBodySize": 72427,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BIC_KIDS_AVA_SCROLLER_copy",
+        "startedDateTime": "1970-01-04T06:47:21.846630Z",
+        "time": 92.041,
+        "timings": {
+          "send": 4.602,
+          "wait": 36.816,
+          "receive": 50.623
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/7SdNoWqQnUET/splash.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 16321,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 16321,
+          "decodedBodySize": 16321,
+          "transferSize": 16321,
+          "_transferSize": 16321,
+          "_decodedBodySize": 16321,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BIC_KIDS_AVA_SCROLLER_copy",
+        "startedDateTime": "1970-01-04T06:47:21.917506Z",
+        "time": 60.475,
+        "timings": {
+          "send": 3.024,
+          "wait": 24.19,
+          "receive": 33.261
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cmc5i%3AiJop7P62DRA92xUyLOPFgTJYy4ySQlgv&s=0%3Amr2cmc5i%3AKdugrp97oiRSYdkNYgKoz~9YX8emY~W~&v=0%3ArqYppThaqCIax9q1KQm1xUIZ3VsvyCDW&t=pageView&a=7SdNoWqQnUET&e=0%3ArqYppThaqCIax9q1KQm1xUIZ3VsvyCDW0&c=mr2cmc5l&n=t&f=t&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBIC_KIDS_AVA_SCROLLER_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&x=-av7nwu",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BIC_KIDS_AVA_SCROLLER_copy",
+        "startedDateTime": "1970-01-04T06:47:21.917820Z",
+        "time": 60.233,
+        "timings": {
+          "send": 3.012,
+          "wait": 24.093,
+          "receive": 33.128
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cmc5i%3AiJop7P62DRA92xUyLOPFgTJYy4ySQlgv&s=0%3Amr2cmc5i%3AKdugrp97oiRSYdkNYgKoz~9YX8emY~W~&v=0%3ArqYppThaqCIax9q1KQm1xUIZ3VsvyCDW&t=eventParameters&a=7SdNoWqQnUET&e=0%3ArqYppThaqCIax9q1KQm1xUIZ3VsvyCDW1&c=mr2cmc5m&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBIC_KIDS_AVA_SCROLLER_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Billable%20impression!srt!0!sts!0!siv!0!sol!1!)&x=-9pebdq",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BIC_KIDS_AVA_SCROLLER_copy",
+        "startedDateTime": "1970-01-04T06:47:21.996347Z",
+        "time": 67.935,
+        "timings": {
+          "send": 3.397,
+          "wait": 27.174,
+          "receive": 37.364
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cmc5i%3AiJop7P62DRA92xUyLOPFgTJYy4ySQlgv&s=0%3Amr2cmc5i%3AKdugrp97oiRSYdkNYgKoz~9YX8emY~W~&v=0%3ArqYppThaqCIax9q1KQm1xUIZ3VsvyCDW&t=eventParameters&a=7SdNoWqQnUET&e=0%3ArqYppThaqCIax9q1KQm1xUIZ3VsvyCDW2&c=mr2cmc7s&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBIC_KIDS_AVA_SCROLLER_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Loaded!srt!0!sts!147!siv!0!sol!1!)&x=arcoup",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BIC_KIDS_AVA_SCROLLER_copy",
+        "startedDateTime": "1970-01-04T06:47:21.996506Z",
+        "time": 65.603,
+        "timings": {
+          "send": 3.28,
+          "wait": 26.241,
+          "receive": 36.082
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cmc5i%3AiJop7P62DRA92xUyLOPFgTJYy4ySQlgv&s=0%3Amr2cmc5i%3AKdugrp97oiRSYdkNYgKoz~9YX8emY~W~&v=0%3ArqYppThaqCIax9q1KQm1xUIZ3VsvyCDW&t=eventParameters&a=7SdNoWqQnUET&e=0%3ArqYppThaqCIax9q1KQm1xUIZ3VsvyCDW3&c=mr2cmc7t&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBIC_KIDS_AVA_SCROLLER_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Meta!saction!safeFrame%20not%20detected!srt!0!sts!147!siv!0!sol!1!)&x=j8vwvk",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BIC_KIDS_AVA_SCROLLER_copy",
+        "startedDateTime": "1970-01-04T06:47:21.996616Z",
+        "time": 67.628,
+        "timings": {
+          "send": 3.381,
+          "wait": 27.051,
+          "receive": 37.195
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cmc5i%3AiJop7P62DRA92xUyLOPFgTJYy4ySQlgv&s=0%3Amr2cmc5i%3AKdugrp97oiRSYdkNYgKoz~9YX8emY~W~&v=0%3ArqYppThaqCIax9q1KQm1xUIZ3VsvyCDW&t=eventParameters&a=7SdNoWqQnUET&e=0%3ArqYppThaqCIax9q1KQm1xUIZ3VsvyCDW4&c=mr2cmc7t&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBIC_KIDS_AVA_SCROLLER_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Started!srt!0!sts!147!siv!0!sol!1!)&x=-t4j367",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BIC_KIDS_AVA_SCROLLER_copy",
+        "startedDateTime": "1970-01-04T06:47:21.999276Z",
+        "time": 65.04,
+        "timings": {
+          "send": 3.252,
+          "wait": 26.016,
+          "receive": 35.772
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cmc5i%3AiJop7P62DRA92xUyLOPFgTJYy4ySQlgv&s=0%3Amr2cmc5i%3AKdugrp97oiRSYdkNYgKoz~9YX8emY~W~&v=0%3ArqYppThaqCIax9q1KQm1xUIZ3VsvyCDW&t=eventParameters&a=7SdNoWqQnUET&e=0%3ArqYppThaqCIax9q1KQm1xUIZ3VsvyCDW5&c=mr2cmc7v&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBIC_KIDS_AVA_SCROLLER_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Rendered!srt!0!sts!165!siv!0!sol!1!)&x=qpx8xp",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BIC_KIDS_AVA_SCROLLER_copy",
+        "startedDateTime": "1970-01-04T06:47:23.918233Z",
+        "time": 71.16,
+        "timings": {
+          "send": 3.558,
+          "wait": 28.464,
+          "receive": 39.138
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cmc5i%3AiJop7P62DRA92xUyLOPFgTJYy4ySQlgv&s=0%3Amr2cmc5i%3AKdugrp97oiRSYdkNYgKoz~9YX8emY~W~&v=0%3ArqYppThaqCIax9q1KQm1xUIZ3VsvyCDW&t=eventParameters&a=7SdNoWqQnUET&e=0%3ArqYppThaqCIax9q1KQm1xUIZ3VsvyCDW6&c=mr2cmdp6&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBIC_KIDS_AVA_SCROLLER_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20is%20in%20view!srt!0!sts!2086!siv!1!sol!1!)&x=-18mg48",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BIC_KIDS_AVA_SCROLLER_copy",
+        "startedDateTime": "1970-01-04T06:47:23.918430Z",
+        "time": 71.034,
+        "timings": {
+          "send": 3.552,
+          "wait": 28.414,
+          "receive": 39.069
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cmc5i%3AiJop7P62DRA92xUyLOPFgTJYy4ySQlgv&s=0%3Amr2cmc5i%3AKdugrp97oiRSYdkNYgKoz~9YX8emY~W~&v=0%3ArqYppThaqCIax9q1KQm1xUIZ3VsvyCDW&t=eventParameters&a=7SdNoWqQnUET&e=0%3ArqYppThaqCIax9q1KQm1xUIZ3VsvyCDW7&c=mr2cmdp6&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBIC_KIDS_AVA_SCROLLER_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20revealed!srt!0!sts!317!siv!0!sol!1!)&x=-ufgfb5",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      }
+    ]
+  }
+}

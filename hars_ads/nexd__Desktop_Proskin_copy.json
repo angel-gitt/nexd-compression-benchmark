@@ -1,0 +1,544 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "crawl_ads_cdp",
+      "version": "2.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-07-01T17:34:51.047313Z",
+        "id": "Desktop_Proskin_copy",
+        "title": "Desktop_Proskin_copy",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "Desktop_Proskin_copy",
+        "startedDateTime": "1970-01-04T06:54:21.608827Z",
+        "time": 198.486,
+        "timings": {
+          "send": 5.0,
+          "wait": 79.394,
+          "receive": 114.092
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/uaaovLbMdHQp/adtag.js?pxf=DqjmYFsrT2zczbsm&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_502}",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 193483,
+            "mimeType": "application/javascript",
+            "compression": 132466
+          },
+          "bodySize": 61017,
+          "decodedBodySize": 193483,
+          "transferSize": 61017,
+          "_transferSize": 61017,
+          "_decodedBodySize": 193483,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Desktop_Proskin_copy",
+        "startedDateTime": "1970-01-04T06:54:21.811940Z",
+        "time": 162.222,
+        "timings": {
+          "send": 5.0,
+          "wait": 64.889,
+          "receive": 92.333
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/skin/.json",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 404,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 767,
+            "mimeType": "text/html"
+          },
+          "bodySize": 767,
+          "decodedBodySize": 767,
+          "transferSize": 767,
+          "_transferSize": 767,
+          "_decodedBodySize": 767,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Desktop_Proskin_copy",
+        "startedDateTime": "1970-01-04T06:54:21.816963Z",
+        "time": 102.598,
+        "timings": {
+          "send": 5.0,
+          "wait": 41.039,
+          "receive": 56.559
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/uaaovLbMdHQp/adcanvas.min.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 53012,
+            "mimeType": "application/javascript"
+          },
+          "bodySize": 53012,
+          "decodedBodySize": 53012,
+          "transferSize": 53012,
+          "_transferSize": 53012,
+          "_decodedBodySize": 53012,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Desktop_Proskin_copy",
+        "startedDateTime": "1970-01-04T06:54:21.975550Z",
+        "time": 176.576,
+        "timings": {
+          "send": 5.0,
+          "wait": 70.63,
+          "receive": 100.946
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tracking.js?ad=uaaovLbMdHQp",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 8385,
+            "mimeType": "application/javascript",
+            "compression": 4254
+          },
+          "bodySize": 4131,
+          "decodedBodySize": 8385,
+          "transferSize": 4131,
+          "_transferSize": 4131,
+          "_decodedBodySize": 8385,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Desktop_Proskin_copy",
+        "startedDateTime": "1970-01-04T06:54:21.977625Z",
+        "time": 174.144,
+        "timings": {
+          "send": 5.0,
+          "wait": 69.658,
+          "receive": 99.486
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/uaaovLbMdHQp/adcanvas.min.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 178299,
+            "mimeType": "application/javascript",
+            "compression": 125788
+          },
+          "bodySize": 52511,
+          "decodedBodySize": 178299,
+          "transferSize": 52511,
+          "_transferSize": 52511,
+          "_decodedBodySize": 178299,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Desktop_Proskin_copy",
+        "startedDateTime": "1970-01-04T06:54:21.977772Z",
+        "time": 194.628,
+        "timings": {
+          "send": 5.0,
+          "wait": 77.851,
+          "receive": 111.777
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/uaaovLbMdHQp/DqjmYFsrT2zczbsm/pack.acz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 114412,
+            "mimeType": "application/zip"
+          },
+          "bodySize": 114412,
+          "decodedBodySize": 114412,
+          "transferSize": 114412,
+          "_transferSize": 114412,
+          "_decodedBodySize": 114412,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Desktop_Proskin_copy",
+        "startedDateTime": "1970-01-04T06:54:21.979198Z",
+        "time": 181.611,
+        "timings": {
+          "send": 5.0,
+          "wait": 72.644,
+          "receive": 103.967
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/uaaovLbMdHQp/splash.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 38792,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 38792,
+          "decodedBodySize": 38792,
+          "transferSize": 38792,
+          "_transferSize": 38792,
+          "_decodedBodySize": 38792,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Desktop_Proskin_copy",
+        "startedDateTime": "1970-01-04T06:54:21.979262Z",
+        "time": 272.78,
+        "timings": {
+          "send": 5.0,
+          "wait": 109.112,
+          "receive": 158.668
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://ad.doubleclick.net/ddm/trackimp/N9418.279382DBMTPGTELECOMLTDCOM/B33597661.422854855;dc_pre=CJuyjduBspUDFfdSHQkdtx8uPQ;dc_trk_aid=615644975;dc_trk_cid=161929044;ord=1782927283011;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 67,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 67,
+          "decodedBodySize": 67,
+          "transferSize": 67,
+          "_transferSize": 67,
+          "_decodedBodySize": 67,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Desktop_Proskin_copy",
+        "startedDateTime": "1970-01-04T06:54:21.979294Z",
+        "time": 212.468,
+        "timings": {
+          "send": 5.0,
+          "wait": 84.987,
+          "receive": 122.481
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://tps.doubleverify.com/visit.jpg?tagtype=display&ctx=13231654&cmp=33597661&sid=7225354&plc=422854855&advid=11135004&adsrv=1&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_126}&prr=1&turl=${SOURCE_URL_ENC}&aucmp=${CAMPAIGN_ID}&auevent=${AUCTION_ID}&autt=2&ppid=103&aubndl=${BUNDLE_ID}&aucrtv=uaaovLbMdHQp&auorder=${INSERTION_ORDER_ID}&pltfrm=${PUBLISHER_ID}&ausite=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FDesktop_Proskin_copy.html&auxch=${EXCHANGE_ID}&aufilter1=742541512&c1=742541512&audeal=${INVENTORY_SOURCE_EXTERNAL_ID}",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 204,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "text/plain"
+          },
+          "bodySize": 162,
+          "decodedBodySize": 0,
+          "transferSize": 162,
+          "_transferSize": 162,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Desktop_Proskin_copy",
+        "startedDateTime": "1970-01-04T06:54:22.156500Z",
+        "time": 91.991,
+        "timings": {
+          "send": 4.6,
+          "wait": 36.796,
+          "receive": 50.595
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cvcey%3AUYjoCxQwt24d_~uY0HsguFkGbaJPAn73&s=0%3Amr2cvcey%3AVNDJN20jzhH71i42tUJxHe2CbwgoUgSa&v=0%3ANmD2EQcwlNtPxO7zI77ibS4Tharv9s~o&t=pageView&a=uaaovLbMdHQp&e=0%3ANmD2EQcwlNtPxO7zI77ibS4Tharv9s~o0&c=mr2cvcf2&n=t&f=t&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FDesktop_Proskin_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&x=-57f28x",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Desktop_Proskin_copy",
+        "startedDateTime": "1970-01-04T06:54:22.160140Z",
+        "time": 88.29,
+        "timings": {
+          "send": 4.415,
+          "wait": 35.316,
+          "receive": 48.56
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cvcey%3AUYjoCxQwt24d_~uY0HsguFkGbaJPAn73&s=0%3Amr2cvcey%3AVNDJN20jzhH71i42tUJxHe2CbwgoUgSa&v=0%3ANmD2EQcwlNtPxO7zI77ibS4Tharv9s~o&t=eventParameters&a=uaaovLbMdHQp&e=0%3ANmD2EQcwlNtPxO7zI77ibS4Tharv9s~o1&c=mr2cvcf6&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FDesktop_Proskin_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Billable%20impression!srt!0!sts!0!siv!0!sol!1!)&x=5kalvy",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Desktop_Proskin_copy",
+        "startedDateTime": "1970-01-04T06:54:22.204364Z",
+        "time": 51.527,
+        "timings": {
+          "send": 2.576,
+          "wait": 20.611,
+          "receive": 28.34
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cvcey%3AUYjoCxQwt24d_~uY0HsguFkGbaJPAn73&s=0%3Amr2cvcey%3AVNDJN20jzhH71i42tUJxHe2CbwgoUgSa&v=0%3ANmD2EQcwlNtPxO7zI77ibS4Tharv9s~o&t=eventParameters&a=uaaovLbMdHQp&e=0%3ANmD2EQcwlNtPxO7zI77ibS4Tharv9s~o2&c=mr2cvcge&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FDesktop_Proskin_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Loaded!srt!0!sts!363!siv!0!sol!1!)&x=-mw969s",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Desktop_Proskin_copy",
+        "startedDateTime": "1970-01-04T06:54:22.204490Z",
+        "time": 56.807,
+        "timings": {
+          "send": 2.84,
+          "wait": 22.723,
+          "receive": 31.244
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cvcey%3AUYjoCxQwt24d_~uY0HsguFkGbaJPAn73&s=0%3Amr2cvcey%3AVNDJN20jzhH71i42tUJxHe2CbwgoUgSa&v=0%3ANmD2EQcwlNtPxO7zI77ibS4Tharv9s~o&t=eventParameters&a=uaaovLbMdHQp&e=0%3ANmD2EQcwlNtPxO7zI77ibS4Tharv9s~o3&c=mr2cvcge&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FDesktop_Proskin_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Meta!saction!safeFrame%20not%20detected!srt!0!sts!363!siv!0!sol!1!)&x=bgfjpv",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Desktop_Proskin_copy",
+        "startedDateTime": "1970-01-04T06:54:22.204568Z",
+        "time": 54.736,
+        "timings": {
+          "send": 2.737,
+          "wait": 21.894,
+          "receive": 30.105
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cvcey%3AUYjoCxQwt24d_~uY0HsguFkGbaJPAn73&s=0%3Amr2cvcey%3AVNDJN20jzhH71i42tUJxHe2CbwgoUgSa&v=0%3ANmD2EQcwlNtPxO7zI77ibS4Tharv9s~o&t=eventParameters&a=uaaovLbMdHQp&e=0%3ANmD2EQcwlNtPxO7zI77ibS4Tharv9s~o4&c=mr2cvcge&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FDesktop_Proskin_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Started!srt!0!sts!363!siv!0!sol!1!)&x=-7v7t86",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Desktop_Proskin_copy",
+        "startedDateTime": "1970-01-04T06:54:22.207587Z",
+        "time": 51.76,
+        "timings": {
+          "send": 2.588,
+          "wait": 20.704,
+          "receive": 28.468
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cvcey%3AUYjoCxQwt24d_~uY0HsguFkGbaJPAn73&s=0%3Amr2cvcey%3AVNDJN20jzhH71i42tUJxHe2CbwgoUgSa&v=0%3ANmD2EQcwlNtPxO7zI77ibS4Tharv9s~o&t=eventParameters&a=uaaovLbMdHQp&e=0%3ANmD2EQcwlNtPxO7zI77ibS4Tharv9s~o5&c=mr2cvcgh&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FDesktop_Proskin_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Rendered!srt!0!sts!396!siv!0!sol!1!)&x=-7dy37g",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 244,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 244,
+          "decodedBodySize": 244,
+          "transferSize": 244,
+          "_transferSize": 244,
+          "_decodedBodySize": 244,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Desktop_Proskin_copy",
+        "startedDateTime": "1970-01-04T06:54:23.478051Z",
+        "time": 61.485,
+        "timings": {
+          "send": 3.074,
+          "wait": 24.594,
+          "receive": 33.817
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cvcey%3AUYjoCxQwt24d_~uY0HsguFkGbaJPAn73&s=0%3Amr2cvcey%3AVNDJN20jzhH71i42tUJxHe2CbwgoUgSa&v=0%3ANmD2EQcwlNtPxO7zI77ibS4Tharv9s~o&t=eventParameters&a=uaaovLbMdHQp&e=0%3ANmD2EQcwlNtPxO7zI77ibS4Tharv9s~o6&c=mr2cvdfs&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FDesktop_Proskin_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20is%20in%20view!srt!0!sts!1668!siv!1!sol!1!)&x=44le0r",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Desktop_Proskin_copy",
+        "startedDateTime": "1970-01-04T06:54:23.478294Z",
+        "time": 61.315,
+        "timings": {
+          "send": 3.066,
+          "wait": 24.526,
+          "receive": 33.723
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cvcey%3AUYjoCxQwt24d_~uY0HsguFkGbaJPAn73&s=0%3Amr2cvcey%3AVNDJN20jzhH71i42tUJxHe2CbwgoUgSa&v=0%3ANmD2EQcwlNtPxO7zI77ibS4Tharv9s~o&t=eventParameters&a=uaaovLbMdHQp&e=0%3ANmD2EQcwlNtPxO7zI77ibS4Tharv9s~o7&c=mr2cvdfs&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FDesktop_Proskin_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Paging!saction!Page%20seen%20%5BBackground%20media%5D!srt!0!sts!388!siv!0!sol!1!)&x=kkqafs",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Desktop_Proskin_copy",
+        "startedDateTime": "1970-01-04T06:54:23.478408Z",
+        "time": 62.864,
+        "timings": {
+          "send": 3.143,
+          "wait": 25.146,
+          "receive": 34.575
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cvcey%3AUYjoCxQwt24d_~uY0HsguFkGbaJPAn73&s=0%3Amr2cvcey%3AVNDJN20jzhH71i42tUJxHe2CbwgoUgSa&v=0%3ANmD2EQcwlNtPxO7zI77ibS4Tharv9s~o&t=eventParameters&a=uaaovLbMdHQp&e=0%3ANmD2EQcwlNtPxO7zI77ibS4Tharv9s~o8&c=mr2cvdfs&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FDesktop_Proskin_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20revealed!srt!0!sts!518!siv!0!sol!1!)&x=-4jdnnb",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      }
+    ]
+  }
+}

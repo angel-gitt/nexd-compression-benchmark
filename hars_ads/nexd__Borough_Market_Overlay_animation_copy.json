@@ -1,0 +1,457 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "crawl_ads_cdp",
+      "version": "2.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-07-01T17:31:20.470873Z",
+        "id": "Borough_Market_Overlay_animation_copy",
+        "title": "Borough_Market_Overlay_animation_copy",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "Borough_Market_Overlay_animation_copy",
+        "startedDateTime": "1970-01-04T06:50:50.897731Z",
+        "time": 143.308,
+        "timings": {
+          "send": 5.0,
+          "wait": 57.323,
+          "receive": 80.985
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/851oQftfLqvx/adtag.js?pxf=XwFeVNbf3B2qnMs8&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_502}",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 193819,
+            "mimeType": "application/javascript",
+            "compression": 134181
+          },
+          "bodySize": 59638,
+          "decodedBodySize": 193819,
+          "transferSize": 59638,
+          "_transferSize": 59638,
+          "_decodedBodySize": 193819,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Borough_Market_Overlay_animation_copy",
+        "startedDateTime": "1970-01-04T06:50:51.045945Z",
+        "time": 87.388,
+        "timings": {
+          "send": 4.369,
+          "wait": 34.955,
+          "receive": 48.063
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tracking.js?ad=851oQftfLqvx",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 8385,
+            "mimeType": "application/javascript",
+            "compression": 4243
+          },
+          "bodySize": 4142,
+          "decodedBodySize": 8385,
+          "transferSize": 4142,
+          "_transferSize": 4142,
+          "_decodedBodySize": 8385,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Borough_Market_Overlay_animation_copy",
+        "startedDateTime": "1970-01-04T06:50:51.052958Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tr5.html",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Borough_Market_Overlay_animation_copy",
+        "startedDateTime": "1970-01-04T06:50:51.051759Z",
+        "time": 115.709,
+        "timings": {
+          "send": 5.0,
+          "wait": 46.284,
+          "receive": 64.425
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/851oQftfLqvx/adcanvas.min.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 183094,
+            "mimeType": "application/javascript",
+            "compression": 130428
+          },
+          "bodySize": 52666,
+          "decodedBodySize": 183094,
+          "transferSize": 52666,
+          "_transferSize": 52666,
+          "_decodedBodySize": 183094,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Borough_Market_Overlay_animation_copy",
+        "startedDateTime": "1970-01-04T06:50:51.051918Z",
+        "time": 127.124,
+        "timings": {
+          "send": 5.0,
+          "wait": 50.85,
+          "receive": 71.274
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/851oQftfLqvx/XwFeVNbf3B2qnMs8/pack.acz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 185814,
+            "mimeType": "application/zip"
+          },
+          "bodySize": 185814,
+          "decodedBodySize": 185814,
+          "transferSize": 185814,
+          "_transferSize": 185814,
+          "_decodedBodySize": 185814,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Borough_Market_Overlay_animation_copy",
+        "startedDateTime": "1970-01-04T06:50:51.053539Z",
+        "time": 111.091,
+        "timings": {
+          "send": 5.0,
+          "wait": 44.436,
+          "receive": 61.655
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/851oQftfLqvx/splash.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 12601,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 12601,
+          "decodedBodySize": 12601,
+          "transferSize": 12601,
+          "_transferSize": 12601,
+          "_decodedBodySize": 12601,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Borough_Market_Overlay_animation_copy",
+        "startedDateTime": "1970-01-04T06:50:51.137748Z",
+        "time": 80.164,
+        "timings": {
+          "send": 4.008,
+          "wait": 32.066,
+          "receive": 44.09
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cqtl9%3AaERG33WaBpG2_IzcqQ7Euu_PL0y_iYeN&s=0%3Amr2cqtl9%3AjRmbVVjtppSnBNHh3zvdZilYtD7CSOqq&v=0%3AirDF2SH9Z3B77MFuKdUA5lxjgUbF0NnD&t=pageView&a=851oQftfLqvx&e=0%3AirDF2SH9Z3B77MFuKdUA5lxjgUbF0NnD0&c=mr2cqtlc&n=t&f=t&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBorough_Market_Overlay_animation_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&x=l8am6y",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Borough_Market_Overlay_animation_copy",
+        "startedDateTime": "1970-01-04T06:50:51.145267Z",
+        "time": 72.592,
+        "timings": {
+          "send": 3.63,
+          "wait": 29.037,
+          "receive": 39.926
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cqtl9%3AaERG33WaBpG2_IzcqQ7Euu_PL0y_iYeN&s=0%3Amr2cqtl9%3AjRmbVVjtppSnBNHh3zvdZilYtD7CSOqq&v=0%3AirDF2SH9Z3B77MFuKdUA5lxjgUbF0NnD&t=eventParameters&a=851oQftfLqvx&e=0%3AirDF2SH9Z3B77MFuKdUA5lxjgUbF0NnD1&c=mr2cqtlk&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBorough_Market_Overlay_animation_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Billable%20impression!srt!0!sts!0!siv!0!sol!1!)&x=-i7zrte",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Borough_Market_Overlay_animation_copy",
+        "startedDateTime": "1970-01-04T06:50:51.204609Z",
+        "time": 46.793,
+        "timings": {
+          "send": 2.34,
+          "wait": 18.717,
+          "receive": 25.736
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cqtl9%3AaERG33WaBpG2_IzcqQ7Euu_PL0y_iYeN&s=0%3Amr2cqtl9%3AjRmbVVjtppSnBNHh3zvdZilYtD7CSOqq&v=0%3AirDF2SH9Z3B77MFuKdUA5lxjgUbF0NnD&t=eventParameters&a=851oQftfLqvx&e=0%3AirDF2SH9Z3B77MFuKdUA5lxjgUbF0NnD2&c=mr2cqtn7&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBorough_Market_Overlay_animation_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Loaded!srt!0!sts!136!siv!0!sol!1!)&x=1nxy56",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Borough_Market_Overlay_animation_copy",
+        "startedDateTime": "1970-01-04T06:50:51.204736Z",
+        "time": 48.916,
+        "timings": {
+          "send": 2.446,
+          "wait": 19.566,
+          "receive": 26.904
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cqtl9%3AaERG33WaBpG2_IzcqQ7Euu_PL0y_iYeN&s=0%3Amr2cqtl9%3AjRmbVVjtppSnBNHh3zvdZilYtD7CSOqq&v=0%3AirDF2SH9Z3B77MFuKdUA5lxjgUbF0NnD&t=eventParameters&a=851oQftfLqvx&e=0%3AirDF2SH9Z3B77MFuKdUA5lxjgUbF0NnD3&c=mr2cqtn8&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBorough_Market_Overlay_animation_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Meta!saction!safeFrame%20not%20detected!srt!0!sts!136!siv!0!sol!1!)&x=-3fsyem",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Borough_Market_Overlay_animation_copy",
+        "startedDateTime": "1970-01-04T06:50:51.204811Z",
+        "time": 50.841,
+        "timings": {
+          "send": 2.542,
+          "wait": 20.336,
+          "receive": 27.963
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cqtl9%3AaERG33WaBpG2_IzcqQ7Euu_PL0y_iYeN&s=0%3Amr2cqtl9%3AjRmbVVjtppSnBNHh3zvdZilYtD7CSOqq&v=0%3AirDF2SH9Z3B77MFuKdUA5lxjgUbF0NnD&t=eventParameters&a=851oQftfLqvx&e=0%3AirDF2SH9Z3B77MFuKdUA5lxjgUbF0NnD4&c=mr2cqtn8&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBorough_Market_Overlay_animation_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Started!srt!0!sts!136!siv!0!sol!1!)&x=m28dpx",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Borough_Market_Overlay_animation_copy",
+        "startedDateTime": "1970-01-04T06:50:51.207546Z",
+        "time": 49.679,
+        "timings": {
+          "send": 2.484,
+          "wait": 19.872,
+          "receive": 27.323
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cqtl9%3AaERG33WaBpG2_IzcqQ7Euu_PL0y_iYeN&s=0%3Amr2cqtl9%3AjRmbVVjtppSnBNHh3zvdZilYtD7CSOqq&v=0%3AirDF2SH9Z3B77MFuKdUA5lxjgUbF0NnD&t=eventParameters&a=851oQftfLqvx&e=0%3AirDF2SH9Z3B77MFuKdUA5lxjgUbF0NnD5&c=mr2cqtna&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBorough_Market_Overlay_animation_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Rendered!srt!0!sts!162!siv!0!sol!1!)&x=7bmxnf",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Borough_Market_Overlay_animation_copy",
+        "startedDateTime": "1970-01-04T06:50:53.142147Z",
+        "time": 50.618,
+        "timings": {
+          "send": 2.531,
+          "wait": 20.247,
+          "receive": 27.84
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cqtl9%3AaERG33WaBpG2_IzcqQ7Euu_PL0y_iYeN&s=0%3Amr2cqtl9%3AjRmbVVjtppSnBNHh3zvdZilYtD7CSOqq&v=0%3AirDF2SH9Z3B77MFuKdUA5lxjgUbF0NnD&t=eventParameters&a=851oQftfLqvx&e=0%3AirDF2SH9Z3B77MFuKdUA5lxjgUbF0NnD6&c=mr2cqv51&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBorough_Market_Overlay_animation_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20is%20in%20view!srt!0!sts!2099!siv!1!sol!1!)&x=-fdgliv",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Borough_Market_Overlay_animation_copy",
+        "startedDateTime": "1970-01-04T06:50:53.142348Z",
+        "time": 56.095,
+        "timings": {
+          "send": 2.805,
+          "wait": 22.438,
+          "receive": 30.852
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cqtl9%3AaERG33WaBpG2_IzcqQ7Euu_PL0y_iYeN&s=0%3Amr2cqtl9%3AjRmbVVjtppSnBNHh3zvdZilYtD7CSOqq&v=0%3AirDF2SH9Z3B77MFuKdUA5lxjgUbF0NnD&t=eventParameters&a=851oQftfLqvx&e=0%3AirDF2SH9Z3B77MFuKdUA5lxjgUbF0NnD7&c=mr2cqv51&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBorough_Market_Overlay_animation_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Paging!saction!Page%20seen%20%5BMain%20media%5D!srt!0!sts!152!siv!0!sol!1!)&x=-s2dsx9",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Borough_Market_Overlay_animation_copy",
+        "startedDateTime": "1970-01-04T06:50:53.142443Z",
+        "time": 50.392,
+        "timings": {
+          "send": 2.52,
+          "wait": 20.157,
+          "receive": 27.716
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cqtl9%3AaERG33WaBpG2_IzcqQ7Euu_PL0y_iYeN&s=0%3Amr2cqtl9%3AjRmbVVjtppSnBNHh3zvdZilYtD7CSOqq&v=0%3AirDF2SH9Z3B77MFuKdUA5lxjgUbF0NnD&t=eventParameters&a=851oQftfLqvx&e=0%3AirDF2SH9Z3B77MFuKdUA5lxjgUbF0NnD8&c=mr2cqv51&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBorough_Market_Overlay_animation_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20revealed!srt!0!sts!286!siv!0!sol!1!)&x=85vecl",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      }
+    ]
+  }
+}

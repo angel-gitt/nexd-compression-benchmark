@@ -1,0 +1,486 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "crawl_ads_cdp",
+      "version": "2.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-07-01T17:45:21.195324Z",
+        "id": "Hermes_Expandable_The_Sun_Infeed_fullscreen_Interstitial_copy",
+        "title": "Hermes_Expandable_The_Sun_Infeed_fullscreen_Interstitial_copy",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "Hermes_Expandable_The_Sun_Infeed_fullscreen_Interstitial_copy",
+        "startedDateTime": "1970-01-04T07:04:51.555204Z",
+        "time": 181.068,
+        "timings": {
+          "send": 5.0,
+          "wait": 72.427,
+          "receive": 103.641
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/fO2aAsIRLyno/adtag.js?pxf=ER4b7qIMIqocDZHv&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_502}",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 191810,
+            "mimeType": "application/javascript",
+            "compression": 131948
+          },
+          "bodySize": 59862,
+          "decodedBodySize": 191810,
+          "transferSize": 59862,
+          "_transferSize": 59862,
+          "_decodedBodySize": 191810,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Hermes_Expandable_The_Sun_Infeed_fullscreen_Interstitial_copy",
+        "startedDateTime": "1970-01-04T07:04:51.743813Z",
+        "time": 80.715,
+        "timings": {
+          "send": 4.036,
+          "wait": 32.286,
+          "receive": 44.393
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tracking.js?ad=fO2aAsIRLyno",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 8385,
+            "mimeType": "application/javascript",
+            "compression": 4363
+          },
+          "bodySize": 4022,
+          "decodedBodySize": 8385,
+          "transferSize": 4022,
+          "_transferSize": 4022,
+          "_decodedBodySize": 8385,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Hermes_Expandable_The_Sun_Infeed_fullscreen_Interstitial_copy",
+        "startedDateTime": "1970-01-04T07:04:51.751076Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tr5.html",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Hermes_Expandable_The_Sun_Infeed_fullscreen_Interstitial_copy",
+        "startedDateTime": "1970-01-04T07:04:51.750648Z",
+        "time": 116.687,
+        "timings": {
+          "send": 5.0,
+          "wait": 46.675,
+          "receive": 65.012
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/fO2aAsIRLyno/adcanvas.min.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 197325,
+            "mimeType": "application/javascript",
+            "compression": 140371
+          },
+          "bodySize": 56954,
+          "decodedBodySize": 197325,
+          "transferSize": 56954,
+          "_transferSize": 56954,
+          "_decodedBodySize": 197325,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Hermes_Expandable_The_Sun_Infeed_fullscreen_Interstitial_copy",
+        "startedDateTime": "1970-01-04T07:04:51.751675Z",
+        "time": 102.71,
+        "timings": {
+          "send": 5.0,
+          "wait": 41.084,
+          "receive": 56.626
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/fO2aAsIRLyno/ER4b7qIMIqocDZHv/pack.acz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 15136,
+            "mimeType": "application/zip"
+          },
+          "bodySize": 15136,
+          "decodedBodySize": 15136,
+          "transferSize": 15136,
+          "_transferSize": 15136,
+          "_decodedBodySize": 15136,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Hermes_Expandable_The_Sun_Infeed_fullscreen_Interstitial_copy",
+        "startedDateTime": "1970-01-04T07:04:51.751775Z",
+        "time": 147.454,
+        "timings": {
+          "send": 5.0,
+          "wait": 58.982,
+          "receive": 83.472
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/fO2aAsIRLyno/rv4USYbfmgbvWFO7/pack.acz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 361389,
+            "mimeType": "application/zip"
+          },
+          "bodySize": 361389,
+          "decodedBodySize": 361389,
+          "transferSize": 361389,
+          "_transferSize": 361389,
+          "_decodedBodySize": 361389,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Hermes_Expandable_The_Sun_Infeed_fullscreen_Interstitial_copy",
+        "startedDateTime": "1970-01-04T07:04:51.756692Z",
+        "time": 82.07,
+        "timings": {
+          "send": 4.103,
+          "wait": 32.828,
+          "receive": 45.138
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/fO2aAsIRLyno/splash.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 6241,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 6241,
+          "decodedBodySize": 6241,
+          "transferSize": 6241,
+          "_transferSize": 6241,
+          "_decodedBodySize": 6241,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Hermes_Expandable_The_Sun_Infeed_fullscreen_Interstitial_copy",
+        "startedDateTime": "1970-01-04T07:04:51.831657Z",
+        "time": 86.144,
+        "timings": {
+          "send": 4.307,
+          "wait": 34.458,
+          "receive": 47.379
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2d8u9e%3AjzGuQhKEskeICPsdlxrA_JjuCZ0Puzit&s=0%3Amr2d8u9e%3AJsamnrnMVzvFQw12nZbgaX8hgOMlb0wd&v=0%3A7zFnAxu0zutBEMe6HA9_BCY_e5I8NiJc&t=pageView&a=fO2aAsIRLyno&e=0%3A7zFnAxu0zutBEMe6HA9_BCY_e5I8NiJc0&c=mr2d8u9i&n=t&f=t&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FHermes_Expandable_The_Sun_Infeed_fullscreen_Interstitial_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&x=jhu74",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 175,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 175,
+          "decodedBodySize": 175,
+          "transferSize": 175,
+          "_transferSize": 175,
+          "_decodedBodySize": 175,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Hermes_Expandable_The_Sun_Infeed_fullscreen_Interstitial_copy",
+        "startedDateTime": "1970-01-04T07:04:51.836363Z",
+        "time": 83.883,
+        "timings": {
+          "send": 4.194,
+          "wait": 33.553,
+          "receive": 46.136
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2d8u9e%3AjzGuQhKEskeICPsdlxrA_JjuCZ0Puzit&s=0%3Amr2d8u9e%3AJsamnrnMVzvFQw12nZbgaX8hgOMlb0wd&v=0%3A7zFnAxu0zutBEMe6HA9_BCY_e5I8NiJc&t=eventParameters&a=fO2aAsIRLyno&e=0%3A7zFnAxu0zutBEMe6HA9_BCY_e5I8NiJc1&c=mr2d8u9o&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FHermes_Expandable_The_Sun_Infeed_fullscreen_Interstitial_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Billable%20impression!srt!0!sts!0!siv!0!sol!1!)&x=z3g0x2",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 93,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 93,
+          "decodedBodySize": 93,
+          "transferSize": 93,
+          "_transferSize": 93,
+          "_decodedBodySize": 93,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Hermes_Expandable_The_Sun_Infeed_fullscreen_Interstitial_copy",
+        "startedDateTime": "1970-01-04T07:04:51.898281Z",
+        "time": 64.411,
+        "timings": {
+          "send": 3.221,
+          "wait": 25.764,
+          "receive": 35.426
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2d8u9e%3AjzGuQhKEskeICPsdlxrA_JjuCZ0Puzit&s=0%3Amr2d8u9e%3AJsamnrnMVzvFQw12nZbgaX8hgOMlb0wd&v=0%3A7zFnAxu0zutBEMe6HA9_BCY_e5I8NiJc&t=eventParameters&a=fO2aAsIRLyno&e=0%3A7zFnAxu0zutBEMe6HA9_BCY_e5I8NiJc2&c=mr2d8ube&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FHermes_Expandable_The_Sun_Infeed_fullscreen_Interstitial_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Loaded!srt!0!sts!130!siv!0!sol!1!)&x=-38pwuh",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 93,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 93,
+          "decodedBodySize": 93,
+          "transferSize": 93,
+          "_transferSize": 93,
+          "_decodedBodySize": 93,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Hermes_Expandable_The_Sun_Infeed_fullscreen_Interstitial_copy",
+        "startedDateTime": "1970-01-04T07:04:51.898601Z",
+        "time": 66.131,
+        "timings": {
+          "send": 3.307,
+          "wait": 26.452,
+          "receive": 36.372
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2d8u9e%3AjzGuQhKEskeICPsdlxrA_JjuCZ0Puzit&s=0%3Amr2d8u9e%3AJsamnrnMVzvFQw12nZbgaX8hgOMlb0wd&v=0%3A7zFnAxu0zutBEMe6HA9_BCY_e5I8NiJc&t=eventParameters&a=fO2aAsIRLyno&e=0%3A7zFnAxu0zutBEMe6HA9_BCY_e5I8NiJc3&c=mr2d8ubf&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FHermes_Expandable_The_Sun_Infeed_fullscreen_Interstitial_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Meta!saction!safeFrame%20not%20detected!srt!0!sts!130!siv!0!sol!1!)&x=5zlbrn",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 93,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 93,
+          "decodedBodySize": 93,
+          "transferSize": 93,
+          "_transferSize": 93,
+          "_decodedBodySize": 93,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Hermes_Expandable_The_Sun_Infeed_fullscreen_Interstitial_copy",
+        "startedDateTime": "1970-01-04T07:04:51.898722Z",
+        "time": 64.106,
+        "timings": {
+          "send": 3.205,
+          "wait": 25.642,
+          "receive": 35.258
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2d8u9e%3AjzGuQhKEskeICPsdlxrA_JjuCZ0Puzit&s=0%3Amr2d8u9e%3AJsamnrnMVzvFQw12nZbgaX8hgOMlb0wd&v=0%3A7zFnAxu0zutBEMe6HA9_BCY_e5I8NiJc&t=eventParameters&a=fO2aAsIRLyno&e=0%3A7zFnAxu0zutBEMe6HA9_BCY_e5I8NiJc4&c=mr2d8ubf&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FHermes_Expandable_The_Sun_Infeed_fullscreen_Interstitial_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Started!srt!0!sts!130!siv!0!sol!1!)&x=-fyfkav",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 93,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 93,
+          "decodedBodySize": 93,
+          "transferSize": 93,
+          "_transferSize": 93,
+          "_decodedBodySize": 93,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Hermes_Expandable_The_Sun_Infeed_fullscreen_Interstitial_copy",
+        "startedDateTime": "1970-01-04T07:04:51.900191Z",
+        "time": 62.726,
+        "timings": {
+          "send": 3.136,
+          "wait": 25.09,
+          "receive": 34.499
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2d8u9e%3AjzGuQhKEskeICPsdlxrA_JjuCZ0Puzit&s=0%3Amr2d8u9e%3AJsamnrnMVzvFQw12nZbgaX8hgOMlb0wd&v=0%3A7zFnAxu0zutBEMe6HA9_BCY_e5I8NiJc&t=eventParameters&a=fO2aAsIRLyno&e=0%3A7zFnAxu0zutBEMe6HA9_BCY_e5I8NiJc5&c=mr2d8ubg&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FHermes_Expandable_The_Sun_Infeed_fullscreen_Interstitial_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Rendered!srt!0!sts!159!siv!0!sol!1!)&x=-fzwi0c",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 93,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 93,
+          "decodedBodySize": 93,
+          "transferSize": 93,
+          "_transferSize": 93,
+          "_decodedBodySize": 93,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Hermes_Expandable_The_Sun_Infeed_fullscreen_Interstitial_copy",
+        "startedDateTime": "1970-01-04T07:04:53.836480Z",
+        "time": 56.84,
+        "timings": {
+          "send": 2.842,
+          "wait": 22.736,
+          "receive": 31.262
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2d8u9e%3AjzGuQhKEskeICPsdlxrA_JjuCZ0Puzit&s=0%3Amr2d8u9e%3AJsamnrnMVzvFQw12nZbgaX8hgOMlb0wd&v=0%3A7zFnAxu0zutBEMe6HA9_BCY_e5I8NiJc&t=eventParameters&a=fO2aAsIRLyno&e=0%3A7zFnAxu0zutBEMe6HA9_BCY_e5I8NiJc6&c=mr2d8vt8&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FHermes_Expandable_The_Sun_Infeed_fullscreen_Interstitial_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20is%20in%20view!srt!0!sts!2096!siv!1!sol!1!)&x=v2t5c4",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Hermes_Expandable_The_Sun_Infeed_fullscreen_Interstitial_copy",
+        "startedDateTime": "1970-01-04T07:04:53.836701Z",
+        "time": 56.559,
+        "timings": {
+          "send": 2.828,
+          "wait": 22.624,
+          "receive": 31.107
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2d8u9e%3AjzGuQhKEskeICPsdlxrA_JjuCZ0Puzit&s=0%3Amr2d8u9e%3AJsamnrnMVzvFQw12nZbgaX8hgOMlb0wd&v=0%3A7zFnAxu0zutBEMe6HA9_BCY_e5I8NiJc&t=eventParameters&a=fO2aAsIRLyno&e=0%3A7zFnAxu0zutBEMe6HA9_BCY_e5I8NiJc7&c=mr2d8vt9&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FHermes_Expandable_The_Sun_Infeed_fullscreen_Interstitial_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Paging!saction!Page%20seen%20%5BMain%20media%5D!srt!0!sts!157!siv!0!sol!1!)&x=gnxyd4",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 281,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 281,
+          "decodedBodySize": 281,
+          "transferSize": 281,
+          "_transferSize": 281,
+          "_decodedBodySize": 281,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Hermes_Expandable_The_Sun_Infeed_fullscreen_Interstitial_copy",
+        "startedDateTime": "1970-01-04T07:04:53.836814Z",
+        "time": 56.555,
+        "timings": {
+          "send": 2.828,
+          "wait": 22.622,
+          "receive": 31.105
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2d8u9e%3AjzGuQhKEskeICPsdlxrA_JjuCZ0Puzit&s=0%3Amr2d8u9e%3AJsamnrnMVzvFQw12nZbgaX8hgOMlb0wd&v=0%3A7zFnAxu0zutBEMe6HA9_BCY_e5I8NiJc&t=eventParameters&a=fO2aAsIRLyno&e=0%3A7zFnAxu0zutBEMe6HA9_BCY_e5I8NiJc8&c=mr2d8vt9&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FHermes_Expandable_The_Sun_Infeed_fullscreen_Interstitial_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!%5Bs1%5DAd%20revealed!srt!0!sts!280!siv!0!sol!1!)&x=f68c59",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      }
+    ]
+  }
+}

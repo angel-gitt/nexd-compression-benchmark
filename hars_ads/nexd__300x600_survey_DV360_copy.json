@@ -1,0 +1,457 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "crawl_ads_cdp",
+      "version": "2.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-07-01T17:18:30.996012Z",
+        "id": "300x600_survey_DV360_copy",
+        "title": "300x600_survey_DV360_copy",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "300x600_survey_DV360_copy",
+        "startedDateTime": "1970-01-04T06:38:01.224301Z",
+        "time": 169.69,
+        "timings": {
+          "send": 5.0,
+          "wait": 67.876,
+          "receive": 96.814
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/GL0kkwDDD5LM/adtag.js?pxf=mSv1Xcv0DeCTm0N7&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_502}",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 203871,
+            "mimeType": "application/javascript",
+            "compression": 142702
+          },
+          "bodySize": 61169,
+          "decodedBodySize": 203871,
+          "transferSize": 61169,
+          "_transferSize": 61169,
+          "_decodedBodySize": 203871,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "300x600_survey_DV360_copy",
+        "startedDateTime": "1970-01-04T06:38:01.399728Z",
+        "time": 187.033,
+        "timings": {
+          "send": 5.0,
+          "wait": 74.813,
+          "receive": 107.22
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tracking.js?ad=GL0kkwDDD5LM",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 8385,
+            "mimeType": "application/javascript",
+            "compression": 4223
+          },
+          "bodySize": 4162,
+          "decodedBodySize": 8385,
+          "transferSize": 4162,
+          "_transferSize": 4162,
+          "_decodedBodySize": 8385,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "300x600_survey_DV360_copy",
+        "startedDateTime": "1970-01-04T06:38:01.407561Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tr5.html",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "300x600_survey_DV360_copy",
+        "startedDateTime": "1970-01-04T06:38:01.406386Z",
+        "time": 190.664,
+        "timings": {
+          "send": 5.0,
+          "wait": 76.266,
+          "receive": 109.398
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/GL0kkwDDD5LM/adcanvas.min.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 222046,
+            "mimeType": "application/javascript",
+            "compression": 159966
+          },
+          "bodySize": 62080,
+          "decodedBodySize": 222046,
+          "transferSize": 62080,
+          "_transferSize": 62080,
+          "_decodedBodySize": 222046,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "300x600_survey_DV360_copy",
+        "startedDateTime": "1970-01-04T06:38:01.407098Z",
+        "time": 170.588,
+        "timings": {
+          "send": 5.0,
+          "wait": 68.235,
+          "receive": 97.353
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/GL0kkwDDD5LM/mSv1Xcv0DeCTm0N7/pack.acz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 276074,
+            "mimeType": "application/zip"
+          },
+          "bodySize": 276074,
+          "decodedBodySize": 276074,
+          "transferSize": 276074,
+          "_transferSize": 276074,
+          "_decodedBodySize": 276074,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "300x600_survey_DV360_copy",
+        "startedDateTime": "1970-01-04T06:38:01.411243Z",
+        "time": 108.223,
+        "timings": {
+          "send": 5.0,
+          "wait": 43.289,
+          "receive": 59.934
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/GL0kkwDDD5LM/splash.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 26380,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 26380,
+          "decodedBodySize": 26380,
+          "transferSize": 26380,
+          "_transferSize": 26380,
+          "_decodedBodySize": 26380,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "300x600_survey_DV360_copy",
+        "startedDateTime": "1970-01-04T06:38:01.593776Z",
+        "time": 148.81,
+        "timings": {
+          "send": 5.0,
+          "wait": 59.524,
+          "receive": 84.286
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cabt1%3AajGF3YW15JdV6KHvv4nB7Mdea4AApWmd&s=0%3Amr2cabt1%3AJ94YkdXfVJZiKPPog1hsi0slMyeM6FZU&v=0%3AqK7WoFrmByOFfnBTLMjezg15XHmF_kjD&t=pageView&a=GL0kkwDDD5LM&e=0%3AqK7WoFrmByOFfnBTLMjezg15XHmF_kjD0&c=mr2cabt5&n=t&f=t&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F300x600_survey_DV360_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&x=-kcfatp",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "300x600_survey_DV360_copy",
+        "startedDateTime": "1970-01-04T06:38:01.700770Z",
+        "time": 48.078,
+        "timings": {
+          "send": 2.404,
+          "wait": 19.231,
+          "receive": 26.443
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cabt1%3AajGF3YW15JdV6KHvv4nB7Mdea4AApWmd&s=0%3Amr2cabt1%3AJ94YkdXfVJZiKPPog1hsi0slMyeM6FZU&v=0%3AqK7WoFrmByOFfnBTLMjezg15XHmF_kjD&t=eventParameters&a=GL0kkwDDD5LM&e=0%3AqK7WoFrmByOFfnBTLMjezg15XHmF_kjD1&c=mr2cabw6&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F300x600_survey_DV360_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Billable%20impression!srt!0!sts!0!siv!0!sol!1!)&x=r38nb1",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "300x600_survey_DV360_copy",
+        "startedDateTime": "1970-01-04T06:38:01.702717Z",
+        "time": 46.203,
+        "timings": {
+          "send": 2.31,
+          "wait": 18.481,
+          "receive": 25.412
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cabt1%3AajGF3YW15JdV6KHvv4nB7Mdea4AApWmd&s=0%3Amr2cabt1%3AJ94YkdXfVJZiKPPog1hsi0slMyeM6FZU&v=0%3AqK7WoFrmByOFfnBTLMjezg15XHmF_kjD&t=eventParameters&a=GL0kkwDDD5LM&e=0%3AqK7WoFrmByOFfnBTLMjezg15XHmF_kjD2&c=mr2cabw8&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F300x600_survey_DV360_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Loaded!srt!0!sts!204!siv!0!sol!1!)&x=-422ri4",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "300x600_survey_DV360_copy",
+        "startedDateTime": "1970-01-04T06:38:01.702854Z",
+        "time": 46.035,
+        "timings": {
+          "send": 2.302,
+          "wait": 18.414,
+          "receive": 25.319
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cabt1%3AajGF3YW15JdV6KHvv4nB7Mdea4AApWmd&s=0%3Amr2cabt1%3AJ94YkdXfVJZiKPPog1hsi0slMyeM6FZU&v=0%3AqK7WoFrmByOFfnBTLMjezg15XHmF_kjD&t=eventParameters&a=GL0kkwDDD5LM&e=0%3AqK7WoFrmByOFfnBTLMjezg15XHmF_kjD3&c=mr2cabw8&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F300x600_survey_DV360_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Meta!saction!safeFrame%20not%20detected!srt!0!sts!204!siv!0!sol!1!)&x=-vfe2ff",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "300x600_survey_DV360_copy",
+        "startedDateTime": "1970-01-04T06:38:01.702940Z",
+        "time": 46.73,
+        "timings": {
+          "send": 2.337,
+          "wait": 18.692,
+          "receive": 25.702
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cabt1%3AajGF3YW15JdV6KHvv4nB7Mdea4AApWmd&s=0%3Amr2cabt1%3AJ94YkdXfVJZiKPPog1hsi0slMyeM6FZU&v=0%3AqK7WoFrmByOFfnBTLMjezg15XHmF_kjD&t=eventParameters&a=GL0kkwDDD5LM&e=0%3AqK7WoFrmByOFfnBTLMjezg15XHmF_kjD4&c=mr2cabw8&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F300x600_survey_DV360_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Started!srt!0!sts!204!siv!0!sol!1!)&x=-8yfo80",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "300x600_survey_DV360_copy",
+        "startedDateTime": "1970-01-04T06:38:01.706554Z",
+        "time": 47.771,
+        "timings": {
+          "send": 2.389,
+          "wait": 19.108,
+          "receive": 26.274
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cabt1%3AajGF3YW15JdV6KHvv4nB7Mdea4AApWmd&s=0%3Amr2cabt1%3AJ94YkdXfVJZiKPPog1hsi0slMyeM6FZU&v=0%3AqK7WoFrmByOFfnBTLMjezg15XHmF_kjD&t=eventParameters&a=GL0kkwDDD5LM&e=0%3AqK7WoFrmByOFfnBTLMjezg15XHmF_kjD5&c=mr2cabwc&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F300x600_survey_DV360_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Rendered!srt!0!sts!306!siv!0!sol!1!)&x=-pkfrnb",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "300x600_survey_DV360_copy",
+        "startedDateTime": "1970-01-04T06:38:03.516597Z",
+        "time": 66.555,
+        "timings": {
+          "send": 3.328,
+          "wait": 26.622,
+          "receive": 36.605
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cabt1%3AajGF3YW15JdV6KHvv4nB7Mdea4AApWmd&s=0%3Amr2cabt1%3AJ94YkdXfVJZiKPPog1hsi0slMyeM6FZU&v=0%3AqK7WoFrmByOFfnBTLMjezg15XHmF_kjD&t=eventParameters&a=GL0kkwDDD5LM&e=0%3AqK7WoFrmByOFfnBTLMjezg15XHmF_kjD6&c=mr2cadam&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F300x600_survey_DV360_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20is%20in%20view!srt!1!sts!2121!siv!1!sol!1!)&x=-5ska2p",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "300x600_survey_DV360_copy",
+        "startedDateTime": "1970-01-04T06:38:03.516796Z",
+        "time": 66.416,
+        "timings": {
+          "send": 3.321,
+          "wait": 26.566,
+          "receive": 36.529
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cabt1%3AajGF3YW15JdV6KHvv4nB7Mdea4AApWmd&s=0%3Amr2cabt1%3AJ94YkdXfVJZiKPPog1hsi0slMyeM6FZU&v=0%3AqK7WoFrmByOFfnBTLMjezg15XHmF_kjD&t=eventParameters&a=GL0kkwDDD5LM&e=0%3AqK7WoFrmByOFfnBTLMjezg15XHmF_kjD7&c=mr2cadam&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F300x600_survey_DV360_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Navigation!saction!Intro!srt!0!sts!290!siv!0!sol!1!)&x=-28zzuj",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "300x600_survey_DV360_copy",
+        "startedDateTime": "1970-01-04T06:38:03.516902Z",
+        "time": 66.353,
+        "timings": {
+          "send": 3.318,
+          "wait": 26.541,
+          "receive": 36.494
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cabt1%3AajGF3YW15JdV6KHvv4nB7Mdea4AApWmd&s=0%3Amr2cabt1%3AJ94YkdXfVJZiKPPog1hsi0slMyeM6FZU&v=0%3AqK7WoFrmByOFfnBTLMjezg15XHmF_kjD&t=eventParameters&a=GL0kkwDDD5LM&e=0%3AqK7WoFrmByOFfnBTLMjezg15XHmF_kjD8&c=mr2cadam&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F300x600_survey_DV360_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20revealed!srt!0!sts!426!siv!0!sol!1!)&x=-5sq64m",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      }
+    ]
+  }
+}

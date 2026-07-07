@@ -1,0 +1,428 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "crawl_ads_cdp",
+      "version": "2.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-07-01T17:44:10.935793Z",
+        "id": "HYPR_TapToRoll_Pepsi_copy",
+        "title": "HYPR_TapToRoll_Pepsi_copy",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "HYPR_TapToRoll_Pepsi_copy",
+        "startedDateTime": "1970-01-04T07:03:41.312538Z",
+        "time": 146.072,
+        "timings": {
+          "send": 5.0,
+          "wait": 58.429,
+          "receive": 82.643
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/nLRpcBqx8VHC/adtag.js?pxf=ZWsWMAvehL2rfkEA&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_502}",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 187349,
+            "mimeType": "application/javascript",
+            "compression": 128081
+          },
+          "bodySize": 59268,
+          "decodedBodySize": 187349,
+          "transferSize": 59268,
+          "_transferSize": 59268,
+          "_decodedBodySize": 187349,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_TapToRoll_Pepsi_copy",
+        "startedDateTime": "1970-01-04T07:03:41.463179Z",
+        "time": 151.049,
+        "timings": {
+          "send": 5.0,
+          "wait": 60.42,
+          "receive": 85.629
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tracking.js?ad=nLRpcBqx8VHC",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 8385,
+            "mimeType": "application/javascript",
+            "compression": 4226
+          },
+          "bodySize": 4159,
+          "decodedBodySize": 8385,
+          "transferSize": 4159,
+          "_transferSize": 4159,
+          "_decodedBodySize": 8385,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_TapToRoll_Pepsi_copy",
+        "startedDateTime": "1970-01-04T07:03:41.470329Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tr5.html",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_TapToRoll_Pepsi_copy",
+        "startedDateTime": "1970-01-04T07:03:41.468738Z",
+        "time": 114.433,
+        "timings": {
+          "send": 5.0,
+          "wait": 45.773,
+          "receive": 63.66
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/nLRpcBqx8VHC/adcanvas.min.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 193094,
+            "mimeType": "application/javascript",
+            "compression": 136183
+          },
+          "bodySize": 56911,
+          "decodedBodySize": 193094,
+          "transferSize": 56911,
+          "_transferSize": 56911,
+          "_decodedBodySize": 193094,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_TapToRoll_Pepsi_copy",
+        "startedDateTime": "1970-01-04T07:03:41.468899Z",
+        "time": 245.746,
+        "timings": {
+          "send": 5.0,
+          "wait": 98.298,
+          "receive": 142.448
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/nLRpcBqx8VHC/ZWsWMAvehL2rfkEA/pack.acz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 197380,
+            "mimeType": "application/zip"
+          },
+          "bodySize": 197380,
+          "decodedBodySize": 197380,
+          "transferSize": 197380,
+          "_transferSize": 197380,
+          "_decodedBodySize": 197380,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_TapToRoll_Pepsi_copy",
+        "startedDateTime": "1970-01-04T07:03:41.470506Z",
+        "time": 121.28,
+        "timings": {
+          "send": 5.0,
+          "wait": 48.512,
+          "receive": 67.768
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/nLRpcBqx8VHC/splash.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 17398,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 17398,
+          "decodedBodySize": 17398,
+          "transferSize": 17398,
+          "_transferSize": 17398,
+          "_decodedBodySize": 17398,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_TapToRoll_Pepsi_copy",
+        "startedDateTime": "1970-01-04T07:03:41.617929Z",
+        "time": 61.567,
+        "timings": {
+          "send": 3.078,
+          "wait": 24.627,
+          "receive": 33.862
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2d7c3s%3AFfhm3zwm6pymZZEYTcV~zxLPs~huIye9&s=0%3Amr2d7c3s%3AFvMopxTa7WFTI9WRFyZCrd9wBl9F8dqO&v=0%3Axj25_TiSyvTF1ULCVkpqicvqEWhgm~hz&t=pageView&a=nLRpcBqx8VHC&e=0%3Axj25_TiSyvTF1ULCVkpqicvqEWhgm~hz0&c=mr2d7c3v&n=t&f=t&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FHYPR_TapToRoll_Pepsi_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&x=-uaynk",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_TapToRoll_Pepsi_copy",
+        "startedDateTime": "1970-01-04T07:03:41.620383Z",
+        "time": 59.23,
+        "timings": {
+          "send": 2.962,
+          "wait": 23.692,
+          "receive": 32.577
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2d7c3s%3AFfhm3zwm6pymZZEYTcV~zxLPs~huIye9&s=0%3Amr2d7c3s%3AFvMopxTa7WFTI9WRFyZCrd9wBl9F8dqO&v=0%3Axj25_TiSyvTF1ULCVkpqicvqEWhgm~hz&t=eventParameters&a=nLRpcBqx8VHC&e=0%3Axj25_TiSyvTF1ULCVkpqicvqEWhgm~hz1&c=mr2d7c3y&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FHYPR_TapToRoll_Pepsi_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Billable%20impression!srt!0!sts!0!siv!0!sol!1!)&x=-jmpvfc",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_TapToRoll_Pepsi_copy",
+        "startedDateTime": "1970-01-04T07:03:41.947339Z",
+        "time": 149.878,
+        "timings": {
+          "send": 5.0,
+          "wait": 59.951,
+          "receive": 84.927
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2d7c3s%3AFfhm3zwm6pymZZEYTcV~zxLPs~huIye9&s=0%3Amr2d7c3s%3AFvMopxTa7WFTI9WRFyZCrd9wBl9F8dqO&v=0%3Axj25_TiSyvTF1ULCVkpqicvqEWhgm~hz&t=eventParameters&a=nLRpcBqx8VHC&e=0%3Axj25_TiSyvTF1ULCVkpqicvqEWhgm~hz2&c=mr2d7cd1&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FHYPR_TapToRoll_Pepsi_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Loaded!srt!0!sts!254!siv!0!sol!1!)&x=-evrxig",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_TapToRoll_Pepsi_copy",
+        "startedDateTime": "1970-01-04T07:03:41.947470Z",
+        "time": 149.825,
+        "timings": {
+          "send": 5.0,
+          "wait": 59.93,
+          "receive": 84.895
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2d7c3s%3AFfhm3zwm6pymZZEYTcV~zxLPs~huIye9&s=0%3Amr2d7c3s%3AFvMopxTa7WFTI9WRFyZCrd9wBl9F8dqO&v=0%3Axj25_TiSyvTF1ULCVkpqicvqEWhgm~hz&t=eventParameters&a=nLRpcBqx8VHC&e=0%3Axj25_TiSyvTF1ULCVkpqicvqEWhgm~hz3&c=mr2d7cd1&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FHYPR_TapToRoll_Pepsi_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Meta!saction!safeFrame%20not%20detected!srt!0!sts!254!siv!0!sol!1!)&x=4wmw7w",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_TapToRoll_Pepsi_copy",
+        "startedDateTime": "1970-01-04T07:03:41.947548Z",
+        "time": 155.812,
+        "timings": {
+          "send": 5.0,
+          "wait": 62.325,
+          "receive": 88.487
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2d7c3s%3AFfhm3zwm6pymZZEYTcV~zxLPs~huIye9&s=0%3Amr2d7c3s%3AFvMopxTa7WFTI9WRFyZCrd9wBl9F8dqO&v=0%3Axj25_TiSyvTF1ULCVkpqicvqEWhgm~hz&t=eventParameters&a=nLRpcBqx8VHC&e=0%3Axj25_TiSyvTF1ULCVkpqicvqEWhgm~hz4&c=mr2d7cd1&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FHYPR_TapToRoll_Pepsi_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Started!srt!0!sts!254!siv!0!sol!1!)&x=-1x2qoi",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_TapToRoll_Pepsi_copy",
+        "startedDateTime": "1970-01-04T07:03:41.950986Z",
+        "time": 147.384,
+        "timings": {
+          "send": 5.0,
+          "wait": 58.954,
+          "receive": 83.43
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2d7c3s%3AFfhm3zwm6pymZZEYTcV~zxLPs~huIye9&s=0%3Amr2d7c3s%3AFvMopxTa7WFTI9WRFyZCrd9wBl9F8dqO&v=0%3Axj25_TiSyvTF1ULCVkpqicvqEWhgm~hz&t=eventParameters&a=nLRpcBqx8VHC&e=0%3Axj25_TiSyvTF1ULCVkpqicvqEWhgm~hz5&c=mr2d7cd4&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FHYPR_TapToRoll_Pepsi_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Rendered!srt!0!sts!486!siv!0!sol!1!)&x=6f74q0",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_TapToRoll_Pepsi_copy",
+        "startedDateTime": "1970-01-04T07:03:43.659787Z",
+        "time": 48.605,
+        "timings": {
+          "send": 2.43,
+          "wait": 19.442,
+          "receive": 26.733
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2d7c3s%3AFfhm3zwm6pymZZEYTcV~zxLPs~huIye9&s=0%3Amr2d7c3s%3AFvMopxTa7WFTI9WRFyZCrd9wBl9F8dqO&v=0%3Axj25_TiSyvTF1ULCVkpqicvqEWhgm~hz&t=eventParameters&a=nLRpcBqx8VHC&e=0%3Axj25_TiSyvTF1ULCVkpqicvqEWhgm~hz6&c=mr2d7dok&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FHYPR_TapToRoll_Pepsi_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20is%20in%20view!srt!0!sts!2198!siv!1!sol!1!)&x=-sz5ys4",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_TapToRoll_Pepsi_copy",
+        "startedDateTime": "1970-01-04T07:03:43.659955Z",
+        "time": 48.503,
+        "timings": {
+          "send": 2.425,
+          "wait": 19.401,
+          "receive": 26.677
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2d7c3s%3AFfhm3zwm6pymZZEYTcV~zxLPs~huIye9&s=0%3Amr2d7c3s%3AFvMopxTa7WFTI9WRFyZCrd9wBl9F8dqO&v=0%3Axj25_TiSyvTF1ULCVkpqicvqEWhgm~hz&t=eventParameters&a=nLRpcBqx8VHC&e=0%3Axj25_TiSyvTF1ULCVkpqicvqEWhgm~hz7&c=mr2d7dok&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FHYPR_TapToRoll_Pepsi_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20revealed!srt!0!sts!627!siv!0!sol!1!)&x=-nyhf3u",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      }
+    ]
+  }
+}

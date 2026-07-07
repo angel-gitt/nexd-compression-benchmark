@@ -1,0 +1,602 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "crawl_ads_cdp",
+      "version": "2.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-07-01T17:13:46.967637Z",
+        "id": "2026809_Bernini_Brand_Window_TTL_Repositioning_Tiles_Dec_2025_copy",
+        "title": "2026809_Bernini_Brand_Window_TTL_Repositioning_Tiles_Dec_2025_copy",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "2026809_Bernini_Brand_Window_TTL_Repositioning_Tiles_Dec_2025_copy",
+        "startedDateTime": "1970-01-04T06:33:16.102445Z",
+        "time": 263.094,
+        "timings": {
+          "send": 5.0,
+          "wait": 105.238,
+          "receive": 152.856
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/jxH7HHerODpa/adtag.js?pxf=kKJO1pLr6CI4H8u5&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_502}",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 196631,
+            "mimeType": "application/javascript",
+            "compression": 134511
+          },
+          "bodySize": 62120,
+          "decodedBodySize": 196631,
+          "transferSize": 62120,
+          "_transferSize": 62120,
+          "_decodedBodySize": 196631,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2026809_Bernini_Brand_Window_TTL_Repositioning_Tiles_Dec_2025_copy",
+        "startedDateTime": "1970-01-04T06:33:16.370356Z",
+        "time": 164.257,
+        "timings": {
+          "send": 5.0,
+          "wait": 65.703,
+          "receive": 93.554
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tracking.js?ad=jxH7HHerODpa",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 8385,
+            "mimeType": "application/javascript",
+            "compression": 4242
+          },
+          "bodySize": 4143,
+          "decodedBodySize": 8385,
+          "transferSize": 4143,
+          "_transferSize": 4143,
+          "_decodedBodySize": 8385,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2026809_Bernini_Brand_Window_TTL_Repositioning_Tiles_Dec_2025_copy",
+        "startedDateTime": "1970-01-04T06:33:16.377964Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tr5.html",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2026809_Bernini_Brand_Window_TTL_Repositioning_Tiles_Dec_2025_copy",
+        "startedDateTime": "1970-01-04T06:33:16.377979Z",
+        "time": 170.602,
+        "timings": {
+          "send": 5.0,
+          "wait": 68.241,
+          "receive": 97.361
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/jxH7HHerODpa/adcanvas.min.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 234274,
+            "mimeType": "application/javascript",
+            "compression": 165613
+          },
+          "bodySize": 68661,
+          "decodedBodySize": 234274,
+          "transferSize": 68661,
+          "_transferSize": 68661,
+          "_decodedBodySize": 234274,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2026809_Bernini_Brand_Window_TTL_Repositioning_Tiles_Dec_2025_copy",
+        "startedDateTime": "1970-01-04T06:33:16.378191Z",
+        "time": 269.344,
+        "timings": {
+          "send": 5.0,
+          "wait": 107.738,
+          "receive": 156.606
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/jxH7HHerODpa/kKJO1pLr6CI4H8u5/pack.acz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 73665,
+            "mimeType": "application/zip"
+          },
+          "bodySize": 73665,
+          "decodedBodySize": 73665,
+          "transferSize": 73665,
+          "_transferSize": 73665,
+          "_decodedBodySize": 73665,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2026809_Bernini_Brand_Window_TTL_Repositioning_Tiles_Dec_2025_copy",
+        "startedDateTime": "1970-01-04T06:33:16.379609Z",
+        "time": 208.946,
+        "timings": {
+          "send": 5.0,
+          "wait": 83.578,
+          "receive": 120.368
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/jxH7HHerODpa/splash.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 35192,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 35192,
+          "decodedBodySize": 35192,
+          "transferSize": 35192,
+          "_transferSize": 35192,
+          "_decodedBodySize": 35192,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2026809_Bernini_Brand_Window_TTL_Repositioning_Tiles_Dec_2025_copy",
+        "startedDateTime": "1970-01-04T06:33:16.379662Z",
+        "time": 268.189,
+        "timings": {
+          "send": 5.0,
+          "wait": 107.276,
+          "receive": 155.913
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://ad.doubleclick.net/ddm/trackimp/N709945.3322228FUTURETECHMEDIAZA/B34627737.433034992;dc_pre=CNzRz__8sZUDFcxCHQkdhegZ2Q;dc_trk_aid=626212866;dc_trk_cid=244399277;ord=1782926017563;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 67,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 67,
+          "decodedBodySize": 67,
+          "transferSize": 67,
+          "_transferSize": 67,
+          "_decodedBodySize": 67,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2026809_Bernini_Brand_Window_TTL_Repositioning_Tiles_Dec_2025_copy",
+        "startedDateTime": "1970-01-04T06:33:16.539233Z",
+        "time": 60.338,
+        "timings": {
+          "send": 3.017,
+          "wait": 24.135,
+          "receive": 33.186
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2c47us%3AWjzSxqaQhVPP06_NjLRE7VFOHu~Ysmjz&s=0%3Amr2c47us%3AS9n4uxtcP_QHM11Fm72ODbznkyEvoE9m&v=0%3Aq_lq7aBK9eh76LDgqhsDiHA2SitN9Eql&t=pageView&a=jxH7HHerODpa&e=0%3Aq_lq7aBK9eh76LDgqhsDiHA2SitN9Eql0&c=mr2c47uv&n=t&f=t&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F2026809_Bernini_Brand_Window_TTL_Repositioning_Tiles_Dec_2025_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&x=-b44iup",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2026809_Bernini_Brand_Window_TTL_Repositioning_Tiles_Dec_2025_copy",
+        "startedDateTime": "1970-01-04T06:33:16.540073Z",
+        "time": 64.112,
+        "timings": {
+          "send": 3.206,
+          "wait": 25.645,
+          "receive": 35.262
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2c47us%3AWjzSxqaQhVPP06_NjLRE7VFOHu~Ysmjz&s=0%3Amr2c47us%3AS9n4uxtcP_QHM11Fm72ODbznkyEvoE9m&v=0%3Aq_lq7aBK9eh76LDgqhsDiHA2SitN9Eql&t=eventParameters&a=jxH7HHerODpa&e=0%3Aq_lq7aBK9eh76LDgqhsDiHA2SitN9Eql1&c=mr2c47uw&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F2026809_Bernini_Brand_Window_TTL_Repositioning_Tiles_Dec_2025_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Billable%20impression!srt!0!sts!0!siv!0!sol!1!)&x=jhuiz4",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 244,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 244,
+          "decodedBodySize": 244,
+          "transferSize": 244,
+          "_transferSize": 244,
+          "_decodedBodySize": 244,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2026809_Bernini_Brand_Window_TTL_Repositioning_Tiles_Dec_2025_copy",
+        "startedDateTime": "1970-01-04T06:33:16.685325Z",
+        "time": 73.786,
+        "timings": {
+          "send": 3.689,
+          "wait": 29.514,
+          "receive": 40.582
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2c47us%3AWjzSxqaQhVPP06_NjLRE7VFOHu~Ysmjz&s=0%3Amr2c47us%3AS9n4uxtcP_QHM11Fm72ODbznkyEvoE9m&v=0%3Aq_lq7aBK9eh76LDgqhsDiHA2SitN9Eql&t=eventParameters&a=jxH7HHerODpa&e=0%3Aq_lq7aBK9eh76LDgqhsDiHA2SitN9Eql2&c=mr2c47yy&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F2026809_Bernini_Brand_Window_TTL_Repositioning_Tiles_Dec_2025_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Loaded!srt!0!sts!281!siv!0!sol!1!)&x=lav98q",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2026809_Bernini_Brand_Window_TTL_Repositioning_Tiles_Dec_2025_copy",
+        "startedDateTime": "1970-01-04T06:33:16.685435Z",
+        "time": 79.081,
+        "timings": {
+          "send": 3.954,
+          "wait": 31.632,
+          "receive": 43.495
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2c47us%3AWjzSxqaQhVPP06_NjLRE7VFOHu~Ysmjz&s=0%3Amr2c47us%3AS9n4uxtcP_QHM11Fm72ODbznkyEvoE9m&v=0%3Aq_lq7aBK9eh76LDgqhsDiHA2SitN9Eql&t=eventParameters&a=jxH7HHerODpa&e=0%3Aq_lq7aBK9eh76LDgqhsDiHA2SitN9Eql3&c=mr2c47yy&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F2026809_Bernini_Brand_Window_TTL_Repositioning_Tiles_Dec_2025_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Meta!saction!safeFrame%20not%20detected!srt!0!sts!281!siv!0!sol!1!)&x=49gsbv",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 244,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 244,
+          "decodedBodySize": 244,
+          "transferSize": 244,
+          "_transferSize": 244,
+          "_decodedBodySize": 244,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2026809_Bernini_Brand_Window_TTL_Repositioning_Tiles_Dec_2025_copy",
+        "startedDateTime": "1970-01-04T06:33:16.685517Z",
+        "time": 78.928,
+        "timings": {
+          "send": 3.946,
+          "wait": 31.571,
+          "receive": 43.41
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2c47us%3AWjzSxqaQhVPP06_NjLRE7VFOHu~Ysmjz&s=0%3Amr2c47us%3AS9n4uxtcP_QHM11Fm72ODbznkyEvoE9m&v=0%3Aq_lq7aBK9eh76LDgqhsDiHA2SitN9Eql&t=eventParameters&a=jxH7HHerODpa&e=0%3Aq_lq7aBK9eh76LDgqhsDiHA2SitN9Eql4&c=mr2c47yy&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F2026809_Bernini_Brand_Window_TTL_Repositioning_Tiles_Dec_2025_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Started!srt!0!sts!281!siv!0!sol!1!)&x=-wo9g0m",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2026809_Bernini_Brand_Window_TTL_Repositioning_Tiles_Dec_2025_copy",
+        "startedDateTime": "1970-01-04T06:33:16.689707Z",
+        "time": 426.073,
+        "timings": {
+          "send": 5.0,
+          "wait": 170.429,
+          "receive": 250.644
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/jxH7HHerODpa/kKJO1pLr6CI4H8u5/vid.av1.mp4",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 206,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 126433,
+            "mimeType": "video/mp4"
+          },
+          "bodySize": 126433,
+          "decodedBodySize": 126433,
+          "transferSize": 126433,
+          "_transferSize": 126433,
+          "_decodedBodySize": 126433,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2026809_Bernini_Brand_Window_TTL_Repositioning_Tiles_Dec_2025_copy",
+        "startedDateTime": "1970-01-04T06:33:16.691727Z",
+        "time": 72.756,
+        "timings": {
+          "send": 3.638,
+          "wait": 29.102,
+          "receive": 40.016
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2c47us%3AWjzSxqaQhVPP06_NjLRE7VFOHu~Ysmjz&s=0%3Amr2c47us%3AS9n4uxtcP_QHM11Fm72ODbznkyEvoE9m&v=0%3Aq_lq7aBK9eh76LDgqhsDiHA2SitN9Eql&t=eventParameters&a=jxH7HHerODpa&e=0%3Aq_lq7aBK9eh76LDgqhsDiHA2SitN9Eql5&c=mr2c47z4&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F2026809_Bernini_Brand_Window_TTL_Repositioning_Tiles_Dec_2025_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Rendered!srt!0!sts!320!siv!0!sol!1!)&x=pfgmbv",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 244,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 244,
+          "decodedBodySize": 244,
+          "transferSize": 244,
+          "_transferSize": 244,
+          "_decodedBodySize": 244,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2026809_Bernini_Brand_Window_TTL_Repositioning_Tiles_Dec_2025_copy",
+        "startedDateTime": "1970-01-04T06:33:18.580264Z",
+        "time": 50.521,
+        "timings": {
+          "send": 2.526,
+          "wait": 20.208,
+          "receive": 27.787
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2c47us%3AWjzSxqaQhVPP06_NjLRE7VFOHu~Ysmjz&s=0%3Amr2c47us%3AS9n4uxtcP_QHM11Fm72ODbznkyEvoE9m&v=0%3Aq_lq7aBK9eh76LDgqhsDiHA2SitN9Eql&t=eventParameters&a=jxH7HHerODpa&e=0%3Aq_lq7aBK9eh76LDgqhsDiHA2SitN9Eql6&c=mr2c49fk&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F2026809_Bernini_Brand_Window_TTL_Repositioning_Tiles_Dec_2025_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20is%20in%20view!srt!0!sts!2213!siv!1!sol!1!)&x=jqg0w4",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2026809_Bernini_Brand_Window_TTL_Repositioning_Tiles_Dec_2025_copy",
+        "startedDateTime": "1970-01-04T06:33:18.580432Z",
+        "time": 47.608,
+        "timings": {
+          "send": 2.38,
+          "wait": 19.043,
+          "receive": 26.184
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2c47us%3AWjzSxqaQhVPP06_NjLRE7VFOHu~Ysmjz&s=0%3Amr2c47us%3AS9n4uxtcP_QHM11Fm72ODbznkyEvoE9m&v=0%3Aq_lq7aBK9eh76LDgqhsDiHA2SitN9Eql&t=eventParameters&a=jxH7HHerODpa&e=0%3Aq_lq7aBK9eh76LDgqhsDiHA2SitN9Eql7&c=mr2c49fl&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F2026809_Bernini_Brand_Window_TTL_Repositioning_Tiles_Dec_2025_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20revealed!srt!0!sts!590!siv!0!sol!1!)&x=-km2u8",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2026809_Bernini_Brand_Window_TTL_Repositioning_Tiles_Dec_2025_copy",
+        "startedDateTime": "1970-01-04T06:33:18.580529Z",
+        "time": 55.992,
+        "timings": {
+          "send": 2.8,
+          "wait": 22.397,
+          "receive": 30.796
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2c47us%3AWjzSxqaQhVPP06_NjLRE7VFOHu~Ysmjz&s=0%3Amr2c47us%3AS9n4uxtcP_QHM11Fm72ODbznkyEvoE9m&v=0%3Aq_lq7aBK9eh76LDgqhsDiHA2SitN9Eql&t=eventParameters&a=jxH7HHerODpa&e=0%3Aq_lq7aBK9eh76LDgqhsDiHA2SitN9Eql8&c=mr2c49fl&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F2026809_Bernini_Brand_Window_TTL_Repositioning_Tiles_Dec_2025_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B0%5D!srt!0!sts!1041!siv!0!sol!1!)&x=x9wbke",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2026809_Bernini_Brand_Window_TTL_Repositioning_Tiles_Dec_2025_copy",
+        "startedDateTime": "1970-01-04T06:33:18.580614Z",
+        "time": 55.867,
+        "timings": {
+          "send": 2.793,
+          "wait": 22.347,
+          "receive": 30.727
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2c47us%3AWjzSxqaQhVPP06_NjLRE7VFOHu~Ysmjz&s=0%3Amr2c47us%3AS9n4uxtcP_QHM11Fm72ODbznkyEvoE9m&v=0%3Aq_lq7aBK9eh76LDgqhsDiHA2SitN9Eql&t=eventParameters&a=jxH7HHerODpa&e=0%3Aq_lq7aBK9eh76LDgqhsDiHA2SitN9Eql9&c=mr2c49fl&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F2026809_Bernini_Brand_Window_TTL_Repositioning_Tiles_Dec_2025_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B25%5D!srt!0!sts!2106!siv!0!sol!1!)&x=-9e1avt",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2026809_Bernini_Brand_Window_TTL_Repositioning_Tiles_Dec_2025_copy",
+        "startedDateTime": "1970-01-04T06:33:20.860093Z",
+        "time": 48.178,
+        "timings": {
+          "send": 2.409,
+          "wait": 19.271,
+          "receive": 26.498
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2c47us%3AWjzSxqaQhVPP06_NjLRE7VFOHu~Ysmjz&s=0%3Amr2c47us%3AS9n4uxtcP_QHM11Fm72ODbznkyEvoE9m&v=0%3Aq_lq7aBK9eh76LDgqhsDiHA2SitN9Eql&t=eventParameters&a=jxH7HHerODpa&e=0%3Aq_lq7aBK9eh76LDgqhsDiHA2SitN9Eqla&c=mr2c4b6w&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F2026809_Bernini_Brand_Window_TTL_Repositioning_Tiles_Dec_2025_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B50%5D!srt!2280!sts!4493!siv!1!sol!1!)&x=-8z3x6z",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2026809_Bernini_Brand_Window_TTL_Repositioning_Tiles_Dec_2025_copy",
+        "startedDateTime": "1970-01-04T06:33:23.516515Z",
+        "time": 58.936,
+        "timings": {
+          "send": 2.947,
+          "wait": 23.574,
+          "receive": 32.415
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2c47us%3AWjzSxqaQhVPP06_NjLRE7VFOHu~Ysmjz&s=0%3Amr2c47us%3AS9n4uxtcP_QHM11Fm72ODbznkyEvoE9m&v=0%3Aq_lq7aBK9eh76LDgqhsDiHA2SitN9Eql&t=eventParameters&a=jxH7HHerODpa&e=0%3Aq_lq7aBK9eh76LDgqhsDiHA2SitN9Eqlb&c=mr2c4d8p&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F2026809_Bernini_Brand_Window_TTL_Repositioning_Tiles_Dec_2025_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B75%5D!srt!4937!sts!7150!siv!1!sol!1!)&x=583ynv",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      }
+    ]
+  }
+}

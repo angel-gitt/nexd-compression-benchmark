@@ -1,0 +1,544 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "crawl_ads_cdp",
+      "version": "2.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-07-01T18:22:49.209373Z",
+        "id": "Viju_Wheatvid011_2352_copy",
+        "title": "Viju_Wheatvid011_2352_copy",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "Viju_Wheatvid011_2352_copy",
+        "startedDateTime": "1970-01-04T07:42:19.170932Z",
+        "time": 248.758,
+        "timings": {
+          "send": 5.0,
+          "wait": 99.503,
+          "receive": 144.255
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/A7l58p36hh4T/adtag.js?pxf=IWOCP1NzDwhK2kzB&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_502}",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 187593,
+            "mimeType": "application/javascript",
+            "compression": 128115
+          },
+          "bodySize": 59478,
+          "decodedBodySize": 187593,
+          "transferSize": 59478,
+          "_transferSize": 59478,
+          "_decodedBodySize": 187593,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Viju_Wheatvid011_2352_copy",
+        "startedDateTime": "1970-01-04T07:42:19.425671Z",
+        "time": 168.516,
+        "timings": {
+          "send": 5.0,
+          "wait": 67.406,
+          "receive": 96.11
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tracking.js?ad=A7l58p36hh4T",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 8385,
+            "mimeType": "application/javascript",
+            "compression": 4406
+          },
+          "bodySize": 3979,
+          "decodedBodySize": 8385,
+          "transferSize": 3979,
+          "_transferSize": 3979,
+          "_decodedBodySize": 8385,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Viju_Wheatvid011_2352_copy",
+        "startedDateTime": "1970-01-04T07:42:19.433349Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tr5.html",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Viju_Wheatvid011_2352_copy",
+        "startedDateTime": "1970-01-04T07:42:19.431677Z",
+        "time": 91.681,
+        "timings": {
+          "send": 4.584,
+          "wait": 36.672,
+          "receive": 50.425
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/A7l58p36hh4T/adcanvas.min.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 218896,
+            "mimeType": "application/javascript",
+            "compression": 155254
+          },
+          "bodySize": 63642,
+          "decodedBodySize": 218896,
+          "transferSize": 63642,
+          "_transferSize": 63642,
+          "_decodedBodySize": 218896,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Viju_Wheatvid011_2352_copy",
+        "startedDateTime": "1970-01-04T07:42:19.431952Z",
+        "time": 87.843,
+        "timings": {
+          "send": 4.392,
+          "wait": 35.137,
+          "receive": 48.314
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/A7l58p36hh4T/IWOCP1NzDwhK2kzB/pack.acz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 5689,
+            "mimeType": "application/zip"
+          },
+          "bodySize": 5689,
+          "decodedBodySize": 5689,
+          "transferSize": 5689,
+          "_transferSize": 5689,
+          "_decodedBodySize": 5689,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Viju_Wheatvid011_2352_copy",
+        "startedDateTime": "1970-01-04T07:42:19.433689Z",
+        "time": 87.168,
+        "timings": {
+          "send": 4.358,
+          "wait": 34.867,
+          "receive": 47.942
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/A7l58p36hh4T/splash.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 11823,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 11823,
+          "decodedBodySize": 11823,
+          "transferSize": 11823,
+          "_transferSize": 11823,
+          "_decodedBodySize": 11823,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Viju_Wheatvid011_2352_copy",
+        "startedDateTime": "1970-01-04T07:42:19.549195Z",
+        "time": 176.877,
+        "timings": {
+          "send": 5.0,
+          "wait": 70.751,
+          "receive": 101.126
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/A7l58p36hh4T/IWOCP1NzDwhK2kzB/bg.mp4",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 206,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 435675,
+            "mimeType": "video/mp4"
+          },
+          "bodySize": 435675,
+          "decodedBodySize": 435675,
+          "transferSize": 435675,
+          "_transferSize": 435675,
+          "_decodedBodySize": 435675,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Viju_Wheatvid011_2352_copy",
+        "startedDateTime": "1970-01-04T07:42:19.597965Z",
+        "time": 85.517,
+        "timings": {
+          "send": 4.276,
+          "wait": 34.207,
+          "receive": 47.034
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2el0oz%3AFLgOn02RL9plemSfy3XjoJaYSJTaiIvW&s=0%3Amr2el0oz%3AiJFJSZWzKfwKnbEt5~6dpStkZ9~8hrqE&v=0%3AmeqZ2vty8tDU1MsjWLK3O1A3EJ_bpBn9&t=pageView&a=A7l58p36hh4T&e=0%3AmeqZ2vty8tDU1MsjWLK3O1A3EJ_bpBn90&c=mr2el0p1&n=t&f=t&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FViju_Wheatvid011_2352_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&x=mijiq4",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Viju_Wheatvid011_2352_copy",
+        "startedDateTime": "1970-01-04T07:42:19.613300Z",
+        "time": 69.886,
+        "timings": {
+          "send": 3.494,
+          "wait": 27.954,
+          "receive": 38.437
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2el0oz%3AFLgOn02RL9plemSfy3XjoJaYSJTaiIvW&s=0%3Amr2el0oz%3AiJFJSZWzKfwKnbEt5~6dpStkZ9~8hrqE&v=0%3AmeqZ2vty8tDU1MsjWLK3O1A3EJ_bpBn9&t=eventParameters&a=A7l58p36hh4T&e=0%3AmeqZ2vty8tDU1MsjWLK3O1A3EJ_bpBn91&c=mr2el0ph&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FViju_Wheatvid011_2352_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Billable%20impression!srt!0!sts!0!siv!0!sol!1!)&x=9tzi9j",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Viju_Wheatvid011_2352_copy",
+        "startedDateTime": "1970-01-04T07:42:19.613341Z",
+        "time": 68.104,
+        "timings": {
+          "send": 3.405,
+          "wait": 27.242,
+          "receive": 37.457
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2el0oz%3AFLgOn02RL9plemSfy3XjoJaYSJTaiIvW&s=0%3Amr2el0oz%3AiJFJSZWzKfwKnbEt5~6dpStkZ9~8hrqE&v=0%3AmeqZ2vty8tDU1MsjWLK3O1A3EJ_bpBn9&t=eventParameters&a=A7l58p36hh4T&e=0%3AmeqZ2vty8tDU1MsjWLK3O1A3EJ_bpBn92&c=mr2el0ph&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FViju_Wheatvid011_2352_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Loaded!srt!0!sts!104!siv!0!sol!1!)&x=mbr942",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 281,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 281,
+          "decodedBodySize": 281,
+          "transferSize": 281,
+          "_transferSize": 281,
+          "_decodedBodySize": 281,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Viju_Wheatvid011_2352_copy",
+        "startedDateTime": "1970-01-04T07:42:19.613359Z",
+        "time": 70.017,
+        "timings": {
+          "send": 3.501,
+          "wait": 28.007,
+          "receive": 38.509
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2el0oz%3AFLgOn02RL9plemSfy3XjoJaYSJTaiIvW&s=0%3Amr2el0oz%3AiJFJSZWzKfwKnbEt5~6dpStkZ9~8hrqE&v=0%3AmeqZ2vty8tDU1MsjWLK3O1A3EJ_bpBn9&t=eventParameters&a=A7l58p36hh4T&e=0%3AmeqZ2vty8tDU1MsjWLK3O1A3EJ_bpBn93&c=mr2el0ph&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FViju_Wheatvid011_2352_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Meta!saction!safeFrame%20not%20detected!srt!0!sts!104!siv!0!sol!1!)&x=-ew4x7o",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Viju_Wheatvid011_2352_copy",
+        "startedDateTime": "1970-01-04T07:42:19.613372Z",
+        "time": 69.857,
+        "timings": {
+          "send": 3.493,
+          "wait": 27.943,
+          "receive": 38.421
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2el0oz%3AFLgOn02RL9plemSfy3XjoJaYSJTaiIvW&s=0%3Amr2el0oz%3AiJFJSZWzKfwKnbEt5~6dpStkZ9~8hrqE&v=0%3AmeqZ2vty8tDU1MsjWLK3O1A3EJ_bpBn9&t=eventParameters&a=A7l58p36hh4T&e=0%3AmeqZ2vty8tDU1MsjWLK3O1A3EJ_bpBn94&c=mr2el0ph&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FViju_Wheatvid011_2352_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Started!srt!0!sts!104!siv!0!sol!1!)&x=axiglm",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Viju_Wheatvid011_2352_copy",
+        "startedDateTime": "1970-01-04T07:42:19.613385Z",
+        "time": 70.196,
+        "timings": {
+          "send": 3.51,
+          "wait": 28.078,
+          "receive": 38.608
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2el0oz%3AFLgOn02RL9plemSfy3XjoJaYSJTaiIvW&s=0%3Amr2el0oz%3AiJFJSZWzKfwKnbEt5~6dpStkZ9~8hrqE&v=0%3AmeqZ2vty8tDU1MsjWLK3O1A3EJ_bpBn9&t=eventParameters&a=A7l58p36hh4T&e=0%3AmeqZ2vty8tDU1MsjWLK3O1A3EJ_bpBn95&c=mr2el0ph&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FViju_Wheatvid011_2352_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Rendered!srt!0!sts!125!siv!0!sol!1!)&x=-tp3lem",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Viju_Wheatvid011_2352_copy",
+        "startedDateTime": "1970-01-04T07:42:21.513608Z",
+        "time": 47.351,
+        "timings": {
+          "send": 2.368,
+          "wait": 18.94,
+          "receive": 26.043
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2el0oz%3AFLgOn02RL9plemSfy3XjoJaYSJTaiIvW&s=0%3Amr2el0oz%3AiJFJSZWzKfwKnbEt5~6dpStkZ9~8hrqE&v=0%3AmeqZ2vty8tDU1MsjWLK3O1A3EJ_bpBn9&t=eventParameters&a=A7l58p36hh4T&e=0%3AmeqZ2vty8tDU1MsjWLK3O1A3EJ_bpBn96&c=mr2el269&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FViju_Wheatvid011_2352_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20is%20in%20view!srt!0!sts!2091!siv!1!sol!1!)&x=-n3zet8",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Viju_Wheatvid011_2352_copy",
+        "startedDateTime": "1970-01-04T07:42:21.513799Z",
+        "time": 51.05,
+        "timings": {
+          "send": 2.553,
+          "wait": 20.42,
+          "receive": 28.078
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2el0oz%3AFLgOn02RL9plemSfy3XjoJaYSJTaiIvW&s=0%3Amr2el0oz%3AiJFJSZWzKfwKnbEt5~6dpStkZ9~8hrqE&v=0%3AmeqZ2vty8tDU1MsjWLK3O1A3EJ_bpBn9&t=eventParameters&a=A7l58p36hh4T&e=0%3AmeqZ2vty8tDU1MsjWLK3O1A3EJ_bpBn97&c=mr2el269&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FViju_Wheatvid011_2352_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Paging!saction!Page%20seen%20%5BMain%20media%5D!srt!0!sts!121!siv!0!sol!1!)&x=-8yw3cm",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Viju_Wheatvid011_2352_copy",
+        "startedDateTime": "1970-01-04T07:42:21.513887Z",
+        "time": 48.834,
+        "timings": {
+          "send": 2.442,
+          "wait": 19.534,
+          "receive": 26.859
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2el0oz%3AFLgOn02RL9plemSfy3XjoJaYSJTaiIvW&s=0%3Amr2el0oz%3AiJFJSZWzKfwKnbEt5~6dpStkZ9~8hrqE&v=0%3AmeqZ2vty8tDU1MsjWLK3O1A3EJ_bpBn9&t=eventParameters&a=A7l58p36hh4T&e=0%3AmeqZ2vty8tDU1MsjWLK3O1A3EJ_bpBn98&c=mr2el26a&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FViju_Wheatvid011_2352_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20revealed!srt!0!sts!655!siv!0!sol!1!)&x=-xlvjsk",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Viju_Wheatvid011_2352_copy",
+        "startedDateTime": "1970-01-04T07:42:21.513975Z",
+        "time": 50.933,
+        "timings": {
+          "send": 2.547,
+          "wait": 20.373,
+          "receive": 28.013
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2el0oz%3AFLgOn02RL9plemSfy3XjoJaYSJTaiIvW&s=0%3Amr2el0oz%3AiJFJSZWzKfwKnbEt5~6dpStkZ9~8hrqE&v=0%3AmeqZ2vty8tDU1MsjWLK3O1A3EJ_bpBn9&t=eventParameters&a=A7l58p36hh4T&e=0%3AmeqZ2vty8tDU1MsjWLK3O1A3EJ_bpBn99&c=mr2el26a&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FViju_Wheatvid011_2352_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B0%5D!srt!0!sts!1128!siv!0!sol!1!)&x=321up5",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Viju_Wheatvid011_2352_copy",
+        "startedDateTime": "1970-01-04T07:42:23.738142Z",
+        "time": 51.435,
+        "timings": {
+          "send": 2.572,
+          "wait": 20.574,
+          "receive": 28.289
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2el0oz%3AFLgOn02RL9plemSfy3XjoJaYSJTaiIvW&s=0%3Amr2el0oz%3AiJFJSZWzKfwKnbEt5~6dpStkZ9~8hrqE&v=0%3AmeqZ2vty8tDU1MsjWLK3O1A3EJ_bpBn9&t=eventParameters&a=A7l58p36hh4T&e=0%3AmeqZ2vty8tDU1MsjWLK3O1A3EJ_bpBn9a&c=mr2el3w2&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FViju_Wheatvid011_2352_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B25%5D!srt!2225!sts!4316!siv!1!sol!1!)&x=-nf5jap",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      }
+    ]
+  }
+}

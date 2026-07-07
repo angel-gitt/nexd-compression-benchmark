@@ -1,0 +1,894 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "crawl_ads_cdp",
+      "version": "2.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-07-01T17:43:01.065583Z",
+        "id": "HYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy",
+        "title": "HYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "HYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy",
+        "startedDateTime": "1970-01-04T07:02:31.176358Z",
+        "time": 163.427,
+        "timings": {
+          "send": 5.0,
+          "wait": 65.371,
+          "receive": 93.056
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/FgfHRNvNGCm6/adtag.js?pxf=3u3HInzoigJaGkWc&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_502}",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 188215,
+            "mimeType": "application/javascript",
+            "compression": 128614
+          },
+          "bodySize": 59601,
+          "decodedBodySize": 188215,
+          "transferSize": 59601,
+          "_transferSize": 59601,
+          "_decodedBodySize": 188215,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy",
+        "startedDateTime": "1970-01-04T07:02:31.344389Z",
+        "time": 61.782,
+        "timings": {
+          "send": 3.089,
+          "wait": 24.713,
+          "receive": 33.98
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tracking.js?ad=FgfHRNvNGCm6",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 8385,
+            "mimeType": "application/javascript",
+            "compression": 4241
+          },
+          "bodySize": 4144,
+          "decodedBodySize": 8385,
+          "transferSize": 4144,
+          "_transferSize": 4144,
+          "_decodedBodySize": 8385,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy",
+        "startedDateTime": "1970-01-04T07:02:31.351086Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tr5.html",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy",
+        "startedDateTime": "1970-01-04T07:02:31.350981Z",
+        "time": 77.53,
+        "timings": {
+          "send": 3.876,
+          "wait": 31.012,
+          "receive": 42.641
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/FgfHRNvNGCm6/adcanvas.min.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 215695,
+            "mimeType": "application/javascript",
+            "compression": 149692
+          },
+          "bodySize": 66003,
+          "decodedBodySize": 215695,
+          "transferSize": 66003,
+          "_transferSize": 66003,
+          "_decodedBodySize": 215695,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy",
+        "startedDateTime": "1970-01-04T07:02:31.351157Z",
+        "time": 84.093,
+        "timings": {
+          "send": 4.205,
+          "wait": 33.637,
+          "receive": 46.251
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/FgfHRNvNGCm6/3u3HInzoigJaGkWc/pack.acz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 28401,
+            "mimeType": "application/zip"
+          },
+          "bodySize": 28401,
+          "decodedBodySize": 28401,
+          "transferSize": 28401,
+          "_transferSize": 28401,
+          "_decodedBodySize": 28401,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy",
+        "startedDateTime": "1970-01-04T07:02:31.352375Z",
+        "time": 94.202,
+        "timings": {
+          "send": 4.71,
+          "wait": 37.681,
+          "receive": 51.811
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/FgfHRNvNGCm6/splash.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 12167,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 12167,
+          "decodedBodySize": 12167,
+          "transferSize": 12167,
+          "_transferSize": 12167,
+          "_decodedBodySize": 12167,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy",
+        "startedDateTime": "1970-01-04T07:02:31.352415Z",
+        "time": 173.772,
+        "timings": {
+          "send": 5.0,
+          "wait": 69.509,
+          "receive": 99.263
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://ad.doubleclick.net/ddm/trackimp/N526002.4473352BR_HYPR/B33513730.422306255;dc_pre=CK_wtMSDspUDFUhNHQkd0YQXBA;dc_trk_aid=614913386;dc_trk_cid=235318306;ord=1782927772551;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 68,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 68,
+          "decodedBodySize": 68,
+          "transferSize": 68,
+          "_transferSize": 68,
+          "_decodedBodySize": 68,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy",
+        "startedDateTime": "1970-01-04T07:02:31.410129Z",
+        "time": 64.473,
+        "timings": {
+          "send": 3.224,
+          "wait": 25.789,
+          "receive": 35.46
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2d5txj%3Aj~pSy8aFXv3RtUlBn_TuzGgUtisNDwlU&s=0%3Amr2d5txj%3AOnZZvtNhQl4AulF~jpvA1GU5TewDvlIu&v=0%3AB5LPvjXCKhvBiPSIvnYUGFnpHKq_eio9&t=pageView&a=FgfHRNvNGCm6&e=0%3AB5LPvjXCKhvBiPSIvnYUGFnpHKq_eio90&c=mr2d5txm&n=t&f=t&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FHYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&x=cx3pmy",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy",
+        "startedDateTime": "1970-01-04T07:02:31.422414Z",
+        "time": 52.241,
+        "timings": {
+          "send": 2.612,
+          "wait": 20.896,
+          "receive": 28.733
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2d5txj%3Aj~pSy8aFXv3RtUlBn_TuzGgUtisNDwlU&s=0%3Amr2d5txj%3AOnZZvtNhQl4AulF~jpvA1GU5TewDvlIu&v=0%3AB5LPvjXCKhvBiPSIvnYUGFnpHKq_eio9&t=eventParameters&a=FgfHRNvNGCm6&e=0%3AB5LPvjXCKhvBiPSIvnYUGFnpHKq_eio91&c=mr2d5txy&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FHYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Billable%20impression!srt!0!sts!0!siv!0!sol!1!)&x=l5ib4u",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy",
+        "startedDateTime": "1970-01-04T07:02:31.453235Z",
+        "time": 73.047,
+        "timings": {
+          "send": 3.652,
+          "wait": 29.219,
+          "receive": 40.176
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2d5txj%3Aj~pSy8aFXv3RtUlBn_TuzGgUtisNDwlU&s=0%3Amr2d5txj%3AOnZZvtNhQl4AulF~jpvA1GU5TewDvlIu&v=0%3AB5LPvjXCKhvBiPSIvnYUGFnpHKq_eio9&t=eventParameters&a=FgfHRNvNGCm6&e=0%3AB5LPvjXCKhvBiPSIvnYUGFnpHKq_eio92&c=mr2d5tyu&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FHYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Loaded!srt!0!sts!94!siv!0!sol!1!)&x=-h1r9rb",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy",
+        "startedDateTime": "1970-01-04T07:02:31.453343Z",
+        "time": 73.015,
+        "timings": {
+          "send": 3.651,
+          "wait": 29.206,
+          "receive": 40.158
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2d5txj%3Aj~pSy8aFXv3RtUlBn_TuzGgUtisNDwlU&s=0%3Amr2d5txj%3AOnZZvtNhQl4AulF~jpvA1GU5TewDvlIu&v=0%3AB5LPvjXCKhvBiPSIvnYUGFnpHKq_eio9&t=eventParameters&a=FgfHRNvNGCm6&e=0%3AB5LPvjXCKhvBiPSIvnYUGFnpHKq_eio93&c=mr2d5tyu&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FHYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Meta!saction!safeFrame%20not%20detected!srt!0!sts!94!siv!0!sol!1!)&x=fqeock",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy",
+        "startedDateTime": "1970-01-04T07:02:31.453441Z",
+        "time": 72.882,
+        "timings": {
+          "send": 3.644,
+          "wait": 29.153,
+          "receive": 40.085
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2d5txj%3Aj~pSy8aFXv3RtUlBn_TuzGgUtisNDwlU&s=0%3Amr2d5txj%3AOnZZvtNhQl4AulF~jpvA1GU5TewDvlIu&v=0%3AB5LPvjXCKhvBiPSIvnYUGFnpHKq_eio9&t=eventParameters&a=FgfHRNvNGCm6&e=0%3AB5LPvjXCKhvBiPSIvnYUGFnpHKq_eio94&c=mr2d5tyu&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FHYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Started!srt!0!sts!94!siv!0!sol!1!)&x=q5zsfs",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy",
+        "startedDateTime": "1970-01-04T07:02:31.456927Z",
+        "time": 69.498,
+        "timings": {
+          "send": 3.475,
+          "wait": 27.799,
+          "receive": 38.224
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2d5txj%3Aj~pSy8aFXv3RtUlBn_TuzGgUtisNDwlU&s=0%3Amr2d5txj%3AOnZZvtNhQl4AulF~jpvA1GU5TewDvlIu&v=0%3AB5LPvjXCKhvBiPSIvnYUGFnpHKq_eio9&t=eventParameters&a=FgfHRNvNGCm6&e=0%3AB5LPvjXCKhvBiPSIvnYUGFnpHKq_eio95&c=mr2d5tyx&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FHYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Rendered!srt!0!sts!112!siv!0!sol!1!)&x=wg5djx",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy",
+        "startedDateTime": "1970-01-04T07:02:31.459357Z",
+        "time": 26.9,
+        "timings": {
+          "send": 1.345,
+          "wait": 10.76,
+          "receive": 14.795
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/assets/map/nexd-map.css",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 35147,
+            "mimeType": "text/css",
+            "compression": 30100
+          },
+          "bodySize": 5047,
+          "decodedBodySize": 35147,
+          "transferSize": 5047,
+          "_transferSize": 5047,
+          "_decodedBodySize": 35147,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy",
+        "startedDateTime": "1970-01-04T07:02:31.459689Z",
+        "time": 90.34,
+        "timings": {
+          "send": 4.517,
+          "wait": 36.136,
+          "receive": 49.687
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/assets/map/nexd-map.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 767277,
+            "mimeType": "application/javascript",
+            "compression": 569653
+          },
+          "bodySize": 197624,
+          "decodedBodySize": 767277,
+          "transferSize": 197624,
+          "_transferSize": 197624,
+          "_decodedBodySize": 767277,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy",
+        "startedDateTime": "1970-01-04T07:02:31.574777Z",
+        "time": 98.028,
+        "timings": {
+          "send": 4.901,
+          "wait": 39.211,
+          "receive": 53.915
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://map.adcanvas.com/styles/default/style.json",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 3662,
+            "mimeType": "application/json"
+          },
+          "bodySize": 3662,
+          "decodedBodySize": 3662,
+          "transferSize": 3662,
+          "_transferSize": 3662,
+          "_decodedBodySize": 3662,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy",
+        "startedDateTime": "1970-01-04T07:02:31.761590Z",
+        "time": 260.948,
+        "timings": {
+          "send": 5.0,
+          "wait": 104.379,
+          "receive": 151.569
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://map.adcanvas.com/data/v1.json",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 341229,
+            "mimeType": "application/json"
+          },
+          "bodySize": 341229,
+          "decodedBodySize": 341229,
+          "transferSize": 341229,
+          "_transferSize": 341229,
+          "_decodedBodySize": 341229,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy",
+        "startedDateTime": "1970-01-04T07:02:31.761895Z",
+        "time": 130.981,
+        "timings": {
+          "send": 5.0,
+          "wait": 52.392,
+          "receive": 73.589
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://map.adcanvas.com/styles/default/sprite.json",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 2790,
+            "mimeType": "application/json"
+          },
+          "bodySize": 2790,
+          "decodedBodySize": 2790,
+          "transferSize": 2790,
+          "_transferSize": 2790,
+          "_decodedBodySize": 2790,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy",
+        "startedDateTime": "1970-01-04T07:02:31.762024Z",
+        "time": 130.465,
+        "timings": {
+          "send": 5.0,
+          "wait": 52.186,
+          "receive": 73.279
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://map.adcanvas.com/styles/default/sprite.png",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 49324,
+            "mimeType": "image/png"
+          },
+          "bodySize": 49324,
+          "decodedBodySize": 49324,
+          "transferSize": 49324,
+          "_transferSize": 49324,
+          "_decodedBodySize": 49324,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy",
+        "startedDateTime": "1970-01-04T07:02:31.784293Z",
+        "time": 244.112,
+        "timings": {
+          "send": 5.0,
+          "wait": 97.645,
+          "receive": 141.467
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/assets/map/tiles/6/22/35.png",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 184507,
+            "mimeType": "image/png"
+          },
+          "bodySize": 184507,
+          "decodedBodySize": 184507,
+          "transferSize": 184507,
+          "_transferSize": 184507,
+          "_decodedBodySize": 184507,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy",
+        "startedDateTime": "1970-01-04T07:02:31.784421Z",
+        "time": 244.512,
+        "timings": {
+          "send": 5.0,
+          "wait": 97.805,
+          "receive": 141.707
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/assets/map/tiles/6/23/35.png",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 210874,
+            "mimeType": "image/png"
+          },
+          "bodySize": 210874,
+          "decodedBodySize": 210874,
+          "transferSize": 210874,
+          "_transferSize": 210874,
+          "_decodedBodySize": 210874,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy",
+        "startedDateTime": "1970-01-04T07:02:31.784479Z",
+        "time": 177.091,
+        "timings": {
+          "send": 5.0,
+          "wait": 70.836,
+          "receive": 101.255
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/assets/map/tiles/6/22/34.png",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 161077,
+            "mimeType": "image/png"
+          },
+          "bodySize": 161077,
+          "decodedBodySize": 161077,
+          "transferSize": 161077,
+          "_transferSize": 161077,
+          "_decodedBodySize": 161077,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy",
+        "startedDateTime": "1970-01-04T07:02:31.784529Z",
+        "time": 244.458,
+        "timings": {
+          "send": 5.0,
+          "wait": 97.783,
+          "receive": 141.675
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/assets/map/tiles/6/23/34.png",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 215367,
+            "mimeType": "image/png"
+          },
+          "bodySize": 215367,
+          "decodedBodySize": 215367,
+          "transferSize": 215367,
+          "_transferSize": 215367,
+          "_decodedBodySize": 215367,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy",
+        "startedDateTime": "1970-01-04T07:02:32.240198Z",
+        "time": 37.76,
+        "timings": {
+          "send": 1.888,
+          "wait": 15.104,
+          "receive": 20.768
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://map.adcanvas.com/fonts/Roboto%20Regular/0-255.pbf",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 40569,
+            "mimeType": "application/x-protobuf"
+          },
+          "bodySize": 40569,
+          "decodedBodySize": 40569,
+          "transferSize": 40569,
+          "_transferSize": 40569,
+          "_decodedBodySize": 40569,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy",
+        "startedDateTime": "1970-01-04T07:02:32.240330Z",
+        "time": 55.033,
+        "timings": {
+          "send": 2.752,
+          "wait": 22.013,
+          "receive": 30.268
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://map.adcanvas.com/fonts/Roboto%20Medium/0-255.pbf",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 42174,
+            "mimeType": "application/x-protobuf"
+          },
+          "bodySize": 42174,
+          "decodedBodySize": 42174,
+          "transferSize": 42174,
+          "_transferSize": 42174,
+          "_decodedBodySize": 42174,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy",
+        "startedDateTime": "1970-01-04T07:02:32.240400Z",
+        "time": 45.259,
+        "timings": {
+          "send": 2.263,
+          "wait": 18.104,
+          "receive": 24.892
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://map.adcanvas.com/fonts/Roboto%20Condensed%20Italic/0-255.pbf",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 43079,
+            "mimeType": "application/x-protobuf"
+          },
+          "bodySize": 43079,
+          "decodedBodySize": 43079,
+          "transferSize": 43079,
+          "_transferSize": 43079,
+          "_decodedBodySize": 43079,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy",
+        "startedDateTime": "1970-01-04T07:02:32.579819Z",
+        "time": 81.343,
+        "timings": {
+          "send": 4.067,
+          "wait": 32.537,
+          "receive": 44.739
+        },
+        "request": {
+          "method": "POST",
+          "url": "https://cloud.adcanvas.com/location?t=1782927773780",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 308,
+            "mimeType": "application/json"
+          },
+          "bodySize": 308,
+          "decodedBodySize": 308,
+          "transferSize": 308,
+          "_transferSize": 308,
+          "_decodedBodySize": 308,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy",
+        "startedDateTime": "1970-01-04T07:02:33.562501Z",
+        "time": 56.011,
+        "timings": {
+          "send": 2.801,
+          "wait": 22.404,
+          "receive": 30.806
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2d5txj%3Aj~pSy8aFXv3RtUlBn_TuzGgUtisNDwlU&s=0%3Amr2d5txj%3AOnZZvtNhQl4AulF~jpvA1GU5TewDvlIu&v=0%3AB5LPvjXCKhvBiPSIvnYUGFnpHKq_eio9&t=eventParameters&a=FgfHRNvNGCm6&e=0%3AB5LPvjXCKhvBiPSIvnYUGFnpHKq_eio96&c=mr2d5vlf&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FHYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20is%20in%20view!srt!0!sts!2221!siv!1!sol!1!)&x=-es204k",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy",
+        "startedDateTime": "1970-01-04T07:02:33.562678Z",
+        "time": 55.716,
+        "timings": {
+          "send": 2.786,
+          "wait": 22.286,
+          "receive": 30.644
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2d5txj%3Aj~pSy8aFXv3RtUlBn_TuzGgUtisNDwlU&s=0%3Amr2d5txj%3AOnZZvtNhQl4AulF~jpvA1GU5TewDvlIu&v=0%3AB5LPvjXCKhvBiPSIvnYUGFnpHKq_eio9&t=eventParameters&a=FgfHRNvNGCm6&e=0%3AB5LPvjXCKhvBiPSIvnYUGFnpHKq_eio97&c=mr2d5vlf&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FHYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20revealed!srt!0!sts!446!siv!0!sol!1!)&x=x2jxdh",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "HYPR_Perdigao_MortadelaOuro_TapToMap_300x250_copy",
+        "startedDateTime": "1970-01-04T07:02:34.681616Z",
+        "time": 45.36,
+        "timings": {
+          "send": 2.268,
+          "wait": 18.144,
+          "receive": 24.948
+        },
+        "request": {
+          "method": "POST",
+          "url": "https://cloud.adcanvas.com/location?t=1782927775882",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 308,
+            "mimeType": "application/json"
+          },
+          "bodySize": 308,
+          "decodedBodySize": 308,
+          "transferSize": 308,
+          "_transferSize": 308,
+          "_decodedBodySize": 308,
+          "bodyCaptured": true
+        }
+      }
+    ]
+  }
+}

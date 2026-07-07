@@ -1,0 +1,602 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "crawl_ads_cdp",
+      "version": "2.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-07-01T17:47:41.908058Z",
+        "id": "In-BannerVideo_300x250_copy",
+        "title": "In-BannerVideo_300x250_copy",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "In-BannerVideo_300x250_copy",
+        "startedDateTime": "1970-01-04T07:07:11.037331Z",
+        "time": 139.443,
+        "timings": {
+          "send": 5.0,
+          "wait": 55.777,
+          "receive": 78.666
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/h4H0FKqPBvJ0/adtag.js?pxf=QHhxnmftpyLPfbyk&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_502}",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 192178,
+            "mimeType": "application/javascript",
+            "compression": 132332
+          },
+          "bodySize": 59846,
+          "decodedBodySize": 192178,
+          "transferSize": 59846,
+          "_transferSize": 59846,
+          "_decodedBodySize": 192178,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "In-BannerVideo_300x250_copy",
+        "startedDateTime": "1970-01-04T07:07:11.181383Z",
+        "time": 129.988,
+        "timings": {
+          "send": 5.0,
+          "wait": 51.995,
+          "receive": 72.993
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tracking.js?ad=h4H0FKqPBvJ0",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 8385,
+            "mimeType": "application/javascript",
+            "compression": 4242
+          },
+          "bodySize": 4143,
+          "decodedBodySize": 8385,
+          "transferSize": 4143,
+          "_transferSize": 4143,
+          "_decodedBodySize": 8385,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "In-BannerVideo_300x250_copy",
+        "startedDateTime": "1970-01-04T07:07:11.188599Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tr5.html",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "In-BannerVideo_300x250_copy",
+        "startedDateTime": "1970-01-04T07:07:11.187313Z",
+        "time": 113.035,
+        "timings": {
+          "send": 5.0,
+          "wait": 45.214,
+          "receive": 62.821
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/h4H0FKqPBvJ0/adcanvas.min.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 223460,
+            "mimeType": "application/javascript",
+            "compression": 159199
+          },
+          "bodySize": 64261,
+          "decodedBodySize": 223460,
+          "transferSize": 64261,
+          "_transferSize": 64261,
+          "_decodedBodySize": 223460,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "In-BannerVideo_300x250_copy",
+        "startedDateTime": "1970-01-04T07:07:11.187478Z",
+        "time": 83.941,
+        "timings": {
+          "send": 4.197,
+          "wait": 33.576,
+          "receive": 46.168
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/h4H0FKqPBvJ0/QHhxnmftpyLPfbyk/pack.acz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 23489,
+            "mimeType": "application/zip"
+          },
+          "bodySize": 23489,
+          "decodedBodySize": 23489,
+          "transferSize": 23489,
+          "_transferSize": 23489,
+          "_decodedBodySize": 23489,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "In-BannerVideo_300x250_copy",
+        "startedDateTime": "1970-01-04T07:07:11.189195Z",
+        "time": 70.275,
+        "timings": {
+          "send": 3.514,
+          "wait": 28.11,
+          "receive": 38.651
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/h4H0FKqPBvJ0/splash.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 5882,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 5882,
+          "decodedBodySize": 5882,
+          "transferSize": 5882,
+          "_transferSize": 5882,
+          "_decodedBodySize": 5882,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "In-BannerVideo_300x250_copy",
+        "startedDateTime": "1970-01-04T07:07:11.327197Z",
+        "time": 178.264,
+        "timings": {
+          "send": 5.0,
+          "wait": 71.306,
+          "receive": 101.958
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/h4H0FKqPBvJ0/QHhxnmftpyLPfbyk/0ntSRXkUnqVxJlli.mp4",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 206,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 476707,
+            "mimeType": "video/mp4"
+          },
+          "bodySize": 476707,
+          "decodedBodySize": 476707,
+          "transferSize": 476707,
+          "_transferSize": 476707,
+          "_decodedBodySize": 476707,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "In-BannerVideo_300x250_copy",
+        "startedDateTime": "1970-01-04T07:07:11.332839Z",
+        "time": 60.334,
+        "timings": {
+          "send": 3.017,
+          "wait": 24.134,
+          "receive": 33.184
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dbtwj%3ApIdxtflBSiPvk~bbkQ6tvvFdx57d_9Nn&s=0%3Amr2dbtwj%3AxWSFqLWDAXCRYRzWX5ReqtVB6HEdgEf2&v=0%3AFQHrdY1J2pCx_XiI2DwKbRYXH2Jl_qqM&t=pageView&a=h4H0FKqPBvJ0&e=0%3AFQHrdY1J2pCx_XiI2DwKbRYXH2Jl_qqM0&c=mr2dbtwl&n=t&f=t&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FIn-BannerVideo_300x250_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&x=w7b7jg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "In-BannerVideo_300x250_copy",
+        "startedDateTime": "1970-01-04T07:07:11.333693Z",
+        "time": 57.296,
+        "timings": {
+          "send": 2.865,
+          "wait": 22.918,
+          "receive": 31.513
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dbtwj%3ApIdxtflBSiPvk~bbkQ6tvvFdx57d_9Nn&s=0%3Amr2dbtwj%3AxWSFqLWDAXCRYRzWX5ReqtVB6HEdgEf2&v=0%3AFQHrdY1J2pCx_XiI2DwKbRYXH2Jl_qqM&t=eventParameters&a=h4H0FKqPBvJ0&e=0%3AFQHrdY1J2pCx_XiI2DwKbRYXH2Jl_qqM1&c=mr2dbtwm&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FIn-BannerVideo_300x250_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Billable%20impression!srt!0!sts!0!siv!0!sol!1!)&x=-q6nmho",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "In-BannerVideo_300x250_copy",
+        "startedDateTime": "1970-01-04T07:07:11.333718Z",
+        "time": 59.527,
+        "timings": {
+          "send": 2.976,
+          "wait": 23.811,
+          "receive": 32.74
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dbtwj%3ApIdxtflBSiPvk~bbkQ6tvvFdx57d_9Nn&s=0%3Amr2dbtwj%3AxWSFqLWDAXCRYRzWX5ReqtVB6HEdgEf2&v=0%3AFQHrdY1J2pCx_XiI2DwKbRYXH2Jl_qqM&t=eventParameters&a=h4H0FKqPBvJ0&e=0%3AFQHrdY1J2pCx_XiI2DwKbRYXH2Jl_qqM2&c=mr2dbtwm&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FIn-BannerVideo_300x250_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Loaded!srt!0!sts!125!siv!0!sol!1!)&x=-r0h2py",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "In-BannerVideo_300x250_copy",
+        "startedDateTime": "1970-01-04T07:07:11.333736Z",
+        "time": 57.306,
+        "timings": {
+          "send": 2.865,
+          "wait": 22.922,
+          "receive": 31.518
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dbtwj%3ApIdxtflBSiPvk~bbkQ6tvvFdx57d_9Nn&s=0%3Amr2dbtwj%3AxWSFqLWDAXCRYRzWX5ReqtVB6HEdgEf2&v=0%3AFQHrdY1J2pCx_XiI2DwKbRYXH2Jl_qqM&t=eventParameters&a=h4H0FKqPBvJ0&e=0%3AFQHrdY1J2pCx_XiI2DwKbRYXH2Jl_qqM3&c=mr2dbtwm&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FIn-BannerVideo_300x250_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Meta!saction!safeFrame%20not%20detected!srt!0!sts!125!siv!0!sol!1!)&x=bcf1dr",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "In-BannerVideo_300x250_copy",
+        "startedDateTime": "1970-01-04T07:07:11.333754Z",
+        "time": 59.463,
+        "timings": {
+          "send": 2.973,
+          "wait": 23.785,
+          "receive": 32.705
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dbtwj%3ApIdxtflBSiPvk~bbkQ6tvvFdx57d_9Nn&s=0%3Amr2dbtwj%3AxWSFqLWDAXCRYRzWX5ReqtVB6HEdgEf2&v=0%3AFQHrdY1J2pCx_XiI2DwKbRYXH2Jl_qqM&t=eventParameters&a=h4H0FKqPBvJ0&e=0%3AFQHrdY1J2pCx_XiI2DwKbRYXH2Jl_qqM4&c=mr2dbtwm&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FIn-BannerVideo_300x250_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Started!srt!0!sts!125!siv!0!sol!1!)&x=-eujbqf",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "In-BannerVideo_300x250_copy",
+        "startedDateTime": "1970-01-04T07:07:11.333773Z",
+        "time": 62.066,
+        "timings": {
+          "send": 3.103,
+          "wait": 24.826,
+          "receive": 34.136
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dbtwj%3ApIdxtflBSiPvk~bbkQ6tvvFdx57d_9Nn&s=0%3Amr2dbtwj%3AxWSFqLWDAXCRYRzWX5ReqtVB6HEdgEf2&v=0%3AFQHrdY1J2pCx_XiI2DwKbRYXH2Jl_qqM&t=eventParameters&a=h4H0FKqPBvJ0&e=0%3AFQHrdY1J2pCx_XiI2DwKbRYXH2Jl_qqM5&c=mr2dbtwn&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FIn-BannerVideo_300x250_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Rendered!srt!0!sts!148!siv!0!sol!1!)&x=-gnmhfs",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "In-BannerVideo_300x250_copy",
+        "startedDateTime": "1970-01-04T07:07:13.272981Z",
+        "time": 63.798,
+        "timings": {
+          "send": 3.19,
+          "wait": 25.519,
+          "receive": 35.089
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dbtwj%3ApIdxtflBSiPvk~bbkQ6tvvFdx57d_9Nn&s=0%3Amr2dbtwj%3AxWSFqLWDAXCRYRzWX5ReqtVB6HEdgEf2&v=0%3AFQHrdY1J2pCx_XiI2DwKbRYXH2Jl_qqM&t=eventParameters&a=h4H0FKqPBvJ0&e=0%3AFQHrdY1J2pCx_XiI2DwKbRYXH2Jl_qqM6&c=mr2dbvei&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FIn-BannerVideo_300x250_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20is%20in%20view!srt!0!sts!2095!siv!1!sol!1!)&x=2qfy50",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "In-BannerVideo_300x250_copy",
+        "startedDateTime": "1970-01-04T07:07:13.273153Z",
+        "time": 68.026,
+        "timings": {
+          "send": 3.401,
+          "wait": 27.21,
+          "receive": 37.414
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dbtwj%3ApIdxtflBSiPvk~bbkQ6tvvFdx57d_9Nn&s=0%3Amr2dbtwj%3AxWSFqLWDAXCRYRzWX5ReqtVB6HEdgEf2&v=0%3AFQHrdY1J2pCx_XiI2DwKbRYXH2Jl_qqM&t=eventParameters&a=h4H0FKqPBvJ0&e=0%3AFQHrdY1J2pCx_XiI2DwKbRYXH2Jl_qqM7&c=mr2dbvei&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FIn-BannerVideo_300x250_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Paging!saction!Page%20seen%20%5BMain%20media%5D!srt!0!sts!139!siv!0!sol!1!)&x=-5bat1q",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "In-BannerVideo_300x250_copy",
+        "startedDateTime": "1970-01-04T07:07:13.273241Z",
+        "time": 67.996,
+        "timings": {
+          "send": 3.4,
+          "wait": 27.198,
+          "receive": 37.398
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dbtwj%3ApIdxtflBSiPvk~bbkQ6tvvFdx57d_9Nn&s=0%3Amr2dbtwj%3AxWSFqLWDAXCRYRzWX5ReqtVB6HEdgEf2&v=0%3AFQHrdY1J2pCx_XiI2DwKbRYXH2Jl_qqM&t=eventParameters&a=h4H0FKqPBvJ0&e=0%3AFQHrdY1J2pCx_XiI2DwKbRYXH2Jl_qqM8&c=mr2dbvei&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FIn-BannerVideo_300x250_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20revealed!srt!0!sts!623!siv!0!sol!1!)&x=-2it7ct",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "In-BannerVideo_300x250_copy",
+        "startedDateTime": "1970-01-04T07:07:13.273329Z",
+        "time": 70.004,
+        "timings": {
+          "send": 3.5,
+          "wait": 28.002,
+          "receive": 38.502
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dbtwj%3ApIdxtflBSiPvk~bbkQ6tvvFdx57d_9Nn&s=0%3Amr2dbtwj%3AxWSFqLWDAXCRYRzWX5ReqtVB6HEdgEf2&v=0%3AFQHrdY1J2pCx_XiI2DwKbRYXH2Jl_qqM&t=eventParameters&a=h4H0FKqPBvJ0&e=0%3AFQHrdY1J2pCx_XiI2DwKbRYXH2Jl_qqM9&c=mr2dbvei&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FIn-BannerVideo_300x250_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B0%5D!srt!0!sts!1107!siv!0!sol!1!)&x=wfy8ly",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "In-BannerVideo_300x250_copy",
+        "startedDateTime": "1970-01-04T07:07:13.344873Z",
+        "time": 51.995,
+        "timings": {
+          "send": 2.6,
+          "wait": 20.798,
+          "receive": 28.597
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dbtwj%3ApIdxtflBSiPvk~bbkQ6tvvFdx57d_9Nn&s=0%3Amr2dbtwj%3AxWSFqLWDAXCRYRzWX5ReqtVB6HEdgEf2&v=0%3AFQHrdY1J2pCx_XiI2DwKbRYXH2Jl_qqM&t=eventParameters&a=h4H0FKqPBvJ0&e=0%3AFQHrdY1J2pCx_XiI2DwKbRYXH2Jl_qqMa&c=mr2dbvgi&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FIn-BannerVideo_300x250_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B25%5D!srt!72!sts!2167!siv!1!sol!1!)&x=-qz3g4g",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "In-BannerVideo_300x250_copy",
+        "startedDateTime": "1970-01-04T07:07:16.001698Z",
+        "time": 53.338,
+        "timings": {
+          "send": 2.667,
+          "wait": 21.335,
+          "receive": 29.336
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dbtwj%3ApIdxtflBSiPvk~bbkQ6tvvFdx57d_9Nn&s=0%3Amr2dbtwj%3AxWSFqLWDAXCRYRzWX5ReqtVB6HEdgEf2&v=0%3AFQHrdY1J2pCx_XiI2DwKbRYXH2Jl_qqM&t=eventParameters&a=h4H0FKqPBvJ0&e=0%3AFQHrdY1J2pCx_XiI2DwKbRYXH2Jl_qqMb&c=mr2dbxia&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FIn-BannerVideo_300x250_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B50%5D!srt!2728!sts!4823!siv!1!sol!1!)&x=q5r6o6",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "In-BannerVideo_300x250_copy",
+        "startedDateTime": "1970-01-04T07:07:18.393252Z",
+        "time": 55.397,
+        "timings": {
+          "send": 2.77,
+          "wait": 22.159,
+          "receive": 30.468
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dbtwj%3ApIdxtflBSiPvk~bbkQ6tvvFdx57d_9Nn&s=0%3Amr2dbtwj%3AxWSFqLWDAXCRYRzWX5ReqtVB6HEdgEf2&v=0%3AFQHrdY1J2pCx_XiI2DwKbRYXH2Jl_qqM&t=eventParameters&a=h4H0FKqPBvJ0&e=0%3AFQHrdY1J2pCx_XiI2DwKbRYXH2Jl_qqMc&c=mr2dbzcq&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FIn-BannerVideo_300x250_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B75%5D!srt!5120!sts!7215!siv!1!sol!1!)&x=brk3rx",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      }
+    ]
+  }
+}

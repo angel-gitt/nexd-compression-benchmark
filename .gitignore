@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# Results (keep structure, ignore data files)
+results/*.csv
+results/*.docx
+results/hars/
+results/schedules/
+results/*.png
+results/plots_network/*.png
+
+# NS-3 build
+ns-3.48/
+
+# OS files
+.DS_Store
+__MACOSX/
+._*
+
+# IDE
+.cursor/
+.idea/
+.vscode/
+
+# Config
+.codecarbon.config
+
+# Temp files
+*.swp
+*.swo
+*~
+*.log
+powermetrics_log.txt
+
+# Ad creative assets (kept locally, not in repo)
+ads/
+
+# Old HARs backup
+hars_ads_old/

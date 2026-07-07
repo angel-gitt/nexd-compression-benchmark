@@ -1,0 +1,47 @@
+{
+  "_sources": {
+    "infra_power": "Enterprise 802.11ac AP measured idle ~8 W, active ~9.6 W TX / 8.8 W RX (Bolla et al. 2011; Cisco AP measurements). Configured as: idle_w=8.0, tx_w=1.6 (increment), rx_w=0.8 (increment). Q1 energy from ns-3 WifiRadioEnergyModel with idle-baseline subtraction. The 8 W idle is shared across all AP clients and not charged to a single flow. NOTE: infra energy normalized by emergent airtime (single STA), NOT by cell capacity — may charge more per bit than capacity-amortized model.",
+    "device_power": "Halperin et al., 'Demystifying 802.11n Power Consumption', HotPower 2010 (Intel 5300: idle 0.84 W, RX 0.94 W, TX 1.28 W). Values scaled for 802.11ac. Configured as: idle_w=0.85, tx_w=0.55 (increment), rx_w=0.15 (increment). Q1 energy from ns-3 WifiRadioEnergyModel with idle-baseline subtraction (SLEEP not yet active).",
+    "psm": "802.11 PSM / U-APSD introduced in 802.11 (1997) and 802.11e (2005). Currently analytical placeholder (Fase 1); will be implemented as ns-3 SLEEP state in Fase 3. doze_w ~25 mW per Halperin et al. 2010 and Pering et al. 2006 'Coolspots'. tail_s = 0.1 s (100 ms inactivity timeout, conservative midpoint of 50-500 ms range). burst_gap_s = 0.05 s: minimum gap to consider two bursts separate."
+  },
+  "duration": 200.0,
+  "distance": 10.0,
+  "energy_initial_j": 1000000000.0,
+  "auto_stop": true,
+  "stop_guard_s": 0.2,
+  "conn_min_gap_s": 0.0005,
+  "wifi": {
+    "standard": "ac",
+    "mcs": "VhtMcs7",
+    "channel_width_mhz": 80,
+    "tx_power_dbm": 16.0,
+    "pathloss": {
+      "model": "logdistance",
+      "exponent": 3.0
+    },
+    "fading": "nakagami",
+    "power": {
+      "idle_w": 0.85,
+      "tx_w": 0.55,
+      "rx_w": 0.15,
+      "voltage_v": 3.7
+    },
+    "infra_power": {
+      "idle_w": 8.0,
+      "tx_w": 1.6,
+      "rx_w": 0.8,
+      "link_rate_bps": 2.0e8
+    },
+    "device_power": {
+      "idle_w": 0.85,
+      "tx_w": 0.55,
+      "rx_w": 0.15,
+      "link_rate_bps": 2.925e8
+    },
+    "psm": {
+      "doze_w": 0.025,
+      "tail_s": 0.1,
+      "burst_gap_s": 0.05
+    }
+  }
+}

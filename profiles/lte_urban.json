@@ -1,0 +1,43 @@
+{
+  "_sources": {
+    "device_power": "Huang et al., MobiSys 2012. Idle RRC_Idle=0.59W, peak TX=3.0W, peak RX=1.2W. (FASE 3) RRC/DRX state machine: IDLE_DEEP (0.59W) → CONNECTED_ACTIVE (peaks) → CONNECTED_TAIL (1.29W for T_inactivity=5s) → IDLE_DEEP. Promotion cost 0.26J per IDLE→CONNECTED transition.",
+    "infra_power": "EARTH Auer et al. 2011. Macro eNB: P_0=712.2 W (idle), slope 14.5 → P_max ≈ 1292 W. Configured as: idle_w=712.2, tx_w=580 (increment for DL), rx_w=0 (DL-dominated). Q1 energy from ns-3 LENA eNB with idle-baseline subtraction. NOTE: normalized by single-UE airtime, not 150 Mbps cell-capacity amortization.",
+    "infra_energy_per_byte_j": "DEPRECATED (was 1350 W / 150 Mbps = 72e-6 J/byte). Replaced by Q1 incremental model + idle-baseline subtraction."
+  },
+  "duration": 200.0,
+  "distance": 50.0,
+  "energy_initial_j": 1000000000.0,
+  "auto_stop": true,
+  "stop_guard_s": 0.01,
+  "conn_min_gap_s": 0.002,
+  "app_start_delay_s": 2.0,
+  "lte": {
+    "power": {
+      "idle_w": 0.59,
+      "tx_w": 3.00,
+      "rx_w": 1.20,
+      "voltage_v": 3.7,
+      "tti_ms": 1.0,
+      "start_delay_s": 0.1,
+      "max_tb_bytes": 9500.0
+    },
+    "infra_power": {
+      "idle_w": 712.2,
+      "tx_w": 1292.2,
+      "rx_w": 712.2,
+      "link_rate_bps": 1.5e8
+    },
+    "device_power": {
+      "idle_w": 0.59,
+      "tx_w": 3.00,
+      "rx_w": 1.20
+    },
+    "rrc_drx": {
+      "connected_tail_w": 1.29,
+      "t_inactivity_s": 2.0,
+      "promotion_j": 0.26,
+      "promotion_delay_s": 0.1
+    },
+    "infra_energy_per_byte_j": 7.2e-05
+  }
+}
