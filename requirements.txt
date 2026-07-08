@@ -18,3 +18,8 @@ tqdm
 # ── AWS (lambda / S3) ─────────────────────────────────────────────────────────
 boto3
 botocore
+
+# ── Compression energy experiment ────────────────────────────────────────────
+codecarbon>=3.0
+brotli>=1.0
+psutil
