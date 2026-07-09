@@ -1,0 +1,428 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "crawl_ads_cdp",
+      "version": "2.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-07-01T17:24:22.504036Z",
+        "id": "AirAsia_RayaSale_728x90_copy",
+        "title": "AirAsia_RayaSale_728x90_copy",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "AirAsia_RayaSale_728x90_copy",
+        "startedDateTime": "1970-01-04T06:43:52.765025Z",
+        "time": 225.415,
+        "timings": {
+          "send": 5.0,
+          "wait": 90.166,
+          "receive": 130.249
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/21E6BqeuV54U/adtag.js?pxf=6YyuPzxrBWLy6xGu&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_502}",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 189747,
+            "mimeType": "application/javascript",
+            "compression": 130191
+          },
+          "bodySize": 59556,
+          "decodedBodySize": 189747,
+          "transferSize": 59556,
+          "_transferSize": 59556,
+          "_decodedBodySize": 189747,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "AirAsia_RayaSale_728x90_copy",
+        "startedDateTime": "1970-01-04T06:43:52.997100Z",
+        "time": 154.4,
+        "timings": {
+          "send": 5.0,
+          "wait": 61.76,
+          "receive": 87.64
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tracking.js?ad=21E6BqeuV54U",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 8385,
+            "mimeType": "application/javascript",
+            "compression": 4243
+          },
+          "bodySize": 4142,
+          "decodedBodySize": 8385,
+          "transferSize": 4142,
+          "_transferSize": 4142,
+          "_decodedBodySize": 8385,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "AirAsia_RayaSale_728x90_copy",
+        "startedDateTime": "1970-01-04T06:43:53.005070Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tr5.html",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "AirAsia_RayaSale_728x90_copy",
+        "startedDateTime": "1970-01-04T06:43:53.004508Z",
+        "time": 133.298,
+        "timings": {
+          "send": 5.0,
+          "wait": 53.319,
+          "receive": 74.979
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/21E6BqeuV54U/adcanvas.min.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 188077,
+            "mimeType": "application/javascript",
+            "compression": 133240
+          },
+          "bodySize": 54837,
+          "decodedBodySize": 188077,
+          "transferSize": 54837,
+          "_transferSize": 54837,
+          "_decodedBodySize": 188077,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "AirAsia_RayaSale_728x90_copy",
+        "startedDateTime": "1970-01-04T06:43:53.005337Z",
+        "time": 164.582,
+        "timings": {
+          "send": 5.0,
+          "wait": 65.833,
+          "receive": 93.749
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/21E6BqeuV54U/6YyuPzxrBWLy6xGu/pack.acz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 198244,
+            "mimeType": "application/zip"
+          },
+          "bodySize": 198244,
+          "decodedBodySize": 198244,
+          "transferSize": 198244,
+          "_transferSize": 198244,
+          "_decodedBodySize": 198244,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "AirAsia_RayaSale_728x90_copy",
+        "startedDateTime": "1970-01-04T06:43:53.010224Z",
+        "time": 58.974,
+        "timings": {
+          "send": 2.949,
+          "wait": 23.59,
+          "receive": 32.436
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/21E6BqeuV54U/splash.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 14038,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 14038,
+          "decodedBodySize": 14038,
+          "transferSize": 14038,
+          "_transferSize": 14038,
+          "_decodedBodySize": 14038,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "AirAsia_RayaSale_728x90_copy",
+        "startedDateTime": "1970-01-04T06:43:53.157496Z",
+        "time": 70.182,
+        "timings": {
+          "send": 3.509,
+          "wait": 28.073,
+          "receive": 38.6
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2chv2i%3AluWZQTVHpkm4DIGPo5hBqVOPJC_NGfkU&s=0%3Amr2chv2i%3AfvI2wEdisCLGAfReALOaiK22uZFLngBN&v=0%3AA4o6QKXuM5xAiQs12XiBelxR74KmJAla&t=pageView&a=21E6BqeuV54U&e=0%3AA4o6QKXuM5xAiQs12XiBelxR74KmJAla0&c=mr2chv2m&n=t&f=t&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FAirAsia_RayaSale_728x90_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&x=-ryzfe1",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "AirAsia_RayaSale_728x90_copy",
+        "startedDateTime": "1970-01-04T06:43:53.167782Z",
+        "time": 59.719,
+        "timings": {
+          "send": 2.986,
+          "wait": 23.888,
+          "receive": 32.845
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2chv2i%3AluWZQTVHpkm4DIGPo5hBqVOPJC_NGfkU&s=0%3Amr2chv2i%3AfvI2wEdisCLGAfReALOaiK22uZFLngBN&v=0%3AA4o6QKXuM5xAiQs12XiBelxR74KmJAla&t=eventParameters&a=21E6BqeuV54U&e=0%3AA4o6QKXuM5xAiQs12XiBelxR74KmJAla1&c=mr2chv2x&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FAirAsia_RayaSale_728x90_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Billable%20impression!srt!0!sts!1!siv!0!sol!1!)&x=-sba9gc",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "AirAsia_RayaSale_728x90_copy",
+        "startedDateTime": "1970-01-04T06:43:53.212627Z",
+        "time": 58.138,
+        "timings": {
+          "send": 2.907,
+          "wait": 23.255,
+          "receive": 31.976
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2chv2i%3AluWZQTVHpkm4DIGPo5hBqVOPJC_NGfkU&s=0%3Amr2chv2i%3AfvI2wEdisCLGAfReALOaiK22uZFLngBN&v=0%3AA4o6QKXuM5xAiQs12XiBelxR74KmJAla&t=eventParameters&a=21E6BqeuV54U&e=0%3AA4o6QKXuM5xAiQs12XiBelxR74KmJAla2&c=mr2chv46&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FAirAsia_RayaSale_728x90_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Loaded!srt!0!sts!178!siv!0!sol!1!)&x=ho8q8k",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "AirAsia_RayaSale_728x90_copy",
+        "startedDateTime": "1970-01-04T06:43:53.212761Z",
+        "time": 58.146,
+        "timings": {
+          "send": 2.907,
+          "wait": 23.258,
+          "receive": 31.98
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2chv2i%3AluWZQTVHpkm4DIGPo5hBqVOPJC_NGfkU&s=0%3Amr2chv2i%3AfvI2wEdisCLGAfReALOaiK22uZFLngBN&v=0%3AA4o6QKXuM5xAiQs12XiBelxR74KmJAla&t=eventParameters&a=21E6BqeuV54U&e=0%3AA4o6QKXuM5xAiQs12XiBelxR74KmJAla3&c=mr2chv46&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FAirAsia_RayaSale_728x90_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Meta!saction!safeFrame%20not%20detected!srt!0!sts!178!siv!0!sol!1!)&x=oz3vg6",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "AirAsia_RayaSale_728x90_copy",
+        "startedDateTime": "1970-01-04T06:43:53.212874Z",
+        "time": 58.003,
+        "timings": {
+          "send": 2.9,
+          "wait": 23.201,
+          "receive": 31.902
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2chv2i%3AluWZQTVHpkm4DIGPo5hBqVOPJC_NGfkU&s=0%3Amr2chv2i%3AfvI2wEdisCLGAfReALOaiK22uZFLngBN&v=0%3AA4o6QKXuM5xAiQs12XiBelxR74KmJAla&t=eventParameters&a=21E6BqeuV54U&e=0%3AA4o6QKXuM5xAiQs12XiBelxR74KmJAla4&c=mr2chv46&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FAirAsia_RayaSale_728x90_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Started!srt!0!sts!178!siv!0!sol!1!)&x=skja5r",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "AirAsia_RayaSale_728x90_copy",
+        "startedDateTime": "1970-01-04T06:43:53.215527Z",
+        "time": 55.29,
+        "timings": {
+          "send": 2.765,
+          "wait": 22.116,
+          "receive": 30.41
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2chv2i%3AluWZQTVHpkm4DIGPo5hBqVOPJC_NGfkU&s=0%3Amr2chv2i%3AfvI2wEdisCLGAfReALOaiK22uZFLngBN&v=0%3AA4o6QKXuM5xAiQs12XiBelxR74KmJAla&t=eventParameters&a=21E6BqeuV54U&e=0%3AA4o6QKXuM5xAiQs12XiBelxR74KmJAla5&c=mr2chv49&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FAirAsia_RayaSale_728x90_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Rendered!srt!0!sts!221!siv!0!sol!1!)&x=-69z453",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "AirAsia_RayaSale_728x90_copy",
+        "startedDateTime": "1970-01-04T06:43:55.075997Z",
+        "time": 48.59,
+        "timings": {
+          "send": 2.43,
+          "wait": 19.436,
+          "receive": 26.725
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2chv2i%3AluWZQTVHpkm4DIGPo5hBqVOPJC_NGfkU&s=0%3Amr2chv2i%3AfvI2wEdisCLGAfReALOaiK22uZFLngBN&v=0%3AA4o6QKXuM5xAiQs12XiBelxR74KmJAla&t=eventParameters&a=21E6BqeuV54U&e=0%3AA4o6QKXuM5xAiQs12XiBelxR74KmJAla6&c=mr2chwjx&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FAirAsia_RayaSale_728x90_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20is%20in%20view!srt!0!sts!2083!siv!1!sol!1!)&x=-76gkdb",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "AirAsia_RayaSale_728x90_copy",
+        "startedDateTime": "1970-01-04T06:43:55.076169Z",
+        "time": 48.506,
+        "timings": {
+          "send": 2.425,
+          "wait": 19.402,
+          "receive": 26.678
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2chv2i%3AluWZQTVHpkm4DIGPo5hBqVOPJC_NGfkU&s=0%3Amr2chv2i%3AfvI2wEdisCLGAfReALOaiK22uZFLngBN&v=0%3AA4o6QKXuM5xAiQs12XiBelxR74KmJAla&t=eventParameters&a=21E6BqeuV54U&e=0%3AA4o6QKXuM5xAiQs12XiBelxR74KmJAla7&c=mr2chwjx&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FAirAsia_RayaSale_728x90_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20revealed!srt!0!sts!342!siv!0!sol!1!)&x=m9qvoe",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      }
+    ]
+  }
+}

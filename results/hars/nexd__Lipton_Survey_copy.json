@@ -1,0 +1,602 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "crawl_ads_cdp",
+      "version": "2.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-07-01T17:55:56.943623Z",
+        "id": "Lipton_Survey_copy",
+        "title": "Lipton_Survey_copy",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "Lipton_Survey_copy",
+        "startedDateTime": "1970-01-04T07:15:25.495204Z",
+        "time": 210.8,
+        "timings": {
+          "send": 5.0,
+          "wait": 84.32,
+          "receive": 121.48
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/zNuC6RrIF3x7/adtag.js?pxf=qU0cBptbtOiLP8p5&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_502}",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 200859,
+            "mimeType": "application/javascript",
+            "compression": 140273
+          },
+          "bodySize": 60586,
+          "decodedBodySize": 200859,
+          "transferSize": 60586,
+          "_transferSize": 60586,
+          "_decodedBodySize": 200859,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Lipton_Survey_copy",
+        "startedDateTime": "1970-01-04T07:15:25.710874Z",
+        "time": 195.382,
+        "timings": {
+          "send": 5.0,
+          "wait": 78.153,
+          "receive": 112.229
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tracking.js?ad=zNuC6RrIF3x7",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 8385,
+            "mimeType": "application/javascript",
+            "compression": 4243
+          },
+          "bodySize": 4142,
+          "decodedBodySize": 8385,
+          "transferSize": 4142,
+          "_transferSize": 4142,
+          "_decodedBodySize": 8385,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Lipton_Survey_copy",
+        "startedDateTime": "1970-01-04T07:15:25.718963Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tr5.html",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Lipton_Survey_copy",
+        "startedDateTime": "1970-01-04T07:15:25.717689Z",
+        "time": 188.794,
+        "timings": {
+          "send": 5.0,
+          "wait": 75.518,
+          "receive": 108.276
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/zNuC6RrIF3x7/adcanvas.min.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 259739,
+            "mimeType": "application/javascript",
+            "compression": 186106
+          },
+          "bodySize": 73633,
+          "decodedBodySize": 259739,
+          "transferSize": 73633,
+          "_transferSize": 73633,
+          "_decodedBodySize": 259739,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Lipton_Survey_copy",
+        "startedDateTime": "1970-01-04T07:15:25.717881Z",
+        "time": 182.998,
+        "timings": {
+          "send": 5.0,
+          "wait": 73.199,
+          "receive": 104.799
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/zNuC6RrIF3x7/qU0cBptbtOiLP8p5/pack.acz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 653547,
+            "mimeType": "application/zip"
+          },
+          "bodySize": 653547,
+          "decodedBodySize": 653547,
+          "transferSize": 653547,
+          "_transferSize": 653547,
+          "_decodedBodySize": 653547,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Lipton_Survey_copy",
+        "startedDateTime": "1970-01-04T07:15:25.719784Z",
+        "time": 275.597,
+        "timings": {
+          "send": 5.0,
+          "wait": 110.239,
+          "receive": 160.358
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/zNuC6RrIF3x7/splash.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 218474,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 218474,
+          "decodedBodySize": 218474,
+          "transferSize": 218474,
+          "_transferSize": 218474,
+          "_decodedBodySize": 218474,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Lipton_Survey_copy",
+        "startedDateTime": "1970-01-04T07:15:25.910456Z",
+        "time": 112.413,
+        "timings": {
+          "send": 5.0,
+          "wait": 44.965,
+          "receive": 62.448
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dmfiv%3AdlHG9MyrECUqyhELej2lQ27KEbsRPEWo&s=0%3Amr2dmfiv%3AB_TsfYw_UJuE~065g7Md5ffDL0XG8oKn&v=0%3AtO1CgxSKW0d4zQgqRL7O~rxdzqBgfE5A&t=pageView&a=zNuC6RrIF3x7&e=0%3AtO1CgxSKW0d4zQgqRL7O~rxdzqBgfE5A0&c=mr2dmfiz&n=t&f=t&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FLipton_Survey_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&x=s6ny3c",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Lipton_Survey_copy",
+        "startedDateTime": "1970-01-04T07:15:26.035087Z",
+        "time": 49.741,
+        "timings": {
+          "send": 2.487,
+          "wait": 19.896,
+          "receive": 27.358
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dmfiv%3AdlHG9MyrECUqyhELej2lQ27KEbsRPEWo&s=0%3Amr2dmfiv%3AB_TsfYw_UJuE~065g7Md5ffDL0XG8oKn&v=0%3AtO1CgxSKW0d4zQgqRL7O~rxdzqBgfE5A&t=eventParameters&a=zNuC6RrIF3x7&e=0%3AtO1CgxSKW0d4zQgqRL7O~rxdzqBgfE5A1&c=mr2dmfmf&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FLipton_Survey_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Billable%20impression!srt!0!sts!0!siv!0!sol!1!)&x=tgfvp5",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Lipton_Survey_copy",
+        "startedDateTime": "1970-01-04T07:15:26.036745Z",
+        "time": 50.112,
+        "timings": {
+          "send": 2.506,
+          "wait": 20.045,
+          "receive": 27.562
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dmfiv%3AdlHG9MyrECUqyhELej2lQ27KEbsRPEWo&s=0%3Amr2dmfiv%3AB_TsfYw_UJuE~065g7Md5ffDL0XG8oKn&v=0%3AtO1CgxSKW0d4zQgqRL7O~rxdzqBgfE5A&t=eventParameters&a=zNuC6RrIF3x7&e=0%3AtO1CgxSKW0d4zQgqRL7O~rxdzqBgfE5A2&c=mr2dmfmh&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FLipton_Survey_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Loaded!srt!0!sts!204!siv!0!sol!1!)&x=xm3kdy",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Lipton_Survey_copy",
+        "startedDateTime": "1970-01-04T07:15:26.036838Z",
+        "time": 46.292,
+        "timings": {
+          "send": 2.315,
+          "wait": 18.517,
+          "receive": 25.461
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dmfiv%3AdlHG9MyrECUqyhELej2lQ27KEbsRPEWo&s=0%3Amr2dmfiv%3AB_TsfYw_UJuE~065g7Md5ffDL0XG8oKn&v=0%3AtO1CgxSKW0d4zQgqRL7O~rxdzqBgfE5A&t=eventParameters&a=zNuC6RrIF3x7&e=0%3AtO1CgxSKW0d4zQgqRL7O~rxdzqBgfE5A3&c=mr2dmfmh&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FLipton_Survey_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Meta!saction!safeFrame%20not%20detected!srt!0!sts!204!siv!0!sol!1!)&x=-l06lc",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Lipton_Survey_copy",
+        "startedDateTime": "1970-01-04T07:15:26.036910Z",
+        "time": 55.646,
+        "timings": {
+          "send": 2.782,
+          "wait": 22.258,
+          "receive": 30.605
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dmfiv%3AdlHG9MyrECUqyhELej2lQ27KEbsRPEWo&s=0%3Amr2dmfiv%3AB_TsfYw_UJuE~065g7Md5ffDL0XG8oKn&v=0%3AtO1CgxSKW0d4zQgqRL7O~rxdzqBgfE5A&t=eventParameters&a=zNuC6RrIF3x7&e=0%3AtO1CgxSKW0d4zQgqRL7O~rxdzqBgfE5A4&c=mr2dmfmh&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FLipton_Survey_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Started!srt!0!sts!204!siv!0!sol!1!)&x=-wmc5ws",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Lipton_Survey_copy",
+        "startedDateTime": "1970-01-04T07:15:26.037491Z",
+        "time": 1733.705,
+        "timings": {
+          "send": 5.0,
+          "wait": 693.482,
+          "receive": 1035.223
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/zNuC6RrIF3x7/qU0cBptbtOiLP8p5/logo.av1.mp4",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 206,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 2598476,
+            "mimeType": "video/mp4"
+          },
+          "bodySize": 2598476,
+          "decodedBodySize": 2598476,
+          "transferSize": 2598476,
+          "_transferSize": 2598476,
+          "_decodedBodySize": 2598476,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Lipton_Survey_copy",
+        "startedDateTime": "1970-01-04T07:15:26.044195Z",
+        "time": 73.305,
+        "timings": {
+          "send": 3.665,
+          "wait": 29.322,
+          "receive": 40.318
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dmfiv%3AdlHG9MyrECUqyhELej2lQ27KEbsRPEWo&s=0%3Amr2dmfiv%3AB_TsfYw_UJuE~065g7Md5ffDL0XG8oKn&v=0%3AtO1CgxSKW0d4zQgqRL7O~rxdzqBgfE5A&t=eventParameters&a=zNuC6RrIF3x7&e=0%3AtO1CgxSKW0d4zQgqRL7O~rxdzqBgfE5A5&c=mr2dmfmp&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FLipton_Survey_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Rendered!srt!0!sts!329!siv!0!sol!1!)&x=tu7ek6",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Lipton_Survey_copy",
+        "startedDateTime": "1970-01-04T07:15:27.779030Z",
+        "time": 55.562,
+        "timings": {
+          "send": 2.778,
+          "wait": 22.225,
+          "receive": 30.559
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dmfiv%3AdlHG9MyrECUqyhELej2lQ27KEbsRPEWo&s=0%3Amr2dmfiv%3AB_TsfYw_UJuE~065g7Md5ffDL0XG8oKn&v=0%3AtO1CgxSKW0d4zQgqRL7O~rxdzqBgfE5A&t=eventParameters&a=zNuC6RrIF3x7&e=0%3AtO1CgxSKW0d4zQgqRL7O~rxdzqBgfE5A6&c=mr2dmgyv&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FLipton_Survey_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20is%20in%20view!srt!0!sts!2071!siv!1!sol!1!)&x=-m5wghk",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Lipton_Survey_copy",
+        "startedDateTime": "1970-01-04T07:15:27.779231Z",
+        "time": 55.301,
+        "timings": {
+          "send": 2.765,
+          "wait": 22.12,
+          "receive": 30.416
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dmfiv%3AdlHG9MyrECUqyhELej2lQ27KEbsRPEWo&s=0%3Amr2dmfiv%3AB_TsfYw_UJuE~065g7Md5ffDL0XG8oKn&v=0%3AtO1CgxSKW0d4zQgqRL7O~rxdzqBgfE5A&t=eventParameters&a=zNuC6RrIF3x7&e=0%3AtO1CgxSKW0d4zQgqRL7O~rxdzqBgfE5A7&c=mr2dmgyw&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FLipton_Survey_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Navigation!saction!Intro!srt!0!sts!309!siv!0!sol!1!)&x=-2ptb02",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Lipton_Survey_copy",
+        "startedDateTime": "1970-01-04T07:15:27.779312Z",
+        "time": 47.23,
+        "timings": {
+          "send": 2.361,
+          "wait": 18.892,
+          "receive": 25.976
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dmfiv%3AdlHG9MyrECUqyhELej2lQ27KEbsRPEWo&s=0%3Amr2dmfiv%3AB_TsfYw_UJuE~065g7Md5ffDL0XG8oKn&v=0%3AtO1CgxSKW0d4zQgqRL7O~rxdzqBgfE5A&t=eventParameters&a=zNuC6RrIF3x7&e=0%3AtO1CgxSKW0d4zQgqRL7O~rxdzqBgfE5A8&c=mr2dmgyw&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FLipton_Survey_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20revealed!srt!0!sts!872!siv!0!sol!1!)&x=602gh5",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Lipton_Survey_copy",
+        "startedDateTime": "1970-01-04T07:15:27.779396Z",
+        "time": 55.231,
+        "timings": {
+          "send": 2.762,
+          "wait": 22.092,
+          "receive": 30.377
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dmfiv%3AdlHG9MyrECUqyhELej2lQ27KEbsRPEWo&s=0%3Amr2dmfiv%3AB_TsfYw_UJuE~065g7Md5ffDL0XG8oKn&v=0%3AtO1CgxSKW0d4zQgqRL7O~rxdzqBgfE5A&t=eventParameters&a=zNuC6RrIF3x7&e=0%3AtO1CgxSKW0d4zQgqRL7O~rxdzqBgfE5A9&c=mr2dmgyw&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FLipton_Survey_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B0%5D!srt!0!sts!1639!siv!0!sol!1!)&x=-2tgh9f",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Lipton_Survey_copy",
+        "startedDateTime": "1970-01-04T07:15:28.409975Z",
+        "time": 67.762,
+        "timings": {
+          "send": 3.388,
+          "wait": 27.105,
+          "receive": 37.269
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dmfiv%3AdlHG9MyrECUqyhELej2lQ27KEbsRPEWo&s=0%3Amr2dmfiv%3AB_TsfYw_UJuE~065g7Md5ffDL0XG8oKn&v=0%3AtO1CgxSKW0d4zQgqRL7O~rxdzqBgfE5A&t=eventParameters&a=zNuC6RrIF3x7&e=0%3AtO1CgxSKW0d4zQgqRL7O~rxdzqBgfE5Aa&c=mr2dmhge&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FLipton_Survey_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B25%5D!srt!631!sts!2702!siv!1!sol!1!)&x=mwcp67",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Lipton_Survey_copy",
+        "startedDateTime": "1970-01-04T07:15:30.797659Z",
+        "time": 139.984,
+        "timings": {
+          "send": 5.0,
+          "wait": 55.994,
+          "receive": 78.99
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dmfiv%3AdlHG9MyrECUqyhELej2lQ27KEbsRPEWo&s=0%3Amr2dmfiv%3AB_TsfYw_UJuE~065g7Md5ffDL0XG8oKn&v=0%3AtO1CgxSKW0d4zQgqRL7O~rxdzqBgfE5A&t=eventParameters&a=zNuC6RrIF3x7&e=0%3AtO1CgxSKW0d4zQgqRL7O~rxdzqBgfE5Ab&c=mr2dmjaq&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FLipton_Survey_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B50%5D!srt!3019!sts!5090!siv!1!sol!1!)&x=-b0tdwo",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Lipton_Survey_copy",
+        "startedDateTime": "1970-01-04T07:15:33.454817Z",
+        "time": 70.395,
+        "timings": {
+          "send": 3.52,
+          "wait": 28.158,
+          "receive": 38.717
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dmfiv%3AdlHG9MyrECUqyhELej2lQ27KEbsRPEWo&s=0%3Amr2dmfiv%3AB_TsfYw_UJuE~065g7Md5ffDL0XG8oKn&v=0%3AtO1CgxSKW0d4zQgqRL7O~rxdzqBgfE5A&t=eventParameters&a=zNuC6RrIF3x7&e=0%3AtO1CgxSKW0d4zQgqRL7O~rxdzqBgfE5Ac&c=mr2dmlcj&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FLipton_Survey_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B75%5D!srt!5676!sts!7747!siv!1!sol!1!)&x=8obw7n",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,631 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "crawl_ads_cdp",
+      "version": "2.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-07-01T18:06:32.722203Z",
+        "id": "RO_Fressnapf_Digital_Catalogue_Flyer_Feb-Dec2025_Feb2025_copy",
+        "title": "RO_Fressnapf_Digital_Catalogue_Flyer_Feb-Dec2025_Feb2025_copy",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "RO_Fressnapf_Digital_Catalogue_Flyer_Feb-Dec2025_Feb2025_copy",
+        "startedDateTime": "1970-01-04T07:26:02.240643Z",
+        "time": 142.004,
+        "timings": {
+          "send": 5.0,
+          "wait": 56.802,
+          "receive": 80.202
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/25mmARoGJMhy/adtag.js?pxf=7EoPvF5AsbRgHHIe&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_502}",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 191655,
+            "mimeType": "application/javascript",
+            "compression": 132198
+          },
+          "bodySize": 59457,
+          "decodedBodySize": 191655,
+          "transferSize": 59457,
+          "_transferSize": 59457,
+          "_decodedBodySize": 191655,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "RO_Fressnapf_Digital_Catalogue_Flyer_Feb-Dec2025_Feb2025_copy",
+        "startedDateTime": "1970-01-04T07:26:02.387358Z",
+        "time": 159.992,
+        "timings": {
+          "send": 5.0,
+          "wait": 63.997,
+          "receive": 90.995
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tracking.js?ad=25mmARoGJMhy",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 8385,
+            "mimeType": "application/javascript",
+            "compression": 4224
+          },
+          "bodySize": 4161,
+          "decodedBodySize": 8385,
+          "transferSize": 4161,
+          "_transferSize": 4161,
+          "_decodedBodySize": 8385,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "RO_Fressnapf_Digital_Catalogue_Flyer_Feb-Dec2025_Feb2025_copy",
+        "startedDateTime": "1970-01-04T07:26:02.393955Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tr5.html",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "RO_Fressnapf_Digital_Catalogue_Flyer_Feb-Dec2025_Feb2025_copy",
+        "startedDateTime": "1970-01-04T07:26:02.392929Z",
+        "time": 224.066,
+        "timings": {
+          "send": 5.0,
+          "wait": 89.626,
+          "receive": 129.44
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/25mmARoGJMhy/adcanvas.min.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 206790,
+            "mimeType": "application/javascript",
+            "compression": 147383
+          },
+          "bodySize": 59407,
+          "decodedBodySize": 206790,
+          "transferSize": 59407,
+          "_transferSize": 59407,
+          "_decodedBodySize": 206790,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "RO_Fressnapf_Digital_Catalogue_Flyer_Feb-Dec2025_Feb2025_copy",
+        "startedDateTime": "1970-01-04T07:26:02.393079Z",
+        "time": 102.596,
+        "timings": {
+          "send": 5.0,
+          "wait": 41.038,
+          "receive": 56.558
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/25mmARoGJMhy/7EoPvF5AsbRgHHIe/pack.acz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 104975,
+            "mimeType": "application/zip"
+          },
+          "bodySize": 104975,
+          "decodedBodySize": 104975,
+          "transferSize": 104975,
+          "_transferSize": 104975,
+          "_decodedBodySize": 104975,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "RO_Fressnapf_Digital_Catalogue_Flyer_Feb-Dec2025_Feb2025_copy",
+        "startedDateTime": "1970-01-04T07:26:02.394714Z",
+        "time": 60.949,
+        "timings": {
+          "send": 3.047,
+          "wait": 24.38,
+          "receive": 33.522
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/25mmARoGJMhy/splash.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 11396,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 11396,
+          "decodedBodySize": 11396,
+          "transferSize": 11396,
+          "_transferSize": 11396,
+          "_decodedBodySize": 11396,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "RO_Fressnapf_Digital_Catalogue_Flyer_Feb-Dec2025_Feb2025_copy",
+        "startedDateTime": "1970-01-04T07:26:02.551519Z",
+        "time": 108.595,
+        "timings": {
+          "send": 5.0,
+          "wait": 43.438,
+          "receive": 60.157
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2e02sd%3AxO1AcT9oLPDRbz6PEbRIA4S2Z0Q09bPp&s=0%3Amr2e02sd%3Alw9JgN5PgX9N6JdJQn4AiwGgfK79E8X1&v=0%3AJPYs73t1G2ATBlxbJNl4uN7tTwFYPprB&t=pageView&a=25mmARoGJMhy&e=0%3AJPYs73t1G2ATBlxbJNl4uN7tTwFYPprB0&c=mr2e02sg&n=t&f=t&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FRO_Fressnapf_Digital_Catalogue_Flyer_Feb-Dec2025_Feb2025_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&x=-ce8o3",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "RO_Fressnapf_Digital_Catalogue_Flyer_Feb-Dec2025_Feb2025_copy",
+        "startedDateTime": "1970-01-04T07:26:02.554708Z",
+        "time": 105.334,
+        "timings": {
+          "send": 5.0,
+          "wait": 42.134,
+          "receive": 58.2
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2e02sd%3AxO1AcT9oLPDRbz6PEbRIA4S2Z0Q09bPp&s=0%3Amr2e02sd%3Alw9JgN5PgX9N6JdJQn4AiwGgfK79E8X1&v=0%3AJPYs73t1G2ATBlxbJNl4uN7tTwFYPprB&t=eventParameters&a=25mmARoGJMhy&e=0%3AJPYs73t1G2ATBlxbJNl4uN7tTwFYPprB1&c=mr2e02sk&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FRO_Fressnapf_Digital_Catalogue_Flyer_Feb-Dec2025_Feb2025_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Billable%20impression!srt!0!sts!0!siv!0!sol!1!)&x=bqahx3",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "RO_Fressnapf_Digital_Catalogue_Flyer_Feb-Dec2025_Feb2025_copy",
+        "startedDateTime": "1970-01-04T07:26:03.286049Z",
+        "time": 161.923,
+        "timings": {
+          "send": 5.0,
+          "wait": 64.769,
+          "receive": 92.154
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/25mmARoGJMhy/7EoPvF5AsbRgHHIe/feed_lYsSopSWeGgW51FU.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 41160,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 41160,
+          "decodedBodySize": 41160,
+          "transferSize": 41160,
+          "_transferSize": 41160,
+          "_decodedBodySize": 41160,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "RO_Fressnapf_Digital_Catalogue_Flyer_Feb-Dec2025_Feb2025_copy",
+        "startedDateTime": "1970-01-04T07:26:03.286102Z",
+        "time": 140.88,
+        "timings": {
+          "send": 5.0,
+          "wait": 56.352,
+          "receive": 79.528
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/25mmARoGJMhy/7EoPvF5AsbRgHHIe/feed_zsPyJQKwUiLg1nvK.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 39973,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 39973,
+          "decodedBodySize": 39973,
+          "transferSize": 39973,
+          "_transferSize": 39973,
+          "_decodedBodySize": 39973,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "RO_Fressnapf_Digital_Catalogue_Flyer_Feb-Dec2025_Feb2025_copy",
+        "startedDateTime": "1970-01-04T07:26:03.286122Z",
+        "time": 141.38,
+        "timings": {
+          "send": 5.0,
+          "wait": 56.552,
+          "receive": 79.828
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/25mmARoGJMhy/7EoPvF5AsbRgHHIe/feed_aghNTVSkrILwiZHG.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 31131,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 31131,
+          "decodedBodySize": 31131,
+          "transferSize": 31131,
+          "_transferSize": 31131,
+          "_decodedBodySize": 31131,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "RO_Fressnapf_Digital_Catalogue_Flyer_Feb-Dec2025_Feb2025_copy",
+        "startedDateTime": "1970-01-04T07:26:03.286137Z",
+        "time": 129.816,
+        "timings": {
+          "send": 5.0,
+          "wait": 51.926,
+          "receive": 72.89
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/25mmARoGJMhy/7EoPvF5AsbRgHHIe/feed_6LSP2jkw0ZMF5zKr.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 32714,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 32714,
+          "decodedBodySize": 32714,
+          "transferSize": 32714,
+          "_transferSize": 32714,
+          "_decodedBodySize": 32714,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "RO_Fressnapf_Digital_Catalogue_Flyer_Feb-Dec2025_Feb2025_copy",
+        "startedDateTime": "1970-01-04T07:26:03.286151Z",
+        "time": 152.01,
+        "timings": {
+          "send": 5.0,
+          "wait": 60.804,
+          "receive": 86.206
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/25mmARoGJMhy/7EoPvF5AsbRgHHIe/feed_glVx8242iPrmAzPD.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 37190,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 37190,
+          "decodedBodySize": 37190,
+          "transferSize": 37190,
+          "_transferSize": 37190,
+          "_decodedBodySize": 37190,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "RO_Fressnapf_Digital_Catalogue_Flyer_Feb-Dec2025_Feb2025_copy",
+        "startedDateTime": "1970-01-04T07:26:03.286164Z",
+        "time": 151.164,
+        "timings": {
+          "send": 5.0,
+          "wait": 60.466,
+          "receive": 85.698
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/25mmARoGJMhy/7EoPvF5AsbRgHHIe/feed_iAwHcE2Tljtq3yLi.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 35928,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 35928,
+          "decodedBodySize": 35928,
+          "transferSize": 35928,
+          "_transferSize": 35928,
+          "_decodedBodySize": 35928,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "RO_Fressnapf_Digital_Catalogue_Flyer_Feb-Dec2025_Feb2025_copy",
+        "startedDateTime": "1970-01-04T07:26:03.288278Z",
+        "time": 49.826,
+        "timings": {
+          "send": 2.491,
+          "wait": 19.93,
+          "receive": 27.404
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2e02sd%3AxO1AcT9oLPDRbz6PEbRIA4S2Z0Q09bPp&s=0%3Amr2e02sd%3Alw9JgN5PgX9N6JdJQn4AiwGgfK79E8X1&v=0%3AJPYs73t1G2ATBlxbJNl4uN7tTwFYPprB&t=eventParameters&a=25mmARoGJMhy&e=0%3AJPYs73t1G2ATBlxbJNl4uN7tTwFYPprB2&c=mr2e03cx&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FRO_Fressnapf_Digital_Catalogue_Flyer_Feb-Dec2025_Feb2025_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Loaded!srt!0!sts!234!siv!0!sol!1!)&x=-od33",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "RO_Fressnapf_Digital_Catalogue_Flyer_Feb-Dec2025_Feb2025_copy",
+        "startedDateTime": "1970-01-04T07:26:03.288421Z",
+        "time": 44.793,
+        "timings": {
+          "send": 2.24,
+          "wait": 17.917,
+          "receive": 24.636
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2e02sd%3AxO1AcT9oLPDRbz6PEbRIA4S2Z0Q09bPp&s=0%3Amr2e02sd%3Alw9JgN5PgX9N6JdJQn4AiwGgfK79E8X1&v=0%3AJPYs73t1G2ATBlxbJNl4uN7tTwFYPprB&t=eventParameters&a=25mmARoGJMhy&e=0%3AJPYs73t1G2ATBlxbJNl4uN7tTwFYPprB3&c=mr2e03cy&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FRO_Fressnapf_Digital_Catalogue_Flyer_Feb-Dec2025_Feb2025_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Meta!saction!safeFrame%20not%20detected!srt!0!sts!234!siv!0!sol!1!)&x=u63m9r",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "RO_Fressnapf_Digital_Catalogue_Flyer_Feb-Dec2025_Feb2025_copy",
+        "startedDateTime": "1970-01-04T07:26:03.288506Z",
+        "time": 47.8,
+        "timings": {
+          "send": 2.39,
+          "wait": 19.12,
+          "receive": 26.29
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2e02sd%3AxO1AcT9oLPDRbz6PEbRIA4S2Z0Q09bPp&s=0%3Amr2e02sd%3Alw9JgN5PgX9N6JdJQn4AiwGgfK79E8X1&v=0%3AJPYs73t1G2ATBlxbJNl4uN7tTwFYPprB&t=eventParameters&a=25mmARoGJMhy&e=0%3AJPYs73t1G2ATBlxbJNl4uN7tTwFYPprB4&c=mr2e03cy&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FRO_Fressnapf_Digital_Catalogue_Flyer_Feb-Dec2025_Feb2025_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Started!srt!0!sts!234!siv!0!sol!1!)&x=admw2v",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "RO_Fressnapf_Digital_Catalogue_Flyer_Feb-Dec2025_Feb2025_copy",
+        "startedDateTime": "1970-01-04T07:26:03.291354Z",
+        "time": 46.462,
+        "timings": {
+          "send": 2.323,
+          "wait": 18.585,
+          "receive": 25.554
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2e02sd%3AxO1AcT9oLPDRbz6PEbRIA4S2Z0Q09bPp&s=0%3Amr2e02sd%3Alw9JgN5PgX9N6JdJQn4AiwGgfK79E8X1&v=0%3AJPYs73t1G2ATBlxbJNl4uN7tTwFYPprB&t=eventParameters&a=25mmARoGJMhy&e=0%3AJPYs73t1G2ATBlxbJNl4uN7tTwFYPprB5&c=mr2e03d0&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FRO_Fressnapf_Digital_Catalogue_Flyer_Feb-Dec2025_Feb2025_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Rendered!srt!0!sts!903!siv!0!sol!1!)&x=-xhasty",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "RO_Fressnapf_Digital_Catalogue_Flyer_Feb-Dec2025_Feb2025_copy",
+        "startedDateTime": "1970-01-04T07:26:04.994641Z",
+        "time": 50.608,
+        "timings": {
+          "send": 2.53,
+          "wait": 20.243,
+          "receive": 27.834
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2e02sd%3AxO1AcT9oLPDRbz6PEbRIA4S2Z0Q09bPp&s=0%3Amr2e02sd%3Alw9JgN5PgX9N6JdJQn4AiwGgfK79E8X1&v=0%3AJPYs73t1G2ATBlxbJNl4uN7tTwFYPprB&t=eventParameters&a=25mmARoGJMhy&e=0%3AJPYs73t1G2ATBlxbJNl4uN7tTwFYPprB6&c=mr2e04oc&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FRO_Fressnapf_Digital_Catalogue_Flyer_Feb-Dec2025_Feb2025_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20is%20in%20view!srt!0!sts!2610!siv!1!sol!1!)&x=-dlkaxu",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "RO_Fressnapf_Digital_Catalogue_Flyer_Feb-Dec2025_Feb2025_copy",
+        "startedDateTime": "1970-01-04T07:26:04.994855Z",
+        "time": 50.478,
+        "timings": {
+          "send": 2.524,
+          "wait": 20.191,
+          "receive": 27.763
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2e02sd%3AxO1AcT9oLPDRbz6PEbRIA4S2Z0Q09bPp&s=0%3Amr2e02sd%3Alw9JgN5PgX9N6JdJQn4AiwGgfK79E8X1&v=0%3AJPYs73t1G2ATBlxbJNl4uN7tTwFYPprB&t=eventParameters&a=25mmARoGJMhy&e=0%3AJPYs73t1G2ATBlxbJNl4uN7tTwFYPprB7&c=mr2e04oc&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FRO_Fressnapf_Digital_Catalogue_Flyer_Feb-Dec2025_Feb2025_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Paging!saction!Auto%20Page%20seen%20%5BFirst%20media%5D!srt!0!sts!900!siv!0!sol!1!)&x=zhy31l",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "RO_Fressnapf_Digital_Catalogue_Flyer_Feb-Dec2025_Feb2025_copy",
+        "startedDateTime": "1970-01-04T07:26:04.994957Z",
+        "time": 51.616,
+        "timings": {
+          "send": 2.581,
+          "wait": 20.646,
+          "receive": 28.389
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2e02sd%3AxO1AcT9oLPDRbz6PEbRIA4S2Z0Q09bPp&s=0%3Amr2e02sd%3Alw9JgN5PgX9N6JdJQn4AiwGgfK79E8X1&v=0%3AJPYs73t1G2ATBlxbJNl4uN7tTwFYPprB&t=eventParameters&a=25mmARoGJMhy&e=0%3AJPYs73t1G2ATBlxbJNl4uN7tTwFYPprB8&c=mr2e04oc&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FRO_Fressnapf_Digital_Catalogue_Flyer_Feb-Dec2025_Feb2025_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20revealed!srt!0!sts!1438!siv!0!sol!1!)&x=-k8ruyn",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      }
+    ]
+  }
+}

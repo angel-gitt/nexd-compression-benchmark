@@ -1,0 +1,7 @@
+ad_name,scenario,scenario_label,phase,energy_mj,total_energy_mj,baseline_energy_mj,duration_s,n_files,n_impressions,n_connections_per_imp,uncompressed_bytes,compressed_bytes,compression_ratio,energy_uj_per_imp
+0ZhWb1hege2E,NEXD,NEXD,compression,0.8248,0.8248,0.0,0.0615,45,0,0,3364928,2996118,1.123,0.0
+0ZhWb1hege2E,NEXD,NEXD,serving,0,3.1964,4.1047,1.0016,1,500,1,0,2996118,0.0,0.0
+0ZhWb1hege2E,HTML5_gzip,HTML5-gzip,compression,0.8207,0.8207,0.0,0.0606,45,0,0,3364928,2984163,1.128,0.0
+0ZhWb1hege2E,HTML5_gzip,HTML5-gzip,serving,0.890948,4.6933,3.8023,1.0054,45,500,45,0,2984163,0.0,1.7819
+0ZhWb1hege2E,HTML5_brotli,HTML5-brotli,compression,0.6454,0.6454,0.0,0.036,45,0,0,3364928,2986160,1.127,0.0
+0ZhWb1hege2E,HTML5_brotli,HTML5-brotli,serving,0,2.3611,2.9826,1.006,45,500,45,0,2986160,0.0,0.0

@@ -1,0 +1,631 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "crawl_ads_cdp",
+      "version": "2.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-07-01T17:23:12.354386Z",
+        "id": "AIA_Altas_DA_Cube_copy",
+        "title": "AIA_Altas_DA_Cube_copy",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "AIA_Altas_DA_Cube_copy",
+        "startedDateTime": "1970-01-04T06:42:42.324530Z",
+        "time": 402.883,
+        "timings": {
+          "send": 5.0,
+          "wait": 161.153,
+          "receive": 236.73
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/PJCf8pkuhl14/adtag.js?pxf=dx85olQzuM8fpvyy&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_502}",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 193723,
+            "mimeType": "application/javascript",
+            "compression": 133763
+          },
+          "bodySize": 59960,
+          "decodedBodySize": 193723,
+          "transferSize": 59960,
+          "_transferSize": 59960,
+          "_decodedBodySize": 193723,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "AIA_Altas_DA_Cube_copy",
+        "startedDateTime": "1970-01-04T06:42:42.731795Z",
+        "time": 117.775,
+        "timings": {
+          "send": 5.0,
+          "wait": 47.11,
+          "receive": 65.665
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tracking.js?ad=PJCf8pkuhl14",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 8385,
+            "mimeType": "application/javascript",
+            "compression": 4226
+          },
+          "bodySize": 4159,
+          "decodedBodySize": 8385,
+          "transferSize": 4159,
+          "_transferSize": 4159,
+          "_decodedBodySize": 8385,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "AIA_Altas_DA_Cube_copy",
+        "startedDateTime": "1970-01-04T06:42:42.740436Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tr5.html",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "AIA_Altas_DA_Cube_copy",
+        "startedDateTime": "1970-01-04T06:42:42.737846Z",
+        "time": 109.327,
+        "timings": {
+          "send": 5.0,
+          "wait": 43.731,
+          "receive": 60.596
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/PJCf8pkuhl14/adcanvas.min.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 198462,
+            "mimeType": "application/javascript",
+            "compression": 141228
+          },
+          "bodySize": 57234,
+          "decodedBodySize": 198462,
+          "transferSize": 57234,
+          "_transferSize": 57234,
+          "_decodedBodySize": 198462,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "AIA_Altas_DA_Cube_copy",
+        "startedDateTime": "1970-01-04T06:42:42.738016Z",
+        "time": 155.064,
+        "timings": {
+          "send": 5.0,
+          "wait": 62.026,
+          "receive": 88.038
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/PJCf8pkuhl14/dx85olQzuM8fpvyy/pack.acz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 141966,
+            "mimeType": "application/zip"
+          },
+          "bodySize": 141966,
+          "decodedBodySize": 141966,
+          "transferSize": 141966,
+          "_transferSize": 141966,
+          "_decodedBodySize": 141966,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "AIA_Altas_DA_Cube_copy",
+        "startedDateTime": "1970-01-04T06:42:42.739686Z",
+        "time": 96.224,
+        "timings": {
+          "send": 4.811,
+          "wait": 38.49,
+          "receive": 52.923
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/PJCf8pkuhl14/splash.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 10555,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 10555,
+          "decodedBodySize": 10555,
+          "transferSize": 10555,
+          "_transferSize": 10555,
+          "_decodedBodySize": 10555,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "AIA_Altas_DA_Cube_copy",
+        "startedDateTime": "1970-01-04T06:42:42.853911Z",
+        "time": 91.67,
+        "timings": {
+          "send": 4.584,
+          "wait": 36.668,
+          "receive": 50.419
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cgctx%3AkbLo6TDhJzlRNKfHeN6XoC_J1SaWi7Da&s=0%3Amr2cgctx%3ABhsJTLwkdib0BrZNgoUqqgAb1aQEqkOF&v=0%3AzcGAwKgLpGosxviSCiqZyf2WBMZpZycb&t=pageView&a=PJCf8pkuhl14&e=0%3AzcGAwKgLpGosxviSCiqZyf2WBMZpZycb0&c=mr2cgcu1&n=t&f=t&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FAIA_Altas_DA_Cube_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&x=-gk1ua8",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "AIA_Altas_DA_Cube_copy",
+        "startedDateTime": "1970-01-04T06:42:42.854216Z",
+        "time": 91.445,
+        "timings": {
+          "send": 4.572,
+          "wait": 36.578,
+          "receive": 50.295
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cgctx%3AkbLo6TDhJzlRNKfHeN6XoC_J1SaWi7Da&s=0%3Amr2cgctx%3ABhsJTLwkdib0BrZNgoUqqgAb1aQEqkOF&v=0%3AzcGAwKgLpGosxviSCiqZyf2WBMZpZycb&t=eventParameters&a=PJCf8pkuhl14&e=0%3AzcGAwKgLpGosxviSCiqZyf2WBMZpZycb1&c=mr2cgcu1&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FAIA_Altas_DA_Cube_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Billable%20impression!srt!0!sts!0!siv!0!sol!1!)&x=-ww6ven",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "AIA_Altas_DA_Cube_copy",
+        "startedDateTime": "1970-01-04T06:42:42.933037Z",
+        "time": 86.706,
+        "timings": {
+          "send": 4.335,
+          "wait": 34.682,
+          "receive": 47.688
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/PJCf8pkuhl14/dx85olQzuM8fpvyy/feed_Jc0P4Mtj5WoKkoWU.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 36490,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 36490,
+          "decodedBodySize": 36490,
+          "transferSize": 36490,
+          "_transferSize": 36490,
+          "_decodedBodySize": 36490,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "AIA_Altas_DA_Cube_copy",
+        "startedDateTime": "1970-01-04T06:42:42.933093Z",
+        "time": 86.489,
+        "timings": {
+          "send": 4.324,
+          "wait": 34.596,
+          "receive": 47.569
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/PJCf8pkuhl14/dx85olQzuM8fpvyy/feed_rRNxXb1fVJyCR5Vc.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 48102,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 48102,
+          "decodedBodySize": 48102,
+          "transferSize": 48102,
+          "_transferSize": 48102,
+          "_decodedBodySize": 48102,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "AIA_Altas_DA_Cube_copy",
+        "startedDateTime": "1970-01-04T06:42:42.933111Z",
+        "time": 67.157,
+        "timings": {
+          "send": 3.358,
+          "wait": 26.863,
+          "receive": 36.936
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/PJCf8pkuhl14/dx85olQzuM8fpvyy/feed_ujrPYezVXxWEsAPi.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 47089,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 47089,
+          "decodedBodySize": 47089,
+          "transferSize": 47089,
+          "_transferSize": 47089,
+          "_decodedBodySize": 47089,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "AIA_Altas_DA_Cube_copy",
+        "startedDateTime": "1970-01-04T06:42:42.933125Z",
+        "time": 87.245,
+        "timings": {
+          "send": 4.362,
+          "wait": 34.898,
+          "receive": 47.985
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/PJCf8pkuhl14/dx85olQzuM8fpvyy/feed_N2OMKNhj6NNFioTQ.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 47862,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 47862,
+          "decodedBodySize": 47862,
+          "transferSize": 47862,
+          "_transferSize": 47862,
+          "_decodedBodySize": 47862,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "AIA_Altas_DA_Cube_copy",
+        "startedDateTime": "1970-01-04T06:42:42.933140Z",
+        "time": 88.272,
+        "timings": {
+          "send": 4.414,
+          "wait": 35.309,
+          "receive": 48.55
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/PJCf8pkuhl14/dx85olQzuM8fpvyy/feed_trrcEZPOrasbZrHG.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 45197,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 45197,
+          "decodedBodySize": 45197,
+          "transferSize": 45197,
+          "_transferSize": 45197,
+          "_decodedBodySize": 45197,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "AIA_Altas_DA_Cube_copy",
+        "startedDateTime": "1970-01-04T06:42:42.933152Z",
+        "time": 158.545,
+        "timings": {
+          "send": 5.0,
+          "wait": 63.418,
+          "receive": 90.127
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/PJCf8pkuhl14/dx85olQzuM8fpvyy/feed_gFeX4SNRTBa5l770.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 26567,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 26567,
+          "decodedBodySize": 26567,
+          "transferSize": 26567,
+          "_transferSize": 26567,
+          "_decodedBodySize": 26567,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "AIA_Altas_DA_Cube_copy",
+        "startedDateTime": "1970-01-04T06:42:42.933406Z",
+        "time": 49.918,
+        "timings": {
+          "send": 2.496,
+          "wait": 19.967,
+          "receive": 27.455
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cgctx%3AkbLo6TDhJzlRNKfHeN6XoC_J1SaWi7Da&s=0%3Amr2cgctx%3ABhsJTLwkdib0BrZNgoUqqgAb1aQEqkOF&v=0%3AzcGAwKgLpGosxviSCiqZyf2WBMZpZycb&t=eventParameters&a=PJCf8pkuhl14&e=0%3AzcGAwKgLpGosxviSCiqZyf2WBMZpZycb2&c=mr2cgcw8&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FAIA_Altas_DA_Cube_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Loaded!srt!0!sts!164!siv!0!sol!1!)&x=kgy7av",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "AIA_Altas_DA_Cube_copy",
+        "startedDateTime": "1970-01-04T06:42:42.933500Z",
+        "time": 49.547,
+        "timings": {
+          "send": 2.477,
+          "wait": 19.819,
+          "receive": 27.251
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cgctx%3AkbLo6TDhJzlRNKfHeN6XoC_J1SaWi7Da&s=0%3Amr2cgctx%3ABhsJTLwkdib0BrZNgoUqqgAb1aQEqkOF&v=0%3AzcGAwKgLpGosxviSCiqZyf2WBMZpZycb&t=eventParameters&a=PJCf8pkuhl14&e=0%3AzcGAwKgLpGosxviSCiqZyf2WBMZpZycb3&c=mr2cgcw8&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FAIA_Altas_DA_Cube_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Meta!saction!safeFrame%20not%20detected!srt!0!sts!165!siv!0!sol!1!)&x=-uuhnbp",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "AIA_Altas_DA_Cube_copy",
+        "startedDateTime": "1970-01-04T06:42:42.933621Z",
+        "time": 49.371,
+        "timings": {
+          "send": 2.469,
+          "wait": 19.748,
+          "receive": 27.154
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cgctx%3AkbLo6TDhJzlRNKfHeN6XoC_J1SaWi7Da&s=0%3Amr2cgctx%3ABhsJTLwkdib0BrZNgoUqqgAb1aQEqkOF&v=0%3AzcGAwKgLpGosxviSCiqZyf2WBMZpZycb&t=eventParameters&a=PJCf8pkuhl14&e=0%3AzcGAwKgLpGosxviSCiqZyf2WBMZpZycb4&c=mr2cgcw9&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FAIA_Altas_DA_Cube_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Started!srt!0!sts!165!siv!0!sol!1!)&x=-rmaglb",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "AIA_Altas_DA_Cube_copy",
+        "startedDateTime": "1970-01-04T06:42:42.940163Z",
+        "time": 46.036,
+        "timings": {
+          "send": 2.302,
+          "wait": 18.414,
+          "receive": 25.32
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cgctx%3AkbLo6TDhJzlRNKfHeN6XoC_J1SaWi7Da&s=0%3Amr2cgctx%3ABhsJTLwkdib0BrZNgoUqqgAb1aQEqkOF&v=0%3AzcGAwKgLpGosxviSCiqZyf2WBMZpZycb&t=eventParameters&a=PJCf8pkuhl14&e=0%3AzcGAwKgLpGosxviSCiqZyf2WBMZpZycb5&c=mr2cgcwf&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FAIA_Altas_DA_Cube_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Rendered!srt!0!sts!206!siv!0!sol!1!)&x=-u67uxz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "AIA_Altas_DA_Cube_copy",
+        "startedDateTime": "1970-01-04T06:42:44.841854Z",
+        "time": 152.601,
+        "timings": {
+          "send": 5.0,
+          "wait": 61.04,
+          "receive": 86.561
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cgctx%3AkbLo6TDhJzlRNKfHeN6XoC_J1SaWi7Da&s=0%3Amr2cgctx%3ABhsJTLwkdib0BrZNgoUqqgAb1aQEqkOF&v=0%3AzcGAwKgLpGosxviSCiqZyf2WBMZpZycb&t=eventParameters&a=PJCf8pkuhl14&e=0%3AzcGAwKgLpGosxviSCiqZyf2WBMZpZycb6&c=mr2cgeck&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FAIA_Altas_DA_Cube_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20is%20in%20view!srt!3!sts!2086!siv!1!sol!1!)&x=wthlkl",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "AIA_Altas_DA_Cube_copy",
+        "startedDateTime": "1970-01-04T06:42:44.850173Z",
+        "time": 144.327,
+        "timings": {
+          "send": 5.0,
+          "wait": 57.731,
+          "receive": 81.596
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cgctx%3AkbLo6TDhJzlRNKfHeN6XoC_J1SaWi7Da&s=0%3Amr2cgctx%3ABhsJTLwkdib0BrZNgoUqqgAb1aQEqkOF&v=0%3AzcGAwKgLpGosxviSCiqZyf2WBMZpZycb&t=eventParameters&a=PJCf8pkuhl14&e=0%3AzcGAwKgLpGosxviSCiqZyf2WBMZpZycb7&c=mr2cgedg&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FAIA_Altas_DA_Cube_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Paging!saction!Page%20seen%20%5BFirst%20media%5D!srt!0!sts!201!siv!0!sol!1!)&x=-ih9xw6",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "AIA_Altas_DA_Cube_copy",
+        "startedDateTime": "1970-01-04T06:42:44.850314Z",
+        "time": 143.521,
+        "timings": {
+          "send": 5.0,
+          "wait": 57.408,
+          "receive": 81.113
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cgctx%3AkbLo6TDhJzlRNKfHeN6XoC_J1SaWi7Da&s=0%3Amr2cgctx%3ABhsJTLwkdib0BrZNgoUqqgAb1aQEqkOF&v=0%3AzcGAwKgLpGosxviSCiqZyf2WBMZpZycb&t=eventParameters&a=PJCf8pkuhl14&e=0%3AzcGAwKgLpGosxviSCiqZyf2WBMZpZycb8&c=mr2cgedg&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FAIA_Altas_DA_Cube_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20revealed!srt!0!sts!739!siv!0!sol!1!)&x=s236iv",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,544 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "crawl_ads_cdp",
+      "version": "2.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-07-01T17:54:45.395101Z",
+        "id": "Lipton_Slider_copy",
+        "title": "Lipton_Slider_copy",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "Lipton_Slider_copy",
+        "startedDateTime": "1970-01-04T07:14:15.408062Z",
+        "time": 130.016,
+        "timings": {
+          "send": 5.0,
+          "wait": 52.006,
+          "receive": 73.01
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tMleSSexBUX8/adtag.js?pxf=IxcXRgqERvWnfngz&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_502}",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 191363,
+            "mimeType": "application/javascript",
+            "compression": 131515
+          },
+          "bodySize": 59848,
+          "decodedBodySize": 191363,
+          "transferSize": 59848,
+          "_transferSize": 59848,
+          "_decodedBodySize": 191363,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Lipton_Slider_copy",
+        "startedDateTime": "1970-01-04T07:14:15.544428Z",
+        "time": 67.889,
+        "timings": {
+          "send": 3.394,
+          "wait": 27.156,
+          "receive": 37.339
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tracking.js?ad=tMleSSexBUX8",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 8385,
+            "mimeType": "application/javascript",
+            "compression": 4224
+          },
+          "bodySize": 4161,
+          "decodedBodySize": 8385,
+          "transferSize": 4161,
+          "_transferSize": 4161,
+          "_decodedBodySize": 8385,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Lipton_Slider_copy",
+        "startedDateTime": "1970-01-04T07:14:15.551244Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tr5.html",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Lipton_Slider_copy",
+        "startedDateTime": "1970-01-04T07:14:15.551086Z",
+        "time": 143.936,
+        "timings": {
+          "send": 5.0,
+          "wait": 57.574,
+          "receive": 81.362
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tMleSSexBUX8/adcanvas.min.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 241515,
+            "mimeType": "application/javascript",
+            "compression": 171699
+          },
+          "bodySize": 69816,
+          "decodedBodySize": 241515,
+          "transferSize": 69816,
+          "_transferSize": 69816,
+          "_decodedBodySize": 241515,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Lipton_Slider_copy",
+        "startedDateTime": "1970-01-04T07:14:15.552192Z",
+        "time": 129.105,
+        "timings": {
+          "send": 5.0,
+          "wait": 51.642,
+          "receive": 72.463
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tMleSSexBUX8/IxcXRgqERvWnfngz/pack.acz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 454460,
+            "mimeType": "application/zip"
+          },
+          "bodySize": 454460,
+          "decodedBodySize": 454460,
+          "transferSize": 454460,
+          "_transferSize": 454460,
+          "_decodedBodySize": 454460,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Lipton_Slider_copy",
+        "startedDateTime": "1970-01-04T07:14:15.556955Z",
+        "time": 209.151,
+        "timings": {
+          "send": 5.0,
+          "wait": 83.66,
+          "receive": 120.491
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tMleSSexBUX8/splash.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 63173,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 63173,
+          "decodedBodySize": 63173,
+          "transferSize": 63173,
+          "_transferSize": 63173,
+          "_decodedBodySize": 63173,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Lipton_Slider_copy",
+        "startedDateTime": "1970-01-04T07:14:15.620057Z",
+        "time": 61.151,
+        "timings": {
+          "send": 3.058,
+          "wait": 24.46,
+          "receive": 33.633
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dkxa9%3ATXzUbdi4tNzrPEaIuxTWjJYJKyJUgKhi&s=0%3Amr2dkxa9%3A_jzP5p6185ujxY_l_Cx~FMsIcIcQfn_l&v=0%3AclPewQfhWYz8WVjx3~6NkN1Kx~A2Oey9&t=pageView&a=tMleSSexBUX8&e=0%3AclPewQfhWYz8WVjx3~6NkN1Kx~A2Oey90&c=mr2dkxae&n=t&f=t&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FLipton_Slider_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&x=-qxq0yc",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Lipton_Slider_copy",
+        "startedDateTime": "1970-01-04T07:14:15.630229Z",
+        "time": 64.842,
+        "timings": {
+          "send": 3.242,
+          "wait": 25.937,
+          "receive": 35.663
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dkxa9%3ATXzUbdi4tNzrPEaIuxTWjJYJKyJUgKhi&s=0%3Amr2dkxa9%3A_jzP5p6185ujxY_l_Cx~FMsIcIcQfn_l&v=0%3AclPewQfhWYz8WVjx3~6NkN1Kx~A2Oey9&t=eventParameters&a=tMleSSexBUX8&e=0%3AclPewQfhWYz8WVjx3~6NkN1Kx~A2Oey91&c=mr2dkxaq&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FLipton_Slider_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Billable%20impression!srt!0!sts!1!siv!0!sol!1!)&x=-adn4om",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Lipton_Slider_copy",
+        "startedDateTime": "1970-01-04T07:14:15.805797Z",
+        "time": 51.763,
+        "timings": {
+          "send": 2.588,
+          "wait": 20.705,
+          "receive": 28.47
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dkxa9%3ATXzUbdi4tNzrPEaIuxTWjJYJKyJUgKhi&s=0%3Amr2dkxa9%3A_jzP5p6185ujxY_l_Cx~FMsIcIcQfn_l&v=0%3AclPewQfhWYz8WVjx3~6NkN1Kx~A2Oey9&t=eventParameters&a=tMleSSexBUX8&e=0%3AclPewQfhWYz8WVjx3~6NkN1Kx~A2Oey92&c=mr2dkxfm&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FLipton_Slider_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Loaded!srt!0!sts!158!siv!0!sol!1!)&x=-xoxamx",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Lipton_Slider_copy",
+        "startedDateTime": "1970-01-04T07:14:15.805923Z",
+        "time": 51.688,
+        "timings": {
+          "send": 2.584,
+          "wait": 20.675,
+          "receive": 28.428
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dkxa9%3ATXzUbdi4tNzrPEaIuxTWjJYJKyJUgKhi&s=0%3Amr2dkxa9%3A_jzP5p6185ujxY_l_Cx~FMsIcIcQfn_l&v=0%3AclPewQfhWYz8WVjx3~6NkN1Kx~A2Oey9&t=eventParameters&a=tMleSSexBUX8&e=0%3AclPewQfhWYz8WVjx3~6NkN1Kx~A2Oey93&c=mr2dkxfm&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FLipton_Slider_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Meta!saction!safeFrame%20not%20detected!srt!0!sts!158!siv!0!sol!1!)&x=85wus7",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Lipton_Slider_copy",
+        "startedDateTime": "1970-01-04T07:14:15.806008Z",
+        "time": 47.287,
+        "timings": {
+          "send": 2.364,
+          "wait": 18.915,
+          "receive": 26.008
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dkxa9%3ATXzUbdi4tNzrPEaIuxTWjJYJKyJUgKhi&s=0%3Amr2dkxa9%3A_jzP5p6185ujxY_l_Cx~FMsIcIcQfn_l&v=0%3AclPewQfhWYz8WVjx3~6NkN1Kx~A2Oey9&t=eventParameters&a=tMleSSexBUX8&e=0%3AclPewQfhWYz8WVjx3~6NkN1Kx~A2Oey94&c=mr2dkxfm&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FLipton_Slider_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Started!srt!0!sts!158!siv!0!sol!1!)&x=q8hrqn",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Lipton_Slider_copy",
+        "startedDateTime": "1970-01-04T07:14:15.809351Z",
+        "time": 76.675,
+        "timings": {
+          "send": 3.834,
+          "wait": 30.67,
+          "receive": 42.171
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tMleSSexBUX8/IxcXRgqERvWnfngz/left-end.av1.mp4",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 206,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 286399,
+            "mimeType": "video/mp4"
+          },
+          "bodySize": 286399,
+          "decodedBodySize": 286399,
+          "transferSize": 286399,
+          "_transferSize": 286399,
+          "_decodedBodySize": 286399,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Lipton_Slider_copy",
+        "startedDateTime": "1970-01-04T07:14:15.809549Z",
+        "time": 637.686,
+        "timings": {
+          "send": 5.0,
+          "wait": 255.074,
+          "receive": 377.612
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tMleSSexBUX8/IxcXRgqERvWnfngz/right-end.av1.mp4",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 206,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 286462,
+            "mimeType": "video/mp4"
+          },
+          "bodySize": 286462,
+          "decodedBodySize": 286462,
+          "transferSize": 286462,
+          "_transferSize": 286462,
+          "_decodedBodySize": 286462,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Lipton_Slider_copy",
+        "startedDateTime": "1970-01-04T07:14:15.813013Z",
+        "time": 47.403,
+        "timings": {
+          "send": 2.37,
+          "wait": 18.961,
+          "receive": 26.072
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dkxa9%3ATXzUbdi4tNzrPEaIuxTWjJYJKyJUgKhi&s=0%3Amr2dkxa9%3A_jzP5p6185ujxY_l_Cx~FMsIcIcQfn_l&v=0%3AclPewQfhWYz8WVjx3~6NkN1Kx~A2Oey9&t=eventParameters&a=tMleSSexBUX8&e=0%3AclPewQfhWYz8WVjx3~6NkN1Kx~A2Oey95&c=mr2dkxft&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FLipton_Slider_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Rendered!srt!0!sts!265!siv!0!sol!1!)&x=-xm5qgt",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Lipton_Slider_copy",
+        "startedDateTime": "1970-01-04T07:14:17.615048Z",
+        "time": 45.866,
+        "timings": {
+          "send": 2.293,
+          "wait": 18.346,
+          "receive": 25.226
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dkxa9%3ATXzUbdi4tNzrPEaIuxTWjJYJKyJUgKhi&s=0%3Amr2dkxa9%3A_jzP5p6185ujxY_l_Cx~FMsIcIcQfn_l&v=0%3AclPewQfhWYz8WVjx3~6NkN1Kx~A2Oey9&t=eventParameters&a=tMleSSexBUX8&e=0%3AclPewQfhWYz8WVjx3~6NkN1Kx~A2Oey96&c=mr2dkytv&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FLipton_Slider_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20is%20in%20view!srt!0!sts!2075!siv!1!sol!1!)&x=-xroza4",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Lipton_Slider_copy",
+        "startedDateTime": "1970-01-04T07:14:17.615272Z",
+        "time": 51.378,
+        "timings": {
+          "send": 2.569,
+          "wait": 20.551,
+          "receive": 28.258
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dkxa9%3ATXzUbdi4tNzrPEaIuxTWjJYJKyJUgKhi&s=0%3Amr2dkxa9%3A_jzP5p6185ujxY_l_Cx~FMsIcIcQfn_l&v=0%3AclPewQfhWYz8WVjx3~6NkN1Kx~A2Oey9&t=eventParameters&a=tMleSSexBUX8&e=0%3AclPewQfhWYz8WVjx3~6NkN1Kx~A2Oey97&c=mr2dkytv&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FLipton_Slider_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Paging!saction!Page%20seen%20%5BLeft%20media%5D!srt!0!sts!257!siv!0!sol!1!)&x=-s4yim6",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Lipton_Slider_copy",
+        "startedDateTime": "1970-01-04T07:14:17.615386Z",
+        "time": 51.183,
+        "timings": {
+          "send": 2.559,
+          "wait": 20.473,
+          "receive": 28.151
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dkxa9%3ATXzUbdi4tNzrPEaIuxTWjJYJKyJUgKhi&s=0%3Amr2dkxa9%3A_jzP5p6185ujxY_l_Cx~FMsIcIcQfn_l&v=0%3AclPewQfhWYz8WVjx3~6NkN1Kx~A2Oey9&t=eventParameters&a=tMleSSexBUX8&e=0%3AclPewQfhWYz8WVjx3~6NkN1Kx~A2Oey98&c=mr2dkytv&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FLipton_Slider_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20revealed!srt!0!sts!807!siv!0!sol!1!)&x=-aqw9b8",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Lipton_Slider_copy",
+        "startedDateTime": "1970-01-04T07:14:17.615493Z",
+        "time": 52.997,
+        "timings": {
+          "send": 2.65,
+          "wait": 21.199,
+          "receive": 29.148
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dkxa9%3ATXzUbdi4tNzrPEaIuxTWjJYJKyJUgKhi&s=0%3Amr2dkxa9%3A_jzP5p6185ujxY_l_Cx~FMsIcIcQfn_l&v=0%3AclPewQfhWYz8WVjx3~6NkN1Kx~A2Oey9&t=eventParameters&a=tMleSSexBUX8&e=0%3AclPewQfhWYz8WVjx3~6NkN1Kx~A2Oey99&c=mr2dkytv&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FLipton_Slider_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Paging!saction!Page%20seen%20%5BRight%20media%5D!srt!0!sts!1673!siv!0!sol!1!)&x=sfxafy",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,602 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "crawl_ads_cdp",
+      "version": "2.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-07-01T17:36:02.370917Z",
+        "id": "Don_Julio",
+        "title": "Don_Julio",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "Don_Julio",
+        "startedDateTime": "1970-01-04T06:55:31.027964Z",
+        "time": 183.885,
+        "timings": {
+          "send": 5.0,
+          "wait": 73.554,
+          "receive": 105.331
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/kC48OMImGEZ8/adtag.js?pxf=NnIa7HwtQwRoX02M&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_502}",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 187371,
+            "mimeType": "application/javascript",
+            "compression": 127385
+          },
+          "bodySize": 59986,
+          "decodedBodySize": 187371,
+          "transferSize": 59986,
+          "_transferSize": 59986,
+          "_decodedBodySize": 187371,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Don_Julio",
+        "startedDateTime": "1970-01-04T06:55:31.216479Z",
+        "time": 113.454,
+        "timings": {
+          "send": 5.0,
+          "wait": 45.382,
+          "receive": 63.072
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tracking.js?ad=kC48OMImGEZ8",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 8385,
+            "mimeType": "application/javascript",
+            "compression": 4223
+          },
+          "bodySize": 4162,
+          "decodedBodySize": 8385,
+          "transferSize": 4162,
+          "_transferSize": 4162,
+          "_decodedBodySize": 8385,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Don_Julio",
+        "startedDateTime": "1970-01-04T06:55:31.224244Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tr5.html",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Don_Julio",
+        "startedDateTime": "1970-01-04T06:55:31.223117Z",
+        "time": 152.588,
+        "timings": {
+          "send": 5.0,
+          "wait": 61.035,
+          "receive": 86.553
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/kC48OMImGEZ8/adcanvas.min.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 218742,
+            "mimeType": "application/javascript",
+            "compression": 154795
+          },
+          "bodySize": 63947,
+          "decodedBodySize": 218742,
+          "transferSize": 63947,
+          "_transferSize": 63947,
+          "_decodedBodySize": 218742,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Don_Julio",
+        "startedDateTime": "1970-01-04T06:55:31.223289Z",
+        "time": 273.384,
+        "timings": {
+          "send": 5.0,
+          "wait": 109.354,
+          "receive": 159.03
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/kC48OMImGEZ8/NnIa7HwtQwRoX02M/pack.acz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 270262,
+            "mimeType": "application/zip"
+          },
+          "bodySize": 270262,
+          "decodedBodySize": 270262,
+          "transferSize": 270262,
+          "_transferSize": 270262,
+          "_decodedBodySize": 270262,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Don_Julio",
+        "startedDateTime": "1970-01-04T06:55:31.224955Z",
+        "time": 150.964,
+        "timings": {
+          "send": 5.0,
+          "wait": 60.386,
+          "receive": 85.578
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/kC48OMImGEZ8/splash.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 22892,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 22892,
+          "decodedBodySize": 22892,
+          "transferSize": 22892,
+          "_transferSize": 22892,
+          "_decodedBodySize": 22892,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Don_Julio",
+        "startedDateTime": "1970-01-04T06:55:31.333654Z",
+        "time": 152.119,
+        "timings": {
+          "send": 5.0,
+          "wait": 60.848,
+          "receive": 86.271
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cwtsl%3AM6rAgneSsqIzph99nVXWg_f~k_3YM1Cx&s=0%3Amr2cwtsl%3A0eXr~WhY3yHvWWExAtp9VqrtJCqtcm2J&v=0%3AoDgbuwdwSaEGDFhs6sh1BaLdBpE4_amM&t=pageView&a=kC48OMImGEZ8&e=0%3AoDgbuwdwSaEGDFhs6sh1BaLdBpE4_amM0&c=mr2cwtso&n=t&f=t&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FDon_Julio.html&i=m8&j=go&k=1&w=1hc&h=rl&x=-v5l2en",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Don_Julio",
+        "startedDateTime": "1970-01-04T06:55:31.342701Z",
+        "time": 143.145,
+        "timings": {
+          "send": 5.0,
+          "wait": 57.258,
+          "receive": 80.887
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cwtsl%3AM6rAgneSsqIzph99nVXWg_f~k_3YM1Cx&s=0%3Amr2cwtsl%3A0eXr~WhY3yHvWWExAtp9VqrtJCqtcm2J&v=0%3AoDgbuwdwSaEGDFhs6sh1BaLdBpE4_amM&t=eventParameters&a=kC48OMImGEZ8&e=0%3AoDgbuwdwSaEGDFhs6sh1BaLdBpE4_amM1&c=mr2cwtsx&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FDon_Julio.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Billable%20impression!srt!0!sts!0!siv!0!sol!1!)&x=-srk1i",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Don_Julio",
+        "startedDateTime": "1970-01-04T06:55:31.522494Z",
+        "time": 76.084,
+        "timings": {
+          "send": 3.804,
+          "wait": 30.434,
+          "receive": 41.846
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cwtsl%3AM6rAgneSsqIzph99nVXWg_f~k_3YM1Cx&s=0%3Amr2cwtsl%3A0eXr~WhY3yHvWWExAtp9VqrtJCqtcm2J&v=0%3AoDgbuwdwSaEGDFhs6sh1BaLdBpE4_amM&t=eventParameters&a=kC48OMImGEZ8&e=0%3AoDgbuwdwSaEGDFhs6sh1BaLdBpE4_amM2&c=mr2cwtxx&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FDon_Julio.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Loaded!srt!0!sts!284!siv!0!sol!1!)&x=-tct8g3",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Don_Julio",
+        "startedDateTime": "1970-01-04T06:55:31.522641Z",
+        "time": 75.905,
+        "timings": {
+          "send": 3.795,
+          "wait": 30.362,
+          "receive": 41.748
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cwtsl%3AM6rAgneSsqIzph99nVXWg_f~k_3YM1Cx&s=0%3Amr2cwtsl%3A0eXr~WhY3yHvWWExAtp9VqrtJCqtcm2J&v=0%3AoDgbuwdwSaEGDFhs6sh1BaLdBpE4_amM&t=eventParameters&a=kC48OMImGEZ8&e=0%3AoDgbuwdwSaEGDFhs6sh1BaLdBpE4_amM3&c=mr2cwtxx&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FDon_Julio.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Meta!saction!safeFrame%20not%20detected!srt!0!sts!284!siv!0!sol!1!)&x=-6lpm8f",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Don_Julio",
+        "startedDateTime": "1970-01-04T06:55:31.522723Z",
+        "time": 75.885,
+        "timings": {
+          "send": 3.794,
+          "wait": 30.354,
+          "receive": 41.737
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cwtsl%3AM6rAgneSsqIzph99nVXWg_f~k_3YM1Cx&s=0%3Amr2cwtsl%3A0eXr~WhY3yHvWWExAtp9VqrtJCqtcm2J&v=0%3AoDgbuwdwSaEGDFhs6sh1BaLdBpE4_amM&t=eventParameters&a=kC48OMImGEZ8&e=0%3AoDgbuwdwSaEGDFhs6sh1BaLdBpE4_amM4&c=mr2cwtxx&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FDon_Julio.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Started!srt!0!sts!284!siv!0!sol!1!)&x=-uh69j3",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Don_Julio",
+        "startedDateTime": "1970-01-04T06:55:31.524713Z",
+        "time": 103.223,
+        "timings": {
+          "send": 5.0,
+          "wait": 41.289,
+          "receive": 56.934
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/kC48OMImGEZ8/NnIa7HwtQwRoX02M/bg.av1.mp4",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 206,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 511834,
+            "mimeType": "video/mp4"
+          },
+          "bodySize": 511834,
+          "decodedBodySize": 511834,
+          "transferSize": 511834,
+          "_transferSize": 511834,
+          "_decodedBodySize": 511834,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Don_Julio",
+        "startedDateTime": "1970-01-04T06:55:31.527024Z",
+        "time": 71.476,
+        "timings": {
+          "send": 3.574,
+          "wait": 28.59,
+          "receive": 39.312
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cwtsl%3AM6rAgneSsqIzph99nVXWg_f~k_3YM1Cx&s=0%3Amr2cwtsl%3A0eXr~WhY3yHvWWExAtp9VqrtJCqtcm2J&v=0%3AoDgbuwdwSaEGDFhs6sh1BaLdBpE4_amM&t=eventParameters&a=kC48OMImGEZ8&e=0%3AoDgbuwdwSaEGDFhs6sh1BaLdBpE4_amM5&c=mr2cwty2&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FDon_Julio.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Rendered!srt!0!sts!310!siv!0!sol!1!)&x=-5yemdv",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Don_Julio",
+        "startedDateTime": "1970-01-04T06:55:33.629245Z",
+        "time": 57.288,
+        "timings": {
+          "send": 2.864,
+          "wait": 22.915,
+          "receive": 31.508
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cwtsl%3AM6rAgneSsqIzph99nVXWg_f~k_3YM1Cx&s=0%3Amr2cwtsl%3A0eXr~WhY3yHvWWExAtp9VqrtJCqtcm2J&v=0%3AoDgbuwdwSaEGDFhs6sh1BaLdBpE4_amM&t=eventParameters&a=kC48OMImGEZ8&e=0%3AoDgbuwdwSaEGDFhs6sh1BaLdBpE4_amM6&c=mr2cwvkg&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FDon_Julio.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20is%20in%20view!srt!0!sts!2416!siv!1!sol!1!)&x=-4hqsmg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Don_Julio",
+        "startedDateTime": "1970-01-04T06:55:33.629480Z",
+        "time": 57.113,
+        "timings": {
+          "send": 2.856,
+          "wait": 22.845,
+          "receive": 31.412
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cwtsl%3AM6rAgneSsqIzph99nVXWg_f~k_3YM1Cx&s=0%3Amr2cwtsl%3A0eXr~WhY3yHvWWExAtp9VqrtJCqtcm2J&v=0%3AoDgbuwdwSaEGDFhs6sh1BaLdBpE4_amM&t=eventParameters&a=kC48OMImGEZ8&e=0%3AoDgbuwdwSaEGDFhs6sh1BaLdBpE4_amM7&c=mr2cwvkg&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FDon_Julio.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Paging!saction!Page%20seen%20%5BMain%20media%5D!srt!0!sts!297!siv!0!sol!1!)&x=-lzuw98",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Don_Julio",
+        "startedDateTime": "1970-01-04T06:55:33.629591Z",
+        "time": 54.616,
+        "timings": {
+          "send": 2.731,
+          "wait": 21.846,
+          "receive": 30.039
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cwtsl%3AM6rAgneSsqIzph99nVXWg_f~k_3YM1Cx&s=0%3Amr2cwtsl%3A0eXr~WhY3yHvWWExAtp9VqrtJCqtcm2J&v=0%3AoDgbuwdwSaEGDFhs6sh1BaLdBpE4_amM&t=eventParameters&a=kC48OMImGEZ8&e=0%3AoDgbuwdwSaEGDFhs6sh1BaLdBpE4_amM8&c=mr2cwvkg&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FDon_Julio.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20revealed!srt!0!sts!846!siv!0!sol!1!)&x=-tcj1hp",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Don_Julio",
+        "startedDateTime": "1970-01-04T06:55:33.629691Z",
+        "time": 60.23,
+        "timings": {
+          "send": 3.012,
+          "wait": 24.092,
+          "receive": 33.127
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cwtsl%3AM6rAgneSsqIzph99nVXWg_f~k_3YM1Cx&s=0%3Amr2cwtsl%3A0eXr~WhY3yHvWWExAtp9VqrtJCqtcm2J&v=0%3AoDgbuwdwSaEGDFhs6sh1BaLdBpE4_amM&t=eventParameters&a=kC48OMImGEZ8&e=0%3AoDgbuwdwSaEGDFhs6sh1BaLdBpE4_amM9&c=mr2cwvkg&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FDon_Julio.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B0%5D!srt!0!sts!1476!siv!0!sol!1!)&x=-29efoi",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Don_Julio",
+        "startedDateTime": "1970-01-04T06:55:33.753810Z",
+        "time": 52.252,
+        "timings": {
+          "send": 2.613,
+          "wait": 20.901,
+          "receive": 28.739
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cwtsl%3AM6rAgneSsqIzph99nVXWg_f~k_3YM1Cx&s=0%3Amr2cwtsl%3A0eXr~WhY3yHvWWExAtp9VqrtJCqtcm2J&v=0%3AoDgbuwdwSaEGDFhs6sh1BaLdBpE4_amM&t=eventParameters&a=kC48OMImGEZ8&e=0%3AoDgbuwdwSaEGDFhs6sh1BaLdBpE4_amMa&c=mr2cwvnw&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FDon_Julio.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B25%5D!srt!124!sts!2540!siv!1!sol!1!)&x=s7n3l4",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Don_Julio",
+        "startedDateTime": "1970-01-04T06:55:36.145007Z",
+        "time": 66.282,
+        "timings": {
+          "send": 3.314,
+          "wait": 26.513,
+          "receive": 36.455
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cwtsl%3AM6rAgneSsqIzph99nVXWg_f~k_3YM1Cx&s=0%3Amr2cwtsl%3A0eXr~WhY3yHvWWExAtp9VqrtJCqtcm2J&v=0%3AoDgbuwdwSaEGDFhs6sh1BaLdBpE4_amM&t=eventParameters&a=kC48OMImGEZ8&e=0%3AoDgbuwdwSaEGDFhs6sh1BaLdBpE4_amMb&c=mr2cwxic&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FDon_Julio.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B50%5D!srt!2516!sts!4932!siv!1!sol!1!)&x=pdi82w",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Don_Julio",
+        "startedDateTime": "1970-01-04T06:55:38.797417Z",
+        "time": 62.346,
+        "timings": {
+          "send": 3.117,
+          "wait": 24.938,
+          "receive": 34.29
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cwtsl%3AM6rAgneSsqIzph99nVXWg_f~k_3YM1Cx&s=0%3Amr2cwtsl%3A0eXr~WhY3yHvWWExAtp9VqrtJCqtcm2J&v=0%3AoDgbuwdwSaEGDFhs6sh1BaLdBpE4_amM&t=eventParameters&a=kC48OMImGEZ8&e=0%3AoDgbuwdwSaEGDFhs6sh1BaLdBpE4_amMc&c=mr2cwzk0&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FDon_Julio.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B75%5D!srt!5168!sts!7584!siv!1!sol!1!)&x=-k0trmc",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,486 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "crawl_ads_cdp",
+      "version": "2.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-07-01T17:25:31.904365Z",
+        "id": "Aldi_expandable_copy",
+        "title": "Aldi_expandable_copy",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "Aldi_expandable_copy",
+        "startedDateTime": "1970-01-04T06:45:02.314076Z",
+        "time": 152.842,
+        "timings": {
+          "send": 5.0,
+          "wait": 61.137,
+          "receive": 86.705
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/naWdiEXuPD7i/adtag.js?pxf=nsjyueqwdDjOljb4&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_502}",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 187403,
+            "mimeType": "application/javascript",
+            "compression": 127773
+          },
+          "bodySize": 59630,
+          "decodedBodySize": 187403,
+          "transferSize": 59630,
+          "_transferSize": 59630,
+          "_decodedBodySize": 187403,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Aldi_expandable_copy",
+        "startedDateTime": "1970-01-04T06:45:02.472038Z",
+        "time": 159.526,
+        "timings": {
+          "send": 5.0,
+          "wait": 63.81,
+          "receive": 90.716
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tracking.js?ad=naWdiEXuPD7i",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 8385,
+            "mimeType": "application/javascript",
+            "compression": 4240
+          },
+          "bodySize": 4145,
+          "decodedBodySize": 8385,
+          "transferSize": 4145,
+          "_transferSize": 4145,
+          "_decodedBodySize": 8385,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Aldi_expandable_copy",
+        "startedDateTime": "1970-01-04T06:45:02.479436Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tr5.html",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Aldi_expandable_copy",
+        "startedDateTime": "1970-01-04T06:45:02.478262Z",
+        "time": 130.999,
+        "timings": {
+          "send": 5.0,
+          "wait": 52.4,
+          "receive": 73.599
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/naWdiEXuPD7i/adcanvas.min.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 176568,
+            "mimeType": "application/javascript",
+            "compression": 124317
+          },
+          "bodySize": 52251,
+          "decodedBodySize": 176568,
+          "transferSize": 52251,
+          "_transferSize": 52251,
+          "_decodedBodySize": 176568,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Aldi_expandable_copy",
+        "startedDateTime": "1970-01-04T06:45:02.478442Z",
+        "time": 136.876,
+        "timings": {
+          "send": 5.0,
+          "wait": 54.75,
+          "receive": 77.126
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/naWdiEXuPD7i/nsjyueqwdDjOljb4/pack.acz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 36041,
+            "mimeType": "application/zip"
+          },
+          "bodySize": 36041,
+          "decodedBodySize": 36041,
+          "transferSize": 36041,
+          "_transferSize": 36041,
+          "_decodedBodySize": 36041,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Aldi_expandable_copy",
+        "startedDateTime": "1970-01-04T06:45:02.478509Z",
+        "time": 136.71,
+        "timings": {
+          "send": 5.0,
+          "wait": 54.684,
+          "receive": 77.026
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/naWdiEXuPD7i/p1yKyzubWc4KSptr/pack.acz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 46708,
+            "mimeType": "application/zip"
+          },
+          "bodySize": 46708,
+          "decodedBodySize": 46708,
+          "transferSize": 46708,
+          "_transferSize": 46708,
+          "_decodedBodySize": 46708,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Aldi_expandable_copy",
+        "startedDateTime": "1970-01-04T06:45:02.480181Z",
+        "time": 75.846,
+        "timings": {
+          "send": 3.792,
+          "wait": 30.338,
+          "receive": 41.715
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/naWdiEXuPD7i/splash.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 4251,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 4251,
+          "decodedBodySize": 4251,
+          "transferSize": 4251,
+          "_transferSize": 4251,
+          "_decodedBodySize": 4251,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Aldi_expandable_copy",
+        "startedDateTime": "1970-01-04T06:45:02.636843Z",
+        "time": 59.249,
+        "timings": {
+          "send": 2.962,
+          "wait": 23.7,
+          "receive": 32.587
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cjcok%3AliFp2MBUrZ_Q8Wu~5oqhuMd2_tFiz9CJ&s=0%3Amr2cjcok%3AvxXwwjwx7HJXe4N0jjZw9LMcwSI1W0EO&v=0%3AZHh6boK10os69H_S2kPwIIPpxJVnVP~s&t=pageView&a=naWdiEXuPD7i&e=0%3AZHh6boK10os69H_S2kPwIIPpxJVnVP~s0&c=mr2cjcon&n=t&f=t&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FAldi_expandable_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&x=r013h0",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Aldi_expandable_copy",
+        "startedDateTime": "1970-01-04T06:45:02.637398Z",
+        "time": 58.791,
+        "timings": {
+          "send": 2.94,
+          "wait": 23.516,
+          "receive": 32.335
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cjcok%3AliFp2MBUrZ_Q8Wu~5oqhuMd2_tFiz9CJ&s=0%3Amr2cjcok%3AvxXwwjwx7HJXe4N0jjZw9LMcwSI1W0EO&v=0%3AZHh6boK10os69H_S2kPwIIPpxJVnVP~s&t=eventParameters&a=naWdiEXuPD7i&e=0%3AZHh6boK10os69H_S2kPwIIPpxJVnVP~s1&c=mr2cjcon&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FAldi_expandable_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Billable%20impression!srt!0!sts!0!siv!0!sol!1!)&x=-cfeakq",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Aldi_expandable_copy",
+        "startedDateTime": "1970-01-04T06:45:02.637424Z",
+        "time": 60.998,
+        "timings": {
+          "send": 3.05,
+          "wait": 24.399,
+          "receive": 33.549
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cjcok%3AliFp2MBUrZ_Q8Wu~5oqhuMd2_tFiz9CJ&s=0%3Amr2cjcok%3AvxXwwjwx7HJXe4N0jjZw9LMcwSI1W0EO&v=0%3AZHh6boK10os69H_S2kPwIIPpxJVnVP~s&t=eventParameters&a=naWdiEXuPD7i&e=0%3AZHh6boK10os69H_S2kPwIIPpxJVnVP~s2&c=mr2cjcon&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FAldi_expandable_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Loaded!srt!0!sts!147!siv!0!sol!1!)&x=-hwpgxb",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Aldi_expandable_copy",
+        "startedDateTime": "1970-01-04T06:45:02.637441Z",
+        "time": 58.712,
+        "timings": {
+          "send": 2.936,
+          "wait": 23.485,
+          "receive": 32.292
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cjcok%3AliFp2MBUrZ_Q8Wu~5oqhuMd2_tFiz9CJ&s=0%3Amr2cjcok%3AvxXwwjwx7HJXe4N0jjZw9LMcwSI1W0EO&v=0%3AZHh6boK10os69H_S2kPwIIPpxJVnVP~s&t=eventParameters&a=naWdiEXuPD7i&e=0%3AZHh6boK10os69H_S2kPwIIPpxJVnVP~s3&c=mr2cjcon&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FAldi_expandable_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Meta!saction!safeFrame%20not%20detected!srt!0!sts!147!siv!0!sol!1!)&x=uutfq8",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Aldi_expandable_copy",
+        "startedDateTime": "1970-01-04T06:45:02.637455Z",
+        "time": 61.033,
+        "timings": {
+          "send": 3.052,
+          "wait": 24.413,
+          "receive": 33.568
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cjcok%3AliFp2MBUrZ_Q8Wu~5oqhuMd2_tFiz9CJ&s=0%3Amr2cjcok%3AvxXwwjwx7HJXe4N0jjZw9LMcwSI1W0EO&v=0%3AZHh6boK10os69H_S2kPwIIPpxJVnVP~s&t=eventParameters&a=naWdiEXuPD7i&e=0%3AZHh6boK10os69H_S2kPwIIPpxJVnVP~s4&c=mr2cjcon&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FAldi_expandable_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Started!srt!0!sts!147!siv!0!sol!1!)&x=c9ayw2",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Aldi_expandable_copy",
+        "startedDateTime": "1970-01-04T06:45:02.637469Z",
+        "time": 60.988,
+        "timings": {
+          "send": 3.049,
+          "wait": 24.395,
+          "receive": 33.543
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cjcok%3AliFp2MBUrZ_Q8Wu~5oqhuMd2_tFiz9CJ&s=0%3Amr2cjcok%3AvxXwwjwx7HJXe4N0jjZw9LMcwSI1W0EO&v=0%3AZHh6boK10os69H_S2kPwIIPpxJVnVP~s&t=eventParameters&a=naWdiEXuPD7i&e=0%3AZHh6boK10os69H_S2kPwIIPpxJVnVP~s5&c=mr2cjcoo&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FAldi_expandable_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Rendered!srt!0!sts!163!siv!0!sol!1!)&x=-9bn9w6",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Aldi_expandable_copy",
+        "startedDateTime": "1970-01-04T06:45:04.547184Z",
+        "time": 47.423,
+        "timings": {
+          "send": 2.371,
+          "wait": 18.969,
+          "receive": 26.083
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cjcok%3AliFp2MBUrZ_Q8Wu~5oqhuMd2_tFiz9CJ&s=0%3Amr2cjcok%3AvxXwwjwx7HJXe4N0jjZw9LMcwSI1W0EO&v=0%3AZHh6boK10os69H_S2kPwIIPpxJVnVP~s&t=eventParameters&a=naWdiEXuPD7i&e=0%3AZHh6boK10os69H_S2kPwIIPpxJVnVP~s6&c=mr2cje5p&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FAldi_expandable_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20is%20in%20view!srt!0!sts!2078!siv!1!sol!1!)&x=-rkwn0f",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Aldi_expandable_copy",
+        "startedDateTime": "1970-01-04T06:45:04.547415Z",
+        "time": 48.607,
+        "timings": {
+          "send": 2.43,
+          "wait": 19.443,
+          "receive": 26.734
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cjcok%3AliFp2MBUrZ_Q8Wu~5oqhuMd2_tFiz9CJ&s=0%3Amr2cjcok%3AvxXwwjwx7HJXe4N0jjZw9LMcwSI1W0EO&v=0%3AZHh6boK10os69H_S2kPwIIPpxJVnVP~s&t=eventParameters&a=naWdiEXuPD7i&e=0%3AZHh6boK10os69H_S2kPwIIPpxJVnVP~s7&c=mr2cje5q&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FAldi_expandable_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Paging!saction!Page%20seen%20%5BMain%20media%5D!srt!0!sts!162!siv!0!sol!1!)&x=-2gsn36",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Aldi_expandable_copy",
+        "startedDateTime": "1970-01-04T06:45:04.547576Z",
+        "time": 47.108,
+        "timings": {
+          "send": 2.355,
+          "wait": 18.843,
+          "receive": 25.909
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cjcok%3AliFp2MBUrZ_Q8Wu~5oqhuMd2_tFiz9CJ&s=0%3Amr2cjcok%3AvxXwwjwx7HJXe4N0jjZw9LMcwSI1W0EO&v=0%3AZHh6boK10os69H_S2kPwIIPpxJVnVP~s&t=eventParameters&a=naWdiEXuPD7i&e=0%3AZHh6boK10os69H_S2kPwIIPpxJVnVP~s8&c=mr2cje5q&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FAldi_expandable_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!%5Bs1%5DAd%20revealed!srt!0!sts!287!siv!0!sol!1!)&x=mjm9hn",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      }
+    ]
+  }
+}

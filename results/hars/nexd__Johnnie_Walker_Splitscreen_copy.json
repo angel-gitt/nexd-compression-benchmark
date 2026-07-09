@@ -1,0 +1,689 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "crawl_ads_cdp",
+      "version": "2.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-07-01T17:51:13.372576Z",
+        "id": "Johnnie_Walker_Splitscreen_copy",
+        "title": "Johnnie_Walker_Splitscreen_copy",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "Johnnie_Walker_Splitscreen_copy",
+        "startedDateTime": "1970-01-04T07:10:43.533629Z",
+        "time": 172.928,
+        "timings": {
+          "send": 5.0,
+          "wait": 69.171,
+          "receive": 98.757
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/Xx4XN1ppY43q/adtag.js?pxf=2kw5ektWIRrRnnH8&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_502}",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 188269,
+            "mimeType": "application/javascript",
+            "compression": 128055
+          },
+          "bodySize": 60214,
+          "decodedBodySize": 188269,
+          "transferSize": 60214,
+          "_transferSize": 60214,
+          "_decodedBodySize": 188269,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Johnnie_Walker_Splitscreen_copy",
+        "startedDateTime": "1970-01-04T07:10:43.711608Z",
+        "time": 85.326,
+        "timings": {
+          "send": 4.266,
+          "wait": 34.13,
+          "receive": 46.929
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tracking.js?ad=Xx4XN1ppY43q",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 8385,
+            "mimeType": "application/javascript",
+            "compression": 4225
+          },
+          "bodySize": 4160,
+          "decodedBodySize": 8385,
+          "transferSize": 4160,
+          "_transferSize": 4160,
+          "_decodedBodySize": 8385,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Johnnie_Walker_Splitscreen_copy",
+        "startedDateTime": "1970-01-04T07:10:43.719058Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tr5.html",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Johnnie_Walker_Splitscreen_copy",
+        "startedDateTime": "1970-01-04T07:10:43.717874Z",
+        "time": 103.858,
+        "timings": {
+          "send": 5.0,
+          "wait": 41.543,
+          "receive": 57.315
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/Xx4XN1ppY43q/adcanvas.min.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 219098,
+            "mimeType": "application/javascript",
+            "compression": 154821
+          },
+          "bodySize": 64277,
+          "decodedBodySize": 219098,
+          "transferSize": 64277,
+          "_transferSize": 64277,
+          "_decodedBodySize": 219098,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Johnnie_Walker_Splitscreen_copy",
+        "startedDateTime": "1970-01-04T07:10:43.718063Z",
+        "time": 166.356,
+        "timings": {
+          "send": 5.0,
+          "wait": 66.542,
+          "receive": 94.814
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/Xx4XN1ppY43q/2kw5ektWIRrRnnH8/pack.acz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 13334,
+            "mimeType": "application/zip"
+          },
+          "bodySize": 13334,
+          "decodedBodySize": 13334,
+          "transferSize": 13334,
+          "_transferSize": 13334,
+          "_decodedBodySize": 13334,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Johnnie_Walker_Splitscreen_copy",
+        "startedDateTime": "1970-01-04T07:10:43.719776Z",
+        "time": 82.275,
+        "timings": {
+          "send": 4.114,
+          "wait": 32.91,
+          "receive": 45.251
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/Xx4XN1ppY43q/splash.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 16237,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 16237,
+          "decodedBodySize": 16237,
+          "transferSize": 16237,
+          "_transferSize": 16237,
+          "_decodedBodySize": 16237,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Johnnie_Walker_Splitscreen_copy",
+        "startedDateTime": "1970-01-04T07:10:43.800993Z",
+        "time": 68.091,
+        "timings": {
+          "send": 3.405,
+          "wait": 27.236,
+          "receive": 37.45
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dgdug%3AwMw00_OnxXfpWjj9mxrFTEJFT4EiIqbP&s=0%3Amr2dgdug%3Az0P~3s_NFsx1pC7s4vsulRD1ofuqI0ox&v=0%3ABe4m~JpS3AoGXfhVa9wugUTb6vQvLbeN&t=pageView&a=Xx4XN1ppY43q&e=0%3ABe4m~JpS3AoGXfhVa9wugUTb6vQvLbeN0&c=mr2dgduj&n=t&f=t&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FJohnnie_Walker_Splitscreen_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&x=yucrtc",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Johnnie_Walker_Splitscreen_copy",
+        "startedDateTime": "1970-01-04T07:10:43.814762Z",
+        "time": 54.264,
+        "timings": {
+          "send": 2.713,
+          "wait": 21.706,
+          "receive": 29.845
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dgdug%3AwMw00_OnxXfpWjj9mxrFTEJFT4EiIqbP&s=0%3Amr2dgdug%3Az0P~3s_NFsx1pC7s4vsulRD1ofuqI0ox&v=0%3ABe4m~JpS3AoGXfhVa9wugUTb6vQvLbeN&t=eventParameters&a=Xx4XN1ppY43q&e=0%3ABe4m~JpS3AoGXfhVa9wugUTb6vQvLbeN1&c=mr2dgdux&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FJohnnie_Walker_Splitscreen_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Billable%20impression!srt!0!sts!0!siv!0!sol!1!)&x=-ycd9yq",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Johnnie_Walker_Splitscreen_copy",
+        "startedDateTime": "1970-01-04T07:10:43.905931Z",
+        "time": 63.026,
+        "timings": {
+          "send": 3.151,
+          "wait": 25.21,
+          "receive": 34.664
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dgdug%3AwMw00_OnxXfpWjj9mxrFTEJFT4EiIqbP&s=0%3Amr2dgdug%3Az0P~3s_NFsx1pC7s4vsulRD1ofuqI0ox&v=0%3ABe4m~JpS3AoGXfhVa9wugUTb6vQvLbeN&t=eventParameters&a=Xx4XN1ppY43q&e=0%3ABe4m~JpS3AoGXfhVa9wugUTb6vQvLbeN2&c=mr2dgdxg&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FJohnnie_Walker_Splitscreen_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Loaded!srt!0!sts!176!siv!0!sol!1!)&x=90pwti",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Johnnie_Walker_Splitscreen_copy",
+        "startedDateTime": "1970-01-04T07:10:43.906059Z",
+        "time": 62.946,
+        "timings": {
+          "send": 3.147,
+          "wait": 25.178,
+          "receive": 34.62
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dgdug%3AwMw00_OnxXfpWjj9mxrFTEJFT4EiIqbP&s=0%3Amr2dgdug%3Az0P~3s_NFsx1pC7s4vsulRD1ofuqI0ox&v=0%3ABe4m~JpS3AoGXfhVa9wugUTb6vQvLbeN&t=eventParameters&a=Xx4XN1ppY43q&e=0%3ABe4m~JpS3AoGXfhVa9wugUTb6vQvLbeN3&c=mr2dgdxg&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FJohnnie_Walker_Splitscreen_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Meta!saction!safeFrame%20not%20detected!srt!0!sts!176!siv!0!sol!1!)&x=dzy3re",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Johnnie_Walker_Splitscreen_copy",
+        "startedDateTime": "1970-01-04T07:10:43.906136Z",
+        "time": 62.907,
+        "timings": {
+          "send": 3.145,
+          "wait": 25.163,
+          "receive": 34.599
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dgdug%3AwMw00_OnxXfpWjj9mxrFTEJFT4EiIqbP&s=0%3Amr2dgdug%3Az0P~3s_NFsx1pC7s4vsulRD1ofuqI0ox&v=0%3ABe4m~JpS3AoGXfhVa9wugUTb6vQvLbeN&t=eventParameters&a=Xx4XN1ppY43q&e=0%3ABe4m~JpS3AoGXfhVa9wugUTb6vQvLbeN4&c=mr2dgdxh&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FJohnnie_Walker_Splitscreen_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Started!srt!0!sts!176!siv!0!sol!1!)&x=-mkzh0q",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Johnnie_Walker_Splitscreen_copy",
+        "startedDateTime": "1970-01-04T07:10:43.908464Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/Xx4XN1ppY43q/2kw5ektWIRrRnnH8/top.mp4",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 206,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "video/mp4"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Johnnie_Walker_Splitscreen_copy",
+        "startedDateTime": "1970-01-04T07:10:43.908686Z",
+        "time": 60.386,
+        "timings": {
+          "send": 3.019,
+          "wait": 24.154,
+          "receive": 33.212
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dgdug%3AwMw00_OnxXfpWjj9mxrFTEJFT4EiIqbP&s=0%3Amr2dgdug%3Az0P~3s_NFsx1pC7s4vsulRD1ofuqI0ox&v=0%3ABe4m~JpS3AoGXfhVa9wugUTb6vQvLbeN&t=eventParameters&a=Xx4XN1ppY43q&e=0%3ABe4m~JpS3AoGXfhVa9wugUTb6vQvLbeN5&c=mr2dgdxj&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FJohnnie_Walker_Splitscreen_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Rendered!srt!0!sts!198!siv!0!sol!1!)&x=-lu655v",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Johnnie_Walker_Splitscreen_copy",
+        "startedDateTime": "1970-01-04T07:10:44.038132Z",
+        "time": 21.758,
+        "timings": {
+          "send": 1.088,
+          "wait": 8.703,
+          "receive": 11.967
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/Xx4XN1ppY43q/2kw5ektWIRrRnnH8/top.mp4",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 206,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 17697,
+            "mimeType": "video/mp4"
+          },
+          "bodySize": 17697,
+          "decodedBodySize": 17697,
+          "transferSize": 17697,
+          "_transferSize": 17697,
+          "_decodedBodySize": 17697,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Johnnie_Walker_Splitscreen_copy",
+        "startedDateTime": "1970-01-04T07:10:44.060180Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/Xx4XN1ppY43q/2kw5ektWIRrRnnH8/top.mp4",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 206,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "video/mp4"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Johnnie_Walker_Splitscreen_copy",
+        "startedDateTime": "1970-01-04T07:10:45.816069Z",
+        "time": 63.65,
+        "timings": {
+          "send": 3.183,
+          "wait": 25.46,
+          "receive": 35.008
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dgdug%3AwMw00_OnxXfpWjj9mxrFTEJFT4EiIqbP&s=0%3Amr2dgdug%3Az0P~3s_NFsx1pC7s4vsulRD1ofuqI0ox&v=0%3ABe4m~JpS3AoGXfhVa9wugUTb6vQvLbeN&t=eventParameters&a=Xx4XN1ppY43q&e=0%3ABe4m~JpS3AoGXfhVa9wugUTb6vQvLbeN6&c=mr2dgfei&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FJohnnie_Walker_Splitscreen_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20is%20in%20view!srt!0!sts!2107!siv!1!sol!1!)&x=6g3rtb",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Johnnie_Walker_Splitscreen_copy",
+        "startedDateTime": "1970-01-04T07:10:45.816286Z",
+        "time": 100.941,
+        "timings": {
+          "send": 5.0,
+          "wait": 40.376,
+          "receive": 55.565
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dgdug%3AwMw00_OnxXfpWjj9mxrFTEJFT4EiIqbP&s=0%3Amr2dgdug%3Az0P~3s_NFsx1pC7s4vsulRD1ofuqI0ox&v=0%3ABe4m~JpS3AoGXfhVa9wugUTb6vQvLbeN&t=eventParameters&a=Xx4XN1ppY43q&e=0%3ABe4m~JpS3AoGXfhVa9wugUTb6vQvLbeN7&c=mr2dgfej&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FJohnnie_Walker_Splitscreen_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20revealed!srt!0!sts!740!siv!0!sol!1!)&x=e8hjzw",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Johnnie_Walker_Splitscreen_copy",
+        "startedDateTime": "1970-01-04T07:10:45.816393Z",
+        "time": 74.95,
+        "timings": {
+          "send": 3.747,
+          "wait": 29.98,
+          "receive": 41.222
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dgdug%3AwMw00_OnxXfpWjj9mxrFTEJFT4EiIqbP&s=0%3Amr2dgdug%3Az0P~3s_NFsx1pC7s4vsulRD1ofuqI0ox&v=0%3ABe4m~JpS3AoGXfhVa9wugUTb6vQvLbeN&t=eventParameters&a=Xx4XN1ppY43q&e=0%3ABe4m~JpS3AoGXfhVa9wugUTb6vQvLbeN8&c=mr2dgfej&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FJohnnie_Walker_Splitscreen_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B0%5D!srt!0!sts!1248!siv!0!sol!1!)&x=wictoe",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Johnnie_Walker_Splitscreen_copy",
+        "startedDateTime": "1970-01-04T07:10:45.816492Z",
+        "time": 74.93,
+        "timings": {
+          "send": 3.747,
+          "wait": 29.972,
+          "receive": 41.212
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dgdug%3AwMw00_OnxXfpWjj9mxrFTEJFT4EiIqbP&s=0%3Amr2dgdug%3Az0P~3s_NFsx1pC7s4vsulRD1ofuqI0ox&v=0%3ABe4m~JpS3AoGXfhVa9wugUTb6vQvLbeN&t=eventParameters&a=Xx4XN1ppY43q&e=0%3ABe4m~JpS3AoGXfhVa9wugUTb6vQvLbeN9&c=mr2dgfej&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FJohnnie_Walker_Splitscreen_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B25%5D!srt!0!sts!1780!siv!0!sol!1!)&x=-s7m7sj",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Johnnie_Walker_Splitscreen_copy",
+        "startedDateTime": "1970-01-04T07:10:46.548500Z",
+        "time": 76.124,
+        "timings": {
+          "send": 3.806,
+          "wait": 30.45,
+          "receive": 41.868
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dgdug%3AwMw00_OnxXfpWjj9mxrFTEJFT4EiIqbP&s=0%3Amr2dgdug%3Az0P~3s_NFsx1pC7s4vsulRD1ofuqI0ox&v=0%3ABe4m~JpS3AoGXfhVa9wugUTb6vQvLbeN&t=eventParameters&a=Xx4XN1ppY43q&e=0%3ABe4m~JpS3AoGXfhVa9wugUTb6vQvLbeNa&c=mr2dgfyv&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FJohnnie_Walker_Splitscreen_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B50%5D!srt!733!sts!2840!siv!1!sol!1!)&x=syjupq",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Johnnie_Walker_Splitscreen_copy",
+        "startedDateTime": "1970-01-04T07:10:48.144632Z",
+        "time": 52.555,
+        "timings": {
+          "send": 2.628,
+          "wait": 21.022,
+          "receive": 28.905
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dgdug%3AwMw00_OnxXfpWjj9mxrFTEJFT4EiIqbP&s=0%3Amr2dgdug%3Az0P~3s_NFsx1pC7s4vsulRD1ofuqI0ox&v=0%3ABe4m~JpS3AoGXfhVa9wugUTb6vQvLbeN&t=eventParameters&a=Xx4XN1ppY43q&e=0%3ABe4m~JpS3AoGXfhVa9wugUTb6vQvLbeNb&c=mr2dgh77&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FJohnnie_Walker_Splitscreen_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B75%5D!srt!2329!sts!4436!siv!1!sol!1!)&x=-lby8uy",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Johnnie_Walker_Splitscreen_copy",
+        "startedDateTime": "1970-01-04T07:10:49.472750Z",
+        "time": 54.048,
+        "timings": {
+          "send": 2.702,
+          "wait": 21.619,
+          "receive": 29.726
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dgdug%3AwMw00_OnxXfpWjj9mxrFTEJFT4EiIqbP&s=0%3Amr2dgdug%3Az0P~3s_NFsx1pC7s4vsulRD1ofuqI0ox&v=0%3ABe4m~JpS3AoGXfhVa9wugUTb6vQvLbeN&t=eventParameters&a=Xx4XN1ppY43q&e=0%3ABe4m~JpS3AoGXfhVa9wugUTb6vQvLbeNc&c=mr2dgi82&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FJohnnie_Walker_Splitscreen_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B100%5D!srt!3656!sts!5763!siv!1!sol!1!)&x=-p8i5tz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Johnnie_Walker_Splitscreen_copy",
+        "startedDateTime": "1970-01-04T07:10:50.004068Z",
+        "time": 85.182,
+        "timings": {
+          "send": 4.259,
+          "wait": 34.073,
+          "receive": 46.85
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dgdug%3AwMw00_OnxXfpWjj9mxrFTEJFT4EiIqbP&s=0%3Amr2dgdug%3Az0P~3s_NFsx1pC7s4vsulRD1ofuqI0ox&v=0%3ABe4m~JpS3AoGXfhVa9wugUTb6vQvLbeN&t=eventParameters&a=Xx4XN1ppY43q&e=0%3ABe4m~JpS3AoGXfhVa9wugUTb6vQvLbeNd&c=mr2dgimu&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FJohnnie_Walker_Splitscreen_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Video%201%20%5BEnd%5D!srt!4188!sts!6295!siv!1!sol!1!)&x=-c4i4ho",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      }
+    ]
+  }
+}

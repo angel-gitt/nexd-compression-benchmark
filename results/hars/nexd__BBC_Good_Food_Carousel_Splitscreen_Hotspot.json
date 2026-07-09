@@ -1,0 +1,660 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "crawl_ads_cdp",
+      "version": "2.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-07-01T17:26:41.679820Z",
+        "id": "BBC_Good_Food_Carousel_Splitscreen_Hotspot",
+        "title": "BBC_Good_Food_Carousel_Splitscreen_Hotspot",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "BBC_Good_Food_Carousel_Splitscreen_Hotspot",
+        "startedDateTime": "1970-01-04T06:46:11.763330Z",
+        "time": 271.361,
+        "timings": {
+          "send": 5.0,
+          "wait": 108.544,
+          "receive": 157.817
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/nFel1cYa3mgp/adtag.js?pxf=4RPtD2IRfL0vgrrQ&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_502}",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 213025,
+            "mimeType": "application/javascript",
+            "compression": 152030
+          },
+          "bodySize": 60995,
+          "decodedBodySize": 213025,
+          "transferSize": 60995,
+          "_transferSize": 60995,
+          "_decodedBodySize": 213025,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BBC_Good_Food_Carousel_Splitscreen_Hotspot",
+        "startedDateTime": "1970-01-04T06:46:12.040663Z",
+        "time": 67.866,
+        "timings": {
+          "send": 3.393,
+          "wait": 27.146,
+          "receive": 37.326
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tracking.js?ad=nFel1cYa3mgp",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 8385,
+            "mimeType": "application/javascript",
+            "compression": 4227
+          },
+          "bodySize": 4158,
+          "decodedBodySize": 8385,
+          "transferSize": 4158,
+          "_transferSize": 4158,
+          "_decodedBodySize": 8385,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BBC_Good_Food_Carousel_Splitscreen_Hotspot",
+        "startedDateTime": "1970-01-04T06:46:12.049532Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tr5.html",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BBC_Good_Food_Carousel_Splitscreen_Hotspot",
+        "startedDateTime": "1970-01-04T06:46:12.047586Z",
+        "time": 138.861,
+        "timings": {
+          "send": 5.0,
+          "wait": 55.544,
+          "receive": 78.317
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/nFel1cYa3mgp/adcanvas.min.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 260620,
+            "mimeType": "application/javascript",
+            "compression": 189937
+          },
+          "bodySize": 70683,
+          "decodedBodySize": 260620,
+          "transferSize": 70683,
+          "_transferSize": 70683,
+          "_decodedBodySize": 260620,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BBC_Good_Food_Carousel_Splitscreen_Hotspot",
+        "startedDateTime": "1970-01-04T06:46:12.047784Z",
+        "time": 208.007,
+        "timings": {
+          "send": 5.0,
+          "wait": 83.203,
+          "receive": 119.804
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/nFel1cYa3mgp/4RPtD2IRfL0vgrrQ/pack.acz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 744636,
+            "mimeType": "application/zip"
+          },
+          "bodySize": 744636,
+          "decodedBodySize": 744636,
+          "transferSize": 744636,
+          "_transferSize": 744636,
+          "_decodedBodySize": 744636,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BBC_Good_Food_Carousel_Splitscreen_Hotspot",
+        "startedDateTime": "1970-01-04T06:46:12.049842Z",
+        "time": 74.081,
+        "timings": {
+          "send": 3.704,
+          "wait": 29.632,
+          "receive": 40.745
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/nFel1cYa3mgp/splash.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 60408,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 60408,
+          "decodedBodySize": 60408,
+          "transferSize": 60408,
+          "_transferSize": 60408,
+          "_decodedBodySize": 60408,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BBC_Good_Food_Carousel_Splitscreen_Hotspot",
+        "startedDateTime": "1970-01-04T06:46:12.112936Z",
+        "time": 73.924,
+        "timings": {
+          "send": 3.696,
+          "wait": 29.57,
+          "receive": 40.658
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2ckuag%3AGejKZ8LO43S9UZ8653kUGU2iNj5dF6xv&s=0%3Amr2ckuag%3AVGMfg4Aod_ZD51Vsv9K7orp_kQW0neOd&v=0%3AcUh9WiufcMd5IPh2tTT6axKOhEILPzf1&t=pageView&a=nFel1cYa3mgp&e=0%3AcUh9WiufcMd5IPh2tTT6axKOhEILPzf10&c=mr2ckuak&n=t&f=t&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBBC_Good_Food_Carousel_Splitscreen_Hotspot.html&i=m8&j=go&k=1&w=1hc&h=rl&x=q5qw1q",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BBC_Good_Food_Carousel_Splitscreen_Hotspot",
+        "startedDateTime": "1970-01-04T06:46:12.115863Z",
+        "time": 71.049,
+        "timings": {
+          "send": 3.552,
+          "wait": 28.42,
+          "receive": 39.077
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2ckuag%3AGejKZ8LO43S9UZ8653kUGU2iNj5dF6xv&s=0%3Amr2ckuag%3AVGMfg4Aod_ZD51Vsv9K7orp_kQW0neOd&v=0%3AcUh9WiufcMd5IPh2tTT6axKOhEILPzf1&t=eventParameters&a=nFel1cYa3mgp&e=0%3AcUh9WiufcMd5IPh2tTT6axKOhEILPzf11&c=mr2ckuan&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBBC_Good_Food_Carousel_Splitscreen_Hotspot.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Billable%20impression!srt!0!sts!0!siv!0!sol!1!)&x=-8jq4yi",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BBC_Good_Food_Carousel_Splitscreen_Hotspot",
+        "startedDateTime": "1970-01-04T06:46:12.326018Z",
+        "time": 190.037,
+        "timings": {
+          "send": 5.0,
+          "wait": 76.015,
+          "receive": 109.022
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2ckuag%3AGejKZ8LO43S9UZ8653kUGU2iNj5dF6xv&s=0%3Amr2ckuag%3AVGMfg4Aod_ZD51Vsv9K7orp_kQW0neOd&v=0%3AcUh9WiufcMd5IPh2tTT6axKOhEILPzf1&t=eventParameters&a=nFel1cYa3mgp&e=0%3AcUh9WiufcMd5IPh2tTT6axKOhEILPzf12&c=mr2ckugh&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBBC_Good_Food_Carousel_Splitscreen_Hotspot.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Loaded!srt!0!sts!219!siv!0!sol!1!)&x=2uajcm",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BBC_Good_Food_Carousel_Splitscreen_Hotspot",
+        "startedDateTime": "1970-01-04T06:46:12.326170Z",
+        "time": 189.926,
+        "timings": {
+          "send": 5.0,
+          "wait": 75.97,
+          "receive": 108.956
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2ckuag%3AGejKZ8LO43S9UZ8653kUGU2iNj5dF6xv&s=0%3Amr2ckuag%3AVGMfg4Aod_ZD51Vsv9K7orp_kQW0neOd&v=0%3AcUh9WiufcMd5IPh2tTT6axKOhEILPzf1&t=eventParameters&a=nFel1cYa3mgp&e=0%3AcUh9WiufcMd5IPh2tTT6axKOhEILPzf13&c=mr2ckugh&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBBC_Good_Food_Carousel_Splitscreen_Hotspot.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Meta!saction!safeFrame%20not%20detected!srt!0!sts!219!siv!0!sol!1!)&x=-upwvcn",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BBC_Good_Food_Carousel_Splitscreen_Hotspot",
+        "startedDateTime": "1970-01-04T06:46:12.326262Z",
+        "time": 189.641,
+        "timings": {
+          "send": 5.0,
+          "wait": 75.856,
+          "receive": 108.785
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2ckuag%3AGejKZ8LO43S9UZ8653kUGU2iNj5dF6xv&s=0%3Amr2ckuag%3AVGMfg4Aod_ZD51Vsv9K7orp_kQW0neOd&v=0%3AcUh9WiufcMd5IPh2tTT6axKOhEILPzf1&t=eventParameters&a=nFel1cYa3mgp&e=0%3AcUh9WiufcMd5IPh2tTT6axKOhEILPzf14&c=mr2ckugh&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBBC_Good_Food_Carousel_Splitscreen_Hotspot.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Started!srt!0!sts!219!siv!0!sol!1!)&x=-uxt2cv",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 244,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 244,
+          "decodedBodySize": 244,
+          "transferSize": 244,
+          "_transferSize": 244,
+          "_decodedBodySize": 244,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BBC_Good_Food_Carousel_Splitscreen_Hotspot",
+        "startedDateTime": "1970-01-04T06:46:12.328473Z",
+        "time": 194.395,
+        "timings": {
+          "send": 5.0,
+          "wait": 77.758,
+          "receive": 111.637
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/nFel1cYa3mgp/4RPtD2IRfL0vgrrQ/top.av1.mp4",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 206,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 699411,
+            "mimeType": "video/mp4"
+          },
+          "bodySize": 699411,
+          "decodedBodySize": 699411,
+          "transferSize": 699411,
+          "_transferSize": 699411,
+          "_decodedBodySize": 699411,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BBC_Good_Food_Carousel_Splitscreen_Hotspot",
+        "startedDateTime": "1970-01-04T06:46:12.328709Z",
+        "time": 176.97,
+        "timings": {
+          "send": 5.0,
+          "wait": 70.788,
+          "receive": 101.182
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2ckuag%3AGejKZ8LO43S9UZ8653kUGU2iNj5dF6xv&s=0%3Amr2ckuag%3AVGMfg4Aod_ZD51Vsv9K7orp_kQW0neOd&v=0%3AcUh9WiufcMd5IPh2tTT6axKOhEILPzf1&t=eventParameters&a=nFel1cYa3mgp&e=0%3AcUh9WiufcMd5IPh2tTT6axKOhEILPzf15&c=mr2ckugk&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBBC_Good_Food_Carousel_Splitscreen_Hotspot.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Rendered!srt!0!sts!288!siv!0!sol!1!)&x=6jfw9u",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BBC_Good_Food_Carousel_Splitscreen_Hotspot",
+        "startedDateTime": "1970-01-04T06:46:14.159316Z",
+        "time": 50.191,
+        "timings": {
+          "send": 2.51,
+          "wait": 20.076,
+          "receive": 27.605
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2ckuag%3AGejKZ8LO43S9UZ8653kUGU2iNj5dF6xv&s=0%3Amr2ckuag%3AVGMfg4Aod_ZD51Vsv9K7orp_kQW0neOd&v=0%3AcUh9WiufcMd5IPh2tTT6axKOhEILPzf1&t=eventParameters&a=nFel1cYa3mgp&e=0%3AcUh9WiufcMd5IPh2tTT6axKOhEILPzf16&c=mr2ckvve&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBBC_Good_Food_Carousel_Splitscreen_Hotspot.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20is%20in%20view!srt!0!sts!2122!siv!1!sol!1!)&x=-r75l30",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BBC_Good_Food_Carousel_Splitscreen_Hotspot",
+        "startedDateTime": "1970-01-04T06:46:14.159476Z",
+        "time": 49.883,
+        "timings": {
+          "send": 2.494,
+          "wait": 19.953,
+          "receive": 27.436
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2ckuag%3AGejKZ8LO43S9UZ8653kUGU2iNj5dF6xv&s=0%3Amr2ckuag%3AVGMfg4Aod_ZD51Vsv9K7orp_kQW0neOd&v=0%3AcUh9WiufcMd5IPh2tTT6axKOhEILPzf1&t=eventParameters&a=nFel1cYa3mgp&e=0%3AcUh9WiufcMd5IPh2tTT6axKOhEILPzf17&c=mr2ckvvf&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBBC_Good_Food_Carousel_Splitscreen_Hotspot.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Paging!saction!Page%20seen%20%5BFirst%20media%5D!srt!0!sts!275!siv!0!sol!1!)&x=-hfe7g3",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BBC_Good_Food_Carousel_Splitscreen_Hotspot",
+        "startedDateTime": "1970-01-04T06:46:14.159566Z",
+        "time": 53.362,
+        "timings": {
+          "send": 2.668,
+          "wait": 21.345,
+          "receive": 29.349
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2ckuag%3AGejKZ8LO43S9UZ8653kUGU2iNj5dF6xv&s=0%3Amr2ckuag%3AVGMfg4Aod_ZD51Vsv9K7orp_kQW0neOd&v=0%3AcUh9WiufcMd5IPh2tTT6axKOhEILPzf1&t=eventParameters&a=nFel1cYa3mgp&e=0%3AcUh9WiufcMd5IPh2tTT6axKOhEILPzf18&c=mr2ckvvf&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBBC_Good_Food_Carousel_Splitscreen_Hotspot.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20revealed!srt!0!sts!579!siv!0!sol!1!)&x=-ay8xfs",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BBC_Good_Food_Carousel_Splitscreen_Hotspot",
+        "startedDateTime": "1970-01-04T06:46:14.159653Z",
+        "time": 49.817,
+        "timings": {
+          "send": 2.491,
+          "wait": 19.927,
+          "receive": 27.399
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2ckuag%3AGejKZ8LO43S9UZ8653kUGU2iNj5dF6xv&s=0%3Amr2ckuag%3AVGMfg4Aod_ZD51Vsv9K7orp_kQW0neOd&v=0%3AcUh9WiufcMd5IPh2tTT6axKOhEILPzf1&t=eventParameters&a=nFel1cYa3mgp&e=0%3AcUh9WiufcMd5IPh2tTT6axKOhEILPzf19&c=mr2ckvvf&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBBC_Good_Food_Carousel_Splitscreen_Hotspot.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B0%5D!srt!0!sts!1029!siv!0!sol!1!)&x=-16t1mp",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BBC_Good_Food_Carousel_Splitscreen_Hotspot",
+        "startedDateTime": "1970-01-04T06:46:14.159738Z",
+        "time": 49.693,
+        "timings": {
+          "send": 2.485,
+          "wait": 19.877,
+          "receive": 27.331
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2ckuag%3AGejKZ8LO43S9UZ8653kUGU2iNj5dF6xv&s=0%3Amr2ckuag%3AVGMfg4Aod_ZD51Vsv9K7orp_kQW0neOd&v=0%3AcUh9WiufcMd5IPh2tTT6axKOhEILPzf1&t=eventParameters&a=nFel1cYa3mgp&e=0%3AcUh9WiufcMd5IPh2tTT6axKOhEILPzf1a&c=mr2ckvvf&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBBC_Good_Food_Carousel_Splitscreen_Hotspot.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B25%5D!srt!0!sts!1558!siv!0!sol!1!)&x=-q9163g",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BBC_Good_Food_Carousel_Splitscreen_Hotspot",
+        "startedDateTime": "1970-01-04T06:46:14.659507Z",
+        "time": 47.384,
+        "timings": {
+          "send": 2.369,
+          "wait": 18.954,
+          "receive": 26.061
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2ckuag%3AGejKZ8LO43S9UZ8653kUGU2iNj5dF6xv&s=0%3Amr2ckuag%3AVGMfg4Aod_ZD51Vsv9K7orp_kQW0neOd&v=0%3AcUh9WiufcMd5IPh2tTT6axKOhEILPzf1&t=eventParameters&a=nFel1cYa3mgp&e=0%3AcUh9WiufcMd5IPh2tTT6axKOhEILPzf1b&c=mr2ckw9a&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBBC_Good_Food_Carousel_Splitscreen_Hotspot.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B50%5D!srt!500!sts!2622!siv!1!sol!1!)&x=5tuzm9",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BBC_Good_Food_Carousel_Splitscreen_Hotspot",
+        "startedDateTime": "1970-01-04T06:46:15.987086Z",
+        "time": 58.471,
+        "timings": {
+          "send": 2.924,
+          "wait": 23.388,
+          "receive": 32.159
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2ckuag%3AGejKZ8LO43S9UZ8653kUGU2iNj5dF6xv&s=0%3Amr2ckuag%3AVGMfg4Aod_ZD51Vsv9K7orp_kQW0neOd&v=0%3AcUh9WiufcMd5IPh2tTT6axKOhEILPzf1&t=eventParameters&a=nFel1cYa3mgp&e=0%3AcUh9WiufcMd5IPh2tTT6axKOhEILPzf1c&c=mr2ckxa6&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBBC_Good_Food_Carousel_Splitscreen_Hotspot.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B75%5D!srt!1828!sts!3950!siv!1!sol!1!)&x=30tbr2",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BBC_Good_Food_Carousel_Splitscreen_Hotspot",
+        "startedDateTime": "1970-01-04T06:46:17.579330Z",
+        "time": 137.861,
+        "timings": {
+          "send": 5.0,
+          "wait": 55.144,
+          "receive": 77.717
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2ckuag%3AGejKZ8LO43S9UZ8653kUGU2iNj5dF6xv&s=0%3Amr2ckuag%3AVGMfg4Aod_ZD51Vsv9K7orp_kQW0neOd&v=0%3AcUh9WiufcMd5IPh2tTT6axKOhEILPzf1&t=eventParameters&a=nFel1cYa3mgp&e=0%3AcUh9WiufcMd5IPh2tTT6axKOhEILPzf1d&c=mr2ckyie&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBBC_Good_Food_Carousel_Splitscreen_Hotspot.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B100%5D!srt!3420!sts!5542!siv!1!sol!1!)&x=87vbzh",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "BBC_Good_Food_Carousel_Splitscreen_Hotspot",
+        "startedDateTime": "1970-01-04T06:46:18.110899Z",
+        "time": 47.84,
+        "timings": {
+          "send": 2.392,
+          "wait": 19.136,
+          "receive": 26.312
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2ckuag%3AGejKZ8LO43S9UZ8653kUGU2iNj5dF6xv&s=0%3Amr2ckuag%3AVGMfg4Aod_ZD51Vsv9K7orp_kQW0neOd&v=0%3AcUh9WiufcMd5IPh2tTT6axKOhEILPzf1&t=eventParameters&a=nFel1cYa3mgp&e=0%3AcUh9WiufcMd5IPh2tTT6axKOhEILPzf1e&c=mr2ckyx6&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBBC_Good_Food_Carousel_Splitscreen_Hotspot.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Video%201%20%5BEnd%5D!srt!3952!sts!6074!siv!1!sol!1!)&x=4tv8q6",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      }
+    ]
+  }
+}

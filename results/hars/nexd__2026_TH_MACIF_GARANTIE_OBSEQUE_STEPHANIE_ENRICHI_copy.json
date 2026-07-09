@@ -1,0 +1,486 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "crawl_ads_cdp",
+      "version": "2.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-07-01T17:14:57.191447Z",
+        "id": "2026_TH_MACIF_GARANTIE_OBSEQUE_STEPHANIE_ENRICHI_copy",
+        "title": "2026_TH_MACIF_GARANTIE_OBSEQUE_STEPHANIE_ENRICHI_copy",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "2026_TH_MACIF_GARANTIE_OBSEQUE_STEPHANIE_ENRICHI_copy",
+        "startedDateTime": "1970-01-04T06:34:27.276635Z",
+        "time": 209.045,
+        "timings": {
+          "send": 5.0,
+          "wait": 83.618,
+          "receive": 120.427
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/fvRyqqXC8rX0/adtag.js?pxf=4BWwor4Sa7rThaie&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_502}",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 188855,
+            "mimeType": "application/javascript",
+            "compression": 128712
+          },
+          "bodySize": 60143,
+          "decodedBodySize": 188855,
+          "transferSize": 60143,
+          "_transferSize": 60143,
+          "_decodedBodySize": 188855,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2026_TH_MACIF_GARANTIE_OBSEQUE_STEPHANIE_ENRICHI_copy",
+        "startedDateTime": "1970-01-04T06:34:27.489681Z",
+        "time": 89.648,
+        "timings": {
+          "send": 4.482,
+          "wait": 35.859,
+          "receive": 49.306
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tracking.js?ad=fvRyqqXC8rX0",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 8385,
+            "mimeType": "application/javascript",
+            "compression": 4224
+          },
+          "bodySize": 4161,
+          "decodedBodySize": 8385,
+          "transferSize": 4161,
+          "_transferSize": 4161,
+          "_decodedBodySize": 8385,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2026_TH_MACIF_GARANTIE_OBSEQUE_STEPHANIE_ENRICHI_copy",
+        "startedDateTime": "1970-01-04T06:34:27.497178Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tr5.html",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2026_TH_MACIF_GARANTIE_OBSEQUE_STEPHANIE_ENRICHI_copy",
+        "startedDateTime": "1970-01-04T06:34:27.495524Z",
+        "time": 100.584,
+        "timings": {
+          "send": 5.0,
+          "wait": 40.234,
+          "receive": 55.35
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/fvRyqqXC8rX0/adcanvas.min.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 188424,
+            "mimeType": "application/javascript",
+            "compression": 132979
+          },
+          "bodySize": 55445,
+          "decodedBodySize": 188424,
+          "transferSize": 55445,
+          "_transferSize": 55445,
+          "_decodedBodySize": 188424,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2026_TH_MACIF_GARANTIE_OBSEQUE_STEPHANIE_ENRICHI_copy",
+        "startedDateTime": "1970-01-04T06:34:27.495687Z",
+        "time": 133.083,
+        "timings": {
+          "send": 5.0,
+          "wait": 53.233,
+          "receive": 74.85
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/fvRyqqXC8rX0/4BWwor4Sa7rThaie/pack.acz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 200232,
+            "mimeType": "application/zip"
+          },
+          "bodySize": 200232,
+          "decodedBodySize": 200232,
+          "transferSize": 200232,
+          "_transferSize": 200232,
+          "_decodedBodySize": 200232,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2026_TH_MACIF_GARANTIE_OBSEQUE_STEPHANIE_ENRICHI_copy",
+        "startedDateTime": "1970-01-04T06:34:27.497319Z",
+        "time": 139.62,
+        "timings": {
+          "send": 5.0,
+          "wait": 55.848,
+          "receive": 78.772
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/fvRyqqXC8rX0/splash.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 9519,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 9519,
+          "decodedBodySize": 9519,
+          "transferSize": 9519,
+          "_transferSize": 9519,
+          "_decodedBodySize": 9519,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2026_TH_MACIF_GARANTIE_OBSEQUE_STEPHANIE_ENRICHI_copy",
+        "startedDateTime": "1970-01-04T06:34:27.583459Z",
+        "time": 92.63,
+        "timings": {
+          "send": 4.631,
+          "wait": 37.052,
+          "receive": 50.946
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2c5qoa%3AumSXO5jT4EJoqdPs5WPygFyjEB_45KV4&s=0%3Amr2c5qoa%3Aj61~ZoL_dpjcDYkzISnEGTlR~3vuLI2K&v=0%3AC7E1TfSdcDrltmPnfQ3Riwqt_tVBMzkD&t=pageView&a=fvRyqqXC8rX0&e=0%3AC7E1TfSdcDrltmPnfQ3Riwqt_tVBMzkD0&c=mr2c5qod&n=t&f=t&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F2026_TH_MACIF_GARANTIE_OBSEQUE_STEPHANIE_ENRICHI_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&x=cu9unr",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2026_TH_MACIF_GARANTIE_OBSEQUE_STEPHANIE_ENRICHI_copy",
+        "startedDateTime": "1970-01-04T06:34:27.589319Z",
+        "time": 86.824,
+        "timings": {
+          "send": 4.341,
+          "wait": 34.73,
+          "receive": 47.753
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2c5qoa%3AumSXO5jT4EJoqdPs5WPygFyjEB_45KV4&s=0%3Amr2c5qoa%3Aj61~ZoL_dpjcDYkzISnEGTlR~3vuLI2K&v=0%3AC7E1TfSdcDrltmPnfQ3Riwqt_tVBMzkD&t=eventParameters&a=fvRyqqXC8rX0&e=0%3AC7E1TfSdcDrltmPnfQ3Riwqt_tVBMzkD1&c=mr2c5qoj&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F2026_TH_MACIF_GARANTIE_OBSEQUE_STEPHANIE_ENRICHI_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Billable%20impression!srt!0!sts!1!siv!0!sol!1!)&x=b4grhh",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2026_TH_MACIF_GARANTIE_OBSEQUE_STEPHANIE_ENRICHI_copy",
+        "startedDateTime": "1970-01-04T06:34:27.650045Z",
+        "time": 170.279,
+        "timings": {
+          "send": 5.0,
+          "wait": 68.112,
+          "receive": 97.167
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/fvRyqqXC8rX0/4BWwor4Sa7rThaie/feed_X0GRmLQZaDHIjC7G.png",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 9476,
+            "mimeType": "image/png"
+          },
+          "bodySize": 9476,
+          "decodedBodySize": 9476,
+          "transferSize": 9476,
+          "_transferSize": 9476,
+          "_decodedBodySize": 9476,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2026_TH_MACIF_GARANTIE_OBSEQUE_STEPHANIE_ENRICHI_copy",
+        "startedDateTime": "1970-01-04T06:34:27.650101Z",
+        "time": 169.945,
+        "timings": {
+          "send": 5.0,
+          "wait": 67.978,
+          "receive": 96.967
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/fvRyqqXC8rX0/4BWwor4Sa7rThaie/feed_l2Obg8GzovzlPJma.png",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 26334,
+            "mimeType": "image/png"
+          },
+          "bodySize": 26334,
+          "decodedBodySize": 26334,
+          "transferSize": 26334,
+          "_transferSize": 26334,
+          "_decodedBodySize": 26334,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2026_TH_MACIF_GARANTIE_OBSEQUE_STEPHANIE_ENRICHI_copy",
+        "startedDateTime": "1970-01-04T06:34:27.650498Z",
+        "time": 169.877,
+        "timings": {
+          "send": 5.0,
+          "wait": 67.951,
+          "receive": 96.926
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2c5qoa%3AumSXO5jT4EJoqdPs5WPygFyjEB_45KV4&s=0%3Amr2c5qoa%3Aj61~ZoL_dpjcDYkzISnEGTlR~3vuLI2K&v=0%3AC7E1TfSdcDrltmPnfQ3Riwqt_tVBMzkD&t=eventParameters&a=fvRyqqXC8rX0&e=0%3AC7E1TfSdcDrltmPnfQ3Riwqt_tVBMzkD2&c=mr2c5qq8&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F2026_TH_MACIF_GARANTIE_OBSEQUE_STEPHANIE_ENRICHI_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Loaded!srt!0!sts!143!siv!0!sol!1!)&x=c5d9zv",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2026_TH_MACIF_GARANTIE_OBSEQUE_STEPHANIE_ENRICHI_copy",
+        "startedDateTime": "1970-01-04T06:34:27.650583Z",
+        "time": 166.202,
+        "timings": {
+          "send": 5.0,
+          "wait": 66.481,
+          "receive": 94.721
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2c5qoa%3AumSXO5jT4EJoqdPs5WPygFyjEB_45KV4&s=0%3Amr2c5qoa%3Aj61~ZoL_dpjcDYkzISnEGTlR~3vuLI2K&v=0%3AC7E1TfSdcDrltmPnfQ3Riwqt_tVBMzkD&t=eventParameters&a=fvRyqqXC8rX0&e=0%3AC7E1TfSdcDrltmPnfQ3Riwqt_tVBMzkD3&c=mr2c5qq8&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F2026_TH_MACIF_GARANTIE_OBSEQUE_STEPHANIE_ENRICHI_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Meta!saction!safeFrame%20not%20detected!srt!0!sts!143!siv!0!sol!1!)&x=y8lez",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2026_TH_MACIF_GARANTIE_OBSEQUE_STEPHANIE_ENRICHI_copy",
+        "startedDateTime": "1970-01-04T06:34:27.650656Z",
+        "time": 166.794,
+        "timings": {
+          "send": 5.0,
+          "wait": 66.718,
+          "receive": 95.076
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2c5qoa%3AumSXO5jT4EJoqdPs5WPygFyjEB_45KV4&s=0%3Amr2c5qoa%3Aj61~ZoL_dpjcDYkzISnEGTlR~3vuLI2K&v=0%3AC7E1TfSdcDrltmPnfQ3Riwqt_tVBMzkD&t=eventParameters&a=fvRyqqXC8rX0&e=0%3AC7E1TfSdcDrltmPnfQ3Riwqt_tVBMzkD4&c=mr2c5qq8&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F2026_TH_MACIF_GARANTIE_OBSEQUE_STEPHANIE_ENRICHI_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Started!srt!0!sts!143!siv!0!sol!1!)&x=-o5j5pu",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2026_TH_MACIF_GARANTIE_OBSEQUE_STEPHANIE_ENRICHI_copy",
+        "startedDateTime": "1970-01-04T06:34:27.654395Z",
+        "time": 163.018,
+        "timings": {
+          "send": 5.0,
+          "wait": 65.207,
+          "receive": 92.811
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2c5qoa%3AumSXO5jT4EJoqdPs5WPygFyjEB_45KV4&s=0%3Amr2c5qoa%3Aj61~ZoL_dpjcDYkzISnEGTlR~3vuLI2K&v=0%3AC7E1TfSdcDrltmPnfQ3Riwqt_tVBMzkD&t=eventParameters&a=fvRyqqXC8rX0&e=0%3AC7E1TfSdcDrltmPnfQ3Riwqt_tVBMzkD5&c=mr2c5qqc&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F2026_TH_MACIF_GARANTIE_OBSEQUE_STEPHANIE_ENRICHI_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Rendered!srt!0!sts!165!siv!0!sol!1!)&x=-pcrpqg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2026_TH_MACIF_GARANTIE_OBSEQUE_STEPHANIE_ENRICHI_copy",
+        "startedDateTime": "1970-01-04T06:34:29.589891Z",
+        "time": 68.059,
+        "timings": {
+          "send": 3.403,
+          "wait": 27.224,
+          "receive": 37.432
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2c5qoa%3AumSXO5jT4EJoqdPs5WPygFyjEB_45KV4&s=0%3Amr2c5qoa%3Aj61~ZoL_dpjcDYkzISnEGTlR~3vuLI2K&v=0%3AC7E1TfSdcDrltmPnfQ3Riwqt_tVBMzkD&t=eventParameters&a=fvRyqqXC8rX0&e=0%3AC7E1TfSdcDrltmPnfQ3Riwqt_tVBMzkD6&c=mr2c5s83&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F2026_TH_MACIF_GARANTIE_OBSEQUE_STEPHANIE_ENRICHI_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20is%20in%20view!srt!0!sts!2103!siv!1!sol!1!)&x=-gvfmuo",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 244,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 244,
+          "decodedBodySize": 244,
+          "transferSize": 244,
+          "_transferSize": 244,
+          "_decodedBodySize": 244,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "2026_TH_MACIF_GARANTIE_OBSEQUE_STEPHANIE_ENRICHI_copy",
+        "startedDateTime": "1970-01-04T06:34:29.590113Z",
+        "time": 67.775,
+        "timings": {
+          "send": 3.389,
+          "wait": 27.11,
+          "receive": 37.276
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2c5qoa%3AumSXO5jT4EJoqdPs5WPygFyjEB_45KV4&s=0%3Amr2c5qoa%3Aj61~ZoL_dpjcDYkzISnEGTlR~3vuLI2K&v=0%3AC7E1TfSdcDrltmPnfQ3Riwqt_tVBMzkD&t=eventParameters&a=fvRyqqXC8rX0&e=0%3AC7E1TfSdcDrltmPnfQ3Riwqt_tVBMzkD7&c=mr2c5s84&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2F2026_TH_MACIF_GARANTIE_OBSEQUE_STEPHANIE_ENRICHI_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20revealed!srt!0!sts!703!siv!0!sol!1!)&x=-a4nyxh",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 244,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 244,
+          "decodedBodySize": 244,
+          "transferSize": 244,
+          "_transferSize": 244,
+          "_decodedBodySize": 244,
+          "bodyCaptured": true
+        }
+      }
+    ]
+  }
+}

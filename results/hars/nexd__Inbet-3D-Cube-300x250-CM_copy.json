@@ -1,0 +1,544 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "crawl_ads_cdp",
+      "version": "2.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-07-01T17:48:51.662382Z",
+        "id": "Inbet-3D-Cube-300x250-CM_copy",
+        "title": "Inbet-3D-Cube-300x250-CM_copy",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "Inbet-3D-Cube-300x250-CM_copy",
+        "startedDateTime": "1970-01-04T07:08:21.970165Z",
+        "time": 278.494,
+        "timings": {
+          "send": 5.0,
+          "wait": 111.398,
+          "receive": 162.096
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/JYXhKy2gL5kH/adtag.js?pxf=W2ybGL7nQifYXmZs&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_502}",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 200095,
+            "mimeType": "application/javascript",
+            "compression": 140356
+          },
+          "bodySize": 59739,
+          "decodedBodySize": 200095,
+          "transferSize": 59739,
+          "_transferSize": 59739,
+          "_decodedBodySize": 200095,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Inbet-3D-Cube-300x250-CM_copy",
+        "startedDateTime": "1970-01-04T07:08:22.254399Z",
+        "time": 90.28,
+        "timings": {
+          "send": 4.514,
+          "wait": 36.112,
+          "receive": 49.654
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tracking.js?ad=JYXhKy2gL5kH_336x280_D",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 8385,
+            "mimeType": "application/javascript",
+            "compression": 4221
+          },
+          "bodySize": 4164,
+          "decodedBodySize": 8385,
+          "transferSize": 4164,
+          "_transferSize": 4164,
+          "_decodedBodySize": 8385,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Inbet-3D-Cube-300x250-CM_copy",
+        "startedDateTime": "1970-01-04T07:08:22.261981Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tr5.html",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Inbet-3D-Cube-300x250-CM_copy",
+        "startedDateTime": "1970-01-04T07:08:22.260804Z",
+        "time": 95.311,
+        "timings": {
+          "send": 4.766,
+          "wait": 38.124,
+          "receive": 52.421
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/JYXhKy2gL5kH/adcanvas.min.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 211592,
+            "mimeType": "application/javascript",
+            "compression": 152207
+          },
+          "bodySize": 59385,
+          "decodedBodySize": 211592,
+          "transferSize": 59385,
+          "_transferSize": 59385,
+          "_decodedBodySize": 211592,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Inbet-3D-Cube-300x250-CM_copy",
+        "startedDateTime": "1970-01-04T07:08:22.261042Z",
+        "time": 200.624,
+        "timings": {
+          "send": 5.0,
+          "wait": 80.25,
+          "receive": 115.374
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/JYXhKy2gL5kH/W2ybGL7nQifYXmZs/pack.acz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 112167,
+            "mimeType": "application/zip"
+          },
+          "bodySize": 112167,
+          "decodedBodySize": 112167,
+          "transferSize": 112167,
+          "_transferSize": 112167,
+          "_decodedBodySize": 112167,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Inbet-3D-Cube-300x250-CM_copy",
+        "startedDateTime": "1970-01-04T07:08:22.349469Z",
+        "time": 69.792,
+        "timings": {
+          "send": 3.49,
+          "wait": 27.917,
+          "receive": 38.386
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2ddcp7%3AxXK5Oi1kJhSVI1xsNgpaccg3UWioeErr&s=0%3Amr2ddcp7%3AAyh0iBW1OaPZS2eBwpnQS_1mmeySK5gO&v=0%3ARq9IlxJqw6zMSbOay1mD~PCEg9SCYGuI&t=pageView&a=JYXhKy2gL5kH_336x280_D&e=0%3ARq9IlxJqw6zMSbOay1mD~PCEg9SCYGuI0&c=mr2ddcpa&n=t&f=t&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FInbet-3D-Cube-300x250-CM_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&x=wrv85e",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Inbet-3D-Cube-300x250-CM_copy",
+        "startedDateTime": "1970-01-04T07:08:22.350147Z",
+        "time": 100.56,
+        "timings": {
+          "send": 5.0,
+          "wait": 40.224,
+          "receive": 55.336
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2ddcp7%3AxXK5Oi1kJhSVI1xsNgpaccg3UWioeErr&s=0%3Amr2ddcp7%3AAyh0iBW1OaPZS2eBwpnQS_1mmeySK5gO&v=0%3ARq9IlxJqw6zMSbOay1mD~PCEg9SCYGuI&t=eventParameters&a=JYXhKy2gL5kH_336x280_D&e=0%3ARq9IlxJqw6zMSbOay1mD~PCEg9SCYGuI1&c=mr2ddcpb&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FInbet-3D-Cube-300x250-CM_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Billable%20impression!srt!0!sts!0!siv!0!sol!1!)&x=-omjqt3",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Inbet-3D-Cube-300x250-CM_copy",
+        "startedDateTime": "1970-01-04T07:08:22.489635Z",
+        "time": 66.82,
+        "timings": {
+          "send": 3.341,
+          "wait": 26.728,
+          "receive": 36.751
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/JYXhKy2gL5kH/W2ybGL7nQifYXmZs/bg.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 2844,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 2844,
+          "decodedBodySize": 2844,
+          "transferSize": 2844,
+          "_transferSize": 2844,
+          "_decodedBodySize": 2844,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Inbet-3D-Cube-300x250-CM_copy",
+        "startedDateTime": "1970-01-04T07:08:22.489686Z",
+        "time": 88.967,
+        "timings": {
+          "send": 4.448,
+          "wait": 35.587,
+          "receive": 48.932
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/JYXhKy2gL5kH/W2ybGL7nQifYXmZs/2.png",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 111904,
+            "mimeType": "image/png"
+          },
+          "bodySize": 111904,
+          "decodedBodySize": 111904,
+          "transferSize": 111904,
+          "_transferSize": 111904,
+          "_decodedBodySize": 111904,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Inbet-3D-Cube-300x250-CM_copy",
+        "startedDateTime": "1970-01-04T07:08:22.489705Z",
+        "time": 91.636,
+        "timings": {
+          "send": 4.582,
+          "wait": 36.654,
+          "receive": 50.4
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/JYXhKy2gL5kH/W2ybGL7nQifYXmZs/3.png",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 111892,
+            "mimeType": "image/png"
+          },
+          "bodySize": 111892,
+          "decodedBodySize": 111892,
+          "transferSize": 111892,
+          "_transferSize": 111892,
+          "_decodedBodySize": 111892,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Inbet-3D-Cube-300x250-CM_copy",
+        "startedDateTime": "1970-01-04T07:08:22.489725Z",
+        "time": 108.705,
+        "timings": {
+          "send": 5.0,
+          "wait": 43.482,
+          "receive": 60.223
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/JYXhKy2gL5kH/W2ybGL7nQifYXmZs/4.png",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 111898,
+            "mimeType": "image/png"
+          },
+          "bodySize": 111898,
+          "decodedBodySize": 111898,
+          "transferSize": 111898,
+          "_transferSize": 111898,
+          "_decodedBodySize": 111898,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Inbet-3D-Cube-300x250-CM_copy",
+        "startedDateTime": "1970-01-04T07:08:22.489956Z",
+        "time": 65.962,
+        "timings": {
+          "send": 3.298,
+          "wait": 26.385,
+          "receive": 36.279
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2ddcp7%3AxXK5Oi1kJhSVI1xsNgpaccg3UWioeErr&s=0%3Amr2ddcp7%3AAyh0iBW1OaPZS2eBwpnQS_1mmeySK5gO&v=0%3ARq9IlxJqw6zMSbOay1mD~PCEg9SCYGuI&t=eventParameters&a=JYXhKy2gL5kH_336x280_D&e=0%3ARq9IlxJqw6zMSbOay1mD~PCEg9SCYGuI2&c=mr2ddct7&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FInbet-3D-Cube-300x250-CM_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Loaded!srt!0!sts!211!siv!0!sol!1!)&x=-6dsx1a",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Inbet-3D-Cube-300x250-CM_copy",
+        "startedDateTime": "1970-01-04T07:08:22.490040Z",
+        "time": 65.926,
+        "timings": {
+          "send": 3.296,
+          "wait": 26.37,
+          "receive": 36.259
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2ddcp7%3AxXK5Oi1kJhSVI1xsNgpaccg3UWioeErr&s=0%3Amr2ddcp7%3AAyh0iBW1OaPZS2eBwpnQS_1mmeySK5gO&v=0%3ARq9IlxJqw6zMSbOay1mD~PCEg9SCYGuI&t=eventParameters&a=JYXhKy2gL5kH_336x280_D&e=0%3ARq9IlxJqw6zMSbOay1mD~PCEg9SCYGuI3&c=mr2ddct7&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FInbet-3D-Cube-300x250-CM_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Meta!saction!safeFrame%20not%20detected!srt!0!sts!211!siv!0!sol!1!)&x=-9ol4qk",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Inbet-3D-Cube-300x250-CM_copy",
+        "startedDateTime": "1970-01-04T07:08:22.490114Z",
+        "time": 65.882,
+        "timings": {
+          "send": 3.294,
+          "wait": 26.353,
+          "receive": 36.235
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2ddcp7%3AxXK5Oi1kJhSVI1xsNgpaccg3UWioeErr&s=0%3Amr2ddcp7%3AAyh0iBW1OaPZS2eBwpnQS_1mmeySK5gO&v=0%3ARq9IlxJqw6zMSbOay1mD~PCEg9SCYGuI&t=eventParameters&a=JYXhKy2gL5kH_336x280_D&e=0%3ARq9IlxJqw6zMSbOay1mD~PCEg9SCYGuI4&c=mr2ddct7&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FInbet-3D-Cube-300x250-CM_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Started!srt!0!sts!211!siv!0!sol!1!)&x=moayv1",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Inbet-3D-Cube-300x250-CM_copy",
+        "startedDateTime": "1970-01-04T07:08:22.492009Z",
+        "time": 64.015,
+        "timings": {
+          "send": 3.201,
+          "wait": 25.606,
+          "receive": 35.208
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2ddcp7%3AxXK5Oi1kJhSVI1xsNgpaccg3UWioeErr&s=0%3Amr2ddcp7%3AAyh0iBW1OaPZS2eBwpnQS_1mmeySK5gO&v=0%3ARq9IlxJqw6zMSbOay1mD~PCEg9SCYGuI&t=eventParameters&a=JYXhKy2gL5kH_336x280_D&e=0%3ARq9IlxJqw6zMSbOay1mD~PCEg9SCYGuI5&c=mr2ddct9&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FInbet-3D-Cube-300x250-CM_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Rendered!srt!0!sts!240!siv!0!sol!1!)&x=-3zer3l",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Inbet-3D-Cube-300x250-CM_copy",
+        "startedDateTime": "1970-01-04T07:08:24.359358Z",
+        "time": 52.38,
+        "timings": {
+          "send": 2.619,
+          "wait": 20.952,
+          "receive": 28.809
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2ddcp7%3AxXK5Oi1kJhSVI1xsNgpaccg3UWioeErr&s=0%3Amr2ddcp7%3AAyh0iBW1OaPZS2eBwpnQS_1mmeySK5gO&v=0%3ARq9IlxJqw6zMSbOay1mD~PCEg9SCYGuI&t=eventParameters&a=JYXhKy2gL5kH_336x280_D&e=0%3ARq9IlxJqw6zMSbOay1mD~PCEg9SCYGuI6&c=mr2dde95&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FInbet-3D-Cube-300x250-CM_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20is%20in%20view!srt!1!sts!2109!siv!1!sol!1!)&x=-xtxtp6",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Inbet-3D-Cube-300x250-CM_copy",
+        "startedDateTime": "1970-01-04T07:08:24.359531Z",
+        "time": 53.883,
+        "timings": {
+          "send": 2.694,
+          "wait": 21.553,
+          "receive": 29.636
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2ddcp7%3AxXK5Oi1kJhSVI1xsNgpaccg3UWioeErr&s=0%3Amr2ddcp7%3AAyh0iBW1OaPZS2eBwpnQS_1mmeySK5gO&v=0%3ARq9IlxJqw6zMSbOay1mD~PCEg9SCYGuI&t=eventParameters&a=JYXhKy2gL5kH_336x280_D&e=0%3ARq9IlxJqw6zMSbOay1mD~PCEg9SCYGuI7&c=mr2dde95&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FInbet-3D-Cube-300x250-CM_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Paging!saction!Page%20seen%20%5BFront%20image%5D!srt!0!sts!238!siv!0!sol!1!)&x=-x37r8e",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Inbet-3D-Cube-300x250-CM_copy",
+        "startedDateTime": "1970-01-04T07:08:24.359625Z",
+        "time": 53.839,
+        "timings": {
+          "send": 2.692,
+          "wait": 21.536,
+          "receive": 29.611
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2ddcp7%3AxXK5Oi1kJhSVI1xsNgpaccg3UWioeErr&s=0%3Amr2ddcp7%3AAyh0iBW1OaPZS2eBwpnQS_1mmeySK5gO&v=0%3ARq9IlxJqw6zMSbOay1mD~PCEg9SCYGuI&t=eventParameters&a=JYXhKy2gL5kH_336x280_D&e=0%3ARq9IlxJqw6zMSbOay1mD~PCEg9SCYGuI8&c=mr2dde95&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FInbet-3D-Cube-300x250-CM_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20revealed!srt!0!sts!783!siv!0!sol!1!)&x=-5aigwk",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      }
+    ]
+  }
+}

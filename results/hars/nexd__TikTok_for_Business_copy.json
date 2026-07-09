@@ -1,0 +1,457 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "crawl_ads_cdp",
+      "version": "2.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-07-01T18:14:40.773665Z",
+        "id": "TikTok_for_Business_copy",
+        "title": "TikTok_for_Business_copy",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "TikTok_for_Business_copy",
+        "startedDateTime": "1970-01-04T07:34:11.131187Z",
+        "time": 182.187,
+        "timings": {
+          "send": 5.0,
+          "wait": 72.875,
+          "receive": 104.312
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/S8omO5YayDfo/adtag.js?pxf=lxxiRcrkbvsiCtqB&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_502}",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 207568,
+            "mimeType": "application/javascript",
+            "compression": 144781
+          },
+          "bodySize": 62787,
+          "decodedBodySize": 207568,
+          "transferSize": 62787,
+          "_transferSize": 62787,
+          "_decodedBodySize": 207568,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "TikTok_for_Business_copy",
+        "startedDateTime": "1970-01-04T07:34:11.319393Z",
+        "time": 64.608,
+        "timings": {
+          "send": 3.23,
+          "wait": 25.843,
+          "receive": 35.534
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tracking.js?ad=S8omO5YayDfo",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 8385,
+            "mimeType": "application/javascript",
+            "compression": 4226
+          },
+          "bodySize": 4159,
+          "decodedBodySize": 8385,
+          "transferSize": 4159,
+          "_transferSize": 4159,
+          "_decodedBodySize": 8385,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "TikTok_for_Business_copy",
+        "startedDateTime": "1970-01-04T07:34:11.327800Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tr5.html",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "TikTok_for_Business_copy",
+        "startedDateTime": "1970-01-04T07:34:11.326343Z",
+        "time": 70.793,
+        "timings": {
+          "send": 3.54,
+          "wait": 28.317,
+          "receive": 38.936
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/S8omO5YayDfo/adcanvas.min.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 218820,
+            "mimeType": "application/javascript",
+            "compression": 157099
+          },
+          "bodySize": 61721,
+          "decodedBodySize": 218820,
+          "transferSize": 61721,
+          "_transferSize": 61721,
+          "_decodedBodySize": 218820,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "TikTok_for_Business_copy",
+        "startedDateTime": "1970-01-04T07:34:11.326532Z",
+        "time": 225.764,
+        "timings": {
+          "send": 5.0,
+          "wait": 90.306,
+          "receive": 130.458
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/S8omO5YayDfo/lxxiRcrkbvsiCtqB/pack.acz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 398458,
+            "mimeType": "application/zip"
+          },
+          "bodySize": 398458,
+          "decodedBodySize": 398458,
+          "transferSize": 398458,
+          "_transferSize": 398458,
+          "_decodedBodySize": 398458,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "TikTok_for_Business_copy",
+        "startedDateTime": "1970-01-04T07:34:11.328464Z",
+        "time": 172.42,
+        "timings": {
+          "send": 5.0,
+          "wait": 68.968,
+          "receive": 98.452
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/S8omO5YayDfo/splash.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 13574,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 13574,
+          "decodedBodySize": 13574,
+          "transferSize": 13574,
+          "_transferSize": 13574,
+          "_decodedBodySize": 13574,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "TikTok_for_Business_copy",
+        "startedDateTime": "1970-01-04T07:34:11.388616Z",
+        "time": 61.312,
+        "timings": {
+          "send": 3.066,
+          "wait": 24.525,
+          "receive": 33.722
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2eajzd%3A46Dsbrhfpl~zdjUY5WRFjQcmDU8xhNN0&s=0%3Amr2eajzd%3A0Ejh1NvXmZkhlQ~b1JqcL_vACJOcs2g2&v=0%3A2MZ8Vod29kmCofEF9dkvbKSC_xveYOnO&t=pageView&a=S8omO5YayDfo&e=0%3A2MZ8Vod29kmCofEF9dkvbKSC_xveYOnO0&c=mr2eajzh&n=t&f=t&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FTikTok_for_Business_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&x=-icmk3l",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "TikTok_for_Business_copy",
+        "startedDateTime": "1970-01-04T07:34:11.399715Z",
+        "time": 50.139,
+        "timings": {
+          "send": 2.507,
+          "wait": 20.056,
+          "receive": 27.576
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2eajzd%3A46Dsbrhfpl~zdjUY5WRFjQcmDU8xhNN0&s=0%3Amr2eajzd%3A0Ejh1NvXmZkhlQ~b1JqcL_vACJOcs2g2&v=0%3A2MZ8Vod29kmCofEF9dkvbKSC_xveYOnO&t=eventParameters&a=S8omO5YayDfo&e=0%3A2MZ8Vod29kmCofEF9dkvbKSC_xveYOnO1&c=mr2eajzs&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FTikTok_for_Business_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Billable%20impression!srt!0!sts!0!siv!0!sol!1!)&x=-4x3zch",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "TikTok_for_Business_copy",
+        "startedDateTime": "1970-01-04T07:34:11.662398Z",
+        "time": 46.923,
+        "timings": {
+          "send": 2.346,
+          "wait": 18.769,
+          "receive": 25.808
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2eajzd%3A46Dsbrhfpl~zdjUY5WRFjQcmDU8xhNN0&s=0%3Amr2eajzd%3A0Ejh1NvXmZkhlQ~b1JqcL_vACJOcs2g2&v=0%3A2MZ8Vod29kmCofEF9dkvbKSC_xveYOnO&t=eventParameters&a=S8omO5YayDfo&e=0%3A2MZ8Vod29kmCofEF9dkvbKSC_xveYOnO2&c=mr2eak73&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FTikTok_for_Business_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Loaded!srt!0!sts!237!siv!0!sol!1!)&x=-6gyoht",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "TikTok_for_Business_copy",
+        "startedDateTime": "1970-01-04T07:34:11.662524Z",
+        "time": 54.186,
+        "timings": {
+          "send": 2.709,
+          "wait": 21.674,
+          "receive": 29.802
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2eajzd%3A46Dsbrhfpl~zdjUY5WRFjQcmDU8xhNN0&s=0%3Amr2eajzd%3A0Ejh1NvXmZkhlQ~b1JqcL_vACJOcs2g2&v=0%3A2MZ8Vod29kmCofEF9dkvbKSC_xveYOnO&t=eventParameters&a=S8omO5YayDfo&e=0%3A2MZ8Vod29kmCofEF9dkvbKSC_xveYOnO3&c=mr2eak73&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FTikTok_for_Business_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Meta!saction!safeFrame%20not%20detected!srt!0!sts!237!siv!0!sol!1!)&x=7ckai0",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "TikTok_for_Business_copy",
+        "startedDateTime": "1970-01-04T07:34:11.662603Z",
+        "time": 54.049,
+        "timings": {
+          "send": 2.702,
+          "wait": 21.62,
+          "receive": 29.727
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2eajzd%3A46Dsbrhfpl~zdjUY5WRFjQcmDU8xhNN0&s=0%3Amr2eajzd%3A0Ejh1NvXmZkhlQ~b1JqcL_vACJOcs2g2&v=0%3A2MZ8Vod29kmCofEF9dkvbKSC_xveYOnO&t=eventParameters&a=S8omO5YayDfo&e=0%3A2MZ8Vod29kmCofEF9dkvbKSC_xveYOnO4&c=mr2eak73&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FTikTok_for_Business_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Started!srt!0!sts!237!siv!0!sol!1!)&x=-2rnjvv",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "TikTok_for_Business_copy",
+        "startedDateTime": "1970-01-04T07:34:11.666134Z",
+        "time": 48.234,
+        "timings": {
+          "send": 2.412,
+          "wait": 19.294,
+          "receive": 26.529
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2eajzd%3A46Dsbrhfpl~zdjUY5WRFjQcmDU8xhNN0&s=0%3Amr2eajzd%3A0Ejh1NvXmZkhlQ~b1JqcL_vACJOcs2g2&v=0%3A2MZ8Vod29kmCofEF9dkvbKSC_xveYOnO&t=eventParameters&a=S8omO5YayDfo&e=0%3A2MZ8Vod29kmCofEF9dkvbKSC_xveYOnO5&c=mr2eak76&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FTikTok_for_Business_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Rendered!srt!0!sts!346!siv!0!sol!1!)&x=o9bplu",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "TikTok_for_Business_copy",
+        "startedDateTime": "1970-01-04T07:34:13.442445Z",
+        "time": 49.075,
+        "timings": {
+          "send": 2.454,
+          "wait": 19.63,
+          "receive": 26.991
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2eajzd%3A46Dsbrhfpl~zdjUY5WRFjQcmDU8xhNN0&s=0%3Amr2eajzd%3A0Ejh1NvXmZkhlQ~b1JqcL_vACJOcs2g2&v=0%3A2MZ8Vod29kmCofEF9dkvbKSC_xveYOnO&t=eventParameters&a=S8omO5YayDfo&e=0%3A2MZ8Vod29kmCofEF9dkvbKSC_xveYOnO6&c=mr2ealkj&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FTikTok_for_Business_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20is%20in%20view!srt!0!sts!2127!siv!1!sol!1!)&x=ap0c4m",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "TikTok_for_Business_copy",
+        "startedDateTime": "1970-01-04T07:34:13.442664Z",
+        "time": 45.515,
+        "timings": {
+          "send": 2.276,
+          "wait": 18.206,
+          "receive": 25.033
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2eajzd%3A46Dsbrhfpl~zdjUY5WRFjQcmDU8xhNN0&s=0%3Amr2eajzd%3A0Ejh1NvXmZkhlQ~b1JqcL_vACJOcs2g2&v=0%3A2MZ8Vod29kmCofEF9dkvbKSC_xveYOnO&t=eventParameters&a=S8omO5YayDfo&e=0%3A2MZ8Vod29kmCofEF9dkvbKSC_xveYOnO7&c=mr2ealkj&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FTikTok_for_Business_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Navigation!saction!Intro!srt!0!sts!330!siv!0!sol!1!)&x=-pz3j46",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "TikTok_for_Business_copy",
+        "startedDateTime": "1970-01-04T07:34:13.442782Z",
+        "time": 49.369,
+        "timings": {
+          "send": 2.468,
+          "wait": 19.748,
+          "receive": 27.153
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2eajzd%3A46Dsbrhfpl~zdjUY5WRFjQcmDU8xhNN0&s=0%3Amr2eajzd%3A0Ejh1NvXmZkhlQ~b1JqcL_vACJOcs2g2&v=0%3A2MZ8Vod29kmCofEF9dkvbKSC_xveYOnO&t=eventParameters&a=S8omO5YayDfo&e=0%3A2MZ8Vod29kmCofEF9dkvbKSC_xveYOnO8&c=mr2ealkj&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FTikTok_for_Business_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20revealed!srt!0!sts!518!siv!0!sol!1!)&x=vwsh03",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      }
+    ]
+  }
+}

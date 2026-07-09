@@ -1,0 +1,721 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "crawl_ads_cdp",
+      "version": "2.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-07-01T17:50:03.428608Z",
+        "id": "Interscroller_The_Sun_V5_copy",
+        "title": "Interscroller_The_Sun_V5_copy",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "Interscroller_The_Sun_V5_copy",
+        "startedDateTime": "1970-01-04T07:09:32.386355Z",
+        "time": 137.245,
+        "timings": {
+          "send": 5.0,
+          "wait": 54.898,
+          "receive": 77.347
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/sIQovs1MFZkU/adtag.js?pxf=dEfiuBNSM7oiMtHu&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_502}",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 193786,
+            "mimeType": "application/javascript",
+            "compression": 132294
+          },
+          "bodySize": 61492,
+          "decodedBodySize": 193786,
+          "transferSize": 61492,
+          "_transferSize": 61492,
+          "_decodedBodySize": 193786,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Interscroller_The_Sun_V5_copy",
+        "startedDateTime": "1970-01-04T07:09:32.530008Z",
+        "time": 62.952,
+        "timings": {
+          "send": 3.148,
+          "wait": 25.181,
+          "receive": 34.624
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tracking.js?ad=sIQovs1MFZkU",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 8385,
+            "mimeType": "application/javascript",
+            "compression": 4241
+          },
+          "bodySize": 4144,
+          "decodedBodySize": 8385,
+          "transferSize": 4144,
+          "_transferSize": 4144,
+          "_decodedBodySize": 8385,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Interscroller_The_Sun_V5_copy",
+        "startedDateTime": "1970-01-04T07:09:32.538218Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tr5.html",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Interscroller_The_Sun_V5_copy",
+        "startedDateTime": "1970-01-04T07:09:32.537712Z",
+        "time": 273.924,
+        "timings": {
+          "send": 5.0,
+          "wait": 109.57,
+          "receive": 159.354
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://pixel.adsafeprotected.com/rjss/st/2348327/85127190/skeleton.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 338837,
+            "mimeType": "application/javascript",
+            "compression": 240962
+          },
+          "bodySize": 97875,
+          "decodedBodySize": 338837,
+          "transferSize": 97875,
+          "_transferSize": 97875,
+          "_decodedBodySize": 338837,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Interscroller_The_Sun_V5_copy",
+        "startedDateTime": "1970-01-04T07:09:32.541355Z",
+        "time": 108.293,
+        "timings": {
+          "send": 5.0,
+          "wait": 43.317,
+          "receive": 59.976
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/sIQovs1MFZkU/adcanvas.min.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 175454,
+            "mimeType": "application/javascript",
+            "compression": 123767
+          },
+          "bodySize": 51687,
+          "decodedBodySize": 175454,
+          "transferSize": 51687,
+          "_transferSize": 51687,
+          "_decodedBodySize": 175454,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Interscroller_The_Sun_V5_copy",
+        "startedDateTime": "1970-01-04T07:09:32.542217Z",
+        "time": 104.698,
+        "timings": {
+          "send": 5.0,
+          "wait": 41.879,
+          "receive": 57.819
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/sIQovs1MFZkU/dEfiuBNSM7oiMtHu/pack.acz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 79600,
+            "mimeType": "application/zip"
+          },
+          "bodySize": 79600,
+          "decodedBodySize": 79600,
+          "transferSize": 79600,
+          "_transferSize": 79600,
+          "_decodedBodySize": 79600,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Interscroller_The_Sun_V5_copy",
+        "startedDateTime": "1970-01-04T07:09:32.544369Z",
+        "time": 80.143,
+        "timings": {
+          "send": 4.007,
+          "wait": 32.057,
+          "receive": 44.079
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/sIQovs1MFZkU/splash.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 50595,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 50595,
+          "decodedBodySize": 50595,
+          "transferSize": 50595,
+          "_transferSize": 50595,
+          "_decodedBodySize": 50595,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Interscroller_The_Sun_V5_copy",
+        "startedDateTime": "1970-01-04T07:09:32.544426Z",
+        "time": 152.775,
+        "timings": {
+          "send": 5.0,
+          "wait": 61.11,
+          "receive": 86.665
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://ad.doubleclick.net/ddm/trackimp/N5260.2579009THESUN/B33011252.412766587;dc_pre=CP3Cn42FspUDFUhNHQkd0YQXBA;dc_trk_aid=605010893;dc_trk_cid=228750160;ord=1782928193712;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 67,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 67,
+          "decodedBodySize": 67,
+          "transferSize": 67,
+          "_transferSize": 67,
+          "_decodedBodySize": 67,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Interscroller_The_Sun_V5_copy",
+        "startedDateTime": "1970-01-04T07:09:32.600932Z",
+        "time": 60.081,
+        "timings": {
+          "send": 3.004,
+          "wait": 24.032,
+          "receive": 33.045
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2deuwk%3ApGOOm91GIUQqJ4Q8Dwc3gN3Xyjex36DH&s=0%3Amr2deuwk%3AVzfaBN2R9xWlV1dUhFFmFDAG~Yc8I1um&v=0%3A~KNuSH4XfyKZjDktN69lMmw38CvmJPzS&t=pageView&a=sIQovs1MFZkU&e=0%3A~KNuSH4XfyKZjDktN69lMmw38CvmJPzS0&c=mr2deuwo&n=t&f=t&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FInterscroller_The_Sun_V5_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&x=akwzb4",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Interscroller_The_Sun_V5_copy",
+        "startedDateTime": "1970-01-04T07:09:32.616498Z",
+        "time": 46.378,
+        "timings": {
+          "send": 2.319,
+          "wait": 18.551,
+          "receive": 25.508
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2deuwk%3ApGOOm91GIUQqJ4Q8Dwc3gN3Xyjex36DH&s=0%3Amr2deuwk%3AVzfaBN2R9xWlV1dUhFFmFDAG~Yc8I1um&v=0%3A~KNuSH4XfyKZjDktN69lMmw38CvmJPzS&t=eventParameters&a=sIQovs1MFZkU&e=0%3A~KNuSH4XfyKZjDktN69lMmw38CvmJPzS1&c=mr2deux6&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FInterscroller_The_Sun_V5_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Billable%20impression!srt!0!sts!0!siv!0!sol!1!)&x=-mcsdhn",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Interscroller_The_Sun_V5_copy",
+        "startedDateTime": "1970-01-04T07:09:32.710782Z",
+        "time": 47.565,
+        "timings": {
+          "send": 2.378,
+          "wait": 19.026,
+          "receive": 26.161
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2deuwk%3ApGOOm91GIUQqJ4Q8Dwc3gN3Xyjex36DH&s=0%3Amr2deuwk%3AVzfaBN2R9xWlV1dUhFFmFDAG~Yc8I1um&v=0%3A~KNuSH4XfyKZjDktN69lMmw38CvmJPzS&t=eventParameters&a=sIQovs1MFZkU&e=0%3A~KNuSH4XfyKZjDktN69lMmw38CvmJPzS2&c=mr2deuzt&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FInterscroller_The_Sun_V5_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Loaded!srt!0!sts!126!siv!0!sol!1!)&x=len3su",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Interscroller_The_Sun_V5_copy",
+        "startedDateTime": "1970-01-04T07:09:32.710897Z",
+        "time": 47.496,
+        "timings": {
+          "send": 2.375,
+          "wait": 18.998,
+          "receive": 26.123
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2deuwk%3ApGOOm91GIUQqJ4Q8Dwc3gN3Xyjex36DH&s=0%3Amr2deuwk%3AVzfaBN2R9xWlV1dUhFFmFDAG~Yc8I1um&v=0%3A~KNuSH4XfyKZjDktN69lMmw38CvmJPzS&t=eventParameters&a=sIQovs1MFZkU&e=0%3A~KNuSH4XfyKZjDktN69lMmw38CvmJPzS3&c=mr2deuzt&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FInterscroller_The_Sun_V5_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Meta!saction!safeFrame%20not%20detected!srt!0!sts!126!siv!0!sol!1!)&x=90r57z",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Interscroller_The_Sun_V5_copy",
+        "startedDateTime": "1970-01-04T07:09:32.710966Z",
+        "time": 47.478,
+        "timings": {
+          "send": 2.374,
+          "wait": 18.991,
+          "receive": 26.113
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2deuwk%3ApGOOm91GIUQqJ4Q8Dwc3gN3Xyjex36DH&s=0%3Amr2deuwk%3AVzfaBN2R9xWlV1dUhFFmFDAG~Yc8I1um&v=0%3A~KNuSH4XfyKZjDktN69lMmw38CvmJPzS&t=eventParameters&a=sIQovs1MFZkU&e=0%3A~KNuSH4XfyKZjDktN69lMmw38CvmJPzS4&c=mr2deuzt&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FInterscroller_The_Sun_V5_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Started!srt!0!sts!126!siv!0!sol!1!)&x=l1ifje",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Interscroller_The_Sun_V5_copy",
+        "startedDateTime": "1970-01-04T07:09:32.713939Z",
+        "time": 44.542,
+        "timings": {
+          "send": 2.227,
+          "wait": 17.817,
+          "receive": 24.498
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2deuwk%3ApGOOm91GIUQqJ4Q8Dwc3gN3Xyjex36DH&s=0%3Amr2deuwk%3AVzfaBN2R9xWlV1dUhFFmFDAG~Yc8I1um&v=0%3A~KNuSH4XfyKZjDktN69lMmw38CvmJPzS&t=eventParameters&a=sIQovs1MFZkU&e=0%3A~KNuSH4XfyKZjDktN69lMmw38CvmJPzS5&c=mr2deuzw&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FInterscroller_The_Sun_V5_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Rendered!srt!0!sts!186!siv!0!sol!1!)&x=-fp0j61",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Interscroller_The_Sun_V5_copy",
+        "startedDateTime": "1970-01-04T07:09:32.819650Z",
+        "time": 64.277,
+        "timings": {
+          "send": 3.214,
+          "wait": 25.711,
+          "receive": 35.352
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://jsconfig.adsafeprotected.com/jsconfig/rjss/st/2348327/85127190/skeleton.js?cbName=__IntegralAS_2d7955e0506334498ab8d27e62f0ae9b_7216",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 1930,
+            "mimeType": "application/javascript"
+          },
+          "bodySize": 1930,
+          "decodedBodySize": 1930,
+          "transferSize": 1930,
+          "_transferSize": 1930,
+          "_decodedBodySize": 1930,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Interscroller_The_Sun_V5_copy",
+        "startedDateTime": "1970-01-04T07:09:32.894958Z",
+        "time": 92.819,
+        "timings": {
+          "send": 4.641,
+          "wait": 37.128,
+          "receive": 51.05
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://static.adsafeprotected.com/skeleton.js?",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 17,
+            "mimeType": "application/javascript",
+            "compression": -461
+          },
+          "bodySize": 478,
+          "decodedBodySize": 17,
+          "transferSize": 478,
+          "_transferSize": 478,
+          "_decodedBodySize": 17,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Interscroller_The_Sun_V5_copy",
+        "startedDateTime": "1970-01-04T07:09:32.897006Z",
+        "time": 39.882,
+        "timings": {
+          "send": 1.994,
+          "wait": 15.953,
+          "receive": 21.935
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://static.adsafeprotected.com/sca.17.6.4.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 93624,
+            "mimeType": "application/javascript",
+            "compression": 70357
+          },
+          "bodySize": 23267,
+          "decodedBodySize": 93624,
+          "transferSize": 23267,
+          "_transferSize": 23267,
+          "_decodedBodySize": 93624,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Interscroller_The_Sun_V5_copy",
+        "startedDateTime": "1970-01-04T07:09:32.902367Z",
+        "time": 448.637,
+        "timings": {
+          "send": 5.0,
+          "wait": 179.455,
+          "receive": 264.182
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://dt.adsafeprotected.com/dt?advEntityId=2348327&asId=2d7955e0-5063-3449-8ab8-d27e62f0ae9b&tv=%7Bc:h8VAz6,pingTime:-2,time:88,type:a,im:%7Bsf:0,pom:1,prf:%7BbeA:440,beZ:441,mfA:445,mfZ:452,cmA:511,inA:511,inZ:513,prA:513,prZ:517,si:521,poA:521,poZ:524,cmZ:524,loA:525,loZ:526,ltA:527,ltZ:527,rt:1,bc:n%7D%7D,sca:%7Bhbs:%7BcdcP:1,cdcA:1,cdcS:1,cyp:0,wd:0,uaHC:0,chHC:0%7D%7D,env:%7Bgca:true,gcd:%7Bappl:na,cnst:na,glbl:na,mtdt:undefined%7D,cca:false,gca2:false%7D,clog:%5B%7Bpiv:0,vs:o,r:r,w:1,h:1,t:80%7D%5D,es:0,sc:1,ha:1,fgad:1,fif:0,gmnp:0,for:1,b11:1,cnod:1,gm:0,slTimes:%7Bi:0,o:88,n:0,pp:0,pm:0%7D,slEvents:%5B%7Bsl:o,t:80,wc:22.22.1920.993,ac:30.30.1.1,am:s,cc:30.30.1905.0,piv:0,obst:0,th:0,reas:r,bkn:%7Bpiv:%5B16~0%5D,as:%5B16~1.1%5D%7D%7D%5D,slEventCount:1,em:false,fr:true,e:,tt:rjss,dtt:0,fm:vo930eQ+1*.2348327-85127190%7C111%7C112%7C113%7C114%7C115%7C116%7C117%7C118%7C119,idMap:1*,pd:CV8L.internal-pdf-viewer,rmeas:1,rend:0,renddet:na,siq:81,slid:%5B%5D,msd:0,ph:994,igt:0,sinceFw:6,readyFired:true%7D&br=c",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 178,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 178,
+          "decodedBodySize": 178,
+          "transferSize": 178,
+          "_transferSize": 178,
+          "_decodedBodySize": 178,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Interscroller_The_Sun_V5_copy",
+        "startedDateTime": "1970-01-04T07:09:33.231094Z",
+        "time": 218.76,
+        "timings": {
+          "send": 5.0,
+          "wait": 87.504,
+          "receive": 126.256
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://dt.adsafeprotected.com/dt?advEntityId=2348327&asId=2d7955e0-5063-3449-8ab8-d27e62f0ae9b&tv=%7Bc:h8VAEn,pingTime:-10,time:415,type:s,mvn:ZnNjPTEzLHNkPTMsbm89OCxhc3A9MQ--,sd:MTcuNi40djYwMHx8ODAwfHwxfHwxfHwyNHx8NjAwfHwwfHwwfHwxfHxsYW5kc2NhcGUtcHJpbWFyeXx8MjR8fDQvM3x8NC8zfHwwfHw4MDA-,no:MTcuNi40dk1vemlsbGF8fE5ldHNjYXBlfHxufHxufHwwfHxufHxNYWNJbnRlbHx8R2Vja298fDIwMDMwMTA3fHwtMTIwfHxNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTIwLjAuMC4wIFNhZmFyaS81MzcuMzZ8fDF8fDF8fEdvb2dsZSBJbmMufHxu,ch:n,fsc:17.6.4v222222220002222202222222220222222222202222222220222202000022000220222222220000222202002222202222222220222222220000020022222200022222220200000222200022220002022022022222202002220222022222022220000220200000022220222220222222222222202222222222222222222222222222222222222200000022022020020000002022202022022022222222000000000020222202022022222000000020000000000000000000020220202220000022200222202220022200200222022202220022220222200202222020002200002222022222202222000002002002222222202220022202200222002220222202,asp:1782928194415%7C%7C6cd577e97ed18801535ad6a0c2c388a3%7C%7C9c1ce27f08b16479d2e17743062b28ed%7C%7Cdb48203a7e288de9e1f7a961f5782b2a%7C%7Cdd8c9fe0b219a9edac9563cb938f9392%7C%7C89892180e1a043ca753caf81e2a6183d%7C%7Cae2a6263e8fd6b106e9ee5d7b576a606%7C%7Ce456dfd9306aeff581326f1f5f33cee6%7C%7C1715618633,sca:%7Beng:b,tss:%7Blts:2026-07-0119.49.54,tzo:-120,tzn:Europe/Madrid%7D,bdp:%7Bndp:1%7D,mob:%7Bori:0,ges:0,tch:0%7D%7D%7D",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 177,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 177,
+          "decodedBodySize": 177,
+          "transferSize": 177,
+          "_transferSize": 177,
+          "_decodedBodySize": 177,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Interscroller_The_Sun_V5_copy",
+        "startedDateTime": "1970-01-04T07:09:34.282496Z",
+        "time": 189.347,
+        "timings": {
+          "send": 5.0,
+          "wait": 75.739,
+          "receive": 108.608
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://dt.adsafeprotected.com/dt?advEntityId=2348327&asId=2d7955e0-5063-3449-8ab8-d27e62f0ae9b&tv=%7Bc:h8VAVm,time:1468,type:e,sca:%7Bprp:%7Bnot:1,csi:1,msl:0,hdl:1,aps:0,hae:1,ito:1,sec:1%7D,exr:%7Bexs:objectExternal%7D,ifr:%7Bact:0,eff:0%7D,dvw:%7Bwit:10,wot:0%7D,uai:%7Buad:brands~brand~GoogleChrome~version~149/brand~Chromium~version~149/brand~NotABrand~version~24%7Cmobile~false%7Cplatform~macOS%7D,nit:%7Bpqr:prompt,ntr:default%7D,cdc:%5B2,2,2,2,0,0,0,0,0,2,0,2,0,0,2,2,2,2%5D,spc:%7Bvct:180,rct:0,lct:49,cos:0,evt:0%7D%7D,env:%7Bnr_p:1,nr_tesco1:1%7D,es:0,sc:1,ha:1,fgad:1,fif:0,gmnp:0,for:1,b11:1,cnod:1,gm:0,slTimes:%7Bi:0,o:1468,n:0,pp:0,pm:0%7D,slEvents:%5B%7Bsl:o,t:80,wc:22.22.1920.993,ac:30.30.1.1,am:s,cc:30.30.1905.0,piv:0,obst:0,th:0,reas:r,bkn:%7Bpiv:%5B1396~0%5D,as:%5B1396~1.1%5D%7D%7D%5D,slEventCount:1,em:false,fr:true,e:,tt:rjss,dtt:984,fm:vo930eQ+1*.2348327-85127190%7C111%7C112%7C113%7C114%7C115%7C116%7C117%7C118%7C119,idMap:1*,rmeas:1,rend:0,renddet:na,siq:81,msd:0,ph:994,igt:0,sis:174%7D&br=c",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 177,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 177,
+          "decodedBodySize": 177,
+          "transferSize": 177,
+          "_transferSize": 177,
+          "_decodedBodySize": 177,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Interscroller_The_Sun_V5_copy",
+        "startedDateTime": "1970-01-04T07:09:34.639904Z",
+        "time": 48.362,
+        "timings": {
+          "send": 2.418,
+          "wait": 19.345,
+          "receive": 26.599
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2deuwk%3ApGOOm91GIUQqJ4Q8Dwc3gN3Xyjex36DH&s=0%3Amr2deuwk%3AVzfaBN2R9xWlV1dUhFFmFDAG~Yc8I1um&v=0%3A~KNuSH4XfyKZjDktN69lMmw38CvmJPzS&t=eventParameters&a=sIQovs1MFZkU&e=0%3A~KNuSH4XfyKZjDktN69lMmw38CvmJPzS6&c=mr2dewhe&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FInterscroller_The_Sun_V5_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20is%20in%20view!srt!1!sts!2114!siv!1!sol!1!)&x=8rcf3o",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Interscroller_The_Sun_V5_copy",
+        "startedDateTime": "1970-01-04T07:09:34.640098Z",
+        "time": 48.215,
+        "timings": {
+          "send": 2.411,
+          "wait": 19.286,
+          "receive": 26.518
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2deuwk%3ApGOOm91GIUQqJ4Q8Dwc3gN3Xyjex36DH&s=0%3Amr2deuwk%3AVzfaBN2R9xWlV1dUhFFmFDAG~Yc8I1um&v=0%3A~KNuSH4XfyKZjDktN69lMmw38CvmJPzS&t=eventParameters&a=sIQovs1MFZkU&e=0%3A~KNuSH4XfyKZjDktN69lMmw38CvmJPzS7&c=mr2dewhe&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FInterscroller_The_Sun_V5_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Paging!saction!Page%20seen%20%5BMain%20media%5D!srt!0!sts!183!siv!0!sol!1!)&x=kbzoji",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Interscroller_The_Sun_V5_copy",
+        "startedDateTime": "1970-01-04T07:09:34.640204Z",
+        "time": 47.965,
+        "timings": {
+          "send": 2.398,
+          "wait": 19.186,
+          "receive": 26.381
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2deuwk%3ApGOOm91GIUQqJ4Q8Dwc3gN3Xyjex36DH&s=0%3Amr2deuwk%3AVzfaBN2R9xWlV1dUhFFmFDAG~Yc8I1um&v=0%3A~KNuSH4XfyKZjDktN69lMmw38CvmJPzS&t=eventParameters&a=sIQovs1MFZkU&e=0%3A~KNuSH4XfyKZjDktN69lMmw38CvmJPzS8&c=mr2dewhe&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FInterscroller_The_Sun_V5_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20revealed!srt!0!sts!307!siv!0!sol!1!)&x=7dhv6g",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Interscroller_The_Sun_V5_copy",
+        "startedDateTime": "1970-01-04T07:09:37.953265Z",
+        "time": 105.977,
+        "timings": {
+          "send": 5.0,
+          "wait": 42.391,
+          "receive": 58.586
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://dt.adsafeprotected.com/dt?advEntityId=2348327&asId=2d7955e0-5063-3449-8ab8-d27e62f0ae9b&tv=%7Bc:h8VBSz,time:5139,type:e,env:%7Bnr_p:5%7D,es:0,sc:1,ha:1,fgad:1,fif:0,gmnp:0,for:1,b11:1,cnod:1,gm:0,slTimes:%7Bi:0,o:5139,n:0,pp:0,pm:0%7D,slEvents:%5B%7Bsl:o,t:80,wc:22.22.1920.993,ac:30.30.1.1,am:s,cc:22.30.1905.0,piv:0,obst:0,th:0,reas:r,bkn:%7Bpiv:%5B5067~0%5D,as:%5B5067~1.1%5D%7D%7D%5D,slEventCount:1,em:false,fr:true,e:,tt:rjss,dtt:190,fm:vo930eQ+1*.2348327-85127190%7C111%7C112%7C113%7C114%7C115%7C116%7C117%7C118%7C119,idMap:1*,rmeas:1,rend:0,renddet:na,siq:81,msd:0,ph:994,igt:0,sis:174%7D&br=c",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 177,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 177,
+          "decodedBodySize": 177,
+          "transferSize": 177,
+          "_transferSize": 177,
+          "_decodedBodySize": 177,
+          "bodyCaptured": true
+        }
+      }
+    ]
+  }
+}

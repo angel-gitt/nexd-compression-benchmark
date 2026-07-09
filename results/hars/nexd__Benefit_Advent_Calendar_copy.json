@@ -1,0 +1,457 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "crawl_ads_cdp",
+      "version": "2.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-07-01T17:30:10.980693Z",
+        "id": "Benefit_Advent_Calendar_copy",
+        "title": "Benefit_Advent_Calendar_copy",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "Benefit_Advent_Calendar_copy",
+        "startedDateTime": "1970-01-04T06:49:41.335072Z",
+        "time": 155.515,
+        "timings": {
+          "send": 5.0,
+          "wait": 62.206,
+          "receive": 88.309
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/TsdFGjAhyoVv/adtag.js?pxf=V6pOcbZlJK8wuwKS&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_502}",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 204871,
+            "mimeType": "application/javascript",
+            "compression": 144093
+          },
+          "bodySize": 60778,
+          "decodedBodySize": 204871,
+          "transferSize": 60778,
+          "_transferSize": 60778,
+          "_decodedBodySize": 204871,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Benefit_Advent_Calendar_copy",
+        "startedDateTime": "1970-01-04T06:49:41.495948Z",
+        "time": 85.888,
+        "timings": {
+          "send": 4.294,
+          "wait": 34.355,
+          "receive": 47.238
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tracking.js?ad=TsdFGjAhyoVv",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 8385,
+            "mimeType": "application/javascript",
+            "compression": 4372
+          },
+          "bodySize": 4013,
+          "decodedBodySize": 8385,
+          "transferSize": 4013,
+          "_transferSize": 4013,
+          "_decodedBodySize": 8385,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Benefit_Advent_Calendar_copy",
+        "startedDateTime": "1970-01-04T06:49:41.503838Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tr5.html",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Benefit_Advent_Calendar_copy",
+        "startedDateTime": "1970-01-04T06:49:41.502323Z",
+        "time": 92.335,
+        "timings": {
+          "send": 4.617,
+          "wait": 36.934,
+          "receive": 50.784
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/TsdFGjAhyoVv/adcanvas.min.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 205783,
+            "mimeType": "application/javascript",
+            "compression": 148901
+          },
+          "bodySize": 56882,
+          "decodedBodySize": 205783,
+          "transferSize": 56882,
+          "_transferSize": 56882,
+          "_decodedBodySize": 205783,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Benefit_Advent_Calendar_copy",
+        "startedDateTime": "1970-01-04T06:49:41.502504Z",
+        "time": 153.526,
+        "timings": {
+          "send": 5.0,
+          "wait": 61.41,
+          "receive": 87.116
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/TsdFGjAhyoVv/V6pOcbZlJK8wuwKS/pack.acz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 208407,
+            "mimeType": "application/zip"
+          },
+          "bodySize": 208407,
+          "decodedBodySize": 208407,
+          "transferSize": 208407,
+          "_transferSize": 208407,
+          "_decodedBodySize": 208407,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Benefit_Advent_Calendar_copy",
+        "startedDateTime": "1970-01-04T06:49:41.504339Z",
+        "time": 77.829,
+        "timings": {
+          "send": 3.891,
+          "wait": 31.132,
+          "receive": 42.806
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/TsdFGjAhyoVv/splash.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 11263,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 11263,
+          "decodedBodySize": 11263,
+          "transferSize": 11263,
+          "_transferSize": 11263,
+          "_decodedBodySize": 11263,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Benefit_Advent_Calendar_copy",
+        "startedDateTime": "1970-01-04T06:49:41.586611Z",
+        "time": 101.316,
+        "timings": {
+          "send": 5.0,
+          "wait": 40.526,
+          "receive": 55.79
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cpbx9%3AEZRfylgw0vacEPtPFn~ZhTVJyBavI45P&s=0%3Amr2cpbx9%3ARTJyT72SpYc7b9x0hhuAs5QcRJAeImgj&v=0%3Ao6BLy_mdPol1eg59rR3vZjm2P_EHiOYT&t=pageView&a=TsdFGjAhyoVv&e=0%3Ao6BLy_mdPol1eg59rR3vZjm2P_EHiOYT0&c=mr2cpbxc&n=t&f=t&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBenefit_Advent_Calendar_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&x=-n6hvjs",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 281,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 281,
+          "decodedBodySize": 281,
+          "transferSize": 281,
+          "_transferSize": 281,
+          "_decodedBodySize": 281,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Benefit_Advent_Calendar_copy",
+        "startedDateTime": "1970-01-04T06:49:41.597583Z",
+        "time": 90.396,
+        "timings": {
+          "send": 4.52,
+          "wait": 36.158,
+          "receive": 49.718
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cpbx9%3AEZRfylgw0vacEPtPFn~ZhTVJyBavI45P&s=0%3Amr2cpbx9%3ARTJyT72SpYc7b9x0hhuAs5QcRJAeImgj&v=0%3Ao6BLy_mdPol1eg59rR3vZjm2P_EHiOYT&t=eventParameters&a=TsdFGjAhyoVv&e=0%3Ao6BLy_mdPol1eg59rR3vZjm2P_EHiOYT1&c=mr2cpbxn&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBenefit_Advent_Calendar_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Billable%20impression!srt!0!sts!0!siv!0!sol!1!)&x=18z2q",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Benefit_Advent_Calendar_copy",
+        "startedDateTime": "1970-01-04T06:49:41.688017Z",
+        "time": 46.942,
+        "timings": {
+          "send": 2.347,
+          "wait": 18.777,
+          "receive": 25.818
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cpbx9%3AEZRfylgw0vacEPtPFn~ZhTVJyBavI45P&s=0%3Amr2cpbx9%3ARTJyT72SpYc7b9x0hhuAs5QcRJAeImgj&v=0%3Ao6BLy_mdPol1eg59rR3vZjm2P_EHiOYT&t=eventParameters&a=TsdFGjAhyoVv&e=0%3Ao6BLy_mdPol1eg59rR3vZjm2P_EHiOYT2&c=mr2cpc06&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBenefit_Advent_Calendar_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Loaded!srt!0!sts!163!siv!0!sol!1!)&x=2w6vk5",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Benefit_Advent_Calendar_copy",
+        "startedDateTime": "1970-01-04T06:49:41.688342Z",
+        "time": 48.862,
+        "timings": {
+          "send": 2.443,
+          "wait": 19.545,
+          "receive": 26.874
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cpbx9%3AEZRfylgw0vacEPtPFn~ZhTVJyBavI45P&s=0%3Amr2cpbx9%3ARTJyT72SpYc7b9x0hhuAs5QcRJAeImgj&v=0%3Ao6BLy_mdPol1eg59rR3vZjm2P_EHiOYT&t=eventParameters&a=TsdFGjAhyoVv&e=0%3Ao6BLy_mdPol1eg59rR3vZjm2P_EHiOYT3&c=mr2cpc06&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBenefit_Advent_Calendar_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Meta!saction!safeFrame%20not%20detected!srt!0!sts!163!siv!0!sol!1!)&x=kv15zw",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Benefit_Advent_Calendar_copy",
+        "startedDateTime": "1970-01-04T06:49:41.688431Z",
+        "time": 47.838,
+        "timings": {
+          "send": 2.392,
+          "wait": 19.135,
+          "receive": 26.311
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cpbx9%3AEZRfylgw0vacEPtPFn~ZhTVJyBavI45P&s=0%3Amr2cpbx9%3ARTJyT72SpYc7b9x0hhuAs5QcRJAeImgj&v=0%3Ao6BLy_mdPol1eg59rR3vZjm2P_EHiOYT&t=eventParameters&a=TsdFGjAhyoVv&e=0%3Ao6BLy_mdPol1eg59rR3vZjm2P_EHiOYT4&c=mr2cpc06&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBenefit_Advent_Calendar_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Started!srt!0!sts!163!siv!0!sol!1!)&x=-gay29q",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Benefit_Advent_Calendar_copy",
+        "startedDateTime": "1970-01-04T06:49:41.692372Z",
+        "time": 51.379,
+        "timings": {
+          "send": 2.569,
+          "wait": 20.552,
+          "receive": 28.258
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cpbx9%3AEZRfylgw0vacEPtPFn~ZhTVJyBavI45P&s=0%3Amr2cpbx9%3ARTJyT72SpYc7b9x0hhuAs5QcRJAeImgj&v=0%3Ao6BLy_mdPol1eg59rR3vZjm2P_EHiOYT&t=eventParameters&a=TsdFGjAhyoVv&e=0%3Ao6BLy_mdPol1eg59rR3vZjm2P_EHiOYT5&c=mr2cpc0a&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBenefit_Advent_Calendar_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Rendered!srt!0!sts!196!siv!0!sol!1!)&x=-8xu0wl",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Benefit_Advent_Calendar_copy",
+        "startedDateTime": "1970-01-04T06:49:43.583788Z",
+        "time": 47.977,
+        "timings": {
+          "send": 2.399,
+          "wait": 19.191,
+          "receive": 26.387
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cpbx9%3AEZRfylgw0vacEPtPFn~ZhTVJyBavI45P&s=0%3Amr2cpbx9%3ARTJyT72SpYc7b9x0hhuAs5QcRJAeImgj&v=0%3Ao6BLy_mdPol1eg59rR3vZjm2P_EHiOYT&t=eventParameters&a=TsdFGjAhyoVv&e=0%3Ao6BLy_mdPol1eg59rR3vZjm2P_EHiOYT6&c=mr2cpdgu&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBenefit_Advent_Calendar_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20is%20in%20view!srt!0!sts!2090!siv!1!sol!1!)&x=dnu630",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Benefit_Advent_Calendar_copy",
+        "startedDateTime": "1970-01-04T06:49:43.583992Z",
+        "time": 47.932,
+        "timings": {
+          "send": 2.397,
+          "wait": 19.173,
+          "receive": 26.363
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cpbx9%3AEZRfylgw0vacEPtPFn~ZhTVJyBavI45P&s=0%3Amr2cpbx9%3ARTJyT72SpYc7b9x0hhuAs5QcRJAeImgj&v=0%3Ao6BLy_mdPol1eg59rR3vZjm2P_EHiOYT&t=eventParameters&a=TsdFGjAhyoVv&e=0%3Ao6BLy_mdPol1eg59rR3vZjm2P_EHiOYT7&c=mr2cpdgu&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBenefit_Advent_Calendar_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Paging!saction!Page%20seen%20%5BFront%20media%5D!srt!0!sts!192!siv!0!sol!1!)&x=ufku2q",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Benefit_Advent_Calendar_copy",
+        "startedDateTime": "1970-01-04T06:49:43.584103Z",
+        "time": 48.93,
+        "timings": {
+          "send": 2.447,
+          "wait": 19.572,
+          "receive": 26.912
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2cpbx9%3AEZRfylgw0vacEPtPFn~ZhTVJyBavI45P&s=0%3Amr2cpbx9%3ARTJyT72SpYc7b9x0hhuAs5QcRJAeImgj&v=0%3Ao6BLy_mdPol1eg59rR3vZjm2P_EHiOYT&t=eventParameters&a=TsdFGjAhyoVv&e=0%3Ao6BLy_mdPol1eg59rR3vZjm2P_EHiOYT8&c=mr2cpdgu&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FBenefit_Advent_Calendar_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20revealed!srt!0!sts!336!siv!0!sol!1!)&x=-yw74ix",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      }
+    ]
+  }
+}

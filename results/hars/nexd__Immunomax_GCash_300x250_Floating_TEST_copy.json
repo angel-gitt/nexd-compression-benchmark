@@ -1,0 +1,631 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "crawl_ads_cdp",
+      "version": "2.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-07-01T17:46:30.956655Z",
+        "id": "Immunomax_GCash_300x250_Floating_TEST_copy",
+        "title": "Immunomax_GCash_300x250_Floating_TEST_copy",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "Immunomax_GCash_300x250_Floating_TEST_copy",
+        "startedDateTime": "1970-01-04T07:06:01.191288Z",
+        "time": 180.549,
+        "timings": {
+          "send": 5.0,
+          "wait": 72.22,
+          "receive": 103.329
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/xzuq3wQYrKDO/adtag.js?pxf=0JHCFARSIAhxGzyX&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_502}",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 189835,
+            "mimeType": "application/javascript",
+            "compression": 129803
+          },
+          "bodySize": 60032,
+          "decodedBodySize": 189835,
+          "transferSize": 60032,
+          "_transferSize": 60032,
+          "_decodedBodySize": 189835,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Immunomax_GCash_300x250_Floating_TEST_copy",
+        "startedDateTime": "1970-01-04T07:06:01.376574Z",
+        "time": 139.352,
+        "timings": {
+          "send": 5.0,
+          "wait": 55.741,
+          "receive": 78.611
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tracking.js?ad=xzuq3wQYrKDO",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 8385,
+            "mimeType": "application/javascript",
+            "compression": 4226
+          },
+          "bodySize": 4159,
+          "decodedBodySize": 8385,
+          "transferSize": 4159,
+          "_transferSize": 4159,
+          "_decodedBodySize": 8385,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Immunomax_GCash_300x250_Floating_TEST_copy",
+        "startedDateTime": "1970-01-04T07:06:01.383444Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tr5.html",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Immunomax_GCash_300x250_Floating_TEST_copy",
+        "startedDateTime": "1970-01-04T07:06:01.382098Z",
+        "time": 148.494,
+        "timings": {
+          "send": 5.0,
+          "wait": 59.398,
+          "receive": 84.096
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/xzuq3wQYrKDO/adcanvas.min.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 229906,
+            "mimeType": "application/javascript",
+            "compression": 162774
+          },
+          "bodySize": 67132,
+          "decodedBodySize": 229906,
+          "transferSize": 67132,
+          "_transferSize": 67132,
+          "_decodedBodySize": 229906,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Immunomax_GCash_300x250_Floating_TEST_copy",
+        "startedDateTime": "1970-01-04T07:06:01.382314Z",
+        "time": 203.908,
+        "timings": {
+          "send": 5.0,
+          "wait": 81.563,
+          "receive": 117.345
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/xzuq3wQYrKDO/0JHCFARSIAhxGzyX/pack.acz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 384646,
+            "mimeType": "application/zip"
+          },
+          "bodySize": 384646,
+          "decodedBodySize": 384646,
+          "transferSize": 384646,
+          "_transferSize": 384646,
+          "_decodedBodySize": 384646,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Immunomax_GCash_300x250_Floating_TEST_copy",
+        "startedDateTime": "1970-01-04T07:06:01.383909Z",
+        "time": 132.065,
+        "timings": {
+          "send": 5.0,
+          "wait": 52.826,
+          "receive": 74.239
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/xzuq3wQYrKDO/splash.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 15475,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 15475,
+          "decodedBodySize": 15475,
+          "transferSize": 15475,
+          "_transferSize": 15475,
+          "_decodedBodySize": 15475,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Immunomax_GCash_300x250_Floating_TEST_copy",
+        "startedDateTime": "1970-01-04T07:06:01.520155Z",
+        "time": 72.837,
+        "timings": {
+          "send": 3.642,
+          "wait": 29.135,
+          "receive": 40.06
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dac19%3A4PpDrcnFNeFY_bgbTt3ohJGimE1zdLze&s=0%3Amr2dac19%3ADByEf~0AY0LYWmyUqw~78uj7tuzovHLo&v=0%3AFKSkYS5mkYphIV7nhimOp1Z7ap8QNyx9&t=pageView&a=xzuq3wQYrKDO&e=0%3AFKSkYS5mkYphIV7nhimOp1Z7ap8QNyx90&c=mr2dac1c&n=t&f=t&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FImmunomax_GCash_300x250_Floating_TEST_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&x=c41o3i",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Immunomax_GCash_300x250_Floating_TEST_copy",
+        "startedDateTime": "1970-01-04T07:06:01.520489Z",
+        "time": 125.808,
+        "timings": {
+          "send": 5.0,
+          "wait": 50.323,
+          "receive": 70.485
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dac19%3A4PpDrcnFNeFY_bgbTt3ohJGimE1zdLze&s=0%3Amr2dac19%3ADByEf~0AY0LYWmyUqw~78uj7tuzovHLo&v=0%3AFKSkYS5mkYphIV7nhimOp1Z7ap8QNyx9&t=eventParameters&a=xzuq3wQYrKDO&e=0%3AFKSkYS5mkYphIV7nhimOp1Z7ap8QNyx91&c=mr2dac1d&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FImmunomax_GCash_300x250_Floating_TEST_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Billable%20impression!srt!0!sts!0!siv!0!sol!1!)&x=-jnh09v",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Immunomax_GCash_300x250_Floating_TEST_copy",
+        "startedDateTime": "1970-01-04T07:06:01.624260Z",
+        "time": 68.906,
+        "timings": {
+          "send": 3.445,
+          "wait": 27.562,
+          "receive": 37.898
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dac19%3A4PpDrcnFNeFY_bgbTt3ohJGimE1zdLze&s=0%3Amr2dac19%3ADByEf~0AY0LYWmyUqw~78uj7tuzovHLo&v=0%3AFKSkYS5mkYphIV7nhimOp1Z7ap8QNyx9&t=eventParameters&a=xzuq3wQYrKDO&e=0%3AFKSkYS5mkYphIV7nhimOp1Z7ap8QNyx92&c=mr2dac49&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FImmunomax_GCash_300x250_Floating_TEST_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Loaded!srt!0!sts!213!siv!0!sol!1!)&x=lquxrf",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Immunomax_GCash_300x250_Floating_TEST_copy",
+        "startedDateTime": "1970-01-04T07:06:01.624366Z",
+        "time": 68.738,
+        "timings": {
+          "send": 3.437,
+          "wait": 27.495,
+          "receive": 37.806
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dac19%3A4PpDrcnFNeFY_bgbTt3ohJGimE1zdLze&s=0%3Amr2dac19%3ADByEf~0AY0LYWmyUqw~78uj7tuzovHLo&v=0%3AFKSkYS5mkYphIV7nhimOp1Z7ap8QNyx9&t=eventParameters&a=xzuq3wQYrKDO&e=0%3AFKSkYS5mkYphIV7nhimOp1Z7ap8QNyx93&c=mr2dac49&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FImmunomax_GCash_300x250_Floating_TEST_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Meta!saction!safeFrame%20not%20detected!srt!0!sts!213!siv!0!sol!1!)&x=-5i4oaf",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Immunomax_GCash_300x250_Floating_TEST_copy",
+        "startedDateTime": "1970-01-04T07:06:01.624439Z",
+        "time": 127.727,
+        "timings": {
+          "send": 5.0,
+          "wait": 51.091,
+          "receive": 71.636
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dac19%3A4PpDrcnFNeFY_bgbTt3ohJGimE1zdLze&s=0%3Amr2dac19%3ADByEf~0AY0LYWmyUqw~78uj7tuzovHLo&v=0%3AFKSkYS5mkYphIV7nhimOp1Z7ap8QNyx9&t=eventParameters&a=xzuq3wQYrKDO&e=0%3AFKSkYS5mkYphIV7nhimOp1Z7ap8QNyx94&c=mr2dac49&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FImmunomax_GCash_300x250_Floating_TEST_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Started!srt!0!sts!213!siv!0!sol!1!)&x=ak40e7",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Immunomax_GCash_300x250_Floating_TEST_copy",
+        "startedDateTime": "1970-01-04T07:06:01.627658Z",
+        "time": 82.536,
+        "timings": {
+          "send": 4.127,
+          "wait": 33.014,
+          "receive": 45.395
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/xzuq3wQYrKDO/0JHCFARSIAhxGzyX/WrUfVlqxAZ5D4Muz.av1.mp4",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 206,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 10507,
+            "mimeType": "video/mp4"
+          },
+          "bodySize": 10507,
+          "decodedBodySize": 10507,
+          "transferSize": 10507,
+          "_transferSize": 10507,
+          "_decodedBodySize": 10507,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Immunomax_GCash_300x250_Floating_TEST_copy",
+        "startedDateTime": "1970-01-04T07:06:01.631894Z",
+        "time": 120.324,
+        "timings": {
+          "send": 5.0,
+          "wait": 48.13,
+          "receive": 67.194
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dac19%3A4PpDrcnFNeFY_bgbTt3ohJGimE1zdLze&s=0%3Amr2dac19%3ADByEf~0AY0LYWmyUqw~78uj7tuzovHLo&v=0%3AFKSkYS5mkYphIV7nhimOp1Z7ap8QNyx9&t=eventParameters&a=xzuq3wQYrKDO&e=0%3AFKSkYS5mkYphIV7nhimOp1Z7ap8QNyx95&c=mr2dac4g&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FImmunomax_GCash_300x250_Floating_TEST_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Rendered!srt!0!sts!251!siv!0!sol!1!)&x=lw23fj",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Immunomax_GCash_300x250_Floating_TEST_copy",
+        "startedDateTime": "1970-01-04T07:06:03.703617Z",
+        "time": 48.522,
+        "timings": {
+          "send": 2.426,
+          "wait": 19.409,
+          "receive": 26.687
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dac19%3A4PpDrcnFNeFY_bgbTt3ohJGimE1zdLze&s=0%3Amr2dac19%3ADByEf~0AY0LYWmyUqw~78uj7tuzovHLo&v=0%3AFKSkYS5mkYphIV7nhimOp1Z7ap8QNyx9&t=eventParameters&a=xzuq3wQYrKDO&e=0%3AFKSkYS5mkYphIV7nhimOp1Z7ap8QNyx96&c=mr2dadq0&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FImmunomax_GCash_300x250_Floating_TEST_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20is%20in%20view!srt!0!sts!2330!siv!1!sol!1!)&x=xwjjxl",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Immunomax_GCash_300x250_Floating_TEST_copy",
+        "startedDateTime": "1970-01-04T07:06:03.703776Z",
+        "time": 50.57,
+        "timings": {
+          "send": 2.528,
+          "wait": 20.228,
+          "receive": 27.813
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dac19%3A4PpDrcnFNeFY_bgbTt3ohJGimE1zdLze&s=0%3Amr2dac19%3ADByEf~0AY0LYWmyUqw~78uj7tuzovHLo&v=0%3AFKSkYS5mkYphIV7nhimOp1Z7ap8QNyx9&t=eventParameters&a=xzuq3wQYrKDO&e=0%3AFKSkYS5mkYphIV7nhimOp1Z7ap8QNyx97&c=mr2dadq0&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FImmunomax_GCash_300x250_Floating_TEST_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20revealed!srt!0!sts!779!siv!0!sol!1!)&x=-mpwo1z",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Immunomax_GCash_300x250_Floating_TEST_copy",
+        "startedDateTime": "1970-01-04T07:06:03.703862Z",
+        "time": 50.542,
+        "timings": {
+          "send": 2.527,
+          "wait": 20.217,
+          "receive": 27.798
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dac19%3A4PpDrcnFNeFY_bgbTt3ohJGimE1zdLze&s=0%3Amr2dac19%3ADByEf~0AY0LYWmyUqw~78uj7tuzovHLo&v=0%3AFKSkYS5mkYphIV7nhimOp1Z7ap8QNyx9&t=eventParameters&a=xzuq3wQYrKDO&e=0%3AFKSkYS5mkYphIV7nhimOp1Z7ap8QNyx98&c=mr2dadq0&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FImmunomax_GCash_300x250_Floating_TEST_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B0%5D!srt!0!sts!1287!siv!0!sol!1!)&x=ijkb72",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Immunomax_GCash_300x250_Floating_TEST_copy",
+        "startedDateTime": "1970-01-04T07:06:03.703947Z",
+        "time": 54.377,
+        "timings": {
+          "send": 2.719,
+          "wait": 21.751,
+          "receive": 29.907
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dac19%3A4PpDrcnFNeFY_bgbTt3ohJGimE1zdLze&s=0%3Amr2dac19%3ADByEf~0AY0LYWmyUqw~78uj7tuzovHLo&v=0%3AFKSkYS5mkYphIV7nhimOp1Z7ap8QNyx9&t=eventParameters&a=xzuq3wQYrKDO&e=0%3AFKSkYS5mkYphIV7nhimOp1Z7ap8QNyx99&c=mr2dadq0&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FImmunomax_GCash_300x250_Floating_TEST_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B25%5D!srt!0!sts!1814!siv!0!sol!1!)&x=-c7srxx",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Immunomax_GCash_300x250_Floating_TEST_copy",
+        "startedDateTime": "1970-01-04T07:06:03.704024Z",
+        "time": 91.764,
+        "timings": {
+          "send": 4.588,
+          "wait": 36.706,
+          "receive": 50.47
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dac19%3A4PpDrcnFNeFY_bgbTt3ohJGimE1zdLze&s=0%3Amr2dac19%3ADByEf~0AY0LYWmyUqw~78uj7tuzovHLo&v=0%3AFKSkYS5mkYphIV7nhimOp1Z7ap8QNyx9&t=eventParameters&a=xzuq3wQYrKDO&e=0%3AFKSkYS5mkYphIV7nhimOp1Z7ap8QNyx9a&c=mr2dadq0&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FImmunomax_GCash_300x250_Floating_TEST_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B50%5D!srt!0!sts!1814!siv!0!sol!1!)&x=-jlfojt",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Immunomax_GCash_300x250_Floating_TEST_copy",
+        "startedDateTime": "1970-01-04T07:06:04.252602Z",
+        "time": 77.217,
+        "timings": {
+          "send": 3.861,
+          "wait": 30.887,
+          "receive": 42.469
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dac19%3A4PpDrcnFNeFY_bgbTt3ohJGimE1zdLze&s=0%3Amr2dac19%3ADByEf~0AY0LYWmyUqw~78uj7tuzovHLo&v=0%3AFKSkYS5mkYphIV7nhimOp1Z7ap8QNyx9&t=eventParameters&a=xzuq3wQYrKDO&e=0%3AFKSkYS5mkYphIV7nhimOp1Z7ap8QNyx9b&c=mr2dae59&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FImmunomax_GCash_300x250_Floating_TEST_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B75%5D!srt!548!sts!2878!siv!1!sol!1!)&x=-r0f6wo",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Immunomax_GCash_300x250_Floating_TEST_copy",
+        "startedDateTime": "1970-01-04T07:06:05.048468Z",
+        "time": 50.426,
+        "timings": {
+          "send": 2.521,
+          "wait": 20.17,
+          "receive": 27.734
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dac19%3A4PpDrcnFNeFY_bgbTt3ohJGimE1zdLze&s=0%3Amr2dac19%3ADByEf~0AY0LYWmyUqw~78uj7tuzovHLo&v=0%3AFKSkYS5mkYphIV7nhimOp1Z7ap8QNyx9&t=eventParameters&a=xzuq3wQYrKDO&e=0%3AFKSkYS5mkYphIV7nhimOp1Z7ap8QNyx9c&c=mr2daerd&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FImmunomax_GCash_300x250_Floating_TEST_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B100%5D!srt!1345!sts!3675!siv!1!sol!1!)&x=8n6zpz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Immunomax_GCash_300x250_Floating_TEST_copy",
+        "startedDateTime": "1970-01-04T07:06:05.580475Z",
+        "time": 128.412,
+        "timings": {
+          "send": 5.0,
+          "wait": 51.365,
+          "receive": 72.047
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dac19%3A4PpDrcnFNeFY_bgbTt3ohJGimE1zdLze&s=0%3Amr2dac19%3ADByEf~0AY0LYWmyUqw~78uj7tuzovHLo&v=0%3AFKSkYS5mkYphIV7nhimOp1Z7ap8QNyx9&t=eventParameters&a=xzuq3wQYrKDO&e=0%3AFKSkYS5mkYphIV7nhimOp1Z7ap8QNyx9d&c=mr2daf65&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FImmunomax_GCash_300x250_Floating_TEST_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Video%201%20%5BEnd%5D!srt!1877!sts!4207!siv!1!sol!1!)&x=ch83e0",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      }
+    ]
+  }
+}

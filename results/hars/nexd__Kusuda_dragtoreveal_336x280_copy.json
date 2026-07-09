@@ -1,0 +1,573 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "crawl_ads_cdp",
+      "version": "2.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-07-01T17:53:35.303739Z",
+        "id": "Kusuda_dragtoreveal_336x280_copy",
+        "title": "Kusuda_dragtoreveal_336x280_copy",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "Kusuda_dragtoreveal_336x280_copy",
+        "startedDateTime": "1970-01-04T07:13:04.580846Z",
+        "time": 181.431,
+        "timings": {
+          "send": 5.0,
+          "wait": 72.572,
+          "receive": 103.859
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/qAmXqexKXrWh/adtag.js?pxf=ViKptX56l8IFCQl2&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_502}",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 190846,
+            "mimeType": "application/javascript",
+            "compression": 130284
+          },
+          "bodySize": 60562,
+          "decodedBodySize": 190846,
+          "transferSize": 60562,
+          "_transferSize": 60562,
+          "_decodedBodySize": 190846,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Kusuda_dragtoreveal_336x280_copy",
+        "startedDateTime": "1970-01-04T07:13:04.767978Z",
+        "time": 168.824,
+        "timings": {
+          "send": 5.0,
+          "wait": 67.53,
+          "receive": 96.294
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tracking.js?ad=qAmXqexKXrWh",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 8385,
+            "mimeType": "application/javascript",
+            "compression": 4240
+          },
+          "bodySize": 4145,
+          "decodedBodySize": 8385,
+          "transferSize": 4145,
+          "_transferSize": 4145,
+          "_decodedBodySize": 8385,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Kusuda_dragtoreveal_336x280_copy",
+        "startedDateTime": "1970-01-04T07:13:04.775936Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tr5.html",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Kusuda_dragtoreveal_336x280_copy",
+        "startedDateTime": "1970-01-04T07:13:04.774624Z",
+        "time": 105.529,
+        "timings": {
+          "send": 5.0,
+          "wait": 42.212,
+          "receive": 58.317
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/qAmXqexKXrWh/adcanvas.min.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 240979,
+            "mimeType": "application/javascript",
+            "compression": 170893
+          },
+          "bodySize": 70086,
+          "decodedBodySize": 240979,
+          "transferSize": 70086,
+          "_transferSize": 70086,
+          "_decodedBodySize": 240979,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Kusuda_dragtoreveal_336x280_copy",
+        "startedDateTime": "1970-01-04T07:13:04.774802Z",
+        "time": 116.639,
+        "timings": {
+          "send": 5.0,
+          "wait": 46.656,
+          "receive": 64.983
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/qAmXqexKXrWh/ViKptX56l8IFCQl2/pack.acz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 81638,
+            "mimeType": "application/zip"
+          },
+          "bodySize": 81638,
+          "decodedBodySize": 81638,
+          "transferSize": 81638,
+          "_transferSize": 81638,
+          "_decodedBodySize": 81638,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Kusuda_dragtoreveal_336x280_copy",
+        "startedDateTime": "1970-01-04T07:13:04.776711Z",
+        "time": 90.773,
+        "timings": {
+          "send": 4.539,
+          "wait": 36.309,
+          "receive": 49.925
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/qAmXqexKXrWh/splash.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 16949,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 16949,
+          "decodedBodySize": 16949,
+          "transferSize": 16949,
+          "_transferSize": 16949,
+          "_decodedBodySize": 16949,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Kusuda_dragtoreveal_336x280_copy",
+        "startedDateTime": "1970-01-04T07:13:04.926414Z",
+        "time": 221.898,
+        "timings": {
+          "send": 5.0,
+          "wait": 88.759,
+          "receive": 128.139
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/qAmXqexKXrWh/ViKptX56l8IFCQl2/right.mp4",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 206,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 573849,
+            "mimeType": "video/mp4"
+          },
+          "bodySize": 573849,
+          "decodedBodySize": 573849,
+          "transferSize": 573849,
+          "_transferSize": 573849,
+          "_decodedBodySize": 573849,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Kusuda_dragtoreveal_336x280_copy",
+        "startedDateTime": "1970-01-04T07:13:04.940251Z",
+        "time": 77.935,
+        "timings": {
+          "send": 3.897,
+          "wait": 31.174,
+          "receive": 42.864
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2djer1%3AYM99cRybzsHNOnQO8gZsg4RvHFziHEs3&s=0%3Amr2djer1%3AWRSdD21FmIC1UTIsZhopjwgdZYXX9NNb&v=0%3A8~YanOlRxaHCTXYDvFn3SseQW1t06JYm&t=pageView&a=qAmXqexKXrWh&e=0%3A8~YanOlRxaHCTXYDvFn3SseQW1t06JYm0&c=mr2djer3&n=t&f=t&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FKusuda_dragtoreveal_336x280_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&x=csor91",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Kusuda_dragtoreveal_336x280_copy",
+        "startedDateTime": "1970-01-04T07:13:04.948138Z",
+        "time": 339.39,
+        "timings": {
+          "send": 5.0,
+          "wait": 135.756,
+          "receive": 198.634
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2djer1%3AYM99cRybzsHNOnQO8gZsg4RvHFziHEs3&s=0%3Amr2djer1%3AWRSdD21FmIC1UTIsZhopjwgdZYXX9NNb&v=0%3A8~YanOlRxaHCTXYDvFn3SseQW1t06JYm&t=eventParameters&a=qAmXqexKXrWh&e=0%3A8~YanOlRxaHCTXYDvFn3SseQW1t06JYm1&c=mr2djerb&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FKusuda_dragtoreveal_336x280_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Billable%20impression!srt!0!sts!0!siv!0!sol!1!)&x=b6lv9p",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Kusuda_dragtoreveal_336x280_copy",
+        "startedDateTime": "1970-01-04T07:13:04.948190Z",
+        "time": 70.049,
+        "timings": {
+          "send": 3.502,
+          "wait": 28.02,
+          "receive": 38.527
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2djer1%3AYM99cRybzsHNOnQO8gZsg4RvHFziHEs3&s=0%3Amr2djer1%3AWRSdD21FmIC1UTIsZhopjwgdZYXX9NNb&v=0%3A8~YanOlRxaHCTXYDvFn3SseQW1t06JYm&t=eventParameters&a=qAmXqexKXrWh&e=0%3A8~YanOlRxaHCTXYDvFn3SseQW1t06JYm2&c=mr2djerb&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FKusuda_dragtoreveal_336x280_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Loaded!srt!0!sts!127!siv!0!sol!1!)&x=sopxod",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Kusuda_dragtoreveal_336x280_copy",
+        "startedDateTime": "1970-01-04T07:13:04.948209Z",
+        "time": 70.06,
+        "timings": {
+          "send": 3.503,
+          "wait": 28.024,
+          "receive": 38.533
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2djer1%3AYM99cRybzsHNOnQO8gZsg4RvHFziHEs3&s=0%3Amr2djer1%3AWRSdD21FmIC1UTIsZhopjwgdZYXX9NNb&v=0%3A8~YanOlRxaHCTXYDvFn3SseQW1t06JYm&t=eventParameters&a=qAmXqexKXrWh&e=0%3A8~YanOlRxaHCTXYDvFn3SseQW1t06JYm3&c=mr2djerb&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FKusuda_dragtoreveal_336x280_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Meta!saction!safeFrame%20not%20detected!srt!0!sts!127!siv!0!sol!1!)&x=5u3l7z",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Kusuda_dragtoreveal_336x280_copy",
+        "startedDateTime": "1970-01-04T07:13:04.948225Z",
+        "time": 339.242,
+        "timings": {
+          "send": 5.0,
+          "wait": 135.697,
+          "receive": 198.545
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2djer1%3AYM99cRybzsHNOnQO8gZsg4RvHFziHEs3&s=0%3Amr2djer1%3AWRSdD21FmIC1UTIsZhopjwgdZYXX9NNb&v=0%3A8~YanOlRxaHCTXYDvFn3SseQW1t06JYm&t=eventParameters&a=qAmXqexKXrWh&e=0%3A8~YanOlRxaHCTXYDvFn3SseQW1t06JYm4&c=mr2djerb&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FKusuda_dragtoreveal_336x280_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Started!srt!0!sts!127!siv!0!sol!1!)&x=-p7gw3m",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Kusuda_dragtoreveal_336x280_copy",
+        "startedDateTime": "1970-01-04T07:13:04.948241Z",
+        "time": 70.058,
+        "timings": {
+          "send": 3.503,
+          "wait": 28.023,
+          "receive": 38.532
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2djer1%3AYM99cRybzsHNOnQO8gZsg4RvHFziHEs3&s=0%3Amr2djer1%3AWRSdD21FmIC1UTIsZhopjwgdZYXX9NNb&v=0%3A8~YanOlRxaHCTXYDvFn3SseQW1t06JYm&t=eventParameters&a=qAmXqexKXrWh&e=0%3A8~YanOlRxaHCTXYDvFn3SseQW1t06JYm5&c=mr2djerc&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FKusuda_dragtoreveal_336x280_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Rendered!srt!0!sts!160!siv!0!sol!1!)&x=x0fcm9",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Kusuda_dragtoreveal_336x280_copy",
+        "startedDateTime": "1970-01-04T07:13:06.838592Z",
+        "time": 75.308,
+        "timings": {
+          "send": 3.765,
+          "wait": 30.123,
+          "receive": 41.419
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2djer1%3AYM99cRybzsHNOnQO8gZsg4RvHFziHEs3&s=0%3Amr2djer1%3AWRSdD21FmIC1UTIsZhopjwgdZYXX9NNb&v=0%3A8~YanOlRxaHCTXYDvFn3SseQW1t06JYm&t=eventParameters&a=qAmXqexKXrWh&e=0%3A8~YanOlRxaHCTXYDvFn3SseQW1t06JYm6&c=mr2djg7u&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FKusuda_dragtoreveal_336x280_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20is%20in%20view!srt!0!sts!2074!siv!1!sol!1!)&x=ox3p5f",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Kusuda_dragtoreveal_336x280_copy",
+        "startedDateTime": "1970-01-04T07:13:06.838783Z",
+        "time": 75.006,
+        "timings": {
+          "send": 3.75,
+          "wait": 30.002,
+          "receive": 41.253
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2djer1%3AYM99cRybzsHNOnQO8gZsg4RvHFziHEs3&s=0%3Amr2djer1%3AWRSdD21FmIC1UTIsZhopjwgdZYXX9NNb&v=0%3A8~YanOlRxaHCTXYDvFn3SseQW1t06JYm&t=eventParameters&a=qAmXqexKXrWh&e=0%3A8~YanOlRxaHCTXYDvFn3SseQW1t06JYm7&c=mr2djg7u&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FKusuda_dragtoreveal_336x280_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Paging!saction!Page%20seen%20%5BFirst%20media%5D!srt!0!sts!157!siv!0!sol!1!)&x=-lx3qu7",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Kusuda_dragtoreveal_336x280_copy",
+        "startedDateTime": "1970-01-04T07:13:06.838873Z",
+        "time": 74.983,
+        "timings": {
+          "send": 3.749,
+          "wait": 29.993,
+          "receive": 41.241
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2djer1%3AYM99cRybzsHNOnQO8gZsg4RvHFziHEs3&s=0%3Amr2djer1%3AWRSdD21FmIC1UTIsZhopjwgdZYXX9NNb&v=0%3A8~YanOlRxaHCTXYDvFn3SseQW1t06JYm&t=eventParameters&a=qAmXqexKXrWh&e=0%3A8~YanOlRxaHCTXYDvFn3SseQW1t06JYm8&c=mr2djg7u&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FKusuda_dragtoreveal_336x280_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20revealed!srt!0!sts!600!siv!0!sol!1!)&x=we0yiz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Kusuda_dragtoreveal_336x280_copy",
+        "startedDateTime": "1970-01-04T07:13:06.838962Z",
+        "time": 74.981,
+        "timings": {
+          "send": 3.749,
+          "wait": 29.992,
+          "receive": 41.24
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2djer1%3AYM99cRybzsHNOnQO8gZsg4RvHFziHEs3&s=0%3Amr2djer1%3AWRSdD21FmIC1UTIsZhopjwgdZYXX9NNb&v=0%3A8~YanOlRxaHCTXYDvFn3SseQW1t06JYm&t=eventParameters&a=qAmXqexKXrWh&e=0%3A8~YanOlRxaHCTXYDvFn3SseQW1t06JYm9&c=mr2djg7u&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FKusuda_dragtoreveal_336x280_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B0%5D!srt!0!sts!1066!siv!0!sol!1!)&x=vx088v",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Kusuda_dragtoreveal_336x280_copy",
+        "startedDateTime": "1970-01-04T07:13:08.223059Z",
+        "time": 108.648,
+        "timings": {
+          "send": 5.0,
+          "wait": 43.459,
+          "receive": 60.189
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2djer1%3AYM99cRybzsHNOnQO8gZsg4RvHFziHEs3&s=0%3Amr2djer1%3AWRSdD21FmIC1UTIsZhopjwgdZYXX9NNb&v=0%3A8~YanOlRxaHCTXYDvFn3SseQW1t06JYm&t=eventParameters&a=qAmXqexKXrWh&e=0%3A8~YanOlRxaHCTXYDvFn3SseQW1t06JYma&c=mr2djhaa&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FKusuda_dragtoreveal_336x280_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B25%5D!srt!1384!sts!3458!siv!1!sol!1!)&x=wi9vu9",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Kusuda_dragtoreveal_336x280_copy",
+        "startedDateTime": "1970-01-04T07:13:11.938482Z",
+        "time": 47.665,
+        "timings": {
+          "send": 2.383,
+          "wait": 19.066,
+          "receive": 26.216
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2djer1%3AYM99cRybzsHNOnQO8gZsg4RvHFziHEs3&s=0%3Amr2djer1%3AWRSdD21FmIC1UTIsZhopjwgdZYXX9NNb&v=0%3A8~YanOlRxaHCTXYDvFn3SseQW1t06JYm&t=eventParameters&a=qAmXqexKXrWh&e=0%3A8~YanOlRxaHCTXYDvFn3SseQW1t06JYmb&c=mr2djk5i&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FKusuda_dragtoreveal_336x280_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!VTR%20video_1%20%5B50%5D!srt!5100!sts!7174!siv!1!sol!1!)&x=lgtlph",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,544 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "crawl_ads_cdp",
+      "version": "2.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-07-01T17:58:18.592641Z",
+        "id": "Milo_3in1_parallax_cube_GA_copy",
+        "title": "Milo_3in1_parallax_cube_GA_copy",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "Milo_3in1_parallax_cube_GA_copy",
+        "startedDateTime": "1970-01-04T07:17:47.712234Z",
+        "time": 229.884,
+        "timings": {
+          "send": 5.0,
+          "wait": 91.954,
+          "receive": 132.93
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/QYLqZ0kzm6aF/adtag.js?pxf=L5UFgFHFk86k1VTj&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_502}",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 189701,
+            "mimeType": "application/javascript",
+            "compression": 130005
+          },
+          "bodySize": 59696,
+          "decodedBodySize": 189701,
+          "transferSize": 59696,
+          "_transferSize": 59696,
+          "_decodedBodySize": 189701,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Milo_3in1_parallax_cube_GA_copy",
+        "startedDateTime": "1970-01-04T07:17:47.947841Z",
+        "time": 112.701,
+        "timings": {
+          "send": 5.0,
+          "wait": 45.08,
+          "receive": 62.621
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tracking.js?ad=QYLqZ0kzm6aF",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 8385,
+            "mimeType": "application/javascript",
+            "compression": 4223
+          },
+          "bodySize": 4162,
+          "decodedBodySize": 8385,
+          "transferSize": 4162,
+          "_transferSize": 4162,
+          "_decodedBodySize": 8385,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Milo_3in1_parallax_cube_GA_copy",
+        "startedDateTime": "1970-01-04T07:17:47.955817Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tr5.html",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Milo_3in1_parallax_cube_GA_copy",
+        "startedDateTime": "1970-01-04T07:17:47.954384Z",
+        "time": 146.821,
+        "timings": {
+          "send": 5.0,
+          "wait": 58.728,
+          "receive": 83.093
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/QYLqZ0kzm6aF/adcanvas.min.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 190494,
+            "mimeType": "application/javascript",
+            "compression": 134155
+          },
+          "bodySize": 56339,
+          "decodedBodySize": 190494,
+          "transferSize": 56339,
+          "_transferSize": 56339,
+          "_decodedBodySize": 190494,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Milo_3in1_parallax_cube_GA_copy",
+        "startedDateTime": "1970-01-04T07:17:47.954661Z",
+        "time": 200.86,
+        "timings": {
+          "send": 5.0,
+          "wait": 80.344,
+          "receive": 115.516
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/QYLqZ0kzm6aF/L5UFgFHFk86k1VTj/pack.acz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 516516,
+            "mimeType": "application/zip"
+          },
+          "bodySize": 516516,
+          "decodedBodySize": 516516,
+          "transferSize": 516516,
+          "_transferSize": 516516,
+          "_decodedBodySize": 516516,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Milo_3in1_parallax_cube_GA_copy",
+        "startedDateTime": "1970-01-04T07:17:47.956620Z",
+        "time": 59.45,
+        "timings": {
+          "send": 2.972,
+          "wait": 23.78,
+          "receive": 32.697
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/QYLqZ0kzm6aF/splash.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 10731,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 10731,
+          "decodedBodySize": 10731,
+          "transferSize": 10731,
+          "_transferSize": 10731,
+          "_decodedBodySize": 10731,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Milo_3in1_parallax_cube_GA_copy",
+        "startedDateTime": "1970-01-04T07:17:48.064768Z",
+        "time": 91.074,
+        "timings": {
+          "send": 4.554,
+          "wait": 36.43,
+          "receive": 50.091
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dph7n%3AjAEV3WNzyXfYBRkHoZjivnjBgGkggekU&s=0%3Amr2dph7n%3AobsnQJjDIESsssN65xJ5aQlHPNeFsRsu&v=0%3ASYKVpL7LoWtzcRzckAoL3bGzRdb_fOhE&t=pageView&a=QYLqZ0kzm6aF&e=0%3ASYKVpL7LoWtzcRzckAoL3bGzRdb_fOhE0&c=mr2dph7q&n=t&f=t&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FMilo_3in1_parallax_cube_GA_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&x=81wput",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Milo_3in1_parallax_cube_GA_copy",
+        "startedDateTime": "1970-01-04T07:17:48.065063Z",
+        "time": 90.847,
+        "timings": {
+          "send": 4.542,
+          "wait": 36.339,
+          "receive": 49.966
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dph7n%3AjAEV3WNzyXfYBRkHoZjivnjBgGkggekU&s=0%3Amr2dph7n%3AobsnQJjDIESsssN65xJ5aQlHPNeFsRsu&v=0%3ASYKVpL7LoWtzcRzckAoL3bGzRdb_fOhE&t=eventParameters&a=QYLqZ0kzm6aF&e=0%3ASYKVpL7LoWtzcRzckAoL3bGzRdb_fOhE1&c=mr2dph7q&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FMilo_3in1_parallax_cube_GA_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Billable%20impression!srt!0!sts!0!siv!0!sol!1!)&x=fhuxg0",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Milo_3in1_parallax_cube_GA_copy",
+        "startedDateTime": "1970-01-04T07:17:48.200433Z",
+        "time": 1149.298,
+        "timings": {
+          "send": 5.0,
+          "wait": 459.719,
+          "receive": 684.579
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dph7n%3AjAEV3WNzyXfYBRkHoZjivnjBgGkggekU&s=0%3Amr2dph7n%3AobsnQJjDIESsssN65xJ5aQlHPNeFsRsu&v=0%3ASYKVpL7LoWtzcRzckAoL3bGzRdb_fOhE&t=eventParameters&a=QYLqZ0kzm6aF&e=0%3ASYKVpL7LoWtzcRzckAoL3bGzRdb_fOhE2&c=mr2dphbi&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FMilo_3in1_parallax_cube_GA_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Loaded!srt!0!sts!211!siv!0!sol!1!)&x=5vy7ef",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Milo_3in1_parallax_cube_GA_copy",
+        "startedDateTime": "1970-01-04T07:17:48.200556Z",
+        "time": 1149.071,
+        "timings": {
+          "send": 5.0,
+          "wait": 459.628,
+          "receive": 684.443
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dph7n%3AjAEV3WNzyXfYBRkHoZjivnjBgGkggekU&s=0%3Amr2dph7n%3AobsnQJjDIESsssN65xJ5aQlHPNeFsRsu&v=0%3ASYKVpL7LoWtzcRzckAoL3bGzRdb_fOhE&t=eventParameters&a=QYLqZ0kzm6aF&e=0%3ASYKVpL7LoWtzcRzckAoL3bGzRdb_fOhE3&c=mr2dphbi&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FMilo_3in1_parallax_cube_GA_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Meta!saction!safeFrame%20not%20detected!srt!0!sts!211!siv!0!sol!1!)&x=-1i3pp6",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Milo_3in1_parallax_cube_GA_copy",
+        "startedDateTime": "1970-01-04T07:17:48.200639Z",
+        "time": 1149.127,
+        "timings": {
+          "send": 5.0,
+          "wait": 459.651,
+          "receive": 684.476
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dph7n%3AjAEV3WNzyXfYBRkHoZjivnjBgGkggekU&s=0%3Amr2dph7n%3AobsnQJjDIESsssN65xJ5aQlHPNeFsRsu&v=0%3ASYKVpL7LoWtzcRzckAoL3bGzRdb_fOhE&t=eventParameters&a=QYLqZ0kzm6aF&e=0%3ASYKVpL7LoWtzcRzckAoL3bGzRdb_fOhE4&c=mr2dphbi&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FMilo_3in1_parallax_cube_GA_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Started!srt!0!sts!211!siv!0!sol!1!)&x=2egdar",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Milo_3in1_parallax_cube_GA_copy",
+        "startedDateTime": "1970-01-04T07:17:48.206149Z",
+        "time": 1143.652,
+        "timings": {
+          "send": 5.0,
+          "wait": 457.461,
+          "receive": 681.191
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dph7n%3AjAEV3WNzyXfYBRkHoZjivnjBgGkggekU&s=0%3Amr2dph7n%3AobsnQJjDIESsssN65xJ5aQlHPNeFsRsu&v=0%3ASYKVpL7LoWtzcRzckAoL3bGzRdb_fOhE&t=eventParameters&a=QYLqZ0kzm6aF&e=0%3ASYKVpL7LoWtzcRzckAoL3bGzRdb_fOhE5&c=mr2dphbo&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FMilo_3in1_parallax_cube_GA_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Rendered!srt!0!sts!255!siv!0!sol!1!)&x=-3aj92t",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Milo_3in1_parallax_cube_GA_copy",
+        "startedDateTime": "1970-01-04T07:17:50.050103Z",
+        "time": 48.844,
+        "timings": {
+          "send": 2.442,
+          "wait": 19.538,
+          "receive": 26.864
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dph7n%3AjAEV3WNzyXfYBRkHoZjivnjBgGkggekU&s=0%3Amr2dph7n%3AobsnQJjDIESsssN65xJ5aQlHPNeFsRsu&v=0%3ASYKVpL7LoWtzcRzckAoL3bGzRdb_fOhE&t=eventParameters&a=QYLqZ0kzm6aF&e=0%3ASYKVpL7LoWtzcRzckAoL3bGzRdb_fOhE6&c=mr2dpiqv&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FMilo_3in1_parallax_cube_GA_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20is%20in%20view!srt!0!sts!2105!siv!1!sol!1!)&x=4xamxy",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Milo_3in1_parallax_cube_GA_copy",
+        "startedDateTime": "1970-01-04T07:17:50.050287Z",
+        "time": 44.317,
+        "timings": {
+          "send": 2.216,
+          "wait": 17.727,
+          "receive": 24.374
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dph7n%3AjAEV3WNzyXfYBRkHoZjivnjBgGkggekU&s=0%3Amr2dph7n%3AobsnQJjDIESsssN65xJ5aQlHPNeFsRsu&v=0%3ASYKVpL7LoWtzcRzckAoL3bGzRdb_fOhE&t=eventParameters&a=QYLqZ0kzm6aF&e=0%3ASYKVpL7LoWtzcRzckAoL3bGzRdb_fOhE7&c=mr2dpiqw&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FMilo_3in1_parallax_cube_GA_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Paging!saction!Page%20seen%20%5BFront%20media%5D!srt!0!sts!253!siv!0!sol!1!)&x=9ypfqq",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Milo_3in1_parallax_cube_GA_copy",
+        "startedDateTime": "1970-01-04T07:17:50.050390Z",
+        "time": 48.614,
+        "timings": {
+          "send": 2.431,
+          "wait": 19.446,
+          "receive": 26.738
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dph7n%3AjAEV3WNzyXfYBRkHoZjivnjBgGkggekU&s=0%3Amr2dph7n%3AobsnQJjDIESsssN65xJ5aQlHPNeFsRsu&v=0%3ASYKVpL7LoWtzcRzckAoL3bGzRdb_fOhE&t=eventParameters&a=QYLqZ0kzm6aF&e=0%3ASYKVpL7LoWtzcRzckAoL3bGzRdb_fOhE8&c=mr2dpiqw&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FMilo_3in1_parallax_cube_GA_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20revealed!srt!0!sts!402!siv!0!sol!1!)&x=-kwn4ls",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Milo_3in1_parallax_cube_GA_copy",
+        "startedDateTime": "1970-01-04T07:17:50.050489Z",
+        "time": 46.948,
+        "timings": {
+          "send": 2.347,
+          "wait": 18.779,
+          "receive": 25.821
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dph7n%3AjAEV3WNzyXfYBRkHoZjivnjBgGkggekU&s=0%3Amr2dph7n%3AobsnQJjDIESsssN65xJ5aQlHPNeFsRsu&v=0%3ASYKVpL7LoWtzcRzckAoL3bGzRdb_fOhE&t=eventParameters&a=QYLqZ0kzm6aF&e=0%3ASYKVpL7LoWtzcRzckAoL3bGzRdb_fOhE9&c=mr2dpiqw&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FMilo_3in1_parallax_cube_GA_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Paging!saction!Page%20seen%20%5BRight%20media%5D!srt!0!sts!1300!siv!0!sol!1!)&x=u1zopw",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Milo_3in1_parallax_cube_GA_copy",
+        "startedDateTime": "1970-01-04T07:17:51.744401Z",
+        "time": 76.356,
+        "timings": {
+          "send": 3.818,
+          "wait": 30.542,
+          "receive": 41.996
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dph7n%3AjAEV3WNzyXfYBRkHoZjivnjBgGkggekU&s=0%3Amr2dph7n%3AobsnQJjDIESsssN65xJ5aQlHPNeFsRsu&v=0%3ASYKVpL7LoWtzcRzckAoL3bGzRdb_fOhE&t=eventParameters&a=QYLqZ0kzm6aF&e=0%3ASYKVpL7LoWtzcRzckAoL3bGzRdb_fOhEa&c=mr2dpk1y&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FMilo_3in1_parallax_cube_GA_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Paging!saction!Page%20seen%20%5BRear%20media%5D!srt!1695!sts!3800!siv!1!sol!1!)&x=-53yczm",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Milo_3in1_parallax_cube_GA_copy",
+        "startedDateTime": "1970-01-04T07:17:54.244367Z",
+        "time": 45.148,
+        "timings": {
+          "send": 2.257,
+          "wait": 18.059,
+          "receive": 24.831
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dph7n%3AjAEV3WNzyXfYBRkHoZjivnjBgGkggekU&s=0%3Amr2dph7n%3AobsnQJjDIESsssN65xJ5aQlHPNeFsRsu&v=0%3ASYKVpL7LoWtzcRzckAoL3bGzRdb_fOhE&t=eventParameters&a=QYLqZ0kzm6aF&e=0%3ASYKVpL7LoWtzcRzckAoL3bGzRdb_fOhEb&c=mr2dplze&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FMilo_3in1_parallax_cube_GA_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Paging!saction!Page%20seen%20%5BLeft%20media%5D!srt!4194!sts!6299!siv!1!sol!1!)&x=-ekxsl2",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,457 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "crawl_ads_cdp",
+      "version": "2.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-07-01T18:00:39.652782Z",
+        "id": "Olipop_fullscreen_Still_animations_copy",
+        "title": "Olipop_fullscreen_Still_animations_copy",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "Olipop_fullscreen_Still_animations_copy",
+        "startedDateTime": "1970-01-04T07:20:09.561212Z",
+        "time": 489.005,
+        "timings": {
+          "send": 5.0,
+          "wait": 195.602,
+          "receive": 288.403
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/roD0BBONX6uL/adtag.js?pxf=PwAnM0tQixDHMtYu&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_502}",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 191677,
+            "mimeType": "application/javascript",
+            "compression": 131252
+          },
+          "bodySize": 60425,
+          "decodedBodySize": 191677,
+          "transferSize": 60425,
+          "_transferSize": 60425,
+          "_decodedBodySize": 191677,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Olipop_fullscreen_Still_animations_copy",
+        "startedDateTime": "1970-01-04T07:20:10.056864Z",
+        "time": 200.246,
+        "timings": {
+          "send": 5.0,
+          "wait": 80.098,
+          "receive": 115.148
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tracking.js?ad=roD0BBONX6uL",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 8385,
+            "mimeType": "application/javascript",
+            "compression": 4226
+          },
+          "bodySize": 4159,
+          "decodedBodySize": 8385,
+          "transferSize": 4159,
+          "_transferSize": 4159,
+          "_decodedBodySize": 8385,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Olipop_fullscreen_Still_animations_copy",
+        "startedDateTime": "1970-01-04T07:20:10.064874Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tr5.html",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Olipop_fullscreen_Still_animations_copy",
+        "startedDateTime": "1970-01-04T07:20:10.063847Z",
+        "time": 223.087,
+        "timings": {
+          "send": 5.0,
+          "wait": 89.235,
+          "receive": 128.852
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/roD0BBONX6uL/adcanvas.min.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 177486,
+            "mimeType": "application/javascript",
+            "compression": 125565
+          },
+          "bodySize": 51921,
+          "decodedBodySize": 177486,
+          "transferSize": 51921,
+          "_transferSize": 51921,
+          "_decodedBodySize": 177486,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Olipop_fullscreen_Still_animations_copy",
+        "startedDateTime": "1970-01-04T07:20:10.064040Z",
+        "time": 193.192,
+        "timings": {
+          "send": 5.0,
+          "wait": 77.277,
+          "receive": 110.915
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/roD0BBONX6uL/PwAnM0tQixDHMtYu/pack.acz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 362531,
+            "mimeType": "application/zip"
+          },
+          "bodySize": 362531,
+          "decodedBodySize": 362531,
+          "transferSize": 362531,
+          "_transferSize": 362531,
+          "_decodedBodySize": 362531,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Olipop_fullscreen_Still_animations_copy",
+        "startedDateTime": "1970-01-04T07:20:10.065895Z",
+        "time": 116.102,
+        "timings": {
+          "send": 5.0,
+          "wait": 46.441,
+          "receive": 64.661
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/roD0BBONX6uL/splash.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 38324,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 38324,
+          "decodedBodySize": 38324,
+          "transferSize": 38324,
+          "_transferSize": 38324,
+          "_decodedBodySize": 38324,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Olipop_fullscreen_Still_animations_copy",
+        "startedDateTime": "1970-01-04T07:20:10.261102Z",
+        "time": 123.047,
+        "timings": {
+          "send": 5.0,
+          "wait": 49.219,
+          "receive": 68.828
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dsixk%3AZXCZUgLlYsNPLNQwqUhiF6bpVW~uB9~D&s=0%3Amr2dsixk%3AGkTO0_wPlfrdZtTHwUFkc6te7b3GTTQX&v=0%3Ao_16GZ6lXfYTrnAlXZgDji8qANr1kTRg&t=pageView&a=roD0BBONX6uL&e=0%3Ao_16GZ6lXfYTrnAlXZgDji8qANr1kTRg0&c=mr2dsixn&n=t&f=t&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FOlipop_fullscreen_Still_animations_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&x=jbrpug",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Olipop_fullscreen_Still_animations_copy",
+        "startedDateTime": "1970-01-04T07:20:10.275975Z",
+        "time": 108.12,
+        "timings": {
+          "send": 5.0,
+          "wait": 43.248,
+          "receive": 59.872
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dsixk%3AZXCZUgLlYsNPLNQwqUhiF6bpVW~uB9~D&s=0%3Amr2dsixk%3AGkTO0_wPlfrdZtTHwUFkc6te7b3GTTQX&v=0%3Ao_16GZ6lXfYTrnAlXZgDji8qANr1kTRg&t=eventParameters&a=roD0BBONX6uL&e=0%3Ao_16GZ6lXfYTrnAlXZgDji8qANr1kTRg1&c=mr2dsiy2&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FOlipop_fullscreen_Still_animations_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Billable%20impression!srt!0!sts!1!siv!0!sol!1!)&x=-8hj8p3",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 281,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 281,
+          "decodedBodySize": 281,
+          "transferSize": 281,
+          "_transferSize": 281,
+          "_decodedBodySize": 281,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Olipop_fullscreen_Still_animations_copy",
+        "startedDateTime": "1970-01-04T07:20:10.335901Z",
+        "time": 49.094,
+        "timings": {
+          "send": 2.455,
+          "wait": 19.638,
+          "receive": 27.002
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dsixk%3AZXCZUgLlYsNPLNQwqUhiF6bpVW~uB9~D&s=0%3Amr2dsixk%3AGkTO0_wPlfrdZtTHwUFkc6te7b3GTTQX&v=0%3Ao_16GZ6lXfYTrnAlXZgDji8qANr1kTRg&t=eventParameters&a=roD0BBONX6uL&e=0%3Ao_16GZ6lXfYTrnAlXZgDji8qANr1kTRg2&c=mr2dsizq&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FOlipop_fullscreen_Still_animations_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Loaded!srt!0!sts!236!siv!0!sol!1!)&x=-wmj07p",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Olipop_fullscreen_Still_animations_copy",
+        "startedDateTime": "1970-01-04T07:20:10.336041Z",
+        "time": 48.921,
+        "timings": {
+          "send": 2.446,
+          "wait": 19.568,
+          "receive": 26.907
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dsixk%3AZXCZUgLlYsNPLNQwqUhiF6bpVW~uB9~D&s=0%3Amr2dsixk%3AGkTO0_wPlfrdZtTHwUFkc6te7b3GTTQX&v=0%3Ao_16GZ6lXfYTrnAlXZgDji8qANr1kTRg&t=eventParameters&a=roD0BBONX6uL&e=0%3Ao_16GZ6lXfYTrnAlXZgDji8qANr1kTRg3&c=mr2dsizq&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FOlipop_fullscreen_Still_animations_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Meta!saction!safeFrame%20not%20detected!srt!0!sts!236!siv!0!sol!1!)&x=92ic8q",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Olipop_fullscreen_Still_animations_copy",
+        "startedDateTime": "1970-01-04T07:20:10.336118Z",
+        "time": 50.998,
+        "timings": {
+          "send": 2.55,
+          "wait": 20.399,
+          "receive": 28.049
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dsixk%3AZXCZUgLlYsNPLNQwqUhiF6bpVW~uB9~D&s=0%3Amr2dsixk%3AGkTO0_wPlfrdZtTHwUFkc6te7b3GTTQX&v=0%3Ao_16GZ6lXfYTrnAlXZgDji8qANr1kTRg&t=eventParameters&a=roD0BBONX6uL&e=0%3Ao_16GZ6lXfYTrnAlXZgDji8qANr1kTRg4&c=mr2dsizr&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FOlipop_fullscreen_Still_animations_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Started!srt!0!sts!237!siv!0!sol!1!)&x=o3cotm",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Olipop_fullscreen_Still_animations_copy",
+        "startedDateTime": "1970-01-04T07:20:10.341815Z",
+        "time": 86.985,
+        "timings": {
+          "send": 4.349,
+          "wait": 34.794,
+          "receive": 47.842
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dsixk%3AZXCZUgLlYsNPLNQwqUhiF6bpVW~uB9~D&s=0%3Amr2dsixk%3AGkTO0_wPlfrdZtTHwUFkc6te7b3GTTQX&v=0%3Ao_16GZ6lXfYTrnAlXZgDji8qANr1kTRg&t=eventParameters&a=roD0BBONX6uL&e=0%3Ao_16GZ6lXfYTrnAlXZgDji8qANr1kTRg5&c=mr2dsizw&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FOlipop_fullscreen_Still_animations_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Rendered!srt!0!sts!284!siv!0!sol!1!)&x=-9drvpw",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Olipop_fullscreen_Still_animations_copy",
+        "startedDateTime": "1970-01-04T07:20:12.178273Z",
+        "time": 477.363,
+        "timings": {
+          "send": 5.0,
+          "wait": 190.945,
+          "receive": 281.418
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dsixk%3AZXCZUgLlYsNPLNQwqUhiF6bpVW~uB9~D&s=0%3Amr2dsixk%3AGkTO0_wPlfrdZtTHwUFkc6te7b3GTTQX&v=0%3Ao_16GZ6lXfYTrnAlXZgDji8qANr1kTRg&t=eventParameters&a=roD0BBONX6uL&e=0%3Ao_16GZ6lXfYTrnAlXZgDji8qANr1kTRg6&c=mr2dskex&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FOlipop_fullscreen_Still_animations_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20is%20in%20view!srt!0!sts!2126!siv!1!sol!1!)&x=aq7qpc",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Olipop_fullscreen_Still_animations_copy",
+        "startedDateTime": "1970-01-04T07:20:12.178430Z",
+        "time": 477.274,
+        "timings": {
+          "send": 5.0,
+          "wait": 190.91,
+          "receive": 281.364
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dsixk%3AZXCZUgLlYsNPLNQwqUhiF6bpVW~uB9~D&s=0%3Amr2dsixk%3AGkTO0_wPlfrdZtTHwUFkc6te7b3GTTQX&v=0%3Ao_16GZ6lXfYTrnAlXZgDji8qANr1kTRg&t=eventParameters&a=roD0BBONX6uL&e=0%3Ao_16GZ6lXfYTrnAlXZgDji8qANr1kTRg7&c=mr2dskex&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FOlipop_fullscreen_Still_animations_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Paging!saction!Page%20seen%20%5BMain%20media%5D!srt!0!sts!264!siv!0!sol!1!)&x=pm53o1",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Olipop_fullscreen_Still_animations_copy",
+        "startedDateTime": "1970-01-04T07:20:12.178513Z",
+        "time": 477.07,
+        "timings": {
+          "send": 5.0,
+          "wait": 190.828,
+          "receive": 281.242
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2dsixk%3AZXCZUgLlYsNPLNQwqUhiF6bpVW~uB9~D&s=0%3Amr2dsixk%3AGkTO0_wPlfrdZtTHwUFkc6te7b3GTTQX&v=0%3Ao_16GZ6lXfYTrnAlXZgDji8qANr1kTRg&t=eventParameters&a=roD0BBONX6uL&e=0%3Ao_16GZ6lXfYTrnAlXZgDji8qANr1kTRg8&c=mr2dskex&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FOlipop_fullscreen_Still_animations_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20revealed!srt!0!sts!407!siv!0!sol!1!)&x=etizyn",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      }
+    ]
+  }
+}

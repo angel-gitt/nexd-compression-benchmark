@@ -4,13 +4,6 @@ __pycache__/
 .venv/
 *.egg-info/
 
-# Results (keep structure, ignore data files)
-results/*.csv
-results/*.docx
-results/hars/
-results/schedules/
-results/*.png
-results/plots_network/*.png
 
 # NS-3 build
 ns-3.48/

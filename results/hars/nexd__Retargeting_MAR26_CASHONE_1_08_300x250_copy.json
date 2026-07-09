@@ -1,0 +1,603 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "crawl_ads_cdp",
+      "version": "2.0"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-07-01T18:07:42.447266Z",
+        "id": "Retargeting_MAR26_CASHONE_1_08_300x250_copy",
+        "title": "Retargeting_MAR26_CASHONE_1_08_300x250_copy",
+        "pageTimings": {}
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "Retargeting_MAR26_CASHONE_1_08_300x250_copy",
+        "startedDateTime": "1970-01-04T07:27:12.675485Z",
+        "time": 190.811,
+        "timings": {
+          "send": 5.0,
+          "wait": 76.324,
+          "receive": 109.487
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/Q7T5IySH1vHV/adtag.js?pxf=WI5RCzvmJFlBMK6f&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_502}",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 190633,
+            "mimeType": "application/javascript",
+            "compression": 130456
+          },
+          "bodySize": 60177,
+          "decodedBodySize": 190633,
+          "transferSize": 60177,
+          "_transferSize": 60177,
+          "_decodedBodySize": 190633,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Retargeting_MAR26_CASHONE_1_08_300x250_copy",
+        "startedDateTime": "1970-01-04T07:27:12.872273Z",
+        "time": 65.351,
+        "timings": {
+          "send": 3.268,
+          "wait": 26.14,
+          "receive": 35.943
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tracking.js?ad=Q7T5IySH1vHV",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 8385,
+            "mimeType": "application/javascript",
+            "compression": 4225
+          },
+          "bodySize": 4160,
+          "decodedBodySize": 8385,
+          "transferSize": 4160,
+          "_transferSize": 4160,
+          "_decodedBodySize": 8385,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Retargeting_MAR26_CASHONE_1_08_300x250_copy",
+        "startedDateTime": "1970-01-04T07:27:12.880694Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/tr5.html",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Retargeting_MAR26_CASHONE_1_08_300x250_copy",
+        "startedDateTime": "1970-01-04T07:27:12.879398Z",
+        "time": 95.548,
+        "timings": {
+          "send": 4.777,
+          "wait": 38.219,
+          "receive": 52.551
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://cdn.doubleverify.com/dvbm.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 510821,
+            "mimeType": "text/javascript",
+            "compression": 406046
+          },
+          "bodySize": 104775,
+          "decodedBodySize": 510821,
+          "transferSize": 104775,
+          "_transferSize": 104775,
+          "_decodedBodySize": 510821,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Retargeting_MAR26_CASHONE_1_08_300x250_copy",
+        "startedDateTime": "1970-01-04T07:27:12.879599Z",
+        "time": 178.14,
+        "timings": {
+          "send": 5.0,
+          "wait": 71.256,
+          "receive": 101.884
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://ad.doubleclick.net/ddm/trackimpj/N200801.151350QUANTCAST/B34947896.441176815;dc_pre=CPzD74aJspUDFUKQJwId61AexQ;dc_trk_aid=634799367;dc_trk_cid=250755184;ord=1782929254096;dc_dbm_token=*;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 13266,
+            "mimeType": "text/javascript"
+          },
+          "bodySize": 13266,
+          "decodedBodySize": 13266,
+          "transferSize": 13266,
+          "_transferSize": 13266,
+          "_decodedBodySize": 13266,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Retargeting_MAR26_CASHONE_1_08_300x250_copy",
+        "startedDateTime": "1970-01-04T07:27:12.879916Z",
+        "time": 101.093,
+        "timings": {
+          "send": 5.0,
+          "wait": 40.437,
+          "receive": 55.656
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/Q7T5IySH1vHV/adcanvas.min.js",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 177343,
+            "mimeType": "application/javascript",
+            "compression": 123725
+          },
+          "bodySize": 53618,
+          "decodedBodySize": 177343,
+          "transferSize": 53618,
+          "_transferSize": 53618,
+          "_decodedBodySize": 177343,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Retargeting_MAR26_CASHONE_1_08_300x250_copy",
+        "startedDateTime": "1970-01-04T07:27:12.880103Z",
+        "time": 181.122,
+        "timings": {
+          "send": 5.0,
+          "wait": 72.449,
+          "receive": 103.673
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/Q7T5IySH1vHV/WI5RCzvmJFlBMK6f/pack.acz",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 63082,
+            "mimeType": "application/zip"
+          },
+          "bodySize": 63082,
+          "decodedBodySize": 63082,
+          "transferSize": 63082,
+          "_transferSize": 63082,
+          "_decodedBodySize": 63082,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Retargeting_MAR26_CASHONE_1_08_300x250_copy",
+        "startedDateTime": "1970-01-04T07:27:12.882067Z",
+        "time": 62.187,
+        "timings": {
+          "send": 3.109,
+          "wait": 24.875,
+          "receive": 34.203
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://media.adcanvas.com/Q7T5IySH1vHV/splash.jpg",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 13964,
+            "mimeType": "image/jpeg"
+          },
+          "bodySize": 13964,
+          "decodedBodySize": 13964,
+          "transferSize": 13964,
+          "_transferSize": 13964,
+          "_decodedBodySize": 13964,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Retargeting_MAR26_CASHONE_1_08_300x250_copy",
+        "startedDateTime": "1970-01-04T07:27:12.942259Z",
+        "time": 66.747,
+        "timings": {
+          "send": 3.337,
+          "wait": 26.699,
+          "receive": 36.711
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2e1l3p%3ADl24S2p1D~s9wQWTGKx~tWGlwc5jUWoi&s=0%3Amr2e1l3p%3A66cyj9H2LuW3NAvRLrCm7lq9~vfDVL2s&v=0%3AvFKhenM8xL4gh8YnhjNKkaG_CLeA0Swz&t=pageView&a=Q7T5IySH1vHV&e=0%3AvFKhenM8xL4gh8YnhjNKkaG_CLeA0Swz0&c=mr2e1l3s&n=t&f=t&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FRetargeting_MAR26_CASHONE_1.08_300x250_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&x=cfzv6c",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Retargeting_MAR26_CASHONE_1_08_300x250_copy",
+        "startedDateTime": "1970-01-04T07:27:12.954663Z",
+        "time": 47.494,
+        "timings": {
+          "send": 2.375,
+          "wait": 18.998,
+          "receive": 26.122
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2e1l3p%3ADl24S2p1D~s9wQWTGKx~tWGlwc5jUWoi&s=0%3Amr2e1l3p%3A66cyj9H2LuW3NAvRLrCm7lq9~vfDVL2s&v=0%3AvFKhenM8xL4gh8YnhjNKkaG_CLeA0Swz&t=eventParameters&a=Q7T5IySH1vHV&e=0%3AvFKhenM8xL4gh8YnhjNKkaG_CLeA0Swz1&c=mr2e1l45&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FRetargeting_MAR26_CASHONE_1.08_300x250_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Billable%20impression!srt!0!sts!0!siv!0!sol!1!)&x=-kf521y",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Retargeting_MAR26_CASHONE_1_08_300x250_copy",
+        "startedDateTime": "1970-01-04T07:27:12.996844Z",
+        "time": 103.32,
+        "timings": {
+          "send": 5.0,
+          "wait": 41.328,
+          "receive": 56.992
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://tps.doubleverify.com/visit.js?gdpr=&gdpr_consent=&flvr=1&ttmms=5&ttfrms=14&brid=98&bridua=3&bds=1&tstype=1&eparams=DC4FC%3Dl7%3A%3D6TbpTauTauTau%26D6CDTau2%3F86%3D%3E6C%3A%3F%40Taus6D%3CE%40ATau%3F6EH%40C%3C0D%3A%3EF%3D2E%3A%40%3F0%7Dt)%25sTau25DTau%3F6I509E%3E%3DTau%236E2C86E%3A%3F80%7Cp%23ae0rp%24w~%7Dt0%60%5D_g0b__Iad_04%40AJ%5D9E%3E%3D&srcurlD=0&aUrlD=0&ssl=https:&dfs=211&ddur=96&uid=1782929254221994&jsCallback=dvCallback_1782929254221869&dvtagver=6.1.src&navUa=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36&htmlmsging=1&chro=1&hist=2&winh=993&winw=1920&wouh=1080&wouw=1920&scah=600&scaw=800&tgjsver=10108&lvvn=28&m1=96&refD=0&referrer=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FRetargeting_MAR26_CASHONE_1.08_300x250_copy.html&fwc=0&flt=0&fec=25&fcifrms=1&brh=2&dvp_epl=226&noc=8&nav_pltfrm=MacIntel&ctx=15921228&cmp=34947896&sid=4636309&plc=441176815&adsrv=1&advid=14407241&jsver=10108&turl=${QC_AUCTION_URL}&c1=${QC_ACCOUNT}&c2=${FLIGHT_ID}&c3=${CREATIVE_WIDTH}&c4=${CREATIVE_HEIGHT}&c5=${ADSET_ID}&c6=${BID_STRATEGY_UUID}&auip=${QC_USER_IP}&prr=1&errorURL=https://tps.doubleverify.com/visit.jpg&auprice=${QC_PRICE}&ppid=318&auevent=${AUCTION_ID}&aucmp=${CAMPAIGN_ID}&aucrtv=Q7T5IySH1vHV&auxch=${EXCHANGE_NAME}&audvc=${MOCR_DEVICE_GROUPING}&aulitem=${LINE_ITEM_ID}&aufilter1=${QC_ACCOUNT}&autt=1&aubndl=${BUNDLE_ID}&mib=0&dvp_auip=${QC_USER_IP}&mon=1&blk=0&DVPX_PP_AUCTION_UA=%24%7BQC_USER_AGENT%7D&dvp_rcp=2&dvp_htec=1&dvp_seem=2&dvp_tuk=1&dvp_sukv=872320419.4290376&ee_dp_sukv=872320419.4290376&dvp_tukv=2912855746.5004706&ee_dp_tukv=2912855746.5004706&dvp_tuid=1570766032373&ee_dp_vjeg=0&jurtd=2040662939",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 815,
+            "mimeType": "text/javascript"
+          },
+          "bodySize": 815,
+          "decodedBodySize": 815,
+          "transferSize": 815,
+          "_transferSize": 815,
+          "_decodedBodySize": 815,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Retargeting_MAR26_CASHONE_1_08_300x250_copy",
+        "startedDateTime": "1970-01-04T07:27:13.112390Z",
+        "time": 54.9,
+        "timings": {
+          "send": 2.745,
+          "wait": 21.96,
+          "receive": 30.195
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2e1l3p%3ADl24S2p1D~s9wQWTGKx~tWGlwc5jUWoi&s=0%3Amr2e1l3p%3A66cyj9H2LuW3NAvRLrCm7lq9~vfDVL2s&v=0%3AvFKhenM8xL4gh8YnhjNKkaG_CLeA0Swz&t=eventParameters&a=Q7T5IySH1vHV&e=0%3AvFKhenM8xL4gh8YnhjNKkaG_CLeA0Swz2&c=mr2e1l8j&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FRetargeting_MAR26_CASHONE_1.08_300x250_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Loaded!srt!0!sts!193!siv!0!sol!1!)&x=u5it56",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Retargeting_MAR26_CASHONE_1_08_300x250_copy",
+        "startedDateTime": "1970-01-04T07:27:13.112550Z",
+        "time": 54.788,
+        "timings": {
+          "send": 2.739,
+          "wait": 21.915,
+          "receive": 30.133
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2e1l3p%3ADl24S2p1D~s9wQWTGKx~tWGlwc5jUWoi&s=0%3Amr2e1l3p%3A66cyj9H2LuW3NAvRLrCm7lq9~vfDVL2s&v=0%3AvFKhenM8xL4gh8YnhjNKkaG_CLeA0Swz&t=eventParameters&a=Q7T5IySH1vHV&e=0%3AvFKhenM8xL4gh8YnhjNKkaG_CLeA0Swz3&c=mr2e1l8j&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FRetargeting_MAR26_CASHONE_1.08_300x250_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Meta!saction!safeFrame%20not%20detected!srt!0!sts!193!siv!0!sol!1!)&x=-ml3wz0",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Retargeting_MAR26_CASHONE_1_08_300x250_copy",
+        "startedDateTime": "1970-01-04T07:27:13.112627Z",
+        "time": 54.745,
+        "timings": {
+          "send": 2.737,
+          "wait": 21.898,
+          "receive": 30.11
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2e1l3p%3ADl24S2p1D~s9wQWTGKx~tWGlwc5jUWoi&s=0%3Amr2e1l3p%3A66cyj9H2LuW3NAvRLrCm7lq9~vfDVL2s&v=0%3AvFKhenM8xL4gh8YnhjNKkaG_CLeA0Swz&t=eventParameters&a=Q7T5IySH1vHV&e=0%3AvFKhenM8xL4gh8YnhjNKkaG_CLeA0Swz4&c=mr2e1l8j&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FRetargeting_MAR26_CASHONE_1.08_300x250_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Started!srt!0!sts!193!siv!0!sol!1!)&x=-ecjac",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Retargeting_MAR26_CASHONE_1_08_300x250_copy",
+        "startedDateTime": "1970-01-04T07:27:13.115314Z",
+        "time": 52.086,
+        "timings": {
+          "send": 2.604,
+          "wait": 20.834,
+          "receive": 28.647
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2e1l3p%3ADl24S2p1D~s9wQWTGKx~tWGlwc5jUWoi&s=0%3Amr2e1l3p%3A66cyj9H2LuW3NAvRLrCm7lq9~vfDVL2s&v=0%3AvFKhenM8xL4gh8YnhjNKkaG_CLeA0Swz&t=eventParameters&a=Q7T5IySH1vHV&e=0%3AvFKhenM8xL4gh8YnhjNKkaG_CLeA0Swz5&c=mr2e1l8m&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FRetargeting_MAR26_CASHONE_1.08_300x250_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20Rendered!srt!0!sts!243!siv!0!sol!1!)&x=-bc1pck",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Retargeting_MAR26_CASHONE_1_08_300x250_copy",
+        "startedDateTime": "1970-01-04T07:27:13.120247Z",
+        "time": -1,
+        "timings": {
+          "send": -1.0,
+          "wait": -1.0,
+          "receive": -1.0
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://tps-dn-ew1.doubleverify.com/event.jpg?impid=18481d689d694dc1832fa8ba0e0deaa6&consid=&api=1&rc=true",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 204,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": ""
+          },
+          "bodySize": 0,
+          "decodedBodySize": 0,
+          "transferSize": 0,
+          "_transferSize": 0,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Retargeting_MAR26_CASHONE_1_08_300x250_copy",
+        "startedDateTime": "1970-01-04T07:27:14.980049Z",
+        "time": 44.582,
+        "timings": {
+          "send": 2.229,
+          "wait": 17.833,
+          "receive": 24.52
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2e1l3p%3ADl24S2p1D~s9wQWTGKx~tWGlwc5jUWoi&s=0%3Amr2e1l3p%3A66cyj9H2LuW3NAvRLrCm7lq9~vfDVL2s&v=0%3AvFKhenM8xL4gh8YnhjNKkaG_CLeA0Swz&t=eventParameters&a=Q7T5IySH1vHV&e=0%3AvFKhenM8xL4gh8YnhjNKkaG_CLeA0Swz6&c=mr2e1moe&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FRetargeting_MAR26_CASHONE_1.08_300x250_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20is%20in%20view!srt!0!sts!2111!siv!1!sol!1!)&x=-nb0v5e",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Retargeting_MAR26_CASHONE_1_08_300x250_copy",
+        "startedDateTime": "1970-01-04T07:27:14.980257Z",
+        "time": 50.463,
+        "timings": {
+          "send": 2.523,
+          "wait": 20.185,
+          "receive": 27.755
+        },
+        "request": {
+          "method": "GET",
+          "url": "https://analytics.adcanvas.com/csc-event?p=0%3Amr2e1l3p%3ADl24S2p1D~s9wQWTGKx~tWGlwc5jUWoi&s=0%3Amr2e1l3p%3A66cyj9H2LuW3NAvRLrCm7lq9~vfDVL2s&v=0%3AvFKhenM8xL4gh8YnhjNKkaG_CLeA0Swz&t=eventParameters&a=Q7T5IySH1vHV&e=0%3AvFKhenM8xL4gh8YnhjNKkaG_CLeA0Swz7&c=mr2e1moe&n=f&f=f&l=file%3A%2F%2F%2FUsers%2Fangelmerino%2FDesktop%2Fnetwork_simulation_NEXTD%2Fads%2Fnexd_html%2FRetargeting_MAR26_CASHONE_1.08_300x250_copy.html&i=m8&j=go&k=1&w=1hc&h=rl&u=(scategory!Framework!saction!Ad%20revealed!srt!0!sts!286!siv!0!sol!1!)&x=-46nvon",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 200,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 245,
+            "mimeType": "image/gif"
+          },
+          "bodySize": 245,
+          "decodedBodySize": 245,
+          "transferSize": 245,
+          "_transferSize": 245,
+          "_decodedBodySize": 245,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Retargeting_MAR26_CASHONE_1_08_300x250_copy",
+        "startedDateTime": "1970-01-04T07:27:16.123369Z",
+        "time": 68.179,
+        "timings": {
+          "send": 3.409,
+          "wait": 27.272,
+          "receive": 37.498
+        },
+        "request": {
+          "method": "POST",
+          "url": "https://tpsc-ew1.doubleverify.com/event.png?impid=18481d689d694dc1832fa8ba0e0deaa6&flavor=1&gdpr=&gdpr_consent=&ee_dp_omvk=doubleverify.com-omid&ee_dp_isom=1&dvp_gdDur=0&dvp_gdDome=0&dvp_gdDoms=0&dvp_gdSucc=0&iskpm=1&ismmm=1&isocm=1&ee_dp_isioms=1&ee_dp_isaioms=0&ee_dp_asmm=1&vdur=103&eoid=20&te_strt=1&te_init=247&te_sup=66&te_exec=66&msrjs=10108&sdf=67108868&vit=2&ee_dp_mrci=1&rmi=16&tltms=96&tetms=5&msltms=0&vltms=103&sei=146&vetms=22&tuviims=19&tuviems=144&sim=1&ee_dp_cdndmn=1&ismms=23&isumms=22&nvr=6&isgmmims=23&isgmv4mims=23&elmtp=1&isbxdms=2225&b11=2315&adhgt=250&adwdth=300&norwdth=300&norhgt=250&vsos=16&ivsos=16&dvp_vsosnmr=16&ivsosm=1&dvp_mvpw=device-width&dvp_mvpis=1.0&lftb=2315&sffb=2315&naral=16&vct=1&vphgt=993&vpwdth=1920&scrhgt=600&scrwdth=800&strp=100&advisonl=true&isiabvms=925&isuiabvms=925&isgmpims=22&isgmv4dpims=925&ispmxpms=925&iscvmeas=226&iscvmvms=1126&ishvm=1&istchm=1&isascm=1&isaclkm=1&isscrlm=1&engalms=21&engscrlms=226&engscrlmsv2=226&engscrlmsv3=226&dvp_hdnAd=0&dvp_pageEng=true&dvp_dpr=1&vstsz=816&m50invms=2315&ee_dp_m50invnprms=2315&ee_dp_issiabvm=23&ee_dp_issiabvv=1025&ee_dp_cvcmeeid=1&metp=2&meeid=1&ee_dp_saw=300&ee_dp_sah=250&ee_dp_tmads=2243&adlmid=6&adfnd=16&slctype=IFRAME&genxp=0&genxc=0&ttfurm=3142",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 204,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "text/plain"
+          },
+          "bodySize": 277,
+          "decodedBodySize": 0,
+          "transferSize": 277,
+          "_transferSize": 277,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      },
+      {
+        "pageref": "Retargeting_MAR26_CASHONE_1_08_300x250_copy",
+        "startedDateTime": "1970-01-04T07:27:18.227040Z",
+        "time": 28.817,
+        "timings": {
+          "send": 1.441,
+          "wait": 11.527,
+          "receive": 15.849
+        },
+        "request": {
+          "method": "POST",
+          "url": "https://tpsc-ew1.doubleverify.com/event.png?impid=18481d689d694dc1832fa8ba0e0deaa6&flavor=1&gdpr=&gdpr_consent=&isbxdms=4925&b11=5032&iabv5=4925&lftb=5032&sffb=5032&m50invms=5032&ee_dp_m50invnprms=5032&eoid=21",
+          "httpVersion": "HTTP/1.1"
+        },
+        "response": {
+          "status": 204,
+          "httpVersion": "HTTP/1.1",
+          "content": {
+            "size": 0,
+            "mimeType": "text/plain"
+          },
+          "bodySize": 277,
+          "decodedBodySize": 0,
+          "transferSize": 277,
+          "_transferSize": 277,
+          "_decodedBodySize": 0,
+          "bodyCaptured": true
+        }
+      }
+    ]
+  }
+}
