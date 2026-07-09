@@ -31,6 +31,7 @@ import argparse
 import csv
 import gzip
 import hashlib
+import random
 import socket
 import tempfile
 import threading
@@ -46,6 +47,7 @@ import psutil
 
 try:
     import brotli
+
     HAS_BROTLI = True
 except ImportError:
     HAS_BROTLI = False
@@ -53,12 +55,17 @@ except ImportError:
 from codecarbon import EmissionsTracker
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-OUT_DIR   = REPO_ROOT / "results"
-OUT_CSV   = OUT_DIR / "compression_energy.csv"
-OUT_PLOT  = OUT_DIR / "plots_network" / "10_compression_energy.png"
+OUT_DIR = REPO_ROOT / "results"
+OUT_CSV = OUT_DIR / "compression_energy.csv"
+OUT_PLOT = OUT_DIR / "plots_network" / "10_compression_energy.png"
 
-N_ADS              = 8
+N_ADS = 8
 DEFAULT_IMP_SCALES = [5_000, 20_000, 100_000]
+
+# CodeCarbon computes: emissions_kg = energy_kwh * CARBON_INTENSITY / 1000
+# Therefore:         energy_kwh = emissions_kg * 1000 / CARBON_INTENSITY
+CARBON_INTENSITY = 233.0  # gCO2e/kWh
+ENERGY_KWH_PER_KG_CO2 = 1000.0 / CARBON_INTENSITY  # ≈ 4.2918
 
 COLORS = {"NEXD": "#E07B39", "HTML5_gzip": "#4C72B0", "HTML5_brotli": "#2CA02C"}
 
@@ -116,6 +123,20 @@ def compress_per_file_brotli(assets: list[Path]) -> tuple[list[bytes], int]:
         raise RuntimeError("brotli not installed")
     blobs = [brotli.compress(a.read_bytes(), quality=4) for a in assets]
     return blobs, len(assets)
+
+
+def compute_blobs_for_serving(assets: list[Path], scenario: str) -> list[bytes]:
+    """Compute compressed blobs without energy measurement (for checkpoint resume)."""
+    if scenario == "NEXD":
+        blob, _ = compress_nexd_bundle(assets)
+        return [blob]
+    elif scenario == "HTML5_gzip":
+        blobs, _ = compress_per_file_gzip(assets)
+        return blobs
+    elif scenario == "HTML5_brotli":
+        blobs, _ = compress_per_file_brotli(assets)
+        return blobs
+    raise ValueError(f"Unknown scenario: {scenario}")
 
 
 # ── TCP discard server (real kernel TCP stack) ─────────────────────────────
@@ -184,7 +205,6 @@ def serving_loop(blobs: list[bytes], n_impressions: int, port: int) -> tuple[int
     """Run serving loop with persistent TCP connections (keep-alive)."""
     connections = []
     try:
-        # Establish one keep-alive connection per blob (asset)
         for _ in blobs:
             sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             sock.settimeout(30.0)
@@ -207,12 +227,16 @@ def serving_loop(blobs: list[bytes], n_impressions: int, port: int) -> tuple[int
 # ── Energy measurement ─────────────────────────────────────────────────────
 
 def measure_baseline_energy(duration_s: float) -> float:
-    tracker = EmissionsTracker(log_level="error", save_to_file=False,
-                               force_carbon_intensity_g_co2e_kwh=233.0)
+    """Measure idle energy for a given duration. Returns mJ."""
+    tracker = EmissionsTracker(
+        log_level="error",
+        save_to_file=False,
+        force_carbon_intensity_g_co2e_kwh=CARBON_INTENSITY,
+    )
     tracker.start()
     time.sleep(duration_s)
     emissions_kg = tracker.stop()
-    energy_kwh = emissions_kg * 1.87 if emissions_kg else 0.0
+    energy_kwh = emissions_kg * ENERGY_KWH_PER_KG_CO2 if emissions_kg else 0.0
     return energy_kwh * 3.6e6  # mJ
 
 
@@ -222,15 +246,17 @@ def measure_with_baseline(tracker_start_fn, duration_s: float) -> tuple[float, f
     2. Measure baseline idle energy for same duration.
     Returns (marginal_mj, total_mj).
     """
-    tracker = EmissionsTracker(log_level="error", save_to_file=False,
-                               force_carbon_intensity_g_co2e_kwh=233.0)
+    tracker = EmissionsTracker(
+        log_level="error",
+        save_to_file=False,
+        force_carbon_intensity_g_co2e_kwh=CARBON_INTENSITY,
+    )
     tracker.start()
     tracker_start_fn()
     emissions_kg = tracker.stop()
-    energy_kwh = emissions_kg * 1.87 if emissions_kg else 0.0
+    energy_kwh = emissions_kg * ENERGY_KWH_PER_KG_CO2 if emissions_kg else 0.0
     total_mj = energy_kwh * 3.6e6
 
-    # Small cooldown between runs
     time.sleep(0.5)
     baseline_mj = measure_baseline_energy(duration_s)
 
@@ -238,19 +264,48 @@ def measure_with_baseline(tracker_start_fn, duration_s: float) -> tuple[float, f
     return marginal_mj, total_mj
 
 
-def measure_compression_energy(assets: list[Path], scenario: str,
-                                ad_name: str) -> Optional[dict]:
-    label = {"NEXD": "NEXD", "HTML5_gzip": "HTML5-gzip",
-             "HTML5_brotli": "HTML5-brotli"}.get(scenario, scenario)
-    print(f"  [compress] {label:12s}  {ad_name[:45]:45s}", end=" ", flush=True)
+def warm_up(ad_dir: Path):
+    """Warm up CPU and stabilise power management before real measurements."""
+    assets = collect_assets(ad_dir)
+    if not assets:
+        return
+    print("  Warming up CPU...", end=" ", flush=True)
+    for _ in range(5):
+        compress_per_file_gzip(assets)
+    print("done\n")
 
-    tracker = EmissionsTracker(log_level="error", save_to_file=False,
-                               force_carbon_intensity_g_co2e_kwh=233.0)
+
+# ── Measurement functions ──────────────────────────────────────────────────
+
+def measure_compression_energy(
+    assets: list[Path], scenario: str, ad_name: str
+) -> tuple[Optional[dict], list[bytes]]:
+    """
+    Measure one-time compression energy and return compressed blobs for serving.
+    Returns (result_dict, blobs).
+    """
+    label = {
+        "NEXD": "NEXD",
+        "HTML5_gzip": "HTML5-gzip",
+        "HTML5_brotli": "HTML5-brotli",
+    }.get(scenario, scenario)
+    print(
+        f"  [compress] {label:12s}  {ad_name[:45]:45s}",
+        end=" ",
+        flush=True,
+    )
+
+    tracker = EmissionsTracker(
+        log_level="error",
+        save_to_file=False,
+        force_carbon_intensity_g_co2e_kwh=CARBON_INTENSITY,
+    )
     tracker.start()
     t0 = time.perf_counter()
 
     if scenario == "NEXD":
         result_bytes, n_files = compress_nexd_bundle(assets)
+        blobs = [result_bytes]
     elif scenario == "HTML5_gzip":
         blobs, n_files = compress_per_file_gzip(assets)
         result_bytes = b"".join(blobs)
@@ -262,100 +317,99 @@ def measure_compression_energy(assets: list[Path], scenario: str,
 
     duration_s = time.perf_counter() - t0
     emissions_kg = tracker.stop()
-    energy_kwh = emissions_kg * 1.87 if emissions_kg else 0.0
+    energy_kwh = emissions_kg * ENERGY_KWH_PER_KG_CO2 if emissions_kg else 0.0
     energy_mj = energy_kwh * 3.6e6
 
     uncompressed_size = total_uncompressed_size(assets)
     compressed_size = len(result_bytes)
     ratio = uncompressed_size / compressed_size if compressed_size > 0 else 0.0
 
-    print(f"✅  {energy_mj:8.3f} mJ  {compressed_size / 1024:.1f} KB  "
-          f"({n_files} files)  ratio={ratio:.1f}x")
+    print(
+        f"✅  {energy_mj:8.3f} mJ  {compressed_size / 1024:.1f} KB  "
+        f"({n_files} files)  ratio={ratio:.1f}x"
+    )
 
-    return {
-        "ad_name": ad_name, "scenario": scenario, "scenario_label": label,
-        "phase": "compression", "energy_mj": round(energy_mj, 4),
-        "duration_s": round(duration_s, 4),
-        "n_files": n_files, "n_impressions": 0, "n_connections_per_imp": 0,
-        "uncompressed_bytes": uncompressed_size,
-        "compressed_bytes": compressed_size,
-        "compression_ratio": round(ratio, 3),
-        "total_energy_mj": round(energy_mj, 4),
-        "baseline_energy_mj": 0.0,
-        "energy_uj_per_imp": 0.0,
-    }
+    return (
+        {
+            "ad_name": ad_name,
+            "scenario": scenario,
+            "scenario_label": label,
+            "phase": "compression",
+            "energy_mj": round(energy_mj, 4),
+            "duration_s": round(duration_s, 4),
+            "n_files": n_files,
+            "n_impressions": 0,
+            "n_connections_per_imp": 0,
+            "uncompressed_bytes": uncompressed_size,
+            "compressed_bytes": compressed_size,
+            "compression_ratio": round(ratio, 3),
+            "total_energy_mj": round(energy_mj, 4),
+            "baseline_energy_mj": 0.0,
+            "energy_uj_per_imp": 0.0,
+        },
+        blobs,
+    )
 
 
-def measure_serving_energy(blobs: list[bytes], scenario: str,
-                            ad_name: str, n_impressions: int) -> Optional[dict]:
-    label = {"NEXD": "NEXD", "HTML5_gzip": "HTML5-gzip",
-             "HTML5_brotli": "HTML5-brotli"}.get(scenario, scenario)
+def measure_serving_energy(
+    blobs: list[bytes], scenario: str, ad_name: str, n_impressions: int
+) -> Optional[dict]:
+    """
+    Measure serving energy in a single run: start tracker, serve all impressions,
+    then subtract idle baseline.
+    """
+    label = {
+        "NEXD": "NEXD",
+        "HTML5_gzip": "HTML5-gzip",
+        "HTML5_brotli": "HTML5-brotli",
+    }.get(scenario, scenario)
     total_bytes_per_imp = sum(len(b) for b in blobs)
     n_conn_per_imp = len(blobs)
 
-    print(f"  [serving]  {label:12s}  {ad_name[:30]:30s}  "
-          f"{n_impressions:>8_}imp  {n_conn_per_imp}conn/imp", end=" ", flush=True)
+    print(
+        f"  [serving]  {label:12s}  {ad_name[:30]:30s}  "
+        f"{n_impressions:>8_}imp  {n_conn_per_imp}conn/imp",
+        end=" ",
+        flush=True,
+    )
 
-    # 1. Estimate duration via dry-run (at least 100 reps)
-    dry_run_imp = max(100, n_impressions // 50)
     srv = TCPDiscardServer()
+    tracker = EmissionsTracker(
+        log_level="error",
+        save_to_file=False,
+        force_carbon_intensity_g_co2e_kwh=CARBON_INTENSITY,
+    )
+    tracker.start()
+    t0 = time.perf_counter()
     try:
-        _, est_dur = serving_loop(blobs, dry_run_imp, srv.port)
+        served, _elapsed = serving_loop(blobs, n_impressions, srv.port)
     finally:
         srv.stop()
-    est_per_imp = est_dur / dry_run_imp
-    est_total = est_per_imp * n_impressions
-    print(f"est ~{est_total:.0f}s", end=" ", flush=True)
-
-    # 2. Start fresh server and run the serving loop
-    srv2 = TCPDiscardServer()
-    try:
-        t0 = time.perf_counter()
-        served, elapsed = serving_loop(blobs, n_impressions, srv2.port)
-        loop_duration_s = time.perf_counter() - t0
-    finally:
-        srv2.stop()
-
-    print(f"loop {loop_duration_s:.1f}s", end=" ", flush=True)
-
-    # 3. Measure total energy of the loop (already measured via CodeCarbon —
-    #    we need to re-run wrapped in the tracker since the dry-run is separate)
-
-    # Re-run with energy tracker
-    srv3 = TCPDiscardServer()
-    tracker = EmissionsTracker(log_level="error", save_to_file=False,
-                               force_carbon_intensity_g_co2e_kwh=233.0)
-    tracker.start()
-    t0_serving = time.perf_counter()
-    try:
-        served, elapsed_serving = serving_loop(blobs, n_impressions, srv3.port)
-    finally:
-        srv3.stop()
-    serving_wall = time.perf_counter() - t0_serving
+    serving_wall = time.perf_counter() - t0
     emissions_kg = tracker.stop()
-    energy_kwh = emissions_kg * 1.87 if emissions_kg else 0.0
+
+    energy_kwh = emissions_kg * ENERGY_KWH_PER_KG_CO2 if emissions_kg else 0.0
     total_mj = energy_kwh * 3.6e6
 
-    print(f"served {serving_wall:.1f}s", end=" ", flush=True)
-
-    # 4. Baseline for same duration
-    print(f"base", end=" ", flush=True)
     time.sleep(0.5)
     baseline_mj = measure_baseline_energy(serving_wall)
 
-    # 5. Marginal
     marginal_mj = max(0, total_mj - baseline_mj)
     per_imp_uj = (marginal_mj * 1000) / served if served > 0 else 0
 
     total_bytes = total_bytes_per_imp * served
     throughput = total_bytes / serving_wall / 1e6 if serving_wall > 0 else 0
 
-    print(f"✅  total={total_mj:.1f} base={baseline_mj:.1f} "
-          f"marg={marginal_mj:.3f}mJ  {per_imp_uj:.4f}µJ/imp  "
-          f"{throughput:.0f}MB/s")
+    print(
+        f"✅  total={total_mj:.1f} base={baseline_mj:.1f} "
+        f"marg={marginal_mj:.3f}mJ  {per_imp_uj:.4f}µJ/imp  "
+        f"{throughput:.0f}MB/s"
+    )
 
     return {
-        "ad_name": ad_name, "scenario": scenario, "scenario_label": label,
+        "ad_name": ad_name,
+        "scenario": scenario,
+        "scenario_label": label,
         "phase": "serving",
         "energy_mj": round(marginal_mj, 6),
         "total_energy_mj": round(total_mj, 4),
@@ -375,13 +429,18 @@ def measure_serving_energy(blobs: list[bytes], scenario: str,
 
 def make_plots(df: pd.DataFrame):
     import matplotlib
+
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
 
     fig, axes = plt.subplots(2, 3, figsize=(18, 11))
     rng = np.random.default_rng(42)
     scenarios = ["NEXD", "HTML5_gzip", "HTML5_brotli"]
-    labels = ["NEXD (1 conn/imp)", "HTML5 (M conn/imp)", "HTML5-brotli (M conn/imp)"]
+    labels = [
+        "NEXD (1 conn/imp)",
+        "HTML5 (M conn/imp)",
+        "HTML5-brotli (M conn/imp)",
+    ]
     available = [s for s in scenarios if s in df.scenario.values]
 
     comp = df[df.phase == "compression"]
@@ -393,12 +452,25 @@ def make_plots(df: pd.DataFrame):
         vals = comp[comp.scenario == s]["energy_mj"].dropna().values
         if len(vals) == 0:
             continue
-        bp = ax.boxplot([vals], positions=[i], patch_artist=True,
-                        medianprops={"color": "black", "linewidth": 2}, widths=0.45)
-        bp["boxes"][0].set_facecolor(COLORS[s]); bp["boxes"][0].set_alpha(0.7)
-        ax.scatter(i + rng.uniform(-0.1, 0.1, len(vals)), vals,
-                   color=COLORS[s], alpha=0.7, s=30,
-                   edgecolors="white", linewidths=0.3, zorder=3)
+        bp = ax.boxplot(
+            [vals],
+            positions=[i],
+            patch_artist=True,
+            medianprops={"color": "black", "linewidth": 2},
+            widths=0.45,
+        )
+        bp["boxes"][0].set_facecolor(COLORS[s])
+        bp["boxes"][0].set_alpha(0.7)
+        ax.scatter(
+            i + rng.uniform(-0.1, 0.1, len(vals)),
+            vals,
+            color=COLORS[s],
+            alpha=0.7,
+            s=30,
+            edgecolors="white",
+            linewidths=0.3,
+            zorder=3,
+        )
     ax.set_xticks(range(len(available)))
     ax.set_xticklabels([labels[scenarios.index(s)] for s in available])
     ax.set_ylabel("Energy (mJ)")
@@ -412,8 +484,13 @@ def make_plots(df: pd.DataFrame):
         if len(g) == 0:
             continue
         avg = g.groupby("n_impressions")["energy_uj_per_imp"].mean()
-        ax.plot(avg.index, avg.values, "o-", color=COLORS[s],
-                label=labels[scenarios.index(s)])
+        ax.plot(
+            avg.index,
+            avg.values,
+            "o-",
+            color=COLORS[s],
+            label=labels[scenarios.index(s)],
+        )
     ax.set_xscale("log")
     ax.set_xlabel("Impressions")
     ax.set_ylabel("Energy per impression (µJ)")
@@ -428,8 +505,13 @@ def make_plots(df: pd.DataFrame):
         if len(g) == 0:
             continue
         avg = g.groupby("n_impressions")["energy_mj"].mean()
-        ax.plot(avg.index, avg.values, "o-", color=COLORS[s],
-                label=labels[scenarios.index(s)])
+        ax.plot(
+            avg.index,
+            avg.values,
+            "o-",
+            color=COLORS[s],
+            label=labels[scenarios.index(s)],
+        )
     ax.set_xscale("log")
     ax.set_xlabel("Impressions")
     ax.set_ylabel("Marginal Energy (mJ)")
@@ -449,8 +531,13 @@ def make_plots(df: pd.DataFrame):
         total_mj = g["energy_mj"].sum()
         per_imp_mj = total_mj / total_imp if total_imp > 0 else 0
         totals = [comp_e + per_imp_mj * n for n in extrap]
-        ax.plot(extrap, totals, "o--", color=COLORS[s],
-                label=labels[scenarios.index(s)])
+        ax.plot(
+            extrap,
+            totals,
+            "o--",
+            color=COLORS[s],
+            label=labels[scenarios.index(s)],
+        )
     ax.set_xscale("log")
     ax.set_xlabel("Impressions")
     ax.set_ylabel("Total Energy (mJ)")
@@ -465,8 +552,14 @@ def make_plots(df: pd.DataFrame):
         if len(g) == 0:
             continue
         conn_avg = g.groupby("n_impressions")["n_connections_per_imp"].mean()
-        ax.scatter(conn_avg.values, g.groupby("n_impressions")["energy_uj_per_imp"].mean().values,
-                   color=COLORS[s], label=labels[scenarios.index(s)], alpha=0.7, s=50)
+        ax.scatter(
+            conn_avg.values,
+            g.groupby("n_impressions")["energy_uj_per_imp"].mean().values,
+            color=COLORS[s],
+            label=labels[scenarios.index(s)],
+            alpha=0.7,
+            s=50,
+        )
     ax.set_xlabel("Connections per impression")
     ax.set_ylabel("Energy per imp (µJ)")
     ax.set_title("Energy vs Connections per Impression")
@@ -483,7 +576,9 @@ def make_plots(df: pd.DataFrame):
         color_val = ["#e74c3c", "#95a5a6"][j]
         label_val = ["Total", "Baseline"][j]
         vals = [g_max[g_max.scenario == s][field].mean() for s in available]
-        ax.bar(x + j * width, vals, width, alpha=0.75, color=color_val, label=label_val)
+        ax.bar(
+            x + j * width, vals, width, alpha=0.75, color=color_val, label=label_val
+        )
     ax.set_xticks(x + width / 2)
     ax.set_xticklabels([labels[scenarios.index(s)] for s in available])
     ax.set_ylabel("Energy (mJ)")
@@ -491,8 +586,10 @@ def make_plots(df: pd.DataFrame):
     ax.legend(fontsize=8)
     ax.grid(axis="y", linestyle="--", alpha=0.4)
 
-    fig.suptitle("Serving Energy: Real TCP Connections (loopback), Baseline Subtracted",
-                 fontsize=13)
+    fig.suptitle(
+        "Serving Energy: Real TCP Connections (loopback), Baseline Subtracted",
+        fontsize=13,
+    )
     fig.tight_layout()
     OUT_PLOT.parent.mkdir(parents=True, exist_ok=True)
     fig.savefig(OUT_PLOT, dpi=150, bbox_inches="tight")
@@ -508,9 +605,17 @@ def main():
     )
     parser.add_argument("--ads-dir", type=str, default=None)
     parser.add_argument("--n-ads", type=int, default=N_ADS)
-    parser.add_argument("--imp-scale", type=str,
-                        default=",".join(str(s) for s in DEFAULT_IMP_SCALES),
-                        help="Comma-separated impression counts")
+    parser.add_argument(
+        "--imp-scale",
+        type=str,
+        default=",".join(str(s) for s in DEFAULT_IMP_SCALES),
+        help="Comma-separated impression counts",
+    )
+    parser.add_argument(
+        "--no-resume",
+        action="store_true",
+        help="Ignore previous CSV and start fresh",
+    )
     args = parser.parse_args()
 
     imp_scales = [int(s.strip()) for s in args.imp_scale.split(",")]
@@ -533,22 +638,55 @@ def main():
     if not HAS_BROTLI:
         print("  ⚠️  brotli not installed — will skip HTML5_brotli\n")
 
+    # ── Checkpoint / resume ──────────────────────────────────────────────
+    completed = set()
+    if OUT_CSV.exists() and not args.no_resume:
+        try:
+            existing = pd.read_csv(OUT_CSV)
+            for _, row in existing.iterrows():
+                completed.add(
+                    (row["ad_name"], row["scenario"], row["phase"], int(row["n_impressions"]))
+                )
+            if completed:
+                print(
+                    f"  📋 Resuming: {len(completed)} measurements already in CSV"
+                )
+        except Exception as e:
+            print(f"  ⚠️  Could not read existing CSV: {e}")
+
     ad_dirs = find_ad_dirs(ads_dir)
-    test_ads = ad_dirs[:args.n_ads]
+    test_ads = ad_dirs[: args.n_ads]
     print(f"\n  Found {len(ad_dirs)} ad directories, testing {len(test_ads)}\n")
 
+    # ── Warm-up (only on fresh run) ──────────────────────────────────────
+    if test_ads and (not completed or args.no_resume):
+        warm_up(test_ads[0])
+
     FIELDNAMES = [
-        "ad_name", "scenario", "scenario_label", "phase",
-        "energy_mj", "total_energy_mj", "baseline_energy_mj",
-        "duration_s", "n_files", "n_impressions", "n_connections_per_imp",
-        "uncompressed_bytes", "compressed_bytes", "compression_ratio",
+        "ad_name",
+        "scenario",
+        "scenario_label",
+        "phase",
+        "energy_mj",
+        "total_energy_mj",
+        "baseline_energy_mj",
+        "duration_s",
+        "n_files",
+        "n_impressions",
+        "n_connections_per_imp",
+        "uncompressed_bytes",
+        "compressed_bytes",
+        "compression_ratio",
         "energy_uj_per_imp",
     ]
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    csv_file = open(OUT_CSV, "w", newline="", encoding="utf-8")
+    file_exists = OUT_CSV.exists()
+    file_has_data = file_exists and OUT_CSV.stat().st_size > 0
+    csv_file = open(OUT_CSV, "a", newline="", encoding="utf-8")
     writer = csv.DictWriter(csv_file, fieldnames=FIELDNAMES)
-    writer.writeheader()
+    if not file_has_data:
+        writer.writeheader()
 
     results = []
 
@@ -569,36 +707,61 @@ def main():
 
         uncompressed_mb = total_uncompressed_size(assets) / (1024 * 1024)
         print(f"\n  {'─' * 78}")
-        print(f"  [{idx + 1}/{len(test_ads)}] {ad_name}  "
-              f"({len(assets)} files, {uncompressed_mb:.2f} MB uncompressed)")
+        print(
+            f"  [{idx + 1}/{len(test_ads)}] {ad_name}  "
+            f"({len(assets)} files, {uncompressed_mb:.2f} MB uncompressed)"
+        )
         print(f"  {'─' * 78}")
 
-        for scenario in ("NEXD", "HTML5_gzip", "HTML5_brotli"):
-            if scenario == "HTML5_brotli" and not HAS_BROTLI:
+        # Randomize scenario order to reduce thermal bias
+        scenarios_order = ["NEXD", "HTML5_gzip", "HTML5_brotli"]
+        if not HAS_BROTLI:
+            scenarios_order.remove("HTML5_brotli")
+        random.shuffle(scenarios_order)
+
+        for scenario in scenarios_order:
+            need_compression = (ad_name, scenario, "compression", 0) not in completed
+            need_any_serving = any(
+                (ad_name, scenario, "serving", n) not in completed for n in imp_scales
+            )
+
+            if not need_compression and not need_any_serving:
+                print(f"  [{scenario}] ✅ all complete — skipping")
                 continue
 
             # Phase 1: compression (one-time)
-            record(measure_compression_energy(assets, scenario, ad_name))
-            time.sleep(1)
-
-            # Get compressed blobs
-            if scenario == "NEXD":
-                blob, _ = compress_nexd_bundle(assets)
-                blobs = [blob]
-            elif scenario == "HTML5_gzip":
-                blobs, _ = compress_per_file_gzip(assets)
-            elif scenario == "HTML5_brotli":
-                blobs, _ = compress_per_file_brotli(assets)
+            if need_compression:
+                result, blobs = measure_compression_energy(assets, scenario, ad_name)
+                record(result)
+                time.sleep(1)
+            else:
+                print(
+                    f"  [compress] {scenario:12s}  ⏩ skipped (already measured)"
+                )
+                blobs = compute_blobs_for_serving(assets, scenario)
 
             # Phase 2: serving with real TCP connections
             for n_imp in sorted(imp_scales):
-                record(measure_serving_energy(blobs, scenario, ad_name, n_imp))
-                time.sleep(1)
+                if (ad_name, scenario, "serving", n_imp) not in completed:
+                    record(
+                        measure_serving_energy(blobs, scenario, ad_name, n_imp)
+                    )
+                    time.sleep(1)
+                else:
+                    label = {
+                        "NEXD": "NEXD",
+                        "HTML5_gzip": "HTML5-gzip",
+                        "HTML5_brotli": "HTML5-brotli",
+                    }.get(scenario, scenario)
+                    print(
+                        f"  [serving]  {label:12s}  {ad_name[:30]:30s}  "
+                        f"{n_imp:>8_}imp  ⏩ skipped"
+                    )
 
     csv_file.close()
 
     if not results:
-        print("❌ No results")
+        print("❌ No new results")
         return
 
     df = pd.DataFrame(results)
@@ -606,17 +769,31 @@ def main():
 
     comp = df[df.phase == "compression"]
     sv = df[df.phase == "serving"]
-    available = [s for s in ("NEXD", "HTML5_gzip", "HTML5_brotli") if s in df.scenario.values]
+    available = [
+        s
+        for s in ("NEXD", "HTML5_gzip", "HTML5_brotli")
+        if s in df.scenario.values
+    ]
 
     print(f"\n  {'─' * 78}")
     print("  Phase 1 — Compression (one-time per creative)")
-    print(comp.groupby("scenario")[["energy_mj", "compression_ratio"]]
-          .agg({"energy_mj": ["mean", "std"], "compression_ratio": "mean"}).round(4).to_string())
+    print(
+        comp.groupby("scenario")[["energy_mj", "compression_ratio"]]
+        .agg({"energy_mj": ["mean", "std"], "compression_ratio": "mean"})
+        .round(4)
+        .to_string()
+    )
 
-    print(f"\n  Phase 2 — Serving (TCP on loopback, marginal energy ≈ total − baseline)")
+    print(
+        f"\n  Phase 2 — Serving (TCP on loopback, marginal energy = total − baseline)"
+    )
     if len(sv) > 0:
-        pivot = sv.pivot_table(index="scenario", columns="n_impressions",
-                                values="energy_uj_per_imp", aggfunc="mean")
+        pivot = sv.pivot_table(
+            index="scenario",
+            columns="n_impressions",
+            values="energy_uj_per_imp",
+            aggfunc="mean",
+        )
         print(pivot.round(4).to_string())
 
         print(f"\n  Per-connection cost (µJ per TCP connection):")
@@ -624,9 +801,13 @@ def main():
             g = sv[sv.scenario == s]
             total_conn = (g["n_impressions"] * g["n_connections_per_imp"]).sum()
             total_mj = g["energy_mj"].sum()
-            per_conn_uj = (total_mj * 1000) / total_conn if total_conn > 0 else 0
-            print(f"    {s:16s}  {per_conn_uj:.4f} µJ/connection  "
-                  f"({g['n_connections_per_imp'].iloc[0]:.0f} conn/imp)")
+            per_conn_uj = (
+                (total_mj * 1000) / total_conn if total_conn > 0 else 0
+            )
+            print(
+                f"    {s:16s}  {per_conn_uj:.4f} µJ/connection  "
+                f"({g['n_connections_per_imp'].iloc[0]:.0f} conn/imp)"
+            )
 
         print(f"\n  Extrapolation:")
         for s in available:
@@ -636,8 +817,10 @@ def main():
             per_imp_mj = total_mj / total_imp if total_imp > 0 else 0
             for millions in [1, 10, 100]:
                 total_mj_ext = comp_e + per_imp_mj * millions * 1_000_000
-                print(f"    {s:16s} @ {millions:4d}M imp:  {total_mj_ext:>12.3f} mJ"
-                      f"  ({total_mj_ext / 3.6e6:>8.3f} Wh)")
+                print(
+                    f"    {s:16s} @ {millions:4d}M imp:  {total_mj_ext:>12.3f} mJ"
+                    f"  ({total_mj_ext / 3.6e6:>8.3f} Wh)"
+                )
 
     make_plots(df)
     print("\n" + "=" * 80 + "\n")
